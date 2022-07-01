@@ -11,8 +11,9 @@ To install Konkan UI in your Flutter project:
 ```yaml
 dependencies:
   konkan_ui:
-    git: https://github.com/matthewmorek/konkan-ui.git
-    path: flutter
+    git:
+      url: https://github.com/matthewmorek/konkan-ui.git
+      path: flutter
 ```
 
 1. Install it:
