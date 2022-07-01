@@ -25,12 +25,40 @@ dependencies:
 You can use Konkan Design Tokens to inform your UI specs, such as colours, spacing, typography, etc.
 
 ```dart
-import 'package:konkan_ui';
+import 'package:konkan_ui/konkan_ui.dart';
+```
+
+via direct styling:
+
+```dart
+return Scaffold(
+  appBar: AppBar(
+    title: Text('Konkan UI'),
+    backgroundColor: AppColors.foundationsAccent,
+  ),
+  body: Center(
+    child: Text(
+      'Hello World',
+      style: TextStyle(color: AppColors.baseBlack),
+    ),
+  ),
+)
+```
+
+You can also define this in your theme:
+
+```dart
+return MaterialApp(
+  theme: ThemeData(
+    primaryColor: AppColors.foundationsAccent,
+  ),
+}
 ```
 
 ```dart
-Text(
-  'Sample text',
-  style: TextStyle(color: AppColors.baseBlack),
+return Scaffold(
+  appBar: AppBar(
+    backgroundColor: Theme.of(context).primaryColor,
+  ),
 );
 ```
