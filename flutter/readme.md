@@ -25,7 +25,7 @@ dependencies:
 You can use Konkan Design Tokens to inform your UI specs, such as colours, spacing, typography, etc.
 
 ```dart
-import 'package:konkan_ui/colors.dart';
+import 'package:konkan_ui';
 ```
 
 ```dart
