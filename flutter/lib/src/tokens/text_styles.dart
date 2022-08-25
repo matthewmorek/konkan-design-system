@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppTextStyles {
-  static const text6XlBold = TextStyle(
+  static const fontSize6Xl = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
@@ -10,7 +10,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const text5XlBold = TextStyle(
+  static const fontSize5Xl = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w700,
     fontStyle: FontStyle.normal,
@@ -19,7 +19,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const text4XlBold = TextStyle(
+  static const fontSize4Xl = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w700,
     fontStyle: FontStyle.normal,
@@ -28,7 +28,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const text3XlSemibold = TextStyle(
+  static const fontSize3Xl = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
@@ -37,7 +37,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const text2XlBold = TextStyle(
+  static const fontSize2Xl = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w700,
     fontStyle: FontStyle.normal,
@@ -46,7 +46,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const textXlBold = TextStyle(
+  static const fontSizeXl = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w700,
     fontStyle: FontStyle.normal,
@@ -55,7 +55,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const textLgSemibold = TextStyle(
+  static const fontSizeL = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
@@ -64,7 +64,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const textBaseSemibold = TextStyle(
+  static const fontSizeM = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
@@ -73,7 +73,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const textSmSemibold = TextStyle(
+  static const fontSizeSm = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,
@@ -82,7 +82,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
-  static const textXsSemibold = TextStyle(
+  static const fontSizeXs = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontStyle: FontStyle.normal,

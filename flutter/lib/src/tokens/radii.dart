@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 
 class AppRadii {
-  /// No radius
-  static const none = BorderRadius.all(Radius.circular(0));
+  static const roundedNone = BorderRadius.all(Radius.circular(0));
 
-  /// Small radius
-  static const sm = BorderRadius.all(Radius.circular(4));
+  static const roundedSm = BorderRadius.all(Radius.circular(2));
 
-  /// Medium radius
-  static const md = BorderRadius.all(Radius.circular(8));
+  static const rounded = BorderRadius.all(Radius.circular(4));
 
-  /// Large radius
-  static const lg = BorderRadius.all(Radius.circular(16));
+  static const roundedMd = BorderRadius.all(Radius.circular(6));
 
-  /// Full radius
-  static const full = BorderRadius.all(Radius.circular(128));
+  static const roundedLg = BorderRadius.all(Radius.circular(8));
+
+  static const roundedXl = BorderRadius.all(Radius.circular(12));
+
+  static const roundedFull = BorderRadius.all(Radius.circular(9999));
 
   AppRadii._();
 }
