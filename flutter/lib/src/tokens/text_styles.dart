@@ -82,6 +82,7 @@ class AppTextStyles {
     letterSpacing: 0,
   );
 
+  /// font-size-xs
   static const fontSizeXs = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
