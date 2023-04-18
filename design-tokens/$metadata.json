@@ -5,6 +5,9 @@
     "semantic/color/static",
     "semantic/color/light-theme",
     "semantic/color/dark-theme",
-    "toyota/semantic/color/static"
+    "toyota/semantic/color/static",
+    "core/layout",
+    "core/typography",
+    "core/object-styles"
   ]
 }

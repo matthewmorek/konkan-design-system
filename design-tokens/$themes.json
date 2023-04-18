@@ -6,7 +6,9 @@
       "semantic/color/static": "enabled",
       "semantic/color/light-theme": "enabled",
       "core/color": "enabled",
-      "toyota/semantic/color/static": "disabled"
+      "core/typography": "enabled",
+      "core/layout": "enabled",
+      "core/object-styles": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -17,7 +19,9 @@
       "semantic/color/static": "enabled",
       "semantic/color/dark-theme": "enabled",
       "core/color": "enabled",
-      "toyota/semantic/color/static": "disabled"
+      "core/typography": "enabled",
+      "core/layout": "enabled",
+      "core/object-styles": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -28,7 +32,10 @@
       "core/color": "enabled",
       "semantic/color/static": "enabled",
       "semantic/color/light-theme": "enabled",
-      "toyota/semantic/color/static": "enabled"
+      "toyota/semantic/color/static": "enabled",
+      "core/layout": "enabled",
+      "core/object-styles": "enabled",
+      "core/typography": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -39,7 +46,10 @@
       "core/color": "enabled",
       "semantic/color/static": "enabled",
       "toyota/semantic/color/static": "enabled",
-      "semantic/color/dark-theme": "enabled"
+      "semantic/color/dark-theme": "enabled",
+      "core/layout": "enabled",
+      "core/object-styles": "enabled",
+      "core/typography": "enabled"
     },
     "$figmaStyleReferences": {}
   }
