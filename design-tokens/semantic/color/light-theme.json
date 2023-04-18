@@ -1,0 +1,28 @@
+{
+  "sem": {
+    "color": {
+      "warning": {
+        "background": {
+          "value": "{core.color.light-theme.orange.100}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{core.color.light-theme.orange.600}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "{core.color.static.black}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "base": {
+          "value": "{core.color.light-theme.gray.75}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

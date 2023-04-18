@@ -1,0 +1,18 @@
+{
+  "sem": {
+    "color": {
+      "static": {
+        "brand": {
+          "primary": {
+            "value": "rgba(128, 0, 128, 1)",
+            "type": "color"
+          },
+          "accent": {
+            "value": "{sem.color.static.brand.primary}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

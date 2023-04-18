@@ -1,6 +1,10 @@
 {
   "tokenSetOrder": [
     "tokens",
-    "core"
+    "core/color",
+    "semantic/color/static",
+    "semantic/color/light-theme",
+    "semantic/color/dark-theme",
+    "toyota/semantic/color/static"
   ]
 }
