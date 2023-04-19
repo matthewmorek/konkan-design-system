@@ -4,11 +4,11 @@
       "static": {
         "brand": {
           "primary": {
-            "value": "rgba(128, 0, 128, 1)",
+            "value": "#EB0A1E",
             "type": "color"
           },
           "accent": {
-            "value": "{sem.color.static.brand.primary}",
+            "value": "#0B59D4",
             "type": "color"
           }
         }
