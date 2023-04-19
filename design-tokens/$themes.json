@@ -50,5 +50,37 @@
       "core/typography": "enabled"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "f8cf29275d0345407416e0581989e84162acec43",
+    "name": "base/light-theme@small",
+    "selectedTokenSets": {
+      "core/color": "enabled",
+      "semantic/color/static": "enabled",
+      "semantic/color/light-theme": "enabled",
+      "semantic/color/dark-theme": "enabled",
+      "core/layout": "enabled",
+      "core/typography": "enabled",
+      "core/object-styles": "enabled",
+      "semantic/typography": "enabled",
+      "breakpoints/small": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "13b4d259b6a83639378d4ec9073f681f9e9e4968",
+    "name": "base/light-theme@xsmall",
+    "selectedTokenSets": {
+      "core/color": "enabled",
+      "core/layout": "enabled",
+      "core/typography": "enabled",
+      "core/object-styles": "enabled",
+      "semantic/color/static": "enabled",
+      "semantic/color/light-theme": "enabled",
+      "semantic/color/dark-theme": "enabled",
+      "semantic/typography": "enabled",
+      "breakpoints/xsmall": "enabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]

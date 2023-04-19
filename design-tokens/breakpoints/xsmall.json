@@ -1,0 +1,18 @@
+{
+  "breakpoint": {
+    "viewport": {
+      "width": {
+        "value": "{breakpoint.viewport.min}",
+        "type": "sizing"
+      },
+      "min": {
+        "value": "0",
+        "type": "sizing"
+      },
+      "max": {
+        "value": "359",
+        "type": "sizing"
+      }
+    }
+  }
+}
