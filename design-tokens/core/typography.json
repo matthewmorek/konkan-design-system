@@ -38,6 +38,28 @@
         }
       },
       "font-scale": {
+        "0": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(-4/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(-4/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.0.max}-{core.typography.font-scale.0.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.0.max} - {core.viewport.max} * {core.typography.font-scale.0.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.0.v} + {core.typography.font-scale.0.r})",
+            "type": "fontSizes"
+          }
+        },
         "25": {
           "min": {
             "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(-3/{core.typography.const.min.n})/{core.const.rounding-unit}))",
@@ -436,6 +458,10 @@
         }
       },
       "font-size": {
+        "0": {
+          "value": "min( max( {core.typography.font-scale.0.min},  {core.typography.font-scale.0.fluid}) ,{core.typography.font-scale.0.max})",
+          "type": "fontSizes"
+        },
         "25": {
           "value": "min( max( {core.typography.font-scale.25.min},  {core.typography.font-scale.25.fluid}) ,{core.typography.font-scale.25.max})",
           "type": "fontSizes"
