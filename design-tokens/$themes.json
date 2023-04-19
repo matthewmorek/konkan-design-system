@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fd3871d7b0842c9bcfa61a1b39be9df93abb6024",
+    "name": "base/light-theme",
+    "selectedTokenSets": {
+      "semantic/color/static": "enabled",
+      "semantic/color/light-theme": "enabled",
+      "core/color": "enabled",
+      "core/typography": "enabled",
+      "core/layout": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "714e390eb0d93814a93e5f1ada0d490dc9b0c157",
+    "name": "base/dark-theme",
+    "selectedTokenSets": {
+      "semantic/color/static": "enabled",
+      "semantic/color/dark-theme": "enabled",
+      "core/color": "enabled",
+      "core/typography": "enabled",
+      "core/layout": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "c732b47a7b499cebea59982bedd0b72907ba93ba",
+    "name": "toyota/light-theme",
+    "selectedTokenSets": {
+      "core/color": "enabled",
+      "semantic/color/static": "enabled",
+      "semantic/color/light-theme": "enabled",
+      "toyota/semantic/color/static": "enabled",
+      "core/layout": "enabled",
+      "core/object-styles": "enabled",
+      "core/typography": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "d45b590ff249f4fb15b3637b2723052620630c43",
+    "name": "toyota/dark-theme",
+    "selectedTokenSets": {
+      "core/color": "enabled",
+      "semantic/color/static": "enabled",
+      "toyota/semantic/color/static": "enabled",
+      "semantic/color/dark-theme": "enabled",
+      "core/layout": "enabled",
+      "core/object-styles": "enabled",
+      "core/typography": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

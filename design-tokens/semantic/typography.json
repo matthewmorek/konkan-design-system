@@ -1,0 +1,21 @@
+{
+  "sem": {
+    "typography": {
+      "body": {
+        "large": {
+          "regular": {
+            "value": {
+              "fontSize": "{core.typography.font-size.100}",
+              "fontFamily": "{core.typography.font-family.plain}",
+              "fontWeight": "{core.typography.font-weight.regular}",
+              "lineHeight": "{core.grid.const.base-grid-unit} * ceil( {core.typography.font-size.100}*{core.typography.line-height.relaxed} / {core.grid.const.base-grid-unit} )",
+              "letterSpacing": "({core.typography.letter-spacing.font-proportion}*{core.typography.font-size.100}+{core.typography.letter-spacing.constant} / {core.typography.font-size.100} )",
+              "textDecoration": "{core.typography.text-decoration.none}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  }
+}
