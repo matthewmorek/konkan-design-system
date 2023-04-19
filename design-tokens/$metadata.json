@@ -8,6 +8,7 @@
     "toyota/semantic/color/static",
     "core/layout",
     "core/typography",
-    "core/object-styles"
+    "core/object-styles",
+    "semantic/typography"
   ]
 }
