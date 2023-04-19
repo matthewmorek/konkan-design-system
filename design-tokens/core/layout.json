@@ -10,5 +10,13 @@
         "type": "sizing"
       }
     }
+  },
+  "test": {
+    "grid": {
+      "margin": {
+        "value": "16",
+        "type": "spacing"
+      }
+    }
   }
 }

@@ -7,8 +7,7 @@
       "semantic/color/light-theme": "enabled",
       "core/color": "enabled",
       "core/typography": "enabled",
-      "core/layout": "enabled",
-      "semantic/typography": "disabled"
+      "core/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -20,8 +19,7 @@
       "semantic/color/dark-theme": "enabled",
       "core/color": "enabled",
       "core/typography": "enabled",
-      "core/layout": "enabled",
-      "semantic/typography": "disabled"
+      "core/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -35,8 +33,8 @@
       "toyota/semantic/color/static": "enabled",
       "core/layout": "enabled",
       "core/object-styles": "enabled",
-      "core/typography": "enabled",
-      "semantic/typography": "disabled"
+
+      "core/typography": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -50,8 +48,40 @@
       "semantic/color/dark-theme": "enabled",
       "core/layout": "enabled",
       "core/object-styles": "enabled",
+      "core/typography": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "f8cf29275d0345407416e0581989e84162acec43",
+    "name": "base/light-theme@small",
+    "selectedTokenSets": {
+      "core/color": "enabled",
+      "semantic/color/static": "enabled",
+      "semantic/color/light-theme": "enabled",
+      "semantic/color/dark-theme": "enabled",
+      "core/layout": "enabled",
       "core/typography": "enabled",
-      "semantic/typography": "disabled"
+      "core/object-styles": "enabled",
+      "semantic/typography": "enabled",
+      "breakpoints/small": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "13b4d259b6a83639378d4ec9073f681f9e9e4968",
+    "name": "base/light-theme@xsmall",
+    "selectedTokenSets": {
+      "core/color": "enabled",
+      "core/layout": "enabled",
+      "core/typography": "enabled",
+      "core/object-styles": "enabled",
+      "semantic/color/static": "enabled",
+      "semantic/color/light-theme": "enabled",
+      "semantic/color/dark-theme": "enabled",
+      "semantic/typography": "enabled",
+      "breakpoints/xsmall": "enabled"
+
     },
     "$figmaStyleReferences": {}
   }
