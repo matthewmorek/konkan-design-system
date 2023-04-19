@@ -7,8 +7,7 @@
       "semantic/color/light-theme": "enabled",
       "core/color": "enabled",
       "core/typography": "enabled",
-      "core/layout": "enabled",
-      "core/object-styles": "disabled"
+      "core/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -20,8 +19,7 @@
       "semantic/color/dark-theme": "enabled",
       "core/color": "enabled",
       "core/typography": "enabled",
-      "core/layout": "enabled",
-      "core/object-styles": "disabled"
+      "core/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },

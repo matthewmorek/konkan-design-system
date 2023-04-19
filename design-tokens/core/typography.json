@@ -1,524 +1,581 @@
 {
   "core": {
-    "const": {
-      "min": {
-        "f0": {
-          "value": "18",
-          "type": "fontSizes",
-          "description": "Base font-size minimum"
-        },
-        "r": {
-          "value": "2.1125",
-          "type": "fontSizes",
-          "description": "Font scale ratio minimum"
-        },
-        "n": {
-          "value": "6",
-          "type": "fontSizes",
-          "description": "Number of heading sizes "
-        }
-      },
-      "max": {
-        "f0": {
-          "value": "18",
-          "type": "fontSizes",
-          "description": "Base font-size maximum"
-        },
-        "r": {
-          "value": "2.1125",
-          "type": "fontSizes",
-          "description": "Font scale ratio maximum"
-        },
-        "n": {
-          "value": "6",
-          "type": "fontSizes",
-          "description": "Number of heading sizes"
-        }
-      },
-      "rounding-unit": {
-        "value": "{core.const.grid-unit}/2",
-        "type": "other"
-      },
-      "grid-unit": {
-        "value": "4*{core.const.spatial-density}",
-        "type": "other",
-        "description": "The magic number. Every measurement is based off of this token"
-      },
-      "spatial-density": {
-        "value": "1",
-        "type": "other"
-      }
-    },
-    "font-scale": {
-      "25": {
+    "typography": {
+      "const": {
         "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(-3/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
+          "base-font-size": {
+            "value": "18",
+            "type": "fontSizes",
+            "description": "Base font-size minimum"
+          },
+          "r": {
+            "value": "2.1125",
+            "type": "fontSizes",
+            "description": "Font scale ratio minimum"
+          },
+          "n": {
+            "value": "6",
+            "type": "fontSizes",
+            "description": "Number of heading sizes "
+          }
         },
         "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(-3/{core.const.max.n})/{core.const.rounding-unit}))",
+          "base-font-size": {
+            "value": "18",
+            "type": "fontSizes",
+            "description": "Base font-size maximum"
+          },
+          "r": {
+            "value": "2.1125",
+            "type": "fontSizes",
+            "description": "Font scale ratio maximum"
+          },
+          "n": {
+            "value": "6",
+            "type": "fontSizes",
+            "description": "Number of heading sizes"
+          }
+        }
+      },
+      "font-scale": {
+        "25": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(-3/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(-3/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.25.max}-{core.typography.font-scale.25.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.25.max} - {core.viewport.max} * {core.typography.font-scale.25.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.25.v} + {core.typography.font-scale.25.r})",
+            "type": "fontSizes"
+          }
+        },
+        "50": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(-2/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(-2/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.50.max}-{core.typography.font-scale.50.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.50.max} - {core.viewport.max} * {core.typography.font-scale.50.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.50.v} + {core.typography.font-scale.50.r})",
+            "type": "fontSizes"
+          }
+        },
+        "75": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(-1/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(-1/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.75.max}-{core.typography.font-scale.75.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.75.max} - {core.viewport.max} * {core.typography.font-scale.75.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.75.v} + {core.typography.font-scale.75.r})",
+            "type": "fontSizes"
+          }
+        },
+        "100": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(0/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(0/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.100.max}-{core.typography.font-scale.100.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.100.max} - {core.viewport.max} * {core.typography.font-scale.100.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.100.v} + {core.typography.font-scale.100.r})",
+            "type": "fontSizes"
+          }
+        },
+        "200": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(1/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(1/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.200.max}-{core.typography.font-scale.200.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.200.max} - {core.viewport.max} * {core.typography.font-scale.200.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.200.v} + {core.typography.font-scale.200.r})",
+            "type": "fontSizes"
+          }
+        },
+        "300": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(2/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(2/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.300.max}-{core.typography.font-scale.300.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.300.max} - {core.viewport.max} * {core.typography.font-scale.300.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.300.v} + {core.typography.font-scale.300.r})",
+            "type": "fontSizes"
+          }
+        },
+        "400": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(3/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(3/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.400.max}-{core.typography.font-scale.400.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.400.max} - {core.viewport.max} * {core.typography.font-scale.400.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.400.v} + {core.typography.font-scale.400.r})",
+            "type": "fontSizes"
+          }
+        },
+        "500": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(4/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(4/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.500.max}-{core.typography.font-scale.500.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.500.max} - {core.viewport.max} * {core.typography.font-scale.500.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.500.v} + {core.typography.font-scale.500.r})",
+            "type": "fontSizes"
+          }
+        },
+        "600": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(5/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(5/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.600.max}-{core.typography.font-scale.600.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.600.max} - {core.viewport.max} * {core.typography.font-scale.600.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.600.v} + {core.typography.font-scale.600.r})",
+            "type": "fontSizes"
+          }
+        },
+        "700": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(6/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(6/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.700.max}-{core.typography.font-scale.700.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.700.max} - {core.viewport.max} * {core.typography.font-scale.700.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.700.v} + {core.typography.font-scale.700.r})",
+            "type": "fontSizes"
+          }
+        },
+        "800": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(7/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(7/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.800.max}-{core.typography.font-scale.800.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.800.max} - {core.viewport.max} * {core.typography.font-scale.800.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.800.v} + {core.typography.font-scale.800.r})",
+            "type": "fontSizes"
+          }
+        },
+        "900": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(8/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(8/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.900.max}-{core.typography.font-scale.900.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.900.max} - {core.viewport.max} * {core.typography.font-scale.900.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.900.v} + {core.typography.font-scale.900.r})",
+            "type": "fontSizes"
+          }
+        },
+        "1000": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(9/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(9/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.1000.max}-{core.typography.font-scale.1000.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.1000.max} - {core.viewport.max} * {core.typography.font-scale.1000.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.1000.v} + {core.typography.font-scale.1000.r})",
+            "type": "fontSizes"
+          }
+        },
+        "1100": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(10/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(10/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.1100.max}-{core.typography.font-scale.1100.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.1100.max} - {core.viewport.max} * {core.typography.font-scale.1100.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.1100.v} + {core.typography.font-scale.1100.r})",
+            "type": "fontSizes"
+          }
+        },
+        "1200": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(11/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(11/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.1200.max}-{core.typography.font-scale.1200.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.1200.max} - {core.viewport.max} * {core.typography.font-scale.1200.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.1200.v} + {core.typography.font-scale.1200.r})",
+            "type": "fontSizes"
+          }
+        },
+        "1300": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(12/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(12/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.1300.max}-{core.typography.font-scale.1300.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.1300.max} - {core.viewport.max} * {core.typography.font-scale.1300.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.1300.v} + {core.typography.font-scale.1300.r})",
+            "type": "fontSizes"
+          }
+        },
+        "1400": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(13/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(13/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.1400.max}-{core.typography.font-scale.1400.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.1400.max} - {core.viewport.max} * {core.typography.font-scale.1400.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.1400.v} + {core.typography.font-scale.1400.r})",
+            "type": "fontSizes"
+          }
+        },
+        "1500": {
+          "min": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.min.base-font-size}*{core.typography.const.min.r}^(14/{core.typography.const.min.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "max": {
+            "value": "{core.const.rounding-unit}*roundTo(({core.typography.const.max.base-font-size}*{core.typography.const.max.r}^(14/{core.typography.const.max.n})/{core.const.rounding-unit}))",
+            "type": "fontSizes"
+          },
+          "v": {
+            "value": "100 * ({core.typography.font-scale.1500.max}-{core.typography.font-scale.1500.min}) / ({core.viewport.max}-{core.viewport.min})",
+            "type": "fontSizes"
+          },
+          "r": {
+            "value": "( {core.viewport.min} * {core.typography.font-scale.1500.max} - {core.viewport.max} * {core.typography.font-scale.1500.min}) / ({core.viewport.min}-{core.viewport.max})",
+            "type": "fontSizes"
+          },
+          "fluid": {
+            "value": "round(({core.viewport.width}/100) * {core.typography.font-scale.1500.v} + {core.typography.font-scale.1500.r})",
+            "type": "fontSizes"
+          }
+        }
+      },
+      "font-size": {
+        "25": {
+          "value": "min( max( {core.typography.font-scale.25.min},  {core.typography.font-scale.25.fluid}) ,{core.typography.font-scale.25.max})",
           "type": "fontSizes"
         },
-        "v": {
-          "value": "100 * ({core.font-scale.25.max}-{core.font-scale.25.min}) / ({core.viewport.max}-{core.viewport.min})",
+        "50": {
+          "value": "min( max( {core.typography.font-scale.50.min},  {core.typography.font-scale.50.fluid}) ,{core.typography.font-scale.50.max})",
           "type": "fontSizes"
         },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.25.max} - {core.viewport.max} * {core.font-scale.25.min}) / ({core.viewport.min}-{core.viewport.max})",
+        "75": {
+          "value": "min( max( {core.typography.font-scale.75.min},  {core.typography.font-scale.75.fluid}) ,{core.typography.font-scale.75.max})",
           "type": "fontSizes"
         },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.25.v} + {core.font-scale.25.r})",
+        "100": {
+          "value": "min( max( {core.typography.font-scale.100.min},  {core.typography.font-scale.100.fluid}) ,{core.typography.font-scale.100.max})",
+          "type": "fontSizes"
+        },
+        "200": {
+          "value": "min( max( {core.typography.font-scale.200.min},  {core.typography.font-scale.200.fluid}) ,{core.typography.font-scale.200.max})",
+          "type": "fontSizes"
+        },
+        "300": {
+          "value": "min( max( {core.typography.font-scale.300.min},  {core.typography.font-scale.300.fluid}) ,{core.typography.font-scale.300.max})",
+          "type": "fontSizes"
+        },
+        "400": {
+          "value": "min( max( {core.typography.font-scale.400.min},  {core.typography.font-scale.400.fluid}) ,{core.typography.font-scale.400.max})",
+          "type": "fontSizes"
+        },
+        "500": {
+          "value": "min( max( {core.typography.font-scale.500.min},  {core.typography.font-scale.500.fluid}) ,{core.typography.font-scale.500.max})",
+          "type": "fontSizes"
+        },
+        "600": {
+          "value": "min( max( {core.typography.font-scale.600.min},  {core.typography.font-scale.600.fluid}) ,{core.typography.font-scale.600.max})",
+          "type": "fontSizes"
+        },
+        "700": {
+          "value": "min( max( {core.typography.font-scale.700.min},  {core.typography.font-scale.700.fluid}) ,{core.typography.font-scale.700.max})",
+          "type": "fontSizes"
+        },
+        "800": {
+          "value": "min( max( {core.typography.font-scale.800.min},  {core.typography.font-scale.800.fluid}) ,{core.typography.font-scale.800.max})",
+          "type": "fontSizes"
+        },
+        "900": {
+          "value": "min( max( {core.typography.font-scale.900.min},  {core.typography.font-scale.900.fluid}) ,{core.typography.font-scale.900.max})",
+          "type": "fontSizes"
+        },
+        "1000": {
+          "value": "min( max( {core.typography.font-scale.1000.min},  {core.typography.font-scale.1000.fluid}) ,{core.typography.font-scale.1000.max})",
+          "type": "fontSizes"
+        },
+        "1100": {
+          "value": "min( max( {core.typography.font-scale.1100.min},  {core.typography.font-scale.1100.fluid}) ,{core.typography.font-scale.1100.max})",
+          "type": "fontSizes"
+        },
+        "1200": {
+          "value": "min( max( {core.typography.font-scale.1200.min},  {core.typography.font-scale.1200.fluid}) ,{core.typography.font-scale.1200.max})",
+          "type": "fontSizes"
+        },
+        "1300": {
+          "value": "min( max( {core.typography.font-scale.1300.min},  {core.typography.font-scale.1300.fluid}) ,{core.typography.font-scale.1300.max})",
+          "type": "fontSizes"
+        },
+        "1400": {
+          "value": "min( max( {core.typography.font-scale.1400.min},  {core.typography.font-scale.1400.fluid}) ,{core.typography.font-scale.1400.max})",
+          "type": "fontSizes"
+        },
+        "1500": {
+          "value": "min( max( {core.typography.font-scale.1500.min},  {core.typography.font-scale.1500.fluid}) ,{core.typography.font-scale.1500.max})",
           "type": "fontSizes"
         }
       },
-      "50": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(-2/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
+      "line-height": {
+        "relaxed": {
+          "value": "1.5",
+          "type": "lineHeights",
+          "description": "For smaller body copy using styles like body and label, we recommend a line height ratio of 1.5 times the type size. This will also help people experiencing low vision conditions, as well as people with cognitive concerns such as Dyslexia."
         },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(-2/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
+        "comfortable": {
+          "value": "1.2",
+          "type": "lineHeights",
+          "description": "Typically used for larger type styles like title, headline, and display"
         },
-        "v": {
-          "value": "100 * ({core.font-scale.50.max}-{core.font-scale.50.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
+        "compressed": {
+          "value": "1.1",
+          "type": "lineHeights"
         },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.50.max} - {core.viewport.max} * {core.font-scale.50.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.50.v} + {core.font-scale.50.r})",
-          "type": "fontSizes"
+        "tight": {
+          "value": "1",
+          "type": "lineHeights"
         }
       },
-      "75": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(-1/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
+      "font-family": {
+        "plain": {
+          "value": "Inter",
+          "type": "fontFamilies",
+          "description": "Typically used for title, body and label text styles."
         },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(-1/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.75.max}-{core.font-scale.75.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.75.max} - {core.viewport.max} * {core.font-scale.75.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.75.v} + {core.font-scale.75.r})",
-          "type": "fontSizes"
+        "brand": {
+          "value": "Inter",
+          "type": "fontFamilies",
+          "description": "Typically used for display and headline text styles"
         }
       },
-      "100": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(0/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
+      "font-weight": {
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
         },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(0/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
+        "bold": {
+          "value": "bold",
+          "type": "fontWeights"
         },
-        "v": {
-          "value": "100 * ({core.font-scale.100.max}-{core.font-scale.100.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.100.max} - {core.viewport.max} * {core.font-scale.100.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.100.v} + {core.font-scale.100.r})",
-          "type": "fontSizes"
+        "semi-bold": {
+          "value": "semi-bold",
+          "type": "fontWeights"
         }
       },
-      "200": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(1/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
+      "text-decoration": {
+        "underline": {
+          "value": "underline",
+          "type": "textDecoration"
         },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(1/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.200.max}-{core.font-scale.200.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.200.max} - {core.viewport.max} * {core.font-scale.200.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.200.v} + {core.font-scale.200.r})",
-          "type": "fontSizes"
+        "none": {
+          "value": "none",
+          "type": "textDecoration"
         }
       },
-      "300": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(2/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
+      "letter-spacing": {
+        "font-proportion": {
+          "value": "0.01",
+          "type": "letterSpacing",
+          "description": "As the font size increases or decreases, the letter spacing should also adjust proportionally to maintain optimal legibility and visual appeal. \n\nThe value of 0.01 is considered a good starting point because it generally results in letter spacing that is legible for most font sizes.\n"
         },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(2/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.300.max}-{core.font-scale.300.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.300.max} - {core.viewport.max} * {core.font-scale.300.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.300.v} + {core.font-scale.300.r})",
-          "type": "fontSizes"
+        "constant": {
+          "value": "0.1618",
+          "type": "letterSpacing",
+          "description": "Added to the calculated value of font-proportion * font size. \n\nEnsures that the resulting letter spacing value is not too tight, which can lead to reduced legibility, or too loose, which can affect the visual balance and overall aesthetics of the typography."
         }
-      },
-      "400": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(3/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(3/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.400.max}-{core.font-scale.400.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.400.max} - {core.viewport.max} * {core.font-scale.400.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.400.v} + {core.font-scale.400.r})",
-          "type": "fontSizes"
-        }
-      },
-      "500": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(4/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(4/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.500.max}-{core.font-scale.500.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.500.max} - {core.viewport.max} * {core.font-scale.500.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.500.v} + {core.font-scale.500.r})",
-          "type": "fontSizes"
-        }
-      },
-      "600": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(5/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(5/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.600.max}-{core.font-scale.600.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.600.max} - {core.viewport.max} * {core.font-scale.600.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.600.v} + {core.font-scale.600.r})",
-          "type": "fontSizes"
-        }
-      },
-      "700": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(6/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(6/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.700.max}-{core.font-scale.700.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.700.max} - {core.viewport.max} * {core.font-scale.700.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.700.v} + {core.font-scale.700.r})",
-          "type": "fontSizes"
-        }
-      },
-      "800": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(7/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(7/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.800.max}-{core.font-scale.800.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.800.max} - {core.viewport.max} * {core.font-scale.800.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.800.v} + {core.font-scale.800.r})",
-          "type": "fontSizes"
-        }
-      },
-      "900": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(8/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(8/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.900.max}-{core.font-scale.900.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.900.max} - {core.viewport.max} * {core.font-scale.900.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.900.v} + {core.font-scale.900.r})",
-          "type": "fontSizes"
-        }
-      },
-      "1000": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(9/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(9/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.1000.max}-{core.font-scale.1000.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.1000.max} - {core.viewport.max} * {core.font-scale.1000.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.1000.v} + {core.font-scale.1000.r})",
-          "type": "fontSizes"
-        }
-      },
-      "1100": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(10/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(10/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.1100.max}-{core.font-scale.1100.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.1100.max} - {core.viewport.max} * {core.font-scale.1100.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.1100.v} + {core.font-scale.1100.r})",
-          "type": "fontSizes"
-        }
-      },
-      "1200": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(11/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(11/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.1200.max}-{core.font-scale.1200.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.1200.max} - {core.viewport.max} * {core.font-scale.1200.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.1200.v} + {core.font-scale.1200.r})",
-          "type": "fontSizes"
-        }
-      },
-      "1300": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(12/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(12/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.1300.max}-{core.font-scale.1300.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.1300.max} - {core.viewport.max} * {core.font-scale.1300.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.1300.v} + {core.font-scale.1300.r})",
-          "type": "fontSizes"
-        }
-      },
-      "1400": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(13/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(13/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.1400.max}-{core.font-scale.1400.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.1400.max} - {core.viewport.max} * {core.font-scale.1400.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.1400.v} + {core.font-scale.1400.r})",
-          "type": "fontSizes"
-        }
-      },
-      "1500": {
-        "min": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.min.f0}*{core.const.min.r}^(14/{core.const.min.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "max": {
-          "value": "{core.const.rounding-unit}*roundTo(({core.const.max.f0}*{core.const.max.r}^(14/{core.const.max.n})/{core.const.rounding-unit}))",
-          "type": "fontSizes"
-        },
-        "v": {
-          "value": "100 * ({core.font-scale.1500.max}-{core.font-scale.1500.min}) / ({core.viewport.max}-{core.viewport.min})",
-          "type": "fontSizes"
-        },
-        "r": {
-          "value": "( {core.viewport.min} * {core.font-scale.1500.max} - {core.viewport.max} * {core.font-scale.1500.min}) / ({core.viewport.min}-{core.viewport.max})",
-          "type": "fontSizes"
-        },
-        "fluid": {
-          "value": "round(({core.viewport.width}/100) * {core.font-scale.1500.v} + {core.font-scale.1500.r})",
-          "type": "fontSizes"
-        }
-      }
-    },
-    "font-size": {
-      "25": {
-        "value": "min( max( {core.font-scale.25.min},  {core.font-scale.25.fluid}) ,{core.font-scale.25.max})",
-        "type": "fontSizes"
-      },
-      "50": {
-        "value": "min( max( {core.font-scale.50.min},  {core.font-scale.50.fluid}) ,{core.font-scale.50.max})",
-        "type": "fontSizes"
-      },
-      "75": {
-        "value": "min( max( {core.font-scale.75.min},  {core.font-scale.75.fluid}) ,{core.font-scale.75.max})",
-        "type": "fontSizes"
-      },
-      "100": {
-        "value": "min( max( {core.font-scale.100.min},  {core.font-scale.100.fluid}) ,{core.font-scale.100.max})",
-        "type": "fontSizes"
-      },
-      "200": {
-        "value": "min( max( {core.font-scale.200.min},  {core.font-scale.200.fluid}) ,{core.font-scale.200.max})",
-        "type": "fontSizes"
-      },
-      "300": {
-        "value": "min( max( {core.font-scale.300.min},  {core.font-scale.300.fluid}) ,{core.font-scale.300.max})",
-        "type": "fontSizes"
-      },
-      "400": {
-        "value": "min( max( {core.font-scale.400.min},  {core.font-scale.400.fluid}) ,{core.font-scale.400.max})",
-        "type": "fontSizes"
-      },
-      "500": {
-        "value": "min( max( {core.font-scale.500.min},  {core.font-scale.500.fluid}) ,{core.font-scale.500.max})",
-        "type": "fontSizes"
-      },
-      "600": {
-        "value": "min( max( {core.font-scale.600.min},  {core.font-scale.600.fluid}) ,{core.font-scale.600.max})",
-        "type": "fontSizes"
-      },
-      "700": {
-        "value": "min( max( {core.font-scale.700.min},  {core.font-scale.700.fluid}) ,{core.font-scale.700.max})",
-        "type": "fontSizes"
-      },
-      "800": {
-        "value": "min( max( {core.font-scale.800.min},  {core.font-scale.800.fluid}) ,{core.font-scale.800.max})",
-        "type": "fontSizes"
-      },
-      "900": {
-        "value": "min( max( {core.font-scale.900.min},  {core.font-scale.900.fluid}) ,{core.font-scale.900.max})",
-        "type": "fontSizes"
-      },
-      "1000": {
-        "value": "min( max( {core.font-scale.1000.min},  {core.font-scale.1000.fluid}) ,{core.font-scale.1000.max})",
-        "type": "fontSizes"
-      },
-      "1100": {
-        "value": "min( max( {core.font-scale.1100.min},  {core.font-scale.1100.fluid}) ,{core.font-scale.1100.max})",
-        "type": "fontSizes"
-      },
-      "1200": {
-        "value": "min( max( {core.font-scale.1200.min},  {core.font-scale.1200.fluid}) ,{core.font-scale.1200.max})",
-        "type": "fontSizes"
-      },
-      "1300": {
-        "value": "min( max( {core.font-scale.1300.min},  {core.font-scale.1300.fluid}) ,{core.font-scale.1300.max})",
-        "type": "fontSizes"
-      },
-      "1400": {
-        "value": "min( max( {core.font-scale.1400.min},  {core.font-scale.1400.fluid}) ,{core.font-scale.1400.max})",
-        "type": "fontSizes"
-      },
-      "1500": {
-        "value": "min( max( {core.font-scale.1500.min},  {core.font-scale.1500.fluid}) ,{core.font-scale.1500.max})",
-        "type": "fontSizes"
       }
     },
     "viewport": {
@@ -535,72 +592,19 @@
         "type": "sizing"
       }
     },
-    "line-height": {
-      "relaxed": {
-        "value": "1.5",
-        "type": "lineHeights",
-        "description": "For smaller body copy using styles like body and label, we recommend a line height ratio of 1.5 times the type size. This will also help people experiencing low vision conditions, as well as people with cognitive concerns such as Dyslexia."
+    "const": {
+      "rounding-unit": {
+        "value": "{core.const.grid-unit}/2",
+        "type": "other"
       },
-      "comfortable": {
-        "value": "1.2",
-        "type": "lineHeights",
-        "description": "Typically used for larger type styles like title, headline, and display"
+      "grid-unit": {
+        "value": "4*{core.const.spatial-density}",
+        "type": "other",
+        "description": "The magic number. Every measurement is based off of this token"
       },
-      "compressed": {
-        "value": "1.1",
-        "type": "lineHeights"
-      },
-      "tight": {
+      "spatial-density": {
         "value": "1",
-        "type": "lineHeights"
-      }
-    },
-    "font-family": {
-      "plain": {
-        "value": "Inter",
-        "type": "fontFamilies",
-        "description": "Typically used for title, body and label text styles."
-      },
-      "brand": {
-        "value": "Inter",
-        "type": "fontFamilies",
-        "description": "Typically used for display and headline text styles"
-      }
-    },
-    "font-weight": {
-      "regular": {
-        "value": "400",
-        "type": "fontWeights"
-      },
-      "bold": {
-        "value": "bold",
-        "type": "fontWeights"
-      },
-      "semi-bold": {
-        "value": "semi-bold",
-        "type": "fontWeights"
-      }
-    },
-    "text-decoration": {
-      "underline": {
-        "value": "underline",
-        "type": "textDecoration"
-      },
-      "none": {
-        "value": "none",
-        "type": "textDecoration"
-      }
-    },
-    "letter-spacing": {
-      "font-proportion": {
-        "value": "0.01",
-        "type": "letterSpacing",
-        "description": "As the font size increases or decreases, the letter spacing should also adjust proportionally to maintain optimal legibility and visual appeal. \n\nThe value of 0.01 is considered a good starting point because it generally results in letter spacing that is legible for most font sizes.\n"
-      },
-      "constant": {
-        "value": "0.1618",
-        "type": "letterSpacing",
-        "description": "Added to the calculated value of font-proportion * font size. \n\nEnsures that the resulting letter spacing value is not too tight, which can lead to reduced legibility, or too loose, which can affect the visual balance and overall aesthetics of the typography."
+        "type": "other"
       }
     }
   }
