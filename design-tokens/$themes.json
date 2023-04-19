@@ -33,6 +33,7 @@
       "toyota/semantic/color/static": "enabled",
       "core/layout": "enabled",
       "core/object-styles": "enabled",
+
       "core/typography": "enabled"
     },
     "$figmaStyleReferences": {}
@@ -80,6 +81,7 @@
       "semantic/color/dark-theme": "enabled",
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled"
+
     },
     "$figmaStyleReferences": {}
   }

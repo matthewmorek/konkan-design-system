@@ -48,6 +48,7 @@
             "type": "fontSizes"
           },
           "v": {
+
             "value": "100 * ({core.typography.font-scale.0.max}-{core.typography.font-scale.0.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
             "type": "fontSizes"
           },
@@ -70,6 +71,7 @@
             "type": "fontSizes"
           },
           "v": {
+
             "value": "100 * ({core.typography.font-scale.25.max}-{core.typography.font-scale.25.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
             "type": "fontSizes"
           },
@@ -114,6 +116,7 @@
             "type": "fontSizes"
           },
           "v": {
+
             "value": "100 * ({core.typography.font-scale.75.max}-{core.typography.font-scale.75.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
             "type": "fontSizes"
           },
