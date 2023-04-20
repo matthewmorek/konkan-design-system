@@ -4,23 +4,28 @@
       "background": {
         "base": {
           "value": "{core.light-theme.gray.75}",
-          "type": "color"
+          "type": "color",
+          "description": "The background colors will be use in large regions of layout and not for component backgrounds. \n\n• Used as the base layer background."
         },
         "layer-1": {
           "value": "{core.light-theme.gray.50}",
-          "type": "color"
+          "type": "color",
+          "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the second layer, on top of Base Background"
         },
         "layer-2": {
           "value": "$core.light-theme.white",
-          "type": "color"
+          "type": "color",
+          "description": "Use ion large regions of layout and not for component backgrounds. \n\nUse as the third layer, on top of Layer 1 Background"
         },
         "static-black": {
           "value": "$core.light-theme.black",
-          "type": "color"
+          "type": "color",
+          "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or light themes"
         },
         "static-white": {
           "value": "$core.light-theme.white",
-          "type": "color"
+          "type": "color",
+          "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or light themes"
         },
         "informative": {
           "value": "{core.light-theme.blue.100}",
@@ -42,19 +47,23 @@
       "text": {
         "primary": {
           "value": "{core.light-theme.black}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as primary text like titles"
         },
         "subtle": {
           "value": "{core.light-theme.gray.700}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as a subtle text color like on body text"
         },
         "inverse": {
           "value": "$core.light-theme.white",
-          "type": "color"
+          "type": "color",
+          "description": "Used for text on color"
         },
         "inverse-subtle": {
           "value": "$core.light-theme.gray.100",
-          "type": "color"
+          "type": "color",
+          "description": "Used as a subtle text color like on body text on color"
         },
         "informative": {
           "value": "$core.light-theme.blue.600",
@@ -76,15 +85,18 @@
       "icon": {
         "primary": {
           "value": "{core.light-theme.black}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as primary icon color"
         },
         "subtle": {
           "value": "{core.light-theme.gray.700}",
-          "type": "color"
+          "type": "color",
+          "description": "Used as a subtle icon color"
         },
         "inverse": {
           "value": "$core.light-theme.white",
-          "type": "color"
+          "type": "color",
+          "description": "Used for icon on color"
         },
         "informative": {
           "value": "$core.light-theme.blue.600",
@@ -106,19 +118,23 @@
       "border": {
         "primary": {
           "value": "{core.light-theme.black}",
-          "type": "color"
+          "type": "color",
+          "description": "Used for primary border"
         },
         "subtle": {
           "value": "{core.light-theme.gray.400}",
-          "type": "color"
+          "type": "color",
+          "description": "Used for secondary border"
         },
         "muted": {
           "value": "{core.light-theme.gray.100}",
-          "type": "color"
+          "type": "color",
+          "description": "Used for tertiary border"
         },
         "inverse": {
           "value": "$core.light-theme.white",
-          "type": "color"
+          "type": "color",
+          "description": "Used for border on color"
         },
         "informative": {
           "value": "$core.light-theme.blue.600",
@@ -144,6 +160,7 @@
           "disabled": {
             "value": "{sem.color.static.brand.accent}",
             "type": "color",
+            "description": "Use for Background and Borders on a disable state.",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -157,11 +174,13 @@
           "solid": {
             "enabled": {
               "value": "$sem.color.static.brand.accent",
-              "type": "color"
+              "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders"
             },
             "hovered": {
               "value": "$sem.color.static.brand.accent",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -175,6 +194,7 @@
             "pressed": {
               "value": "$sem.color.static.brand.accent",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -188,6 +208,7 @@
             "focused": {
               "value": "$sem.color.static.brand.accent",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -201,6 +222,7 @@
             "dragged": {
               "value": "$sem.color.static.brand.accent",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -213,9 +235,24 @@
             }
           },
           "transparent": {
+            "enabled": {
+              "value": "$sem.color.static.brand.accent",
+              "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
             "hovered": {
               "value": "$sem.color.static.brand.accent",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -229,6 +266,7 @@
             "pressed": {
               "value": "$sem.color.static.brand.accent",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -242,6 +280,7 @@
             "focused": {
               "value": "$sem.color.static.brand.accent",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -255,6 +294,7 @@
             "dragged": {
               "value": "$sem.color.static.brand.accent",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -270,15 +310,18 @@
         "content": {
           "disabled": {
             "value": "$sem.color.static.brand.accent",
-            "type": "color"
+            "type": "color",
+            "description": "Use on accent content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.white",
-            "type": "color"
+            "type": "color",
+            "description": "Use on accent content such as text or icon when they are on solid color."
           },
           "on-transparent": {
             "value": "$sem.color.static.brand.accent",
-            "type": "color"
+            "type": "color",
+            "description": "Use on accent content such as text or icon when they are on transparent color."
           }
         }
       },
@@ -287,6 +330,7 @@
           "disabled": {
             "value": "{core.light-theme.black}",
             "type": "color",
+            "description": "Use for Background and Borders on a disable state.",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -300,11 +344,13 @@
           "solid": {
             "enabled": {
               "value": "$core.light-theme.gray.900",
-              "type": "color"
+              "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders."
             },
             "hovered": {
               "value": "$core.light-theme.gray.900",
               "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -318,6 +364,7 @@
             "pressed": {
               "value": "$core.light-theme.gray.900",
               "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -331,6 +378,7 @@
             "focused": {
               "value": "$core.light-theme.gray.900",
               "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -344,6 +392,7 @@
             "dragged": {
               "value": "$core.light-theme.gray.900",
               "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -356,9 +405,24 @@
             }
           },
           "transparent": {
+            "enabled": {
+              "value": "$core.light-theme.gray.900",
+              "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders.",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
             "hovered": {
               "value": "$core.light-theme.gray.900",
               "type": "color",
+              "description": "Use on accent elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -372,6 +436,7 @@
             "pressed": {
               "value": "$core.light-theme.gray.900",
               "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -385,6 +450,7 @@
             "focused": {
               "value": "$core.light-theme.gray.900",
               "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -398,6 +464,7 @@
             "dragged": {
               "value": "$core.light-theme.gray.900",
               "type": "color",
+              "description": "Use on neutral elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -413,15 +480,18 @@
         "content": {
           "disabled": {
             "value": "$core.light-theme.gray.900",
-            "type": "color"
+            "type": "color",
+            "description": "Use on neutral content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.white",
-            "type": "color"
+            "type": "color",
+            "description": "Use on neutral content such as text or icon when they are on solid color."
           },
           "on-transparent": {
             "value": "$core.light-theme.gray.900",
-            "type": "color"
+            "type": "color",
+            "description": "Use on neutral content such as text or icon when they are on transparent color."
           }
         }
       },
