@@ -4,11 +4,11 @@
       "static": {
         "brand": {
           "primary": {
-            "value": "#EB0A1E",
+            "value": "{core.light-theme.purple.600}",
             "type": "color"
           },
           "accent": {
-            "value": "#0B59D4",
+            "value": "{core.light-theme.purple.600}",
             "type": "color"
           }
         }
