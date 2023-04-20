@@ -42,6 +42,36 @@
       "2xlarge": {
         "value": "{core.const.baseline-grid-unit}*16",
         "type": "spacing"
+      },
+      "inset": {
+        "2xsmall": {
+          "value": "{core.space.2xsmall} {core.space.2xsmall}",
+          "type": "spacing"
+        },
+        "xsmall": {
+          "value": "{core.space.xsmall} {core.space.xsmall}",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "{core.space.small} {core.space.small}",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "{core.space.medium} {core.space.medium}",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "{core.space.large} {core.space.large}",
+          "type": "spacing"
+        },
+        "xlarge": {
+          "value": "{core.space.xlarge} {core.space.xlarge}",
+          "type": "spacing"
+        },
+        "2xlarge": {
+          "value": "{core.space.2xlarge} {core.space.2xlarge}",
+          "type": "spacing"
+        }
       }
     },
     "layout-grid": {
@@ -56,6 +86,11 @@
       "columns": {
         "value": "4",
         "type": "spacing"
+      },
+      "max-width": {
+        "value": "{breakpoint.viewport.max}",
+        "type": "spacing",
+        "description": "Override this to set a max-width for the grid at larger breakpoints"
       }
     }
   }
