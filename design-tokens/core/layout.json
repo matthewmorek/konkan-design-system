@@ -1,20 +1,60 @@
 {
   "core": {
-    "grid": {
-      "baseline-grid": {
-        "value": "4",
+    "const": {
+      "baseline-grid-unit": {
+        "value": "4*{core.const.platform-scale}",
         "type": "sizing"
       },
       "rounding-unit": {
-        "value": "{core.grid.baseline-grid}/2",
+        "value": "{core.const.baseline-grid-unit}/2",
+        "type": "sizing"
+      },
+      "platform-scale": {
+        "value": "1",
         "type": "sizing"
       }
-    }
-  },
-  "test": {
-    "grid": {
-      "margin": {
-        "value": "16",
+    },
+    "space": {
+      "2xsmall": {
+        "value": "{core.const.baseline-grid-unit}",
+        "type": "spacing"
+      },
+      "xsmall": {
+        "value": "{core.const.baseline-grid-unit}*2",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{core.const.baseline-grid-unit}*3",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{core.const.baseline-grid-unit}*4",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{core.const.baseline-grid-unit}*6",
+        "type": "spacing"
+      },
+      "xlarge": {
+        "value": "{core.const.baseline-grid-unit}*8",
+        "type": "spacing"
+      },
+      "2xlarge": {
+        "value": "{core.const.baseline-grid-unit}*16",
+        "type": "spacing"
+      }
+    },
+    "layout-grid": {
+      "margins": {
+        "value": "0 {core.space.small}",
+        "type": "spacing"
+      },
+      "gutters": {
+        "value": "0 {core.space.small}",
+        "type": "spacing"
+      },
+      "columns": {
+        "value": "4",
         "type": "spacing"
       }
     }
