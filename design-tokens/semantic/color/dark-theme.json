@@ -29,19 +29,23 @@
         },
         "informative": {
           "value": "{core.dark-theme.blue.100}",
-          "type": "color"
+          "type": "color",
+          "description": "Used for informative background"
         },
         "positive": {
           "value": "$core.dark-theme.green.100",
-          "type": "color"
+          "type": "color",
+          "description": "Used for positive background"
         },
         "warning": {
           "value": "$core.dark-theme.orange.100",
-          "type": "color"
+          "type": "color",
+          "description": "Used for warning background"
         },
         "negative": {
           "value": "$core.dark-theme.red.100",
-          "type": "color"
+          "type": "color",
+          "description": "Used for negative background"
         }
       },
       "text": {
@@ -67,19 +71,23 @@
         },
         "informative": {
           "value": "$core.dark-theme.blue.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for informative text"
         },
         "positive": {
           "value": "$core.dark-theme.green.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for positive text"
         },
         "warning": {
           "value": "$core.dark-theme.orange.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for warning text"
         },
         "negative": {
           "value": "$core.dark-theme.red.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for negative text"
         }
       },
       "icon": {
@@ -100,19 +108,23 @@
         },
         "informative": {
           "value": "$core.dark-theme.blue.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for informative icon"
         },
         "positive": {
           "value": "$core.dark-theme.green.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for positive icon"
         },
         "warning": {
           "value": "$core.dark-theme.orange.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for warning icon"
         },
         "negative": {
           "value": "$core.dark-theme.red.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for negative icon"
         }
       },
       "border": {
@@ -138,19 +150,23 @@
         },
         "informative": {
           "value": "$core.dark-theme.blue.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for informative border"
         },
         "positive": {
           "value": "$core.dark-theme.green.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for positive border"
         },
         "warning": {
           "value": "$core.dark-theme.orange.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for warning border"
         },
         "negative": {
           "value": "$core.dark-theme.red.600",
-          "type": "color"
+          "type": "color",
+          "description": "Used for negative border"
         }
       }
     },
