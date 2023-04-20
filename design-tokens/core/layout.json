@@ -1,0 +1,22 @@
+{
+  "core": {
+    "grid": {
+      "baseline-grid": {
+        "value": "4",
+        "type": "sizing"
+      },
+      "rounding-unit": {
+        "value": "{core.grid.baseline-grid}/2",
+        "type": "sizing"
+      }
+    }
+  },
+  "test": {
+    "grid": {
+      "margin": {
+        "value": "16",
+        "type": "spacing"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "sem": {
+    "color": {
+      "static": {
+        "brand": {
+          "primary": {
+            "value": "{core.light-theme.purple.600}",
+            "type": "color"
+          },
+          "accent": {
+            "value": "{core.light-theme.purple.600}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tokenSetOrder": [
+    "tokens",
+    "core/color",
+    "core/layout",
+    "core/typography",
+    "core/object-styles",
+    "semantic/color/static",
+    "semantic/color/light-theme",
+    "semantic/color/dark-theme",
+    "semantic/typography",
+    "toyota/semantic/color/static",
+    "breakpoints/xsmall",
+    "breakpoints/small"
+  ]
+}
