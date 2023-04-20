@@ -311,7 +311,16 @@
           "disabled": {
             "value": "$sem.color.static.brand.accent",
             "type": "color",
-            "description": "Use on accent content such as text or icon when they are on disable state."
+            "description": "Use on accent content such as text or icon when they are on disable state.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.36",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -481,7 +490,16 @@
           "disabled": {
             "value": "$core.light-theme.gray.900",
             "type": "color",
-            "description": "Use on neutral content such as text or icon when they are on disable state."
+            "description": "Use on neutral content such as text or icon when they are on disable state.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.36",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -651,7 +669,16 @@
           "disabled": {
             "value": "$core.light-theme.white",
             "type": "color",
-            "description": "Use on neutral inverse content such as text or icon when they are on disable state."
+            "description": "Use on neutral inverse content such as text or icon when they are on disable state.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.36",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "on-solid": {
             "value": "$core.light-theme.black",
@@ -821,7 +848,16 @@
           "disabled": {
             "value": "$core.light-theme.blue.600",
             "type": "color",
-            "description": "Use on informative content such as text or icon when they are on disable state."
+            "description": "Use on informative content such as text or icon when they are on disable state.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.36",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -991,7 +1027,16 @@
           "disabled": {
             "value": "$core.light-theme.green.600",
             "type": "color",
-            "description": "Use on positive content such as text or icon when they are on disable state."
+            "description": "Use on positive content such as text or icon when they are on disable state.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.36",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -1010,6 +1055,7 @@
           "disabled": {
             "value": "$core.light-theme.orange.600",
             "type": "color",
+            "description": "Use for Background and Outlines",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -1023,11 +1069,13 @@
           "solid": {
             "enabled": {
               "value": "$core.light-theme.orange.600",
-              "type": "color"
+              "type": "color",
+              "description": "Use on warning elements such as backgrounds and border"
             },
             "hovered": {
               "value": "$core.light-theme.orange.600",
               "type": "color",
+              "description": "Use on warning elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1041,6 +1089,7 @@
             "pressed": {
               "value": "$core.light-theme.orange.600",
               "type": "color",
+              "description": "Use on warning elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1054,6 +1103,7 @@
             "focused": {
               "value": "$core.light-theme.orange.600",
               "type": "color",
+              "description": "Use on warning elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1067,6 +1117,7 @@
             "dragged": {
               "value": "$core.light-theme.orange.600",
               "type": "color",
+              "description": "Use on warning elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1079,9 +1130,24 @@
             }
           },
           "transparent": {
+            "enabled": {
+              "value": "$core.light-theme.orange.600",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              },
+              "description": "Use on warning elements such as backgrounds and border"
+            },
             "hovered": {
               "value": "$core.light-theme.orange.600",
               "type": "color",
+              "description": "Use on warning elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1095,6 +1161,7 @@
             "pressed": {
               "value": "$core.light-theme.orange.600",
               "type": "color",
+              "description": "Use on warning elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1108,6 +1175,7 @@
             "focused": {
               "value": "$core.light-theme.orange.600",
               "type": "color",
+              "description": "Use on warning elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1121,6 +1189,7 @@
             "dragged": {
               "value": "$core.light-theme.orange.600",
               "type": "color",
+              "description": "Use on warning elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1136,15 +1205,27 @@
         "content": {
           "disabled": {
             "value": "$core.light-theme.orange.600",
-            "type": "color"
+            "type": "color",
+            "description": "Use on warning content such as text or icon when they are on disable state.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.36",
+                  "space": "lch"
+                }
+              }
+            }
           },
           "on-solid": {
             "value": "$core.light-theme.white",
-            "type": "color"
+            "type": "color",
+            "description": "Use on warning content such as text or icon when they are on solid color."
           },
           "on-transparent": {
             "value": "$core.light-theme.orange.600",
-            "type": "color"
+            "type": "color",
+            "description": "Use on warning content such as text or icon when they are on transparent color."
           }
         }
       },
@@ -1153,6 +1234,7 @@
           "disabled": {
             "value": "$core.light-theme.red.600",
             "type": "color",
+            "description": "Use for Background and Outlines",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -1166,11 +1248,13 @@
           "solid": {
             "enabled": {
               "value": "$core.light-theme.red.600",
-              "type": "color"
+              "type": "color",
+              "description": "Use on negative elements such as backgrounds and border"
             },
             "hovered": {
               "value": "$core.light-theme.red.600",
               "type": "color",
+              "description": "Use on negative elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1184,6 +1268,7 @@
             "pressed": {
               "value": "$core.light-theme.red.600",
               "type": "color",
+              "description": "Use on negative elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1197,6 +1282,7 @@
             "focused": {
               "value": "$core.light-theme.red.600",
               "type": "color",
+              "description": "Use on negative elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1210,6 +1296,7 @@
             "dragged": {
               "value": "$core.light-theme.red.600",
               "type": "color",
+              "description": "Use on negative elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1222,9 +1309,24 @@
             }
           },
           "transparent": {
+            "enabled": {
+              "value": "$core.light-theme.red.600",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              },
+              "description": "Use on negative elements such as backgrounds and border"
+            },
             "hovered": {
               "value": "$core.light-theme.red.600",
               "type": "color",
+              "description": "Use on negative elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1238,6 +1340,7 @@
             "pressed": {
               "value": "$core.light-theme.red.600",
               "type": "color",
+              "description": "Use on negative elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1251,6 +1354,7 @@
             "focused": {
               "value": "$core.light-theme.red.600",
               "type": "color",
+              "description": "Use on negative elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1264,6 +1368,7 @@
             "dragged": {
               "value": "$core.light-theme.red.600",
               "type": "color",
+              "description": "Use on negative elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -1279,15 +1384,27 @@
         "content": {
           "disabled": {
             "value": "$core.light-theme.red.600",
-            "type": "color"
+            "type": "color",
+            "description": "Use on negative content such as text or icon when they are on disable state.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.36",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "on-solid": {
             "value": "$core.light-theme.white",
-            "type": "color"
+            "type": "color",
+            "description": "Use on negative content such as text or icon when they are on solid color."
           },
           "on-transparent": {
             "value": "$core.light-theme.red.600",
-            "type": "color"
+            "type": "color",
+            "description": "Use on negative content such as text or icon when they are on transparent color."
           }
         }
       }
@@ -1295,15 +1412,18 @@
     "promotional": {
       "sale": {
         "value": "$core.light-theme.red.500",
-        "type": "color"
+        "type": "color",
+        "description": "Used for promotional sale elements"
       },
       "new": {
-        "value": "$core.light-theme.blue.500",
-        "type": "color"
+        "value": "$sem.color.static.brand.accent",
+        "type": "color",
+        "description": "Used for promotional new elements"
       },
       "notification": {
         "value": "$core.light-theme.red.500",
-        "type": "color"
+        "type": "color",
+        "description": "Used for promotional notification elements"
       }
     },
     "scrim": {
@@ -1311,6 +1431,7 @@
         "30": {
           "value": "$core.light-theme.white",
           "type": "color",
+          "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1324,6 +1445,7 @@
         "60": {
           "value": "$core.light-theme.white",
           "type": "color",
+          "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1337,6 +1459,7 @@
         "90": {
           "value": "$core.light-theme.white",
           "type": "color",
+          "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1352,6 +1475,7 @@
         "30": {
           "value": "$core.light-theme.black",
           "type": "color",
+          "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1378,6 +1502,7 @@
         "90": {
           "value": "$core.light-theme.black",
           "type": "color",
+          "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
