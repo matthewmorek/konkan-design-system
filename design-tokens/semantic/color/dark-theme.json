@@ -327,16 +327,7 @@
           "disabled": {
             "value": "$sem.color.static.brand.accent",
             "type": "color",
-            "description": "Use on accent content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on accent content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.dark-theme.black",
@@ -685,16 +676,7 @@
           "disabled": {
             "value": "$core.dark-theme.gray.75",
             "type": "color",
-            "description": "Use on neutral inverse content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral inverse content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.dark-theme.white",
@@ -864,16 +846,7 @@
           "disabled": {
             "value": "$core.dark-theme.blue.600",
             "type": "color",
-            "description": "Use on informative content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on informative content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.dark-theme.black",
@@ -1043,16 +1016,7 @@
           "disabled": {
             "value": "$core.dark-theme.green.600",
             "type": "color",
-            "description": "Use on positive content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on positive content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.dark-theme.black",
@@ -1222,16 +1186,7 @@
           "disabled": {
             "value": "$core.dark-theme.orange.600",
             "type": "color",
-            "description": "Use on warning content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on warning content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.dark-theme.black",
@@ -1401,16 +1356,7 @@
           "disabled": {
             "value": "$core.dark-theme.red.600",
             "type": "color",
-            "description": "Use on negative content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on negative content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.dark-theme.black",
