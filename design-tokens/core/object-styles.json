@@ -1,1 +1,30 @@
-{}
+{
+  "core": {
+    "radius": {
+      "full": {
+        "value": "50%",
+        "type": "borderRadius"
+      },
+      "xsmall": {
+        "value": "{core.const.baseline-grid-unit}*2",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{core.const.baseline-grid-unit}*3",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "{core.const.baseline-grid-unit}*4",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{core.const.baseline-grid-unit}*6",
+        "type": "borderRadius"
+      },
+      "xlarge": {
+        "value": "{core.const.baseline-grid-unit}*8",
+        "type": "borderRadius"
+      }
+    }
+  }
+}
