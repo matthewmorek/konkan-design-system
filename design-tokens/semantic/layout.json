@@ -1,0 +1,83 @@
+{
+  "semantic": {
+    "space": {
+      "2xsmall": {
+        "value": "{core.const.baseline-grid-unit}",
+        "type": "spacing"
+      },
+      "xsmall": {
+        "value": "{core.const.baseline-grid-unit}*2",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{core.const.baseline-grid-unit}*3",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "{core.const.baseline-grid-unit}*4",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "{core.const.baseline-grid-unit}*6",
+        "type": "spacing"
+      },
+      "xlarge": {
+        "value": "{core.const.baseline-grid-unit}*8",
+        "type": "spacing"
+      },
+      "2xlarge": {
+        "value": "{core.const.baseline-grid-unit}*16",
+        "type": "spacing"
+      },
+      "inset": {
+        "2xsmall": {
+          "value": "{semantic.space.2xsmall} {semantic.space.2xsmall}",
+          "type": "spacing"
+        },
+        "xsmall": {
+          "value": "{semantic.space.xsmall} {semantic.space.xsmall}",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "{semantic.space.small} {semantic.space.small}",
+          "type": "spacing"
+        },
+        "medium": {
+          "value": "{semantic.space.medium} {semantic.space.medium}",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "{semantic.space.large} {semantic.space.large}",
+          "type": "spacing"
+        },
+        "xlarge": {
+          "value": "{semantic.space.xlarge} {semantic.space.xlarge}",
+          "type": "spacing"
+        },
+        "2xlarge": {
+          "value": "{semantic.space.2xlarge} {semantic.space.2xlarge}",
+          "type": "spacing"
+        }
+      }
+    },
+    "layout-grid": {
+      "margins": {
+        "value": "0 {semantic.space.small}",
+        "type": "spacing"
+      },
+      "gutters": {
+        "value": "0 {semantic.space.small}",
+        "type": "spacing"
+      },
+      "columns": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "max-width": {
+        "value": "{breakpoint.viewport.max}",
+        "type": "spacing",
+        "description": "Override this to set a max-width for the grid at larger breakpoints"
+      }
+    }
+  }
+}
