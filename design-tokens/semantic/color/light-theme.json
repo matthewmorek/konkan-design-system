@@ -327,16 +327,7 @@
           "disabled": {
             "value": "$sem.color.static.brand.accent",
             "type": "color",
-            "description": "Use on accent content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on accent content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -506,16 +497,7 @@
           "disabled": {
             "value": "$core.light-theme.gray.900",
             "type": "color",
-            "description": "Use on neutral content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -685,16 +667,7 @@
           "disabled": {
             "value": "$core.light-theme.white",
             "type": "color",
-            "description": "Use on neutral inverse content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral inverse content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.black",
@@ -864,16 +837,7 @@
           "disabled": {
             "value": "$core.light-theme.blue.600",
             "type": "color",
-            "description": "Use on informative content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on informative content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -1043,16 +1007,7 @@
           "disabled": {
             "value": "$core.light-theme.green.600",
             "type": "color",
-            "description": "Use on positive content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on positive content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -1222,16 +1177,7 @@
           "disabled": {
             "value": "$core.light-theme.orange.600",
             "type": "color",
-            "description": "Use on warning content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "lch"
-                }
-              }
-            }
+            "description": "Use on warning content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.white",
@@ -1401,16 +1347,7 @@
           "disabled": {
             "value": "$core.light-theme.red.600",
             "type": "color",
-            "description": "Use on negative content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on negative content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.light-theme.white",
