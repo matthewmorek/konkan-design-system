@@ -10,22 +10,8 @@
       "core/typography": "source",
       "core/object-styles": "source",
       "semantic/typography": "enabled",
-      "breakpoints/small": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "13b4d259b6a83639378d4ec9073f681f9e9e4968",
-    "name": "base-light-theme@xsmall",
-    "selectedTokenSets": {
-      "core/color": "source",
-      "core/layout": "source",
-      "core/typography": "source",
-      "core/object-styles": "source",
-      "semantic/color/static": "enabled",
-      "semantic/color/light-theme": "enabled",
-      "semantic/typography": "enabled",
-      "breakpoints/xsmall": "enabled"
+      "breakpoints/small": "enabled",
+      "semantic/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -40,22 +26,8 @@
       "semantic/color/static": "enabled",
       "semantic/color/dark-theme": "enabled",
       "semantic/typography": "enabled",
-      "breakpoints/small": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "28ba9a13f59308ad9ea8a58d3f787a2beae531bb",
-    "name": "base-dark-theme@xsmall",
-    "selectedTokenSets": {
-      "core/color": "source",
-      "core/layout": "source",
-      "core/typography": "source",
-      "core/object-styles": "source",
-      "semantic/color/static": "enabled",
-      "semantic/color/dark-theme": "enabled",
-      "semantic/typography": "enabled",
-      "breakpoints/xsmall": "enabled"
+      "breakpoints/small": "enabled",
+      "semantic/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -71,7 +43,40 @@
       "core/object-styles": "source",
       "core/typography": "source",
       "breakpoints/small": "enabled",
-      "semantic/typography": "enabled"
+      "semantic/typography": "enabled",
+      "semantic/layout": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "13b4d259b6a83639378d4ec9073f681f9e9e4968",
+    "name": "base-light-theme@xsmall",
+    "selectedTokenSets": {
+      "core/color": "source",
+      "core/layout": "source",
+      "core/typography": "source",
+      "core/object-styles": "source",
+      "semantic/color/static": "enabled",
+      "semantic/color/light-theme": "enabled",
+      "semantic/typography": "enabled",
+      "breakpoints/xsmall": "enabled",
+      "semantic/layout": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "28ba9a13f59308ad9ea8a58d3f787a2beae531bb",
+    "name": "base-dark-theme@xsmall",
+    "selectedTokenSets": {
+      "core/color": "source",
+      "core/layout": "source",
+      "core/typography": "source",
+      "core/object-styles": "source",
+      "semantic/color/static": "enabled",
+      "semantic/color/dark-theme": "enabled",
+      "semantic/typography": "enabled",
+      "breakpoints/xsmall": "enabled",
+      "semantic/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -87,7 +92,8 @@
       "semantic/typography": "enabled",
       "toyota/semantic/color/static": "enabled",
       "breakpoints/xsmall": "enabled",
-      "semantic/color/light-theme": "enabled"
+      "semantic/color/light-theme": "enabled",
+      "semantic/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -103,7 +109,8 @@
       "core/object-styles": "source",
       "core/typography": "source",
       "semantic/typography": "enabled",
-      "breakpoints/small": "enabled"
+      "breakpoints/small": "enabled",
+      "semantic/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -119,7 +126,8 @@
       "semantic/color/dark-theme": "enabled",
       "semantic/typography": "enabled",
       "toyota/semantic/color/static": "enabled",
-      "breakpoints/xsmall": "enabled"
+      "breakpoints/xsmall": "enabled",
+      "semantic/layout": "enabled"
     },
     "$figmaStyleReferences": {}
   }

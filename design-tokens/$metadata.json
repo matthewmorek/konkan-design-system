@@ -11,6 +11,7 @@
     "semantic/typography",
     "toyota/semantic/color/static",
     "breakpoints/xsmall",
-    "breakpoints/small"
+    "breakpoints/small",
+    "semantic/layout"
   ]
 }
