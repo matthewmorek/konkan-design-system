@@ -1007,16 +1007,7 @@
           "disabled": {
             "value": "$core.dark-theme.green.600",
             "type": "color",
-            "description": "Use on positive content such as text or icon when they are on disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.36",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on positive content such as text or icon when they are on disable state."
           },
           "on-solid": {
             "value": "$core.dark-theme.black",
