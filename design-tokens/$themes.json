@@ -11,7 +11,8 @@
       "core/object-styles": "source",
       "semantic/typography": "enabled",
       "breakpoints/small": "enabled",
-      "semantic/layout": "enabled"
+      "semantic/layout": "enabled",
+      "semantic/object-styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -27,7 +28,8 @@
       "semantic/color/dark-theme": "enabled",
       "semantic/typography": "enabled",
       "breakpoints/small": "enabled",
-      "semantic/layout": "enabled"
+      "semantic/layout": "enabled",
+      "semantic/object-styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -44,7 +46,8 @@
       "core/typography": "source",
       "breakpoints/small": "enabled",
       "semantic/typography": "enabled",
-      "semantic/layout": "enabled"
+      "semantic/layout": "enabled",
+      "semantic/object-styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -60,7 +63,8 @@
       "semantic/color/light-theme": "enabled",
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled",
-      "semantic/layout": "enabled"
+      "semantic/layout": "enabled",
+      "semantic/object-styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -76,7 +80,8 @@
       "semantic/color/dark-theme": "enabled",
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled",
-      "semantic/layout": "enabled"
+      "semantic/layout": "enabled",
+      "semantic/object-styles": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.color.static.brand.primary": "S:29af66e7bbc4698b888dda6856fcd38212801b50,",
@@ -235,7 +240,8 @@
       "toyota/semantic/color/static": "enabled",
       "breakpoints/xsmall": "enabled",
       "semantic/color/light-theme": "enabled",
-      "semantic/layout": "enabled"
+      "semantic/layout": "enabled",
+      "semantic/object-styles": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -252,7 +258,8 @@
       "core/typography": "source",
       "semantic/typography": "enabled",
       "breakpoints/small": "enabled",
-      "semantic/layout": "enabled"
+      "semantic/layout": "enabled",
+      "semantic/object-styles": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.color.static.brand.primary": "S:1013c68c1c7ece5c653f6b37478cce782bda0506,",
@@ -411,7 +418,8 @@
       "semantic/typography": "enabled",
       "toyota/semantic/color/static": "enabled",
       "breakpoints/xsmall": "enabled",
-      "semantic/layout": "enabled"
+      "semantic/layout": "enabled",
+      "semantic/object-styles": "enabled"
     },
     "$figmaStyleReferences": {}
   }

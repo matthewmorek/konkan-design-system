@@ -8,10 +8,11 @@
     "semantic/color/static",
     "semantic/color/light-theme",
     "semantic/color/dark-theme",
+    "semantic/layout",
     "semantic/typography",
     "toyota/semantic/color/static",
     "breakpoints/xsmall",
     "breakpoints/small",
-    "semantic/layout"
+    "semantic/object-styles"
   ]
 }
