@@ -1,16 +1,14 @@
 {
   "sem": {
-    "color": {
-      "static": {
-        "brand": {
-          "primary": {
-            "value": "#EB0A1E",
-            "type": "color"
-          },
-          "accent": {
-            "value": "#0B59D4",
-            "type": "color"
-          }
+    "static": {
+      "brand": {
+        "primary": {
+          "value": "#EB0A1E",
+          "type": "color"
+        },
+        "accent": {
+          "value": "#0B59D4",
+          "type": "color"
         }
       }
     }
