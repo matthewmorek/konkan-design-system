@@ -174,7 +174,7 @@
       "accent": {
         "container": {
           "disabled": {
-            "value": "{sem.color.static.brand.accent}",
+            "value": "{sem.static.brand.accent}",
             "type": "color",
             "description": "Use for Background and Borders on a disable state.",
             "$extensions": {
@@ -189,12 +189,12 @@
           },
           "solid": {
             "enabled": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders"
             },
             "hovered": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -208,7 +208,7 @@
               }
             },
             "pressed": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -222,7 +222,7 @@
               }
             },
             "focused": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -236,7 +236,7 @@
               }
             },
             "dragged": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -252,7 +252,7 @@
           },
           "transparent": {
             "enabled": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders",
               "$extensions": {
@@ -266,7 +266,7 @@
               }
             },
             "hovered": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -280,7 +280,7 @@
               }
             },
             "pressed": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -294,7 +294,7 @@
               }
             },
             "focused": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -308,7 +308,7 @@
               }
             },
             "dragged": {
-              "value": "$sem.color.static.brand.accent",
+              "value": "{sem.static.brand.accent}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -325,7 +325,7 @@
         },
         "content": {
           "disabled": {
-            "value": "$sem.color.static.brand.accent",
+            "value": "{sem.static.brand.accent}",
             "type": "color",
             "description": "Use on accent content such as text or icon when they are on disable state."
           },
@@ -335,7 +335,7 @@
             "description": "Use on accent content such as text or icon when they are on solid color."
           },
           "on-transparent": {
-            "value": "$sem.color.static.brand.accent",
+            "value": "{sem.static.brand.accent}",
             "type": "color",
             "description": "Use on accent content such as text or icon when they are on transparent color."
           }
@@ -1369,7 +1369,7 @@
         "description": "Used for promotional sale elements"
       },
       "new": {
-        "value": "$sem.color.static.brand.accent",
+        "value": "{sem.static.brand.accent}",
         "type": "color",
         "description": "Used for promotional new elements"
       },
