@@ -1,6 +1,5 @@
 {
   "tokenSetOrder": [
-    "tokens",
     "core/color",
     "core/layout",
     "core/typography",

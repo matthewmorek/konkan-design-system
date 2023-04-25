@@ -14,21 +14,5 @@
         "type": "sizing"
       }
     }
-  },
-  "core": {
-    "layout-grid": {
-      "margins": {
-        "value": "0 {core.space.large}",
-        "type": "spacing"
-      },
-      "gutters": {
-        "value": "0 {core.space.large}",
-        "type": "spacing"
-      },
-      "columns": {
-        "value": "4",
-        "type": "spacing"
-      }
-    }
   }
 }
