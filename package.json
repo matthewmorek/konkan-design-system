@@ -7,7 +7,7 @@
   "author": "Matthew Morek <matthew.morek@gmail.com>",
   "license": "MIT",
   "private": true,
-  "devDependencies": {
+  "dependencies": {
     "@supernovaio/cli": "^0.9.20"
   }
 }
