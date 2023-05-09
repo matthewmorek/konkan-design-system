@@ -13,17 +13,17 @@
           "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the second layer, on top of Base Background"
         },
         "layer-2": {
-          "value": "$core.dark-theme.white",
+          "value": "{core.dark-theme.white}",
           "type": "color",
           "description": "Use ion large regions of layout and not for component backgrounds. \n\nUse as the third layer, on top of Layer 1 Background"
         },
         "static-black": {
-          "value": "$core.dark-theme.black",
+          "value": "{core.dark-theme.black}",
           "type": "color",
           "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or dark themes"
         },
         "static-white": {
-          "value": "$core.dark-theme.white",
+          "value": "{core.dark-theme.white}",
           "type": "color",
           "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or dark themes"
         },
@@ -33,17 +33,17 @@
           "description": "Used for informative background"
         },
         "positive": {
-          "value": "$core.dark-theme.green.100",
+          "value": "{core.dark-theme.green.100}",
           "type": "color",
           "description": "Used for positive background"
         },
         "warning": {
-          "value": "$core.dark-theme.orange.100",
+          "value": "{core.dark-theme.orange.100}",
           "type": "color",
           "description": "Used for warning background"
         },
         "negative": {
-          "value": "$core.dark-theme.red.100",
+          "value": "{core.dark-theme.red.100}",
           "type": "color",
           "description": "Used for negative background"
         }
@@ -60,32 +60,32 @@
           "description": "Used as a subtle text color like on body text"
         },
         "inverse": {
-          "value": "$core.dark-theme.white",
+          "value": "{core.dark-theme.white}",
           "type": "color",
           "description": "Used for text on color"
         },
         "inverse-subtle": {
-          "value": "$core.dark-theme.gray.100",
+          "value": "{core.dark-theme.gray.100}",
           "type": "color",
           "description": "Used as a subtle text color like on body text on color"
         },
         "informative": {
-          "value": "$core.dark-theme.blue.600",
+          "value": "{core.dark-theme.blue.600}",
           "type": "color",
           "description": "Used for informative text"
         },
         "positive": {
-          "value": "$core.dark-theme.green.600",
+          "value": "{core.dark-theme.green.600}",
           "type": "color",
           "description": "Used for positive text"
         },
         "warning": {
-          "value": "$core.dark-theme.orange.600",
+          "value": "{core.dark-theme.orange.600}",
           "type": "color",
           "description": "Used for warning text"
         },
         "negative": {
-          "value": "$core.dark-theme.red.600",
+          "value": "{core.dark-theme.red.600}",
           "type": "color",
           "description": "Used for negative text"
         }
@@ -102,27 +102,27 @@
           "description": "Used as a subtle icon color"
         },
         "inverse": {
-          "value": "$core.dark-theme.white",
+          "value": "{core.dark-theme.white}",
           "type": "color",
           "description": "Used for icon on color"
         },
         "informative": {
-          "value": "$core.dark-theme.blue.600",
+          "value": "{core.dark-theme.blue.600}",
           "type": "color",
           "description": "Used for informative icon"
         },
         "positive": {
-          "value": "$core.dark-theme.green.600",
+          "value": "{core.dark-theme.green.600}",
           "type": "color",
           "description": "Used for positive icon"
         },
         "warning": {
-          "value": "$core.dark-theme.orange.600",
+          "value": "{core.dark-theme.orange.600}",
           "type": "color",
           "description": "Used for warning icon"
         },
         "negative": {
-          "value": "$core.dark-theme.red.600",
+          "value": "{core.dark-theme.red.600}",
           "type": "color",
           "description": "Used for negative icon"
         }
@@ -144,27 +144,27 @@
           "description": "Used for tertiary border"
         },
         "inverse": {
-          "value": "$core.dark-theme.white",
+          "value": "{core.dark-theme.white}",
           "type": "color",
           "description": "Used for border on color"
         },
         "informative": {
-          "value": "$core.dark-theme.blue.600",
+          "value": "{core.dark-theme.blue.600}",
           "type": "color",
           "description": "Used for informative border"
         },
         "positive": {
-          "value": "$core.dark-theme.green.600",
+          "value": "{core.dark-theme.green.600}",
           "type": "color",
           "description": "Used for positive border"
         },
         "warning": {
-          "value": "$core.dark-theme.orange.600",
+          "value": "{core.dark-theme.orange.600}",
           "type": "color",
           "description": "Used for warning border"
         },
         "negative": {
-          "value": "$core.dark-theme.red.600",
+          "value": "{core.dark-theme.red.600}",
           "type": "color",
           "description": "Used for negative border"
         }
@@ -330,7 +330,7 @@
             "description": "Use on accent content such as text or icon when they are on disable state."
           },
           "on-solid": {
-            "value": "$core.dark-theme.black",
+            "value": "{core.dark-theme.black}",
             "type": "color",
             "description": "Use on accent content such as text or icon when they are on solid color."
           },
@@ -359,12 +359,12 @@
           },
           "solid": {
             "enabled": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders."
             },
             "hovered": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -378,7 +378,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -392,7 +392,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -406,7 +406,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -422,7 +422,7 @@
           },
           "transparent": {
             "enabled": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders.",
               "$extensions": {
@@ -436,7 +436,7 @@
               }
             },
             "hovered": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on accent elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -450,7 +450,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -464,7 +464,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -478,7 +478,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.white",
+              "value": "{core.dark-theme.white}",
               "type": "color",
               "description": "Use on neutral elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -495,17 +495,17 @@
         },
         "content": {
           "disabled": {
-            "value": "$core.dark-theme.white",
+            "value": "{core.dark-theme.white}",
             "type": "color",
             "description": "Use on neutral content such as text or icon when they are on disable state."
           },
           "on-solid": {
-            "value": "$core.dark-theme.black",
+            "value": "{core.dark-theme.black}",
             "type": "color",
             "description": "Use on neutral content such as text or icon when they are on solid color."
           },
           "on-transparent": {
-            "value": "$core.dark-theme.white",
+            "value": "{core.dark-theme.white}",
             "type": "color",
             "description": "Use on neutral content such as text or icon when they are on transparent color."
           }
@@ -514,7 +514,7 @@
       "neutral-inverse": {
         "container": {
           "disabled": {
-            "value": "$core.dark-theme.gray.75",
+            "value": "{core.dark-theme.gray.75}",
             "type": "color",
             "description": "Use for Background and Borders on a disable state.",
             "$extensions": {
@@ -529,12 +529,12 @@
           },
           "solid": {
             "enabled": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders."
             },
             "hovered": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -548,7 +548,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -562,7 +562,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -576,7 +576,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -592,7 +592,7 @@
           },
           "transparent": {
             "enabled": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and b",
               "$extensions": {
@@ -606,7 +606,7 @@
               }
             },
             "hovered": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -620,7 +620,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -634,7 +634,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -648,7 +648,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.gray.75",
+              "value": "{core.dark-theme.gray.75}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -665,17 +665,17 @@
         },
         "content": {
           "disabled": {
-            "value": "$core.dark-theme.gray.75",
+            "value": "{core.dark-theme.gray.75}",
             "type": "color",
             "description": "Use on neutral inverse content such as text or icon when they are on disable state."
           },
           "on-solid": {
-            "value": "$core.dark-theme.white",
+            "value": "{core.dark-theme.white}",
             "type": "color",
             "description": "Use on neutral inverse content such as text or icon when they are on solid color."
           },
           "on-transparent": {
-            "value": "$core.dark-theme.gray.75",
+            "value": "{core.dark-theme.gray.75}",
             "type": "color",
             "description": "Use on neutral inverse content such as text or icon when they are on transparent color."
           }
@@ -684,7 +684,7 @@
       "informative": {
         "container": {
           "disabled": {
-            "value": "$core.dark-theme.blue.600",
+            "value": "{core.dark-theme.blue.600}",
             "type": "color",
             "description": "Use for Background and Borders on a disable state.",
             "$extensions": {
@@ -699,12 +699,12 @@
           },
           "solid": {
             "enabled": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders."
             },
             "hovered": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on  informative elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -718,7 +718,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -732,7 +732,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -746,7 +746,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -762,7 +762,7 @@
           },
           "transparent": {
             "enabled": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders.",
               "$extensions": {
@@ -776,7 +776,7 @@
               }
             },
             "hovered": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -790,7 +790,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -804,7 +804,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -818,7 +818,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.blue.600",
+              "value": "{core.dark-theme.blue.600}",
               "type": "color",
               "description": "Use on informative elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -835,17 +835,17 @@
         },
         "content": {
           "disabled": {
-            "value": "$core.dark-theme.blue.600",
+            "value": "{core.dark-theme.blue.600}",
             "type": "color",
             "description": "Use on informative content such as text or icon when they are on disable state."
           },
           "on-solid": {
-            "value": "$core.dark-theme.black",
+            "value": "{core.dark-theme.black}",
             "type": "color",
             "description": "Use on informative content such as text or icon when they are on solid color."
           },
           "on-transparent": {
-            "value": "$core.dark-theme.blue.600",
+            "value": "{core.dark-theme.blue.600}",
             "type": "color",
             "description": "Use on informative content such as text or icon when they are on transparent color."
           }
@@ -854,7 +854,7 @@
       "positive": {
         "container": {
           "disabled": {
-            "value": "$core.dark-theme.green.600",
+            "value": "{core.dark-theme.green.600}",
             "type": "color",
             "description": "Use for Background and Outlines",
             "$extensions": {
@@ -869,12 +869,12 @@
           },
           "solid": {
             "enabled": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and border"
             },
             "hovered": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -888,7 +888,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -902,7 +902,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -916,7 +916,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -932,7 +932,7 @@
           },
           "transparent": {
             "enabled": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -946,7 +946,7 @@
               "description": "Use on positive elements such as backgrounds and border"
             },
             "hovered": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -960,7 +960,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -974,7 +974,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -988,7 +988,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.green.600",
+              "value": "{core.dark-theme.green.600}",
               "type": "color",
               "description": "Use on positive elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -1005,17 +1005,17 @@
         },
         "content": {
           "disabled": {
-            "value": "$core.dark-theme.green.600",
+            "value": "{core.dark-theme.green.600}",
             "type": "color",
             "description": "Use on positive content such as text or icon when they are on disable state."
           },
           "on-solid": {
-            "value": "$core.dark-theme.black",
+            "value": "{core.dark-theme.black}",
             "type": "color",
             "description": "Use on positive content such as text or icon when they are on solid color."
           },
           "on-transparent": {
-            "value": "$core.dark-theme.green.600",
+            "value": "{core.dark-theme.green.600}",
             "type": "color",
             "description": "Use on positive content such as text or icon when they are on transparent color."
           }
@@ -1024,7 +1024,7 @@
       "warning": {
         "container": {
           "disabled": {
-            "value": "$core.dark-theme.orange.600",
+            "value": "{core.dark-theme.orange.600}",
             "type": "color",
             "description": "Use for Background and Outlines",
             "$extensions": {
@@ -1039,12 +1039,12 @@
           },
           "solid": {
             "enabled": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and border"
             },
             "hovered": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -1058,7 +1058,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -1072,7 +1072,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -1086,7 +1086,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -1102,7 +1102,7 @@
           },
           "transparent": {
             "enabled": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -1116,7 +1116,7 @@
               "description": "Use on warning elements such as backgrounds and border"
             },
             "hovered": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -1130,7 +1130,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -1144,7 +1144,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -1158,7 +1158,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.orange.600",
+              "value": "{core.dark-theme.orange.600}",
               "type": "color",
               "description": "Use on warning elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -1175,17 +1175,17 @@
         },
         "content": {
           "disabled": {
-            "value": "$core.dark-theme.orange.600",
+            "value": "{core.dark-theme.orange.600}",
             "type": "color",
             "description": "Use on warning content such as text or icon when they are on disable state."
           },
           "on-solid": {
-            "value": "$core.dark-theme.black",
+            "value": "{core.dark-theme.black}",
             "type": "color",
             "description": "Use on warning content such as text or icon when they are on solid color."
           },
           "on-transparent": {
-            "value": "$core.dark-theme.orange.600",
+            "value": "{core.dark-theme.orange.600}",
             "type": "color",
             "description": "Use on warning content such as text or icon when they are on transparent color."
           }
@@ -1194,7 +1194,7 @@
       "negative": {
         "container": {
           "disabled": {
-            "value": "$core.dark-theme.red.600",
+            "value": "{core.dark-theme.red.600}",
             "type": "color",
             "description": "Use for Background and Outlines",
             "$extensions": {
@@ -1209,12 +1209,12 @@
           },
           "solid": {
             "enabled": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and border"
             },
             "hovered": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -1228,7 +1228,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -1242,7 +1242,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -1256,7 +1256,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -1272,7 +1272,7 @@
           },
           "transparent": {
             "enabled": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -1286,7 +1286,7 @@
               "description": "Use on negative elements such as backgrounds and border"
             },
             "hovered": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -1300,7 +1300,7 @@
               }
             },
             "pressed": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -1314,7 +1314,7 @@
               }
             },
             "focused": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -1328,7 +1328,7 @@
               }
             },
             "dragged": {
-              "value": "$core.dark-theme.red.600",
+              "value": "{core.dark-theme.red.600}",
               "type": "color",
               "description": "Use on negative elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -1345,17 +1345,17 @@
         },
         "content": {
           "disabled": {
-            "value": "$core.dark-theme.red.600",
+            "value": "{core.dark-theme.red.600}",
             "type": "color",
             "description": "Use on negative content such as text or icon when they are on disable state."
           },
           "on-solid": {
-            "value": "$core.dark-theme.black",
+            "value": "{core.dark-theme.black}",
             "type": "color",
             "description": "Use on negative content such as text or icon when they are on solid color."
           },
           "on-transparent": {
-            "value": "$core.dark-theme.red.600",
+            "value": "{core.dark-theme.red.600}",
             "type": "color",
             "description": "Use on negative content such as text or icon when they are on transparent color."
           }
@@ -1364,7 +1364,7 @@
     },
     "promotional": {
       "sale": {
-        "value": "$core.dark-theme.red.500",
+        "value": "{core.dark-theme.red.500}",
         "type": "color",
         "description": "Used for promotional sale elements"
       },
@@ -1374,7 +1374,7 @@
         "description": "Used for promotional new elements"
       },
       "notification": {
-        "value": "$core.dark-theme.red.500",
+        "value": "{core.dark-theme.red.500}",
         "type": "color",
         "description": "Used for promotional notification elements"
       }
@@ -1382,7 +1382,7 @@
     "scrim": {
       "white": {
         "30": {
-          "value": "$core.dark-theme.white",
+          "value": "{core.dark-theme.white}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
@@ -1396,7 +1396,7 @@
           }
         },
         "60": {
-          "value": "$core.dark-theme.white",
+          "value": "{core.dark-theme.white}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
@@ -1410,7 +1410,7 @@
           }
         },
         "90": {
-          "value": "$core.dark-theme.white",
+          "value": "{core.dark-theme.white}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
@@ -1426,7 +1426,7 @@
       },
       "black": {
         "30": {
-          "value": "$core.dark-theme.black",
+          "value": "{core.dark-theme.black}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
@@ -1440,7 +1440,7 @@
           }
         },
         "60": {
-          "value": "$core.dark-theme.black",
+          "value": "{core.dark-theme.black}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -1453,7 +1453,7 @@
           }
         },
         "90": {
-          "value": "$core.dark-theme.black",
+          "value": "{core.dark-theme.black}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
