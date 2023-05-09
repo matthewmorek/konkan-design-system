@@ -3,7 +3,7 @@ on:
   # Any branch you want
   push:
     branches:
-    - feature/design-tokens
+      - feature/design-tokens
   workflow_dispatch:
 
 jobs:
@@ -24,8 +24,9 @@ jobs:
 
       # Sync tokens
       - name: Synchronize tokens with Supernova
-        run: supernova sync-tokens \
-        --apiKey=${{ secrets.SUPERNOVA_API_KEY }} \
-        --designSystemId=27354 \
-        --tokenDirPath="${{ github.workspace }}/design-tokens" \
-        --configFilePath="${{ github.workspace }}/supernova.settings.json" \
+        run: >
+          supernova sync-tokens \
+          --apiKey="${{ secrets.SUPERNOVA_API_KEY }}" \
+          --designSystemId="27354" \
+          --tokenDirPath="${{ github.workspace }}/design-tokens" \
+          --configFilePath="${{ github.workspace }}/supernova.settings.json" \
