@@ -1,1 +1,32 @@
-{}
+{
+  "opacity": {
+    "level-1": {
+      "value": "4*0.01",
+      "type": "opacity"
+    },
+    "level-2": {
+      "value": "4*0.02",
+      "type": "opacity"
+    },
+    "level-3": {
+      "value": "4*0.03",
+      "type": "opacity"
+    },
+    "level-4": {
+      "value": "4*0.04",
+      "type": "opacity"
+    },
+    "level-5": {
+      "value": "4*0.08",
+      "type": "opacity"
+    },
+    "level-6": {
+      "value": "4*0.16",
+      "type": "opacity"
+    },
+    "level-7": {
+      "value": "4*0.24",
+      "type": "opacity"
+    }
+  }
+}
