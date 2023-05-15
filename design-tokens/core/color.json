@@ -2,6 +2,10 @@
   "core": {
     "light-theme": {
       "gray": {
+        "0": {
+          "value": "#ffffff",
+          "type": "color"
+        },
         "50": {
           "value": "#f9f9f9",
           "type": "color",
@@ -56,6 +60,10 @@
           "value": "#1b1b1b",
           "type": "color",
           "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #ffffff"
+        },
+        "1000": {
+          "value": "#000000",
+          "type": "color"
         }
       },
       "red": {
@@ -293,17 +301,23 @@
           "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #ffffff"
         }
       },
-      "black": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "white": {
-        "value": "#ffffff",
-        "type": "color"
+      "static": {
+        "black": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "white": {
+          "value": "#ffffff",
+          "type": "color"
+        }
       }
     },
     "dark-theme": {
       "gray": {
+        "0": {
+          "value": "#000000",
+          "type": "color"
+        },
         "50": {
           "value": "#080808",
           "type": "color",
@@ -358,6 +372,10 @@
           "value": "#e8e8e8",
           "type": "color",
           "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #000000"
+        },
+        "1000": {
+          "value": "#ffffff",
+          "type": "color"
         }
       },
       "red": {
@@ -595,13 +613,15 @@
           "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #000000"
         }
       },
-      "black": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "white": {
-        "value": "#ffffff",
-        "type": "color"
+      "static": {
+        "black": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "white": {
+          "value": "#ffffff",
+          "type": "color"
+        }
       }
     }
   }

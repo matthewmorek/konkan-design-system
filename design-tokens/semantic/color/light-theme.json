@@ -13,17 +13,17 @@
           "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the second layer, on top of Base Background"
         },
         "layer-2": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.gray.0}",
           "type": "color",
           "description": "Use ion large regions of layout and not for component backgrounds. \n\nUse as the third layer, on top of Layer 1 Background"
         },
         "static-black": {
-          "value": "{core.light-theme.black}",
+          "value": "{core.light-theme.static.black}",
           "type": "color",
           "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or light themes"
         },
         "static-white": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.static.white}",
           "type": "color",
           "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or light themes"
         },
@@ -50,7 +50,7 @@
       },
       "text": {
         "primary": {
-          "value": "{core.light-theme.black}",
+          "value": "{core.light-theme.gray.1000}",
           "type": "color",
           "description": "Used as primary text like titles"
         },
@@ -60,7 +60,7 @@
           "description": "Used as a subtle text color like on body text"
         },
         "inverse": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.gray.0}",
           "type": "color",
           "description": "Used for text on color"
         },
@@ -92,7 +92,7 @@
       },
       "icon": {
         "primary": {
-          "value": "{core.light-theme.black}",
+          "value": "{core.light-theme.gray.1000}",
           "type": "color",
           "description": "Used as primary icon color"
         },
@@ -102,7 +102,7 @@
           "description": "Used as a subtle icon color"
         },
         "inverse": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.gray.0}",
           "type": "color",
           "description": "Used for icon on color"
         },
@@ -129,7 +129,7 @@
       },
       "border": {
         "primary": {
-          "value": "{core.light-theme.black}",
+          "value": "{core.light-theme.gray.1000}",
           "type": "color",
           "description": "Used for primary border"
         },
@@ -144,7 +144,7 @@
           "description": "Used for tertiary border"
         },
         "inverse": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.gray.0}",
           "type": "color",
           "description": "Used for border on color"
         },
@@ -311,7 +311,7 @@
         },
         "content": {
           "on-solid": {
-            "value": "{core.light-theme.white}",
+            "value": "{core.light-theme.static.white}",
             "type": "color",
             "description": "Use on accent content such as text or icon when they are on solid color."
           },
@@ -462,7 +462,7 @@
         },
         "content": {
           "on-solid": {
-            "value": "{core.light-theme.white}",
+            "value": "{core.light-theme.static.white}",
             "type": "color",
             "description": "Use on neutral content such as text or icon when they are on solid color."
           },
@@ -477,12 +477,12 @@
         "container": {
           "solid": {
             "enabled": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders."
             },
             "hovered": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -496,7 +496,7 @@
               }
             },
             "pressed": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -510,7 +510,7 @@
               }
             },
             "focused": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -524,7 +524,7 @@
               }
             },
             "dragged": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -540,7 +540,7 @@
           },
           "transparent": {
             "enabled": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and b",
               "$extensions": {
@@ -554,7 +554,7 @@
               }
             },
             "hovered": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state.",
               "$extensions": {
@@ -568,7 +568,7 @@
               }
             },
             "pressed": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state.",
               "$extensions": {
@@ -582,7 +582,7 @@
               }
             },
             "focused": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
               "$extensions": {
@@ -596,7 +596,7 @@
               }
             },
             "dragged": {
-              "value": "{core.light-theme.white}",
+              "value": "{core.light-theme.static.white}",
               "type": "color",
               "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state.",
               "$extensions": {
@@ -613,12 +613,12 @@
         },
         "content": {
           "on-solid": {
-            "value": "{core.light-theme.black}",
+            "value": "{core.light-theme.static.black}",
             "type": "color",
             "description": "Use on neutral inverse content such as text or icon when they are on solid color."
           },
           "on-transparent": {
-            "value": "{core.light-theme.white}",
+            "value": "{core.light-theme.static.white}",
             "type": "color",
             "description": "Use on neutral inverse content such as text or icon when they are on transparent color."
           }
@@ -764,7 +764,7 @@
         },
         "content": {
           "on-solid": {
-            "value": "{core.light-theme.white}",
+            "value": "{core.light-theme.static.white}",
             "type": "color",
             "description": "Use on informative content such as text or icon when they are on solid color."
           },
@@ -915,7 +915,7 @@
         },
         "content": {
           "on-solid": {
-            "value": "{core.light-theme.white}",
+            "value": "{core.light-theme.static.white}",
             "type": "color",
             "description": "Use on positive content such as text or icon when they are on solid color."
           },
@@ -1066,7 +1066,7 @@
         },
         "content": {
           "on-solid": {
-            "value": "{core.light-theme.white}",
+            "value": "{core.light-theme.static.white}",
             "type": "color",
             "description": "Use on warning content such as text or icon when they are on solid color."
           },
@@ -1217,7 +1217,7 @@
         },
         "content": {
           "on-solid": {
-            "value": "{core.light-theme.white}",
+            "value": "{core.light-theme.static.white}",
             "type": "color",
             "description": "Use on negative content such as text or icon when they are on solid color."
           },
@@ -1230,7 +1230,7 @@
       },
       "disabled": {
         "container": {
-          "value": "{core.light-theme.black}",
+          "value": "{core.light-theme.static.black}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -1249,7 +1249,7 @@
       },
       "disabled-inverse": {
         "container": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.static.white}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -1287,42 +1287,42 @@
     "scrim": {
       "white": {
         "30": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.static.white}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.3",
+                "value": "{opacity.level-5}",
                 "space": "srgb"
               }
             }
           }
         },
         "60": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.static.white}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.6",
+                "value": "{opacity.level-6}",
                 "space": "srgb"
               }
             }
           }
         },
         "90": {
-          "value": "{core.light-theme.white}",
+          "value": "{core.light-theme.static.white}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.9",
+                "value": "{opacity.level-7}",
                 "space": "srgb"
               }
             }
@@ -1331,41 +1331,41 @@
       },
       "black": {
         "30": {
-          "value": "{core.light-theme.black}",
+          "value": "{core.light-theme.static.black}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.3",
+                "value": "{opacity.level-5}",
                 "space": "srgb"
               }
             }
           }
         },
         "60": {
-          "value": "{core.light-theme.black}",
+          "value": "{core.light-theme.static.black}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.6",
+                "value": "{opacity.level-6}",
                 "space": "srgb"
               }
             }
           }
         },
         "90": {
-          "value": "{core.light-theme.black}",
+          "value": "{core.light-theme.static.black}",
           "type": "color",
           "description": "Used as overlay",
           "$extensions": {
             "studio.tokens": {
               "modify": {
                 "type": "alpha",
-                "value": "0.9",
+                "value": "{opacity.level-7}",
                 "space": "srgb"
               }
             }
