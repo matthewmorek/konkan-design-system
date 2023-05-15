@@ -173,20 +173,6 @@
     "interactive": {
       "accent": {
         "container": {
-          "disabled": {
-            "value": "{sem.static.brand.accent}",
-            "type": "color",
-            "description": "Use for Background and Borders on a disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
           "solid": {
             "enabled": {
               "value": "{sem.static.brand.accent}",
@@ -324,11 +310,6 @@
           }
         },
         "content": {
-          "disabled": {
-            "value": "{sem.static.brand.accent}",
-            "type": "color",
-            "description": "Use on accent content such as text or icon when they are on disable state."
-          },
           "on-solid": {
             "value": "{core.light-theme.white}",
             "type": "color",
@@ -343,20 +324,6 @@
       },
       "neutral": {
         "container": {
-          "disabled": {
-            "value": "{core.light-theme.black}",
-            "type": "color",
-            "description": "Use for Background and Borders on a disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
           "solid": {
             "enabled": {
               "value": "{core.light-theme.gray.900}",
@@ -494,11 +461,6 @@
           }
         },
         "content": {
-          "disabled": {
-            "value": "{core.light-theme.gray.900}",
-            "type": "color",
-            "description": "Use on neutral content such as text or icon when they are on disable state."
-          },
           "on-solid": {
             "value": "{core.light-theme.white}",
             "type": "color",
@@ -513,20 +475,6 @@
       },
       "neutral-inverse": {
         "container": {
-          "disabled": {
-            "value": "{core.light-theme.white}",
-            "type": "color",
-            "description": "Use for Background and Borders on a disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
           "solid": {
             "enabled": {
               "value": "{core.light-theme.white}",
@@ -664,11 +612,6 @@
           }
         },
         "content": {
-          "disabled": {
-            "value": "{core.light-theme.white}",
-            "type": "color",
-            "description": "Use on neutral inverse content such as text or icon when they are on disable state."
-          },
           "on-solid": {
             "value": "{core.light-theme.black}",
             "type": "color",
@@ -683,20 +626,6 @@
       },
       "informative": {
         "container": {
-          "disabled": {
-            "value": "{core.light-theme.blue.600}",
-            "type": "color",
-            "description": "Use for Background and Borders on a disable state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
           "solid": {
             "enabled": {
               "value": "{core.light-theme.blue.600}",
@@ -834,11 +763,6 @@
           }
         },
         "content": {
-          "disabled": {
-            "value": "{core.light-theme.blue.600}",
-            "type": "color",
-            "description": "Use on informative content such as text or icon when they are on disable state."
-          },
           "on-solid": {
             "value": "{core.light-theme.white}",
             "type": "color",
@@ -853,20 +777,6 @@
       },
       "positive": {
         "container": {
-          "disabled": {
-            "value": "{core.light-theme.green.600}",
-            "type": "color",
-            "description": "Use for Background and Outlines",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
           "solid": {
             "enabled": {
               "value": "{core.light-theme.green.600}",
@@ -1004,11 +914,6 @@
           }
         },
         "content": {
-          "disabled": {
-            "value": "{core.light-theme.green.600}",
-            "type": "color",
-            "description": "Use on positive content such as text or icon when they are on disable state."
-          },
           "on-solid": {
             "value": "{core.light-theme.white}",
             "type": "color",
@@ -1023,20 +928,6 @@
       },
       "warning": {
         "container": {
-          "disabled": {
-            "value": "{core.light-theme.orange.600}",
-            "type": "color",
-            "description": "Use for Background and Outlines",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
           "solid": {
             "enabled": {
               "value": "{core.light-theme.orange.600}",
@@ -1174,11 +1065,6 @@
           }
         },
         "content": {
-          "disabled": {
-            "value": "{core.light-theme.orange.600}",
-            "type": "color",
-            "description": "Use on warning content such as text or icon when they are on disable state."
-          },
           "on-solid": {
             "value": "{core.light-theme.white}",
             "type": "color",
@@ -1193,20 +1079,6 @@
       },
       "negative": {
         "container": {
-          "disabled": {
-            "value": "{core.light-theme.red.600}",
-            "type": "color",
-            "description": "Use for Background and Outlines",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
-          },
           "solid": {
             "enabled": {
               "value": "{core.light-theme.red.600}",
@@ -1344,11 +1216,6 @@
           }
         },
         "content": {
-          "disabled": {
-            "value": "{core.light-theme.red.600}",
-            "type": "color",
-            "description": "Use on negative content such as text or icon when they are on disable state."
-          },
           "on-solid": {
             "value": "{core.light-theme.white}",
             "type": "color",
@@ -1359,6 +1226,44 @@
             "type": "color",
             "description": "Use on negative content such as text or icon when they are on transparent color."
           }
+        }
+      },
+      "disabled": {
+        "container": {
+          "value": "{core.light-theme.black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.12",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "content": {
+          "value": "{core.light-theme.gray.600}",
+          "type": "color"
+        }
+      },
+      "disabled-inverse": {
+        "container": {
+          "value": "{core.light-theme.white}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.12",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "content": {
+          "value": "{core.light-theme.gray.200}",
+          "type": "color"
         }
       }
     },
