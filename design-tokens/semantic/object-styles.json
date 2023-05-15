@@ -151,5 +151,31 @@
         "type": "boxShadow"
       }
     }
+  },
+  "state-layer": {
+    "disabled": {
+      "value": "{opacity.level-3}",
+      "type": "opacity"
+    },
+    "enabled": {
+      "value": "{opacity.level-2}",
+      "type": "opacity"
+    },
+    "hovered": {
+      "value": "{opacity.level-2}",
+      "type": "opacity"
+    },
+    "pressed": {
+      "value": "{opacity.level-3}",
+      "type": "opacity"
+    },
+    "focused": {
+      "value": "{opacity.level-3}",
+      "type": "opacity"
+    },
+    "dragged": {
+      "value": "{opacity.level-4}",
+      "type": "opacity"
+    }
   }
 }
