@@ -7,6 +7,7 @@
     "core/typography",
     "core/object-styles",
     "semantic/colors",
+    "semantic/dark-theme-overrides",
     "semantic/layout",
     "semantic/typography",
     "semantic/object-styles",

@@ -14,7 +14,7 @@
       "layer-2": {
         "value": "{gray.0}",
         "type": "color",
-        "description": "Use ion large regions of layout and not for component backgrounds. \n\nUse as the third layer, on top of Layer 1 Background"
+        "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the third layer, on top of Layer 1 Background"
       },
       "static-black": {
         "value": "{static.black}",
@@ -1295,7 +1295,7 @@
   },
   "scrim": {
     "white": {
-      "30": {
+      "semi-transparent:": {
         "value": "{static.white}",
         "type": "color",
         "description": "Used as overlay",
@@ -1309,7 +1309,7 @@
           }
         }
       },
-      "60": {
+      "translucent": {
         "value": "{static.white}",
         "type": "color",
         "description": "Used as overlay",
@@ -1323,7 +1323,7 @@
           }
         }
       },
-      "90": {
+      "semi-opaque": {
         "value": "{static.white}",
         "type": "color",
         "description": "Used as overlay",
@@ -1339,7 +1339,7 @@
       }
     },
     "black": {
-      "30": {
+      "semi-transparent:": {
         "value": "{static.black}",
         "type": "color",
         "description": "Used as overlay",
@@ -1353,7 +1353,7 @@
           }
         }
       },
-      "60": {
+      "translucent": {
         "value": "{static.black}",
         "type": "color",
         "$extensions": {
@@ -1366,7 +1366,7 @@
           }
         }
       },
-      "90": {
+      "semi-opaque": {
         "value": "{static.black}",
         "type": "color",
         "description": "Used as overlay",
