@@ -6,16 +6,14 @@
       "core/layout": "source",
       "core/typography": "source",
       "core/object-styles": "source",
-      "semantic/color/static": "enabled",
       "semantic/typography": "enabled",
-      "toyota/semantic/color/static": "enabled",
       "breakpoints/xsmall": "enabled",
-      "semantic/color/light-theme": "enabled",
       "semantic/layout": "enabled",
       "semantic/object-styles": "enabled",
-      "core/static": "source",
-      "core/dark-theme": "disabled",
-      "core/light-theme": "source"
+      "core/color/static": "source",
+      "core/color/light-theme": "source",
+      "semantic/colors": "enabled",
+      "toyota/semantic/colors": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.static.brand.primary": "S:29865d8d94a13d2cbb79a15ab231da5d50fadaee,",
@@ -158,15 +156,13 @@
       "core/layout": "source",
       "core/typography": "source",
       "core/object-styles": "enabled",
-      "semantic/color/static": "enabled",
-      "semantic/color/light-theme": "enabled",
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled",
       "semantic/layout": "enabled",
       "semantic/object-styles": "enabled",
-      "core/static": "source",
-      "core/dark-theme": "disabled",
-      "core/light-theme": "source"
+      "core/color/static": "source",
+      "core/color/light-theme": "source",
+      "semantic/colors": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.general.background.base": "S:fde8459fe07685f5cd54bec56fc329249e8ff8ca,",
@@ -309,15 +305,13 @@
       "core/layout": "source",
       "core/typography": "source",
       "core/object-styles": "source",
-      "semantic/color/static": "enabled",
-      "semantic/color/dark-theme": "enabled",
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled",
       "semantic/layout": "enabled",
       "semantic/object-styles": "enabled",
-      "core/static": "source",
-      "core/dark-theme": "source",
-      "core/light-theme": "disabled"
+      "core/color/static": "source",
+      "core/color/dark-theme": "source",
+      "semantic/colors": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.color.static.brand.primary": "S:29af66e7bbc4698b888dda6856fcd38212801b50,",
@@ -456,16 +450,14 @@
       "core/layout": "source",
       "core/typography": "source",
       "core/object-styles": "source",
-      "semantic/color/static": "enabled",
-      "semantic/color/dark-theme": "enabled",
       "semantic/typography": "enabled",
-      "toyota/semantic/color/static": "enabled",
       "breakpoints/xsmall": "enabled",
       "semantic/layout": "enabled",
       "semantic/object-styles": "enabled",
-      "core/static": "source",
-      "core/dark-theme": "source",
-      "core/light-theme": "disabled"
+      "core/color/static": "source",
+      "core/color/dark-theme": "source",
+      "semantic/colors": "enabled",
+      "toyota/semantic/colors": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.static.brand.primary": "S:3f1f5f33c67b7042a920d07097585af4ed7f2bda,",
