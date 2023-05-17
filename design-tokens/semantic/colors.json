@@ -1296,89 +1296,30 @@
   "scrim": {
     "white": {
       "semi-transparent:": {
-        "value": "{static-white}",
-        "type": "color",
-        "description": "Used as overlay",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "{opacity.level-5}",
-              "space": "srgb"
-            }
-          }
-        }
+        "value": "{transparent-white-300}",
+        "type": "color"
       },
       "translucent": {
-        "value": "{static-white}",
-        "type": "color",
-        "description": "Used as overlay",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "{opacity.level-6}",
-              "space": "srgb"
-            }
-          }
-        }
+        "value": "{transparent-white-500}",
+        "type": "color"
       },
       "semi-opaque": {
-        "value": "{static-white}",
-        "type": "color",
-        "description": "Used as overlay",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "{opacity.level-7}",
-              "space": "srgb"
-            }
-          }
-        }
+        "value": "{transparent-white-800}",
+        "type": "color"
       }
     },
     "black": {
       "semi-transparent:": {
-        "value": "{static-black}",
-        "type": "color",
-        "description": "Used as overlay",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "{opacity.level-5}",
-              "space": "srgb"
-            }
-          }
-        }
+        "value": "{transparent-black-300}",
+        "type": "color"
       },
       "translucent": {
-        "value": "{static-black}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "{opacity.level-6}",
-              "space": "srgb"
-            }
-          }
-        }
+        "value": "{transparent-black-500}",
+        "type": "color"
       },
       "semi-opaque": {
-        "value": "{static-black}",
-        "type": "color",
-        "description": "Used as overlay",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "{opacity.level-7}",
-              "space": "srgb"
-            }
-          }
-        }
+        "value": "{transparent-black-800}",
+        "type": "color"
       }
     }
   }
