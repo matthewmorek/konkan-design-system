@@ -1295,30 +1295,30 @@
   },
   "scrim": {
     "white": {
-      "semi-transparent:": {
-        "value": "{transparent-white-300}",
+      "semi-transparent": {
+        "value": "{static.transparent.white.300}",
         "type": "color"
       },
       "translucent": {
-        "value": "{transparent-white-500}",
+        "value": "{static.transparent.white.500}",
         "type": "color"
       },
       "semi-opaque": {
-        "value": "{transparent-white-800}",
+        "value": "{static.transparent.white.800}",
         "type": "color"
       }
     },
     "black": {
       "semi-transparent:": {
-        "value": "{transparent-black-300}",
+        "value": "{static.transparent.black.300}",
         "type": "color"
       },
       "translucent": {
-        "value": "{transparent-black-500}",
+        "value": "{static.transparent.black.500}",
         "type": "color"
       },
       "semi-opaque": {
-        "value": "{transparent-black-800}",
+        "value": "{static.transparent.black.800}",
         "type": "color"
       }
     }
