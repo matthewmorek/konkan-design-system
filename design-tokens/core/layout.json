@@ -1,18 +1,16 @@
 {
-  "core": {
-    "const": {
-      "baseline-grid-unit": {
-        "value": "4*{core.const.platform-scale}",
-        "type": "sizing"
-      },
-      "rounding-unit": {
-        "value": "{core.const.baseline-grid-unit}/2",
-        "type": "sizing"
-      },
-      "platform-scale": {
-        "value": "1",
-        "type": "sizing"
-      }
+  "layout-constants": {
+    "baseline-grid-unit": {
+      "value": "4*{layout-constants.platform-scale}",
+      "type": "sizing"
+    },
+    "rounding-unit": {
+      "value": "{layout-constants.baseline-grid-unit}/2",
+      "type": "sizing"
+    },
+    "platform-scale": {
+      "value": "1",
+      "type": "sizing"
     }
   }
 }
