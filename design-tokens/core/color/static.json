@@ -1,12 +1,10 @@
 {
-  "static": {
-    "black": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "white": {
-      "value": "#ffffff",
-      "type": "color"
-    }
+  "static-black": {
+    "value": "#000000",
+    "type": "color"
+  },
+  "static-white": {
+    "value": "#ffffff",
+    "type": "color"
   }
 }
