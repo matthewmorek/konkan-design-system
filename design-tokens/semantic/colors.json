@@ -17,12 +17,12 @@
         "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the third layer, on top of Layer 1 Background"
       },
       "static-black": {
-        "value": "{black}",
+        "value": "{static.black}",
         "type": "color",
         "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or light themes"
       },
       "static-white": {
-        "value": "{white}",
+        "value": "{static.white}",
         "type": "color",
         "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or light themes"
       },
@@ -310,7 +310,7 @@
       },
       "content": {
         "on-solid": {
-          "value": "{white}",
+          "value": "{static.white}",
           "type": "color",
           "description": "Use on accent content such as text or icon when they are on solid color."
         },
@@ -461,7 +461,7 @@
       },
       "content": {
         "on-solid": {
-          "value": "{white}",
+          "value": "{static.white}",
           "type": "color",
           "description": "Use on neutral content such as text or icon when they are on solid color."
         },
@@ -476,12 +476,12 @@
       "container": {
         "solid": {
           "enabled": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders."
           },
           "hovered": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state.",
             "$extensions": {
@@ -495,7 +495,7 @@
             }
           },
           "pressed": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state.",
             "$extensions": {
@@ -509,7 +509,7 @@
             }
           },
           "focused": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
             "$extensions": {
@@ -523,7 +523,7 @@
             }
           },
           "dragged": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state.",
             "$extensions": {
@@ -539,7 +539,7 @@
         },
         "transparent": {
           "enabled": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and b",
             "$extensions": {
@@ -553,7 +553,7 @@
             }
           },
           "hovered": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state.",
             "$extensions": {
@@ -567,7 +567,7 @@
             }
           },
           "pressed": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state.",
             "$extensions": {
@@ -581,7 +581,7 @@
             }
           },
           "focused": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
             "$extensions": {
@@ -595,7 +595,7 @@
             }
           },
           "dragged": {
-            "value": "{white}",
+            "value": "{static.white}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state.",
             "$extensions": {
@@ -612,12 +612,12 @@
       },
       "content": {
         "on-solid": {
-          "value": "{black}",
+          "value": "{static.black}",
           "type": "color",
           "description": "Use on neutral inverse content such as text or icon when they are on solid color."
         },
         "on-transparent": {
-          "value": "{white}",
+          "value": "{static.white}",
           "type": "color",
           "description": "Use on neutral inverse content such as text or icon when they are on transparent color."
         }
@@ -763,7 +763,7 @@
       },
       "content": {
         "on-solid": {
-          "value": "{white}",
+          "value": "{static.white}",
           "type": "color",
           "description": "Use on informative content such as text or icon when they are on solid color."
         },
@@ -914,7 +914,7 @@
       },
       "content": {
         "on-solid": {
-          "value": "{white}",
+          "value": "{static.white}",
           "type": "color",
           "description": "Use on positive content such as text or icon when they are on solid color."
         },
@@ -1065,7 +1065,7 @@
       },
       "content": {
         "on-solid": {
-          "value": "{white}",
+          "value": "{static.white}",
           "type": "color",
           "description": "Use on warning content such as text or icon when they are on solid color."
         },
@@ -1216,7 +1216,7 @@
       },
       "content": {
         "on-solid": {
-          "value": "{white}",
+          "value": "{static.white}",
           "type": "color",
           "description": "Use on negative content such as text or icon when they are on solid color."
         },
@@ -1229,7 +1229,7 @@
     },
     "disabled": {
       "container": {
-        "value": "{black}",
+        "value": "{static.black}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -1248,7 +1248,7 @@
     },
     "disabled-inverse": {
       "container": {
-        "value": "{white}",
+        "value": "{static.white}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
