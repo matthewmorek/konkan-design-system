@@ -11,77 +11,77 @@
     "transparent": {
       "white": {
         "100": {
-          "value": "hsba(0, 0%, 100%, 0)",
+          "value": "rgba(255,255,255, 0)",
           "type": "color"
         },
         "200": {
-          "value": "hsba(0, 0%, 100%, 0.1)",
+          "value": "rgba(255,255,255, 0.1)",
           "type": "color"
         },
         "300": {
-          "value": "hsba(0, 0%, 100%, 0.25)",
+          "value": "rgba(255,255,255, 0.25)",
           "type": "color"
         },
         "400": {
-          "value": "hsba(0, 0%, 100%, 0.4)",
+          "value": "rgba(255,255,255, 0.4)",
           "type": "color"
         },
         "500": {
-          "value": "hsba(0, 0%, 100%, 0.55)",
+          "value": "rgba(255,255,255, 0.55)",
           "type": "color"
         },
         "600": {
-          "value": "hsba(0, 0%, 100%, 0.7)",
+          "value": "rgba(255,255,255, 0.7)",
           "type": "color"
         },
         "700": {
-          "value": "hsba(0, 0%, 100%, 0.8)",
+          "value": "rgba(255,255,255, 0.8)",
           "type": "color"
         },
         "800": {
-          "value": "hsba(0, 0%, 100%, 0.9)",
+          "value": "rgba(255,255,255, 0.9)",
           "type": "color"
         },
         "900": {
-          "value": "hsba(0, 0%, 100%, 1)",
+          "value": "rgba(255,255,255, 1)",
           "type": "color"
         }
       },
       "black": {
         "100": {
-          "value": "hsba(0, 0%, 0%, 0)",
+          "value": "rgba(0,0,0, 0)",
           "type": "color"
         },
         "200": {
-          "value": "hsba(0, 0%, 0%, 0.1)",
+          "value": "rgba(0,0,0, 0.1)",
           "type": "color"
         },
         "300": {
-          "value": "hsba(0, 0%, 0%, 0.25)",
+          "value": "rgba(0,0,0, 0.25)",
           "type": "color"
         },
         "400": {
-          "value": "hsba(0, 0%, 0%, 0.4)",
+          "value": "rgba(0,0,0, 0.4)",
           "type": "color"
         },
         "500": {
-          "value": "hsba(0, 0%, 0%, 0.55)",
+          "value": "rgba(0,0,0, 0.55)",
           "type": "color"
         },
         "600": {
-          "value": "hsba(0, 0%, 0%, 0.7)",
+          "value": "rgba(0,0,0, 0.7)",
           "type": "color"
         },
         "700": {
-          "value": "hsba(0, 0%, 0%, 0.8)",
+          "value": "rgba(0,0,0, 0.8)",
           "type": "color"
         },
         "800": {
-          "value": "hsba(0, 0%, 0%, 0.9)",
+          "value": "rgba(0,0,0, 0.9)",
           "type": "color"
         },
         "900": {
-          "value": "hsba(0, 0%, 0%, 1)",
+          "value": "rgba(0,0,0, 1)",
           "type": "color"
         }
       }
