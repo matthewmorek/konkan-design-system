@@ -1,4 +1,4 @@
-name: "Token synchronisation with Supernova"
+name: "Tokens Studio → Supernova"
 on:
   # Any branch you want
   push:
@@ -47,11 +47,11 @@ jobs:
                       "fields": [
                         {
                           "type": "mrkdwn",
-                          "text": `*Workflow:* ${process.env.AS_WORKFLOW}`
+                          "text": `*Workflow:*\n${process.env.AS_WORKFLOW}`
                         },
                         {
                           "type": "mrkdwn",
-                          "text": "*Status:* ${{ job.status }}"
+                          "text": "*Status:*\n${{ job.status }}"
                         }
                       ]
                     },
@@ -65,7 +65,7 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": `<https://github.com/${process.env.AS_REPO}|${process.env.AS_REPO}>`
+                          "text": `${process.env.AS_REPO}`
                         }
                       ]
                     }
