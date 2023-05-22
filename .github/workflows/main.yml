@@ -34,6 +34,9 @@ jobs:
         uses: 8398a7/action-slack@v3.15.1
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          STATUS_ICON: "${{ job.status }}' === 'success' ? ':tada:' : '${{ job.status }}' === 'failure' ? 'danger' : ':warning:'"
+          STATUS_TEXT: "${{ job.status }}' === 'success' ? 'Complete' : '${{ job.status }}' === 'failure' ? 'Failed' : 'Failed'"
+          STATUS_COLOR: "${{ job.status }}' === 'success' ? '#5CB589' : '${{ job.status }}' === 'failure' ? 'danger' : '#FF6B6B'"
         with:
           status: custom
           fields: all
@@ -44,13 +47,13 @@ jobs:
                    "type": "section",
                    "text": {
                       "type": "mrkdwn",
-                      "text": "*Workflow:*\n${process.env.AS_WORKFLOW}"
+                      "text": `${{ env.STATUS_ICON }} Synchronisation ${{ env.STATUS_TEXT }}`
                    }
                 },
               ],
               "attachments": [
                 {
-                  "color": "#5CB589",
+                  "color": "${{ env.STATUS_COLOR }}",
                   "blocks": [
                     {
                       "type": "section",
