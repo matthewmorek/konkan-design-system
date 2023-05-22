@@ -64,29 +64,29 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": "*Status:*\n${{ job.status }}"
+                          "text": "*Status:*\n${{ env.STATUS_TEXT }}"
                         }
                       ]
                     },
-                  ]
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "context",
-                  "elements": [
                     {
-                      "type": "image",
-                      "image_url": "https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/24px/github.png",
-                      "alt_text": "github icon"
+                      "type": "divider"
                     },
                     {
-                      "type": "mrkdwn",
-                      "text": `${process.env.AS_REPO}`
+                      "type": "context",
+                      "elements": [
+                        {
+                          "type": "image",
+                          "image_url": "https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/24px/github.png",
+                          "alt_text": "github icon"
+                        },
+                        {
+                          "type": "mrkdwn",
+                          "text": `${process.env.AS_REPO}`
+                        }
+                      ]
                     }
                   ]
-                }
+                },
               ]
             }
         if: always()
