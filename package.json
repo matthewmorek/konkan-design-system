@@ -8,6 +8,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@supernovaio/cli": "^0.9.20"
+    "@supernovaio/cli": "^0.9.23"
   }
 }
