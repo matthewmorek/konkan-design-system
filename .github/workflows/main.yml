@@ -31,8 +31,46 @@ jobs:
 
       # Slack integration
       - name: Slack notification
-        uses: rtCamp/action-slack-notify@v2
+        uses: 8398a7/action-slack@v3.15.1
         env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
-          SLACK_COLOR: ${{ job.status }}
-          MSG_MINIMAL: true
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+          custom_payload: |
+            {
+              "attachments": [
+                {
+                  "blocks": [
+                    {
+                      "type": "section",
+                      "fields": [
+                        {
+                          "type": "mrkdwn",
+                          "text": "*Workflow:* ${{ env.workflow }}"
+                        },
+                        {
+                          "type": "mrkdwn",
+                          "text": "*Status:* ${{ env.status }}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "context",
+                      "elements": [
+                        {
+                          "type": "image",
+                          "image_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+                          "alt_text": "github icon"
+                        },
+                        {
+                          "type": "mrkdwn",
+                          "text": "<${{ env.GITHUB_SERVER_URL }}/${{ env.GITHUB_REPOSITORY }}|${{ env.GITHUB_REPOSITORY }}> | ${{ env.GITHUB_WORKFLOW }}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+        if: always()
