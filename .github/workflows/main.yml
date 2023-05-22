@@ -1,8 +1,8 @@
-name: "Tokens Studio → Supernova"
+name: "Design Tokens Sync (Production)"
 on:
   push:
     branches:
-      - feature/*
+      - main
   workflow_dispatch:
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
           --apiKey="${{ secrets.SUPERNOVA_API_KEY }}" \
           --designSystemId="24475" \
           --tokenDirPath="${{ github.workspace }}/design-tokens" \
-          --configFilePath="${{ github.workspace }}/supernova.settings.json"
+          --configFilePath="${{ github.workspace }}/supernova.settings.prod.json"
 
       - name: Set current date as env variable
         run: echo "CURRENT_DATE=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV && echo "CURRENT_TIMESTAMP=$(date +%s)" >> $GITHUB_ENV
@@ -68,7 +68,7 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": "*Date:*\n<!date^${{ env.CURRENT_TIMESTAMP }}^{date_short}|${{ env.CURRENT_DATE }}>"
+                          "text": "*Date:*\n<!date^${{ env.CURRENT_TIMESTAMP }}^{date_short_pretty} at {time}|${{ env.CURRENT_DATE }}>"
                         }
                       ]
                     },
