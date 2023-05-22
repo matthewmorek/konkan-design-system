@@ -9,6 +9,8 @@ on:
 jobs:
   sync_tokens:
     runs-on: ubuntu-latest
+    # env:
+    #   SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
       - uses: actions/checkout@v3
@@ -28,3 +30,12 @@ jobs:
           --designSystemId="24475" \
           --tokenDirPath="${{ github.workspace }}/design-tokens" \
           --configFilePath="${{ github.workspace }}/supernova.settings.json"
+
+      # Slack integration
+      - name: Slack notification
+        uses: act10ns/slack@v2.0.0
+        with:
+          status: ${{ job.status }}
+          steps: ${{ toJson(steps) }}
+          channel: '@matthewmorek'
+        if: always()
