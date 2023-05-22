@@ -1,6 +1,5 @@
 name: "Tokens Studio → Supernova"
 on:
-  # Any branch you want
   push:
     branches:
       - feature/*
@@ -29,6 +28,8 @@ jobs:
           --tokenDirPath="${{ github.workspace }}/design-tokens" \
           --configFilePath="${{ github.workspace }}/supernova.settings.json"
 
+      - name: Set current date as env variable
+        run: echo "CURRENT_DATE=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
       # Slack integration
       - name: Slack notification
         uses: 8398a7/action-slack@v3.15.1
@@ -37,6 +38,7 @@ jobs:
           STATUS_ICON: ${{ (job.status == 'success' && ':tada:') || (job.status == 'failure' && ':warning:' ) }}
           STATUS_TEXT: ${{ (job.status == 'success' && 'Complete') || (job.status == 'failure' && 'Failed' ) }}
           STATUS_COLOR: ${{ (job.status == 'success' && '#5CB589') || (job.status == 'failure' && '#FF6B6B' ) }}
+          CURRENT_DATE: ${{ env.CURRENT_DATE }}
         with:
           status: custom
           fields: all
@@ -65,6 +67,14 @@ jobs:
                         {
                           "type": "mrkdwn",
                           "text": "*Status:*\n${{ env.STATUS_TEXT }}"
+                        },
+                        {
+                          "type": "mrkdwn",
+                          "text": `*Triggered by:*\n${process.env.AS_AUTHOR}`
+                        },
+                        {
+                          "type": "mrkdwn",
+                          "text": "*Date:*\n${{ env.CURRENT_DATE }}"
                         }
                       ]
                     },
@@ -81,7 +91,7 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": `${process.env.AS_REPO}`
+                          "text": `${process.env.AS_PULL_REQUEST || process.env.AS_REPO} | ${{ env.CURRENT_DATE }}`
                         }
                       ]
                     }
