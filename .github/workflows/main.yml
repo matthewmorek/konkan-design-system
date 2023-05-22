@@ -36,7 +36,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         with:
           status: custom
-          # fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
           custom_payload: |
             {
               "attachments": [
@@ -47,11 +47,11 @@ jobs:
                       "fields": [
                         {
                           "type": "mrkdwn",
-                          "text": "*Workflow:* ${{ env.workflow }}"
+                          "text": "*Workflow:* ${process.env.workflow}"
                         },
                         {
                           "type": "mrkdwn",
-                          "text": "*Status:* ${{ env.status }}"
+                          "text": "*Status:* ${process.env.status}"
                         }
                       ]
                     },
@@ -65,7 +65,7 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": "<${{ env.GITHUB_SERVER_URL }}/${{ env.GITHUB_REPOSITORY }}|${{ env.GITHUB_REPOSITORY }}> | ${{ env.GITHUB_WORKFLOW }}"
+                          "text": "<${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}|${process.env.GITHUB_REPOSITORY}> | ${process.env.GITHUB_WORKFLOW}"
                         }
                       ]
                     }
