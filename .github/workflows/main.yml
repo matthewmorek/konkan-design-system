@@ -3,7 +3,7 @@ on:
   # Any branch you want
   push:
     branches:
-      - feature/design-tokens
+      - feature/*
   workflow_dispatch:
 
 jobs:
