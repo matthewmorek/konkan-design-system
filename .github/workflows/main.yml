@@ -1,4 +1,4 @@
-name: Supernova <> Figma Token sync
+name: "Token synchronisation with Supernova"
 on:
   # Any branch you want
   push:
@@ -41,7 +41,6 @@ jobs:
             {
               "attachments": [
                 {
-                  "color": "good",
                   "blocks": [
                     {
                       "type": "section",
@@ -66,7 +65,7 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": `${process.env.AS_PULL_REQUEST}`
+                          "text": `<https://github.com/${process.env.AS_REPO}|${process.env.AS_REPO}>`
                         }
                       ]
                     }
