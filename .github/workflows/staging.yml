@@ -1,0 +1,95 @@
+name: "Design Tokens Sync (Staging)"
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  sync_tokens:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
+      - uses: actions/checkout@v3
+      # Setup node to use with CLI. 14+ is required
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      # Install Supernova CLI
+      - name: Install Supernova CLI dependency
+        run: npm install --g @supernovaio/cli
+
+      # Sync tokens
+      - name: Synchronize tokens with Supernova
+        run: |
+          supernova sync-tokens \
+          --apiKey="${{ secrets.SUPERNOVA_API_KEY }}" \
+          --designSystemId="27354" \
+          --tokenDirPath="${{ github.workspace }}/design-tokens" \
+          --configFilePath="${{ github.workspace }}/supernova.settings.staging.json"
+
+      - name: Set current date as env variable
+        run: echo "CURRENT_DATE=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV && echo "CURRENT_TIMESTAMP=$(date +%s)" >> $GITHUB_ENV
+        if: always()
+
+      # Slack integration
+      - name: Slack notification
+        uses: 8398a7/action-slack@v3.15.1
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          STATUS_ICON: ${{ (job.status == 'success' && ':tada:') || (job.status == 'failure' && ':warning:' ) }}
+          STATUS_TEXT: ${{ (job.status == 'success' && 'Complete') || (job.status == 'failure' && 'Failed' ) }}
+          STATUS_COLOR: ${{ (job.status == 'success' && '#5CB589') || (job.status == 'failure' && '#FF6B6B' ) }}
+          CURRENT_DATE: ${{ env.CURRENT_DATE }}
+          CURRENT_TIMESTAMP: ${{ env.CURRENT_TIMESTAMP }}
+        with:
+          status: custom
+          fields: all
+          custom_payload: |
+            {
+              "blocks": [
+                {
+                   "type": "section",
+                   "text": {
+                      "type": "mrkdwn",
+                      "text": `${{ env.STATUS_ICON }} Token Sync ${{ env.STATUS_TEXT }}`
+                   }
+                },
+              ],
+              "attachments": [
+                {
+                  "color": "${{ env.STATUS_COLOR }}",
+                  "blocks": [
+                    {
+                      "type": "section",
+                      "fields": [
+                        {
+                          "type": "mrkdwn",
+                          "text": `*Workflow:*\n${process.env.AS_WORKFLOW}`
+                        },
+                        {
+                          "type": "mrkdwn",
+                          "text": "*Date:*\n<!date^${{ env.CURRENT_TIMESTAMP }}^{date_short_pretty} at {time}|${{ env.CURRENT_DATE }}>"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "divider"
+                    },
+                    {
+                      "type": "context",
+                      "elements": [
+                        {
+                          "type": "image",
+                          "image_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+                          "alt_text": "github icon"
+                        },
+                        {
+                          "type": "mrkdwn",
+                          "text": `${process.env.AS_PULL_REQUEST !== 'n/a' ? process.env.AS_PULL_REQUEST : process.env.AS_REPO}`
+                        }
+                      ]
+                    }
+                  ]
+                },
+              ]
+            }
+        if: always()

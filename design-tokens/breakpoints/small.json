@@ -14,13 +14,5 @@
         "type": "sizing"
       }
     }
-  },
-  "test": {
-    "grid": {
-      "margin": {
-        "value": "24",
-        "type": "spacing"
-      }
-    }
   }
 }

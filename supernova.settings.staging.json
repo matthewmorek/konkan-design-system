@@ -1,0 +1,20 @@
+{
+  "mode": "multi-file",
+  "mapping": [
+    {
+      "tokensTheme": "base-light-theme",
+      "supernovaBrand": "4d1a9860-b89f-400e-b297-20ce378decf2",
+      "supernovaTheme": null
+    },
+    {
+      "tokensTheme": "base-dark-theme",
+      "supernovaBrand": "4d1a9860-b89f-400e-b297-20ce378decf2",
+      "supernovaTheme": "25c39006-9fb1-455c-8534-b31ec428d4d6"
+    }
+  ],
+  "settings": {
+    "dryRun": false,
+    "verbose": true,
+    "preciseCopy": true
+  }
+}

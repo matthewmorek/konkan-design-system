@@ -1,0 +1,13 @@
+{
+  "name": "konkan-design-system",
+  "version": "0.1.0",
+  "description": "A monorepo containing libraries serving Konkan Design Tokens for various UI frameworks",
+  "main": "index.js",
+  "repository": "https://matthewmorek@github.com/matthewmorek/konkan-design-system.git",
+  "author": "Matthew Morek <matthew.morek@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@supernovaio/cli": "^0.9.23"
+  }
+}

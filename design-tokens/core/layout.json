@@ -1,22 +1,16 @@
 {
-  "core": {
-    "grid": {
-      "baseline-grid": {
-        "value": "4",
-        "type": "sizing"
-      },
-      "rounding-unit": {
-        "value": "{core.grid.baseline-grid}/2",
-        "type": "sizing"
-      }
-    }
-  },
-  "test": {
-    "grid": {
-      "margin": {
-        "value": "16",
-        "type": "spacing"
-      }
+  "layout-constants": {
+    "baseline-grid-unit": {
+      "value": "4*{layout-constants.platform-scale}",
+      "type": "sizing"
+    },
+    "rounding-unit": {
+      "value": "{layout-constants.baseline-grid-unit}/2",
+      "type": "sizing"
+    },
+    "platform-scale": {
+      "value": "1",
+      "type": "sizing"
     }
   }
 }
