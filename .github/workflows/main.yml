@@ -36,5 +36,5 @@ jobs:
           webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           status: ${{ job.status }}
           steps: ${{ toJson(steps) }}
-          channel: '@matthewmorek'
+          config: .github/config/slack.yml
         if: always()
