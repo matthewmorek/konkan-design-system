@@ -3,13 +3,13 @@
   "mapping": [
     {
       "tokensTheme": "base-light-theme",
-      "supernovaBrand": "4d1a9860-b89f-400e-b297-20ce378decf2",
+      "supernovaBrand": "2aa6ab8f-20c0-44a2-9e26-9a9a43b1125a",
       "supernovaTheme": null
     },
     {
       "tokensTheme": "base-dark-theme",
-      "supernovaBrand": "4d1a9860-b89f-400e-b297-20ce378decf2",
-      "supernovaTheme": "25c39006-9fb1-455c-8534-b31ec428d4d6"
+      "supernovaBrand": "2aa6ab8f-20c0-44a2-9e26-9a9a43b1125a",
+      "supernovaTheme": "1b3b7cca-4ad1-4a5e-90c6-78464d56a621"
     }
   ],
   "settings": {
