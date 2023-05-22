@@ -30,6 +30,7 @@ jobs:
 
       - name: Set current date as env variable
         run: echo "CURRENT_DATE=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+        run: echo "CURRENT_TIMESTAMP=$(date +'%s')" >> $GITHUB_ENV
       # Slack integration
       - name: Slack notification
         uses: 8398a7/action-slack@v3.15.1
@@ -39,6 +40,7 @@ jobs:
           STATUS_TEXT: ${{ (job.status == 'success' && 'Complete') || (job.status == 'failure' && 'Failed' ) }}
           STATUS_COLOR: ${{ (job.status == 'success' && '#5CB589') || (job.status == 'failure' && '#FF6B6B' ) }}
           CURRENT_DATE: ${{ env.CURRENT_DATE }}
+          CURRENT_TIMESTAMP: ${{ env.CURRENT_TIMESTAMP }}
         with:
           status: custom
           fields: all
@@ -66,15 +68,7 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": "*Status:*\n${{ env.STATUS_TEXT }}"
-                        },
-                        {
-                          "type": "mrkdwn",
-                          "text": `*Triggered by:*\n${process.env.AS_AUTHOR}`
-                        },
-                        {
-                          "type": "mrkdwn",
-                          "text": "*Date:*\n${{ env.CURRENT_DATE }}"
+                          "text": "*Date:*\n<!date^${{ env.CURRENT_TIMESTAMP }}^{date_short}|${{ env.CURRENT_DATE }}>"
                         }
                       ]
                     },
@@ -91,7 +85,7 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": `${process.env.AS_PULL_REQUEST || process.env.AS_REPO} | ${{ env.CURRENT_DATE }}`
+                          "text": `${process.env.AS_PULL_REQUEST !== 'n/a' ? process.env.AS_PULL_REQUEST : process.env.AS_REPO}`
                         }
                       ]
                     }
