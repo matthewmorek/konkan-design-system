@@ -76,7 +76,7 @@ jobs:
                       "elements": [
                         {
                           "type": "image",
-                          "image_url": "https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/24px/github.png",
+                          "image_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
                           "alt_text": "github icon"
                         },
                         {
