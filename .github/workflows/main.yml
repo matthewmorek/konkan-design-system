@@ -41,17 +41,18 @@ jobs:
             {
               "attachments": [
                 {
+                  "color": "good",
                   "blocks": [
                     {
                       "type": "section",
                       "fields": [
                         {
                           "type": "mrkdwn",
-                          "text": "*Workflow:* ${process.env.workflow}"
+                          "text": `*Workflow:* ${workflow.name}`
                         },
                         {
                           "type": "mrkdwn",
-                          "text": "*Status:* ${process.env.status}"
+                          "text": `*Status:* ${job.status}`
                         }
                       ]
                     },
@@ -65,7 +66,7 @@ jobs:
                         },
                         {
                           "type": "mrkdwn",
-                          "text": "<${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}|${process.env.GITHUB_REPOSITORY}> | ${process.env.GITHUB_WORKFLOW}"
+                          "text": `<${process.env.GITHUB_SERVER_URL}/${repo}|${repo}> | ${workflow.name}`
                         }
                       ]
                     }
