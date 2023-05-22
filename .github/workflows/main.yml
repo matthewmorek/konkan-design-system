@@ -9,8 +9,8 @@ on:
 jobs:
   sync_tokens:
     runs-on: ubuntu-latest
-    # env:
-    #   SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
       - uses: actions/checkout@v3
