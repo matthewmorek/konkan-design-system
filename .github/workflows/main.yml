@@ -39,8 +39,18 @@ jobs:
           fields: all
           custom_payload: |
             {
+              "blocks": [
+                {
+                   "type": "section",
+                   "text": {
+                      "type": "mrkdwn",
+                      "text": "*Workflow:*\n${process.env.AS_WORKFLOW}"
+                   }
+                },
+              ],
               "attachments": [
                 {
+                  "color": "#5CB589",
                   "blocks": [
                     {
                       "type": "section",
@@ -55,19 +65,22 @@ jobs:
                         }
                       ]
                     },
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "context",
+                  "elements": [
                     {
-                      "type": "context",
-                      "elements": [
-                        {
-                          "type": "image",
-                          "image_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-                          "alt_text": "github icon"
-                        },
-                        {
-                          "type": "mrkdwn",
-                          "text": `${process.env.AS_REPO}`
-                        }
-                      ]
+                      "type": "image",
+                      "image_url": "https://cdn.jsdelivr.net/gh/dmhendricks/signature-social-icons/icons/round-flat-filled/24px/github.png",
+                      "alt_text": "github icon"
+                    },
+                    {
+                      "type": "mrkdwn",
+                      "text": `${process.env.AS_REPO}`
                     }
                   ]
                 }
