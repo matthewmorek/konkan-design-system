@@ -31,6 +31,7 @@ jobs:
 
       - name: Set current date as env variable
         run: echo "CURRENT_DATE=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV && echo "CURRENT_TIMESTAMP=$(date +%s)" >> $GITHUB_ENV
+        if: always()
 
       # Slack integration
       - name: Slack notification
