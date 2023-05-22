@@ -47,7 +47,7 @@ jobs:
                    "type": "section",
                    "text": {
                       "type": "mrkdwn",
-                      "text": `${{ env.STATUS_ICON }} Synchronisation ${{ env.STATUS_TEXT }}`
+                      "text": `${{ env.STATUS_ICON }} Token Sync ${{ env.STATUS_TEXT }}`
                    }
                 },
               ],
