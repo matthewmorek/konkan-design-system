@@ -10,6 +10,16 @@
       "tokensTheme": "base-dark-theme",
       "supernovaBrand": "4d1a9860-b89f-400e-b297-20ce378decf2",
       "supernovaTheme": "25c39006-9fb1-455c-8534-b31ec428d4d6"
+    },
+    {
+      "tokensTheme": "toyota-light-theme",
+      "supernovaBrand": "e686e020-f967-11ed-9a71-515c7de19f37",
+      "supernovaTheme": null
+    },
+    {
+      "tokensTheme": "toyota-dark-theme",
+      "supernovaBrand": "e686e020-f967-11ed-9a71-515c7de19f37",
+      "supernovaTheme": "5c91d2b2-9cc7-4d7c-895e-fe2d382a6496"
     }
   ],
   "settings": {
