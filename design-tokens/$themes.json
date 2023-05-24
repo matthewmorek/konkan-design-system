@@ -699,7 +699,7 @@
       "promotional.new": "S:8fd94a4ece7ef8dc27fe1eb407b206737dfad23f,",
       "promotional.notification": "S:53af1571b2f8443bdb471dfdb8178e283b9ae38b,",
       "scrim.white.semi-opaque": "S:b767c82a8f564257268f76271b4ee96bb44d0bb0,",
-      "scrim.white.semi-transparent": "S:e0e2f81232e20bf42b7d59a031301156799d95e9,"
+      "scrim.white.semi-transparent": "S:b417a875f2ab23de34f19edf8b69f42b7d3b7c77,"
     }
   },
   {
@@ -966,8 +966,14 @@
       "promotional.sale": "S:3195ccb89c78b09c783ee4ebfb9f866df3e72a73,",
       "promotional.new": "S:8fd94a4ece7ef8dc27fe1eb407b206737dfad23f,",
       "promotional.notification": "S:53af1571b2f8443bdb471dfdb8178e283b9ae38b,",
-      "brand.primary": "S:742c105c0e7cc3a525de3d0aa20640529e7b4195,",
-      "brand.accent": "S:3e9f40332cd54cf771f2fd2629a128a8d069d0ae,"
+      "brand.primary": "S:aee2f63756986bcfc549546a00397fd902dbdd5f,",
+      "brand.accent": "S:47604badb49042c3ecfb89d1d905327bb9130977,",
+      "scrim.white.semi-transparent": "S:b417a875f2ab23de34f19edf8b69f42b7d3b7c77,",
+      "scrim.white.translucent": "S:91993386142e83e87df706ed39acd227f320b1bd,",
+      "scrim.white.semi-opaque": "S:b767c82a8f564257268f76271b4ee96bb44d0bb0,",
+      "scrim.black.semi-transparent:": "S:89778050069d5a9ae37ba9c80c0bbe7f04254b38,",
+      "scrim.black.translucent": "S:7f2e9c6b32936b537c4c9b34b025d6ea25f8c7ae,",
+      "scrim.black.semi-opaque": "S:16e1d6e4d961f065aa50e08eed4cbe1728b4d8d5,"
     }
   }
 ]
