@@ -1,81 +1,80 @@
 {
   "space": {
-    "2xsmall": {
-      "value": "{layout-constants.baseline-grid-unit}",
+    "0": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*0",
       "type": "spacing"
     },
-    "xsmall": {
-      "value": "{layout-constants.baseline-grid-unit}*2",
+    "25": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*0.25",
       "type": "spacing"
     },
-    "small": {
-      "value": "{layout-constants.baseline-grid-unit}*3",
+    "50": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*0.5",
       "type": "spacing"
     },
-    "medium": {
-      "value": "{layout-constants.baseline-grid-unit}*4",
+    "75": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*0.75",
       "type": "spacing"
     },
-    "large": {
-      "value": "{layout-constants.baseline-grid-unit}*6",
+    "100": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*1",
       "type": "spacing"
     },
-    "xlarge": {
-      "value": "{layout-constants.baseline-grid-unit}*8",
+    "150": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*1.5",
       "type": "spacing"
     },
-    "2xlarge": {
-      "value": "{layout-constants.baseline-grid-unit}*16",
+    "200": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*2",
       "type": "spacing"
     },
-    "inset": {
-      "2xsmall": {
-        "value": "{space.2xsmall} {space.2xsmall}",
-        "type": "spacing"
-      },
-      "xsmall": {
-        "value": "{space.xsmall} {space.xsmall}",
-        "type": "spacing"
-      },
-      "small": {
-        "value": "{space.small} {space.small}",
-        "type": "spacing"
-      },
-      "medium": {
-        "value": "{space.medium} {space.medium}",
-        "type": "spacing"
-      },
-      "large": {
-        "value": "{space.large} {space.large}",
-        "type": "spacing"
-      },
-      "xlarge": {
-        "value": "{space.xlarge} {space.xlarge}",
-        "type": "spacing"
-      },
-      "2xlarge": {
-        "value": "{space.2xlarge} {space.2xlarge}",
-        "type": "spacing"
-      }
-    }
-  },
-  "layout-grid": {
-    "margins": {
-      "value": "0 {space.small}",
+    "250": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*2.5",
       "type": "spacing"
     },
-    "gutters": {
-      "value": "0 {space.small}",
+    "300": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*3",
       "type": "spacing"
     },
-    "columns": {
-      "value": "4",
+    "400": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*4",
       "type": "spacing"
     },
-    "max-width": {
-      "value": "{breakpoint.viewport.max}",
-      "type": "spacing",
-      "description": "Override this to set a max-width for the grid at larger breakpoints"
+    "500": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*5",
+      "type": "spacing"
+    },
+    "600": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*6",
+      "type": "spacing"
+    },
+    "700": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*7",
+      "type": "spacing"
+    },
+    "800": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*8",
+      "type": "spacing"
+    },
+    "900": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*9",
+      "type": "spacing"
+    },
+    "1000": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*10",
+      "type": "spacing"
+    },
+    "1100": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*11",
+      "type": "spacing"
+    },
+    "1200": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*12",
+      "type": "spacing"
+    },
+    "2000": {
+      "value": "({layout-constants.baseline-grid-unit}*2)*20",
+      "type": "spacing"
     }
   }
 }
