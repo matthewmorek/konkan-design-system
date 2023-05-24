@@ -325,70 +325,34 @@
       "container": {
         "solid": {
           "enabled": {
-            "value": "{gray.900}",
+            "value": "{gray.1000}",
             "type": "color",
             "description": "Use on neutral elements such as backgrounds and borders."
           },
           "hovered": {
             "value": "{gray.900}",
             "type": "color",
-            "description": "Use on neutral elements such as backgrounds and borders, when they are on hover state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "0.08",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral elements such as backgrounds and borders, when they are on hover state."
           },
           "pressed": {
-            "value": "{gray.900}",
+            "value": "{gray.800}",
             "type": "color",
-            "description": "Use on neutral elements such as backgrounds and borders, when they are on press state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral elements such as backgrounds and borders, when they are on press state."
           },
           "focused": {
-            "value": "{gray.900}",
+            "value": "{gray.800}",
             "type": "color",
-            "description": "Use on neutral elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border."
           },
           "dragged": {
-            "value": "{gray.900}",
+            "value": "{gray.700}",
             "type": "color",
-            "description": "Use on neutral elements such as backgrounds and borders, when they are on drag state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "0.16",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral elements such as backgrounds and borders, when they are on drag state."
           }
         },
         "transparent": {
           "enabled": {
-            "value": "{gray.900}",
+            "value": "{gray.1000}",
             "type": "color",
             "description": "Use on neutral elements such as backgrounds and borders.",
             "$extensions": {
@@ -402,7 +366,7 @@
             }
           },
           "hovered": {
-            "value": "{gray.900}",
+            "value": "{gray.1000}",
             "type": "color",
             "description": "Use on accent elements such as backgrounds and borders, when they are on hover state.",
             "$extensions": {
@@ -416,7 +380,7 @@
             }
           },
           "pressed": {
-            "value": "{gray.900}",
+            "value": "{gray.1000}",
             "type": "color",
             "description": "Use on neutral elements such as backgrounds and borders, when they are on press state.",
             "$extensions": {
@@ -430,7 +394,7 @@
             }
           },
           "focused": {
-            "value": "{gray.900}",
+            "value": "{gray.1000}",
             "type": "color",
             "description": "Use on neutral elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
             "$extensions": {
@@ -444,7 +408,7 @@
             }
           },
           "dragged": {
-            "value": "{gray.900}",
+            "value": "{gray.1000}",
             "type": "color",
             "description": "Use on neutral elements such as backgrounds and borders, when they are on drag state.",
             "$extensions": {
@@ -461,12 +425,12 @@
       },
       "content": {
         "on-solid": {
-          "value": "{static.white}",
+          "value": "{gray.0}",
           "type": "color",
           "description": "Use on neutral content such as text or icon when they are on solid color."
         },
         "on-transparent": {
-          "value": "{gray.900}",
+          "value": "{gray.1000}",
           "type": "color",
           "description": "Use on neutral content such as text or icon when they are on transparent color."
         }
@@ -476,70 +440,34 @@
       "container": {
         "solid": {
           "enabled": {
-            "value": "{static.white}",
+            "value": "{gray.0}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders."
           },
           "hovered": {
-            "value": "{static.white}",
+            "value": "{gray.50}",
             "type": "color",
-            "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "0.08",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state."
           },
           "pressed": {
-            "value": "{static.white}",
+            "value": "{gray.75}",
             "type": "color",
-            "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state."
           },
           "focused": {
-            "value": "{static.white}",
+            "value": "{gray.75}",
             "type": "color",
-            "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "0.12",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border."
           },
           "dragged": {
-            "value": "{static.white}",
+            "value": "{gray.100}",
             "type": "color",
-            "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state.",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "0.16",
-                  "space": "srgb"
-                }
-              }
-            }
+            "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state."
           }
         },
         "transparent": {
           "enabled": {
-            "value": "{static.white}",
+            "value": "{gray.0}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and b",
             "$extensions": {
@@ -553,7 +481,7 @@
             }
           },
           "hovered": {
-            "value": "{static.white}",
+            "value": "{gray.0}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on hover state.",
             "$extensions": {
@@ -567,7 +495,7 @@
             }
           },
           "pressed": {
-            "value": "{static.white}",
+            "value": "{gray.0}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on press state.",
             "$extensions": {
@@ -581,7 +509,7 @@
             }
           },
           "focused": {
-            "value": "{static.white}",
+            "value": "{gray.0}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on focus state.\n\nAccompanied by a focus border: 2px of space between the edge of the component and a black or white border.",
             "$extensions": {
@@ -595,7 +523,7 @@
             }
           },
           "dragged": {
-            "value": "{static.white}",
+            "value": "{gray.0}",
             "type": "color",
             "description": "Use on neutral inverse elements such as backgrounds and borders, when they are on drag state.",
             "$extensions": {
@@ -612,12 +540,12 @@
       },
       "content": {
         "on-solid": {
-          "value": "{static.black}",
+          "value": "{gray.1000}",
           "type": "color",
           "description": "Use on neutral inverse content such as text or icon when they are on solid color."
         },
         "on-transparent": {
-          "value": "{static.white}",
+          "value": "{gray.0}",
           "type": "color",
           "description": "Use on neutral inverse content such as text or icon when they are on transparent color."
         }
