@@ -8,12 +8,11 @@
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled",
       "semantic/layout": "enabled",
-      "semantic/object-styles": "enabled",
       "semantic/colors": "enabled",
-      "core/color/light": "disabled",
       "core/color/dark": "source",
       "core/objectStyles": "source",
-      "semantic/darkOverrides": "enabled"
+      "semantic/darkOverrides": "enabled",
+      "semantic/objectStyles": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.color.static.brand.primary": "S:29af66e7bbc4698b888dda6856fcd38212801b50,",
@@ -154,13 +153,12 @@
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled",
       "semantic/layout": "enabled",
-      "semantic/object-styles": "enabled",
       "semantic/colors": "enabled",
       "toyota/semantic/colors": "enabled",
-      "core/color/light": "disabled",
       "core/color/dark": "source",
       "core/objectStyles": "source",
-      "semantic/darkOverrides": "enabled"
+      "semantic/darkOverrides": "enabled",
+      "semantic/objectStyles": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.static.brand.primary": "S:3f1f5f33c67b7042a920d07097585af4ed7f2bda,",
@@ -436,13 +434,11 @@
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled",
       "semantic/layout": "enabled",
-      "semantic/object-styles": "enabled",
       "semantic/colors": "enabled",
       "toyota/semantic/colors": "enabled",
       "core/color/light": "source",
-      "core/color/dark": "disabled",
       "core/objectStyles": "source",
-      "semantic/darkOverrides": "disabled"
+      "semantic/objectStyles": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.static.brand.primary": "S:29865d8d94a13d2cbb79a15ab231da5d50fadaee,",
@@ -712,12 +708,10 @@
       "semantic/typography": "enabled",
       "breakpoints/xsmall": "enabled",
       "semantic/layout": "enabled",
-      "semantic/object-styles": "enabled",
       "semantic/colors": "enabled",
       "core/color/light": "source",
-      "core/color/dark": "disabled",
       "core/objectStyles": "source",
-      "semantic/darkOverrides": "disabled"
+      "semantic/objectStyles": "enabled"
     },
     "$figmaStyleReferences": {
       "sem.general.background.base": "S:fde8459fe07685f5cd54bec56fc329249e8ff8ca,",
