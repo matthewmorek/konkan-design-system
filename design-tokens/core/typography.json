@@ -1,8 +1,8 @@
 {
-  "font-size-constants": {
+  "fontSizeConstants": {
     "min": {
-      "base-font-size": {
-        "value": "{layout-constants.baseline-grid-unit}*4.5",
+      "baseFontSize": {
+        "value": "{layoutConstants.baselineGridUnit}*4.5",
         "type": "fontSizes",
         "description": "Base font-size minimum"
       },
@@ -18,8 +18,8 @@
       }
     },
     "max": {
-      "base-font-size": {
-        "value": "{layout-constants.baseline-grid-unit}*4.5",
+      "baseFontSize": {
+        "value": "{layoutConstants.baselineGridUnit}*4.5",
         "type": "fontSizes",
         "description": "Base font-size maximum"
       },
@@ -35,505 +35,505 @@
       }
     }
   },
-  "font-scale": {
+  "fontScale": {
     "0": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(-4/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(-4/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(-4/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(-4/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.0.max}-{font-scale.0.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.0.max}-{fontScale.0.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.0.max} - {breakpoint.viewport.max} * {font-scale.0.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.0.max} - {breakpoint.viewport.max} * {fontScale.0.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.0.v} + {font-scale.0.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.0.v} + {fontScale.0.r})",
         "type": "fontSizes"
       }
     },
     "25": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(-3/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(-3/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(-3/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(-3/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.25.max}-{font-scale.25.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.25.max}-{fontScale.25.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.25.max} - {breakpoint.viewport.max} * {font-scale.25.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.25.max} - {breakpoint.viewport.max} * {fontScale.25.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.25.v} + {font-scale.25.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.25.v} + {fontScale.25.r})",
         "type": "fontSizes"
       }
     },
     "50": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(-2/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(-2/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(-2/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(-2/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.50.max}-{font-scale.50.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.50.max}-{fontScale.50.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.50.max} - {breakpoint.viewport.max} * {font-scale.50.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.50.max} - {breakpoint.viewport.max} * {fontScale.50.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.50.v} + {font-scale.50.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.50.v} + {fontScale.50.r})",
         "type": "fontSizes"
       }
     },
     "75": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(-1/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(-1/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(-1/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(-1/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.75.max}-{font-scale.75.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.75.max}-{fontScale.75.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.75.max} - {breakpoint.viewport.max} * {font-scale.75.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.75.max} - {breakpoint.viewport.max} * {fontScale.75.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.75.v} + {font-scale.75.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.75.v} + {fontScale.75.r})",
         "type": "fontSizes"
       }
     },
     "100": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(0/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(0/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(0/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(0/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.100.max}-{font-scale.100.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.100.max}-{fontScale.100.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.100.max} - {breakpoint.viewport.max} * {font-scale.100.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.100.max} - {breakpoint.viewport.max} * {fontScale.100.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.100.v} + {font-scale.100.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.100.v} + {fontScale.100.r})",
         "type": "fontSizes"
       }
     },
     "200": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(1/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(1/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(1/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(1/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.200.max}-{font-scale.200.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.200.max}-{fontScale.200.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.200.max} - {breakpoint.viewport.max} * {font-scale.200.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.200.max} - {breakpoint.viewport.max} * {fontScale.200.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.200.v} + {font-scale.200.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.200.v} + {fontScale.200.r})",
         "type": "fontSizes"
       }
     },
     "300": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(2/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(2/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(2/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(2/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.300.max}-{font-scale.300.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.300.max}-{fontScale.300.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.300.max} - {breakpoint.viewport.max} * {font-scale.300.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.300.max} - {breakpoint.viewport.max} * {fontScale.300.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.300.v} + {font-scale.300.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.300.v} + {fontScale.300.r})",
         "type": "fontSizes"
       }
     },
     "400": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(3/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(3/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(3/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(3/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.400.max}-{font-scale.400.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.400.max}-{fontScale.400.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.400.max} - {breakpoint.viewport.max} * {font-scale.400.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.400.max} - {breakpoint.viewport.max} * {fontScale.400.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.400.v} + {font-scale.400.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.400.v} + {fontScale.400.r})",
         "type": "fontSizes"
       }
     },
     "500": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(4/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(4/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(4/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(4/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.500.max}-{font-scale.500.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.500.max}-{fontScale.500.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.500.max} - {breakpoint.viewport.max} * {font-scale.500.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.500.max} - {breakpoint.viewport.max} * {fontScale.500.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.500.v} + {font-scale.500.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.500.v} + {fontScale.500.r})",
         "type": "fontSizes"
       }
     },
     "600": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(5/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(5/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(5/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(5/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.600.max}-{font-scale.600.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.600.max}-{fontScale.600.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.600.max} - {breakpoint.viewport.max} * {font-scale.600.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.600.max} - {breakpoint.viewport.max} * {fontScale.600.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.600.v} + {font-scale.600.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.600.v} + {fontScale.600.r})",
         "type": "fontSizes"
       }
     },
     "700": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(6/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(6/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(6/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(6/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.700.max}-{font-scale.700.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.700.max}-{fontScale.700.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.700.max} - {breakpoint.viewport.max} * {font-scale.700.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.700.max} - {breakpoint.viewport.max} * {fontScale.700.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.700.v} + {font-scale.700.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.700.v} + {fontScale.700.r})",
         "type": "fontSizes"
       }
     },
     "800": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(7/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(7/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(7/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(7/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.800.max}-{font-scale.800.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.800.max}-{fontScale.800.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.800.max} - {breakpoint.viewport.max} * {font-scale.800.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.800.max} - {breakpoint.viewport.max} * {fontScale.800.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.800.v} + {font-scale.800.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.800.v} + {fontScale.800.r})",
         "type": "fontSizes"
       }
     },
     "900": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(8/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(8/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(8/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(8/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.900.max}-{font-scale.900.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.900.max}-{fontScale.900.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.900.max} - {breakpoint.viewport.max} * {font-scale.900.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.900.max} - {breakpoint.viewport.max} * {fontScale.900.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.900.v} + {font-scale.900.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.900.v} + {fontScale.900.r})",
         "type": "fontSizes"
       }
     },
     "1000": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(9/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(9/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(9/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(9/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.1000.max}-{font-scale.1000.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.1000.max}-{fontScale.1000.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.1000.max} - {breakpoint.viewport.max} * {font-scale.1000.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.1000.max} - {breakpoint.viewport.max} * {fontScale.1000.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.1000.v} + {font-scale.1000.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.1000.v} + {fontScale.1000.r})",
         "type": "fontSizes"
       }
     },
     "1100": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(10/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(10/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(10/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(10/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.1100.max}-{font-scale.1100.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.1100.max}-{fontScale.1100.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.1100.max} - {breakpoint.viewport.max} * {font-scale.1100.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.1100.max} - {breakpoint.viewport.max} * {fontScale.1100.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.1100.v} + {font-scale.1100.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.1100.v} + {fontScale.1100.r})",
         "type": "fontSizes"
       }
     },
     "1200": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(11/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(11/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(11/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(11/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.1200.max}-{font-scale.1200.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.1200.max}-{fontScale.1200.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.1200.max} - {breakpoint.viewport.max} * {font-scale.1200.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.1200.max} - {breakpoint.viewport.max} * {fontScale.1200.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.1200.v} + {font-scale.1200.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.1200.v} + {fontScale.1200.r})",
         "type": "fontSizes"
       }
     },
     "1300": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(12/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(12/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(12/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(12/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.1300.max}-{font-scale.1300.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.1300.max}-{fontScale.1300.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.1300.max} - {breakpoint.viewport.max} * {font-scale.1300.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.1300.max} - {breakpoint.viewport.max} * {fontScale.1300.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.1300.v} + {font-scale.1300.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.1300.v} + {fontScale.1300.r})",
         "type": "fontSizes"
       }
     },
     "1400": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(13/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(13/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(13/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(13/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.1400.max}-{font-scale.1400.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.1400.max}-{fontScale.1400.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.1400.max} - {breakpoint.viewport.max} * {font-scale.1400.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.1400.max} - {breakpoint.viewport.max} * {fontScale.1400.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.1400.v} + {font-scale.1400.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.1400.v} + {fontScale.1400.r})",
         "type": "fontSizes"
       }
     },
     "1500": {
       "min": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.min.base-font-size}*{font-size-constants.min.r}^(14/{font-size-constants.min.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.min.baseFontSize}*{fontSizeConstants.min.r}^(14/{fontSizeConstants.min.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "max": {
-        "value": "{layout-constants.rounding-unit}*roundTo(({font-size-constants.max.base-font-size}*{font-size-constants.max.r}^(14/{font-size-constants.max.n})/{layout-constants.rounding-unit}))",
+        "value": "{layoutConstants.roundingUnit}*roundTo(({fontSizeConstants.max.baseFontSize}*{fontSizeConstants.max.r}^(14/{fontSizeConstants.max.n})/{layoutConstants.roundingUnit}))",
         "type": "fontSizes"
       },
       "v": {
-        "value": "100 * ({font-scale.1500.max}-{font-scale.1500.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
+        "value": "100 * ({fontScale.1500.max}-{fontScale.1500.min}) / ({breakpoint.viewport.max}-{breakpoint.viewport.min})",
         "type": "fontSizes"
       },
       "r": {
-        "value": "( {breakpoint.viewport.min} * {font-scale.1500.max} - {breakpoint.viewport.max} * {font-scale.1500.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
+        "value": "( {breakpoint.viewport.min} * {fontScale.1500.max} - {breakpoint.viewport.max} * {fontScale.1500.min}) / ({breakpoint.viewport.min}-{breakpoint.viewport.max})",
         "type": "fontSizes"
       },
       "fluid": {
-        "value": "round(({breakpoint.viewport.width}/100) * {font-scale.1500.v} + {font-scale.1500.r})",
+        "value": "round(({breakpoint.viewport.width}/100) * {fontScale.1500.v} + {fontScale.1500.r})",
         "type": "fontSizes"
       }
     }
   },
-  "font-size": {
+  "fontSize": {
     "0": {
-      "value": "min( max( {font-scale.0.min},  {font-scale.0.fluid}) ,{font-scale.0.max})",
+      "value": "min( max( {fontScale.0.min},  {fontScale.0.fluid}) ,{fontScale.0.max})",
       "type": "fontSizes"
     },
     "25": {
-      "value": "min( max( {font-scale.25.min},  {font-scale.25.fluid}) ,{font-scale.25.max})",
+      "value": "min( max( {fontScale.25.min},  {fontScale.25.fluid}) ,{fontScale.25.max})",
       "type": "fontSizes"
     },
     "50": {
-      "value": "min( max( {font-scale.50.min},  {font-scale.50.fluid}) ,{font-scale.50.max})",
+      "value": "min( max( {fontScale.50.min},  {fontScale.50.fluid}) ,{fontScale.50.max})",
       "type": "fontSizes"
     },
     "75": {
-      "value": "min( max( {font-scale.75.min},  {font-scale.75.fluid}) ,{font-scale.75.max})",
+      "value": "min( max( {fontScale.75.min},  {fontScale.75.fluid}) ,{fontScale.75.max})",
       "type": "fontSizes"
     },
     "100": {
-      "value": "min( max( {font-scale.100.min},  {font-scale.100.fluid}) ,{font-scale.100.max})",
+      "value": "min( max( {fontScale.100.min},  {fontScale.100.fluid}) ,{fontScale.100.max})",
       "type": "fontSizes"
     },
     "200": {
-      "value": "min( max( {font-scale.200.min},  {font-scale.200.fluid}) ,{font-scale.200.max})",
+      "value": "min( max( {fontScale.200.min},  {fontScale.200.fluid}) ,{fontScale.200.max})",
       "type": "fontSizes"
     },
     "300": {
-      "value": "min( max( {font-scale.300.min},  {font-scale.300.fluid}) ,{font-scale.300.max})",
+      "value": "min( max( {fontScale.300.min},  {fontScale.300.fluid}) ,{fontScale.300.max})",
       "type": "fontSizes"
     },
     "400": {
-      "value": "min( max( {font-scale.400.min},  {font-scale.400.fluid}) ,{font-scale.400.max})",
+      "value": "min( max( {fontScale.400.min},  {fontScale.400.fluid}) ,{fontScale.400.max})",
       "type": "fontSizes"
     },
     "500": {
-      "value": "min( max( {font-scale.500.min},  {font-scale.500.fluid}) ,{font-scale.500.max})",
+      "value": "min( max( {fontScale.500.min},  {fontScale.500.fluid}) ,{fontScale.500.max})",
       "type": "fontSizes"
     },
     "600": {
-      "value": "min( max( {font-scale.600.min},  {font-scale.600.fluid}) ,{font-scale.600.max})",
+      "value": "min( max( {fontScale.600.min},  {fontScale.600.fluid}) ,{fontScale.600.max})",
       "type": "fontSizes"
     },
     "700": {
-      "value": "min( max( {font-scale.700.min},  {font-scale.700.fluid}) ,{font-scale.700.max})",
+      "value": "min( max( {fontScale.700.min},  {fontScale.700.fluid}) ,{fontScale.700.max})",
       "type": "fontSizes"
     },
     "800": {
-      "value": "min( max( {font-scale.800.min},  {font-scale.800.fluid}) ,{font-scale.800.max})",
+      "value": "min( max( {fontScale.800.min},  {fontScale.800.fluid}) ,{fontScale.800.max})",
       "type": "fontSizes"
     },
     "900": {
-      "value": "min( max( {font-scale.900.min},  {font-scale.900.fluid}) ,{font-scale.900.max})",
+      "value": "min( max( {fontScale.900.min},  {fontScale.900.fluid}) ,{fontScale.900.max})",
       "type": "fontSizes"
     },
     "1000": {
-      "value": "min( max( {font-scale.1000.min},  {font-scale.1000.fluid}) ,{font-scale.1000.max})",
+      "value": "min( max( {fontScale.1000.min},  {fontScale.1000.fluid}) ,{fontScale.1000.max})",
       "type": "fontSizes"
     },
     "1100": {
-      "value": "min( max( {font-scale.1100.min},  {font-scale.1100.fluid}) ,{font-scale.1100.max})",
+      "value": "min( max( {fontScale.1100.min},  {fontScale.1100.fluid}) ,{fontScale.1100.max})",
       "type": "fontSizes"
     },
     "1200": {
-      "value": "min( max( {font-scale.1200.min},  {font-scale.1200.fluid}) ,{font-scale.1200.max})",
+      "value": "min( max( {fontScale.1200.min},  {fontScale.1200.fluid}) ,{fontScale.1200.max})",
       "type": "fontSizes"
     },
     "1300": {
-      "value": "min( max( {font-scale.1300.min},  {font-scale.1300.fluid}) ,{font-scale.1300.max})",
+      "value": "min( max( {fontScale.1300.min},  {fontScale.1300.fluid}) ,{fontScale.1300.max})",
       "type": "fontSizes"
     },
     "1400": {
-      "value": "min( max( {font-scale.1400.min},  {font-scale.1400.fluid}) ,{font-scale.1400.max})",
+      "value": "min( max( {fontScale.1400.min},  {fontScale.1400.fluid}) ,{fontScale.1400.max})",
       "type": "fontSizes"
     },
     "1500": {
-      "value": "min( max( {font-scale.1500.min},  {font-scale.1500.fluid}) ,{font-scale.1500.max})",
+      "value": "min( max( {fontScale.1500.min},  {fontScale.1500.fluid}) ,{fontScale.1500.max})",
       "type": "fontSizes"
     }
   },
-  "line-height-scale": {
+  "lineHeightScale": {
     "relaxed": {
       "value": "1.5",
       "type": "lineHeights",
@@ -553,7 +553,7 @@
       "type": "lineHeights"
     }
   },
-  "font-family": {
+  "fontFamily": {
     "plain": {
       "value": "Inter",
       "type": "fontFamilies",
@@ -565,12 +565,12 @@
       "description": "Typically used for display and headline text styles"
     }
   },
-  "font-weight": {
+  "fontWeight": {
     "regular": {
       "value": "400",
       "type": "fontWeights"
     },
-    "semi-bold": {
+    "semiBold": {
       "value": "600",
       "type": "fontWeights"
     },
@@ -579,7 +579,7 @@
       "type": "fontWeights"
     }
   },
-  "text-decoration": {
+  "textDecoration": {
     "underline": {
       "value": "underline",
       "type": "textDecoration"
@@ -589,86 +589,86 @@
       "type": "textDecoration"
     }
   },
-  "letter-spacing": {
+  "letterSpacing": {
     "0": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.0}+{letter-spacing-constants.constant} / {font-size.0} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.0}+{letterSpacingConstants.constant} / {fontSize.0} )",
       "type": "letterSpacing"
     },
     "25": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.25}+{letter-spacing-constants.constant} / {font-size.25} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.25}+{letterSpacingConstants.constant} / {fontSize.25} )",
       "type": "letterSpacing"
     },
     "50": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.50}+{letter-spacing-constants.constant} / {font-size.50} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.50}+{letterSpacingConstants.constant} / {fontSize.50} )",
       "type": "letterSpacing"
     },
     "75": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.75}+{letter-spacing-constants.constant} / {font-size.75} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.75}+{letterSpacingConstants.constant} / {fontSize.75} )",
       "type": "letterSpacing"
     },
     "100": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.100}+{letter-spacing-constants.constant} / {font-size.100} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.100}+{letterSpacingConstants.constant} / {fontSize.100} )",
       "type": "letterSpacing"
     },
     "200": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.200}+{letter-spacing-constants.constant} / {font-size.200} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.200}+{letterSpacingConstants.constant} / {fontSize.200} )",
       "type": "letterSpacing"
     },
     "300": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.300}+{letter-spacing-constants.constant} / {font-size.300} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.300}+{letterSpacingConstants.constant} / {fontSize.300} )",
       "type": "letterSpacing"
     },
     "400": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.400}+{letter-spacing-constants.constant} / {font-size.400} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.400}+{letterSpacingConstants.constant} / {fontSize.400} )",
       "type": "letterSpacing"
     },
     "500": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.500}+{letter-spacing-constants.constant} / {font-size.500} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.500}+{letterSpacingConstants.constant} / {fontSize.500} )",
       "type": "letterSpacing"
     },
     "600": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.600}+{letter-spacing-constants.constant} / {font-size.600} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.600}+{letterSpacingConstants.constant} / {fontSize.600} )",
       "type": "letterSpacing"
     },
     "700": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.700}+{letter-spacing-constants.constant} / {font-size.700} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.700}+{letterSpacingConstants.constant} / {fontSize.700} )",
       "type": "letterSpacing"
     },
     "800": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.800}+{letter-spacing-constants.constant} / {font-size.800} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.800}+{letterSpacingConstants.constant} / {fontSize.800} )",
       "type": "letterSpacing"
     },
     "900": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.900}+{letter-spacing-constants.constant} / {font-size.900} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.900}+{letterSpacingConstants.constant} / {fontSize.900} )",
       "type": "letterSpacing"
     },
     "1000": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.1000}+{letter-spacing-constants.constant} / {font-size.1000} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.1000}+{letterSpacingConstants.constant} / {fontSize.1000} )",
       "type": "letterSpacing"
     },
     "1100": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.1100}+{letter-spacing-constants.constant} / {font-size.1100} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.1100}+{letterSpacingConstants.constant} / {fontSize.1100} )",
       "type": "letterSpacing"
     },
     "1200": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.1200}+{letter-spacing-constants.constant} / {font-size.1200} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.1200}+{letterSpacingConstants.constant} / {fontSize.1200} )",
       "type": "letterSpacing"
     },
     "1300": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.1300}+{letter-spacing-constants.constant} / {font-size.1300} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.1300}+{letterSpacingConstants.constant} / {fontSize.1300} )",
       "type": "letterSpacing"
     },
     "1400": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.1400}+{letter-spacing-constants.constant} / {font-size.1400} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.1400}+{letterSpacingConstants.constant} / {fontSize.1400} )",
       "type": "letterSpacing"
     },
     "1500": {
-      "value": "({letter-spacing-constants.font-proportion}*{font-size.1500}+{letter-spacing-constants.constant} / {font-size.1500} )",
+      "value": "({letterSpacingConstants.fontProportion}*{fontSize.1500}+{letterSpacingConstants.constant} / {fontSize.1500} )",
       "type": "letterSpacing"
     }
   },
-  "letter-spacing-constants": {
-    "font-proportion": {
+  "letterSpacingConstants": {
+    "fontProportion": {
       "value": "0.01",
       "type": "letterSpacing",
       "description": "As the font size increases or decreases, the letter spacing should also adjust proportionally to maintain optimal legibility and visual appeal. \n\nThe value of 0.01 is considered a good starting point because it generally results in letter spacing that is legible for most font sizes.\n"
@@ -679,346 +679,346 @@
       "description": "Added to the calculated value of font-proportion * font size. \n\nEnsures that the resulting letter spacing value is not too tight, which can lead to reduced legibility, or too loose, which can affect the visual balance and overall aesthetics of the typography."
     }
   },
-  "line-height": {
+  "lineHeight": {
     "0": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.0}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.0}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.0}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.0}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.0}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.0}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.0}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.0}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "25": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.25}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.25}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.25}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.25}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.25}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.25}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.25}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.25}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "50": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.50}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.50}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.50}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.50}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.50}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.50}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.50}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.50}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "75": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.75}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.75}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.75}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.75}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.75}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.75}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.75}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.75}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "100": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.100}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.100}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.100}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.100}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.100}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.100}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.100}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.100}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "200": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.200}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.200}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.200}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.200}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.200}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.200}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.200}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.200}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "300": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.300}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.300}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.300}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.300}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.300}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.300}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.300}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.300}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "400": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.400}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.400}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.400}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.400}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.400}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.400}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.400}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.400}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "500": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.500}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.500}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.500}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.500}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.500}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.500}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.500}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.500}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "600": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.600}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.600}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.600}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.600}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.600}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.600}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.600}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.600}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "700": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.700}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.700}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.700}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.700}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.700}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.700}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.700}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.700}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "800": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.800}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.800}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.800}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.800}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.800}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.800}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.800}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.800}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "900": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.900}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.900}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.900}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.900}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.900}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.900}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.900}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.900}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "1000": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1000}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1000}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1000}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1000}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1000}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1000}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1000}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1000}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "1100": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1100}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1100}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1100}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1100}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1100}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1100}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1100}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1100}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "1200": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1200}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1200}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1200}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1200}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1200}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1200}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1200}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1200}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "1300": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1300}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1300}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1300}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1300}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1300}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1300}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1300}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1300}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "1400": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1400}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1400}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1400}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1400}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1400}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1400}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1400}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1400}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     },
     "1500": {
       "relaxed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1500}*{line-height-scale.relaxed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1500}*{lineHeightScale.relaxed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "comfortable": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1500}*{line-height-scale.comfortable} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1500}*{lineHeightScale.comfortable} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "compressed": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1500}*{line-height-scale.compressed} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1500}*{lineHeightScale.compressed} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       },
       "tight": {
-        "value": "{layout-constants.rounding-unit} * ceil( {font-size.1500}*{line-height-scale.tight} / {layout-constants.rounding-unit} )",
+        "value": "{layoutConstants.roundingUnit} * ceil( {fontSize.1500}*{lineHeightScale.tight} / {layoutConstants.roundingUnit} )",
         "type": "lineHeights"
       }
     }

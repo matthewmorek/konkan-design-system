@@ -1,79 +1,79 @@
 {
   "space": {
     "0": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*0",
+      "value": "({layoutConstants.baselineGridUnit}*2)*0",
       "type": "spacing"
     },
     "25": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*0.25",
+      "value": "({layoutConstants.baselineGridUnit}*2)*0.25",
       "type": "spacing"
     },
     "50": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*0.5",
+      "value": "({layoutConstants.baselineGridUnit}*2)*0.5",
       "type": "spacing"
     },
     "75": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*0.75",
+      "value": "({layoutConstants.baselineGridUnit}*2)*0.75",
       "type": "spacing"
     },
     "100": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*1",
+      "value": "({layoutConstants.baselineGridUnit}*2)*1",
       "type": "spacing"
     },
     "150": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*1.5",
+      "value": "({layoutConstants.baselineGridUnit}*2)*1.5",
       "type": "spacing"
     },
     "200": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*2",
+      "value": "({layoutConstants.baselineGridUnit}*2)*2",
       "type": "spacing"
     },
     "250": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*2.5",
+      "value": "({layoutConstants.baselineGridUnit}*2)*2.5",
       "type": "spacing"
     },
     "300": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*3",
+      "value": "({layoutConstants.baselineGridUnit}*2)*3",
       "type": "spacing"
     },
     "400": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*4",
+      "value": "({layoutConstants.baselineGridUnit}*2)*4",
       "type": "spacing"
     },
     "500": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*5",
+      "value": "({layoutConstants.baselineGridUnit}*2)*5",
       "type": "spacing"
     },
     "600": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*6",
+      "value": "({layoutConstants.baselineGridUnit}*2)*6",
       "type": "spacing"
     },
     "700": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*7",
+      "value": "({layoutConstants.baselineGridUnit}*2)*7",
       "type": "spacing"
     },
     "800": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*8",
+      "value": "({layoutConstants.baselineGridUnit}*2)*8",
       "type": "spacing"
     },
     "900": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*9",
+      "value": "({layoutConstants.baselineGridUnit}*2)*9",
       "type": "spacing"
     },
     "1000": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*10",
+      "value": "({layoutConstants.baselineGridUnit}*2)*10",
       "type": "spacing"
     },
     "1100": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*11",
+      "value": "({layoutConstants.baselineGridUnit}*2)*11",
       "type": "spacing"
     },
     "1200": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*12",
+      "value": "({layoutConstants.baselineGridUnit}*2)*12",
       "type": "spacing"
     },
     "2000": {
-      "value": "({layout-constants.baseline-grid-unit}*2)*20",
+      "value": "({layoutConstants.baselineGridUnit}*2)*20",
       "type": "spacing"
     }
   }

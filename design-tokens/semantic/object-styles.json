@@ -1,19 +1,19 @@
 {
-  "border-width": {
+  "borderWidth": {
     "xsmall": {
-      "value": "{layout-constants.baseline-grid-unit}/4",
+      "value": "{layoutConstants.baselineGridUnit}/4",
       "type": "borderWidth"
     },
     "small": {
-      "value": "{layout-constants.baseline-grid-unit}/2",
+      "value": "{layoutConstants.baselineGridUnit}/2",
       "type": "borderWidth"
     },
     "medium": {
-      "value": "{layout-constants.baseline-grid-unit}",
+      "value": "{layoutConstants.baselineGridUnit}",
       "type": "borderWidth"
     },
     "large": {
-      "value": "{layout-constants.baseline-grid-unit}*2",
+      "value": "{layoutConstants.baselineGridUnit}*2",
       "type": "borderWidth"
     }
   },
@@ -23,28 +23,28 @@
       "type": "borderRadius"
     },
     "xsmall": {
-      "value": "{layout-constants.baseline-grid-unit}*2",
+      "value": "{layoutConstants.baselineGridUnit}*2",
       "type": "borderRadius"
     },
     "small": {
-      "value": "{layout-constants.baseline-grid-unit}*3",
+      "value": "{layoutConstants.baselineGridUnit}*3",
       "type": "borderRadius"
     },
     "medium": {
-      "value": "{layout-constants.baseline-grid-unit}*4",
+      "value": "{layoutConstants.baselineGridUnit}*4",
       "type": "borderRadius"
     },
     "large": {
-      "value": "{layout-constants.baseline-grid-unit}*6",
+      "value": "{layoutConstants.baselineGridUnit}*6",
       "type": "borderRadius"
     },
     "xlarge": {
-      "value": "{layout-constants.baseline-grid-unit}*8",
+      "value": "{layoutConstants.baselineGridUnit}*8",
       "type": "borderRadius"
     }
   },
   "elevation": {
-    "level-1": {
+    "level1": {
       "value": [
         {
           "x": "0",
@@ -65,7 +65,7 @@
       ],
       "type": "boxShadow"
     },
-    "level-2": {
+    "level2": {
       "value": [
         {
           "x": "0",
@@ -86,7 +86,7 @@
       ],
       "type": "boxShadow"
     },
-    "level-3": {
+    "level3": {
       "value": [
         {
           "x": "0",
@@ -107,7 +107,7 @@
       ],
       "type": "boxShadow"
     },
-    "level-4": {
+    "level4": {
       "value": [
         {
           "x": "0",
@@ -128,7 +128,7 @@
       ],
       "type": "boxShadow"
     },
-    "level-5": {
+    "level5": {
       "value": [
         {
           "x": "0",
@@ -150,29 +150,29 @@
       "type": "boxShadow"
     }
   },
-  "state-layer": {
+  "stateLayer": {
     "disabled": {
-      "value": "{opacity.level-3}",
+      "value": "{opacity.level3}",
       "type": "opacity"
     },
     "enabled": {
-      "value": "{opacity.level-2}",
+      "value": "{opacity.level2}",
       "type": "opacity"
     },
     "hovered": {
-      "value": "{opacity.level-2}",
+      "value": "{opacity.level2}",
       "type": "opacity"
     },
     "pressed": {
-      "value": "{opacity.level-3}",
+      "value": "{opacity.level3}",
       "type": "opacity"
     },
     "focused": {
-      "value": "{opacity.level-3}",
+      "value": "{opacity.level3}",
       "type": "opacity"
     },
     "dragged": {
-      "value": "{opacity.level-4}",
+      "value": "{opacity.level4}",
       "type": "opacity"
     }
   }

@@ -6,23 +6,23 @@
         "type": "color",
         "description": "The background colors will be use in large regions of layout and not for component backgrounds. \n\n• Used as the base layer background."
       },
-      "layer-1": {
+      "layer1": {
         "value": "{gray.50}",
         "type": "color",
         "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the second layer, on top of Base Background"
       },
-      "layer-2": {
+      "layer2": {
         "value": "{gray.0}",
         "type": "color",
         "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the third layer, on top of Layer 1 Background"
       },
-      "static-black": {
-        "value": "{static.black}",
+      "black": {
+        "value": "{black}",
         "type": "color",
         "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or light themes"
       },
-      "static-white": {
-        "value": "{static.white}",
+      "white": {
+        "value": "{white}",
         "type": "color",
         "description": "Use in large regions of layout and not for component backgrounds. \n\nUse on elements that don't change color on dark or light themes"
       },
@@ -63,7 +63,7 @@
         "type": "color",
         "description": "Used for text on color"
       },
-      "inverse-subtle": {
+      "inverseSubtle": {
         "value": "{gray.100}",
         "type": "color",
         "description": "Used as a subtle text color like on body text on color"
@@ -309,12 +309,12 @@
         }
       },
       "content": {
-        "on-solid": {
-          "value": "{static.white}",
+        "onSolid": {
+          "value": "{white}",
           "type": "color",
           "description": "Use on accent content such as text or icon when they are on solid color."
         },
-        "on-transparent": {
+        "onTransparent": {
           "value": "{brand.accent}",
           "type": "color",
           "description": "Use on accent content such as text or icon when they are on transparent color."
@@ -424,12 +424,12 @@
         }
       },
       "content": {
-        "on-solid": {
+        "onSolid": {
           "value": "{gray.0}",
           "type": "color",
           "description": "Use on neutral content such as text or icon when they are on solid color."
         },
-        "on-transparent": {
+        "onTransparent": {
           "value": "{gray.1000}",
           "type": "color",
           "description": "Use on neutral content such as text or icon when they are on transparent color."
@@ -539,12 +539,12 @@
         }
       },
       "content": {
-        "on-solid": {
+        "onSolid": {
           "value": "{gray.1000}",
           "type": "color",
           "description": "Use on neutral inverse content such as text or icon when they are on solid color."
         },
-        "on-transparent": {
+        "onTransparent": {
           "value": "{gray.0}",
           "type": "color",
           "description": "Use on neutral inverse content such as text or icon when they are on transparent color."
@@ -690,12 +690,12 @@
         }
       },
       "content": {
-        "on-solid": {
-          "value": "{static.white}",
+        "onSolid": {
+          "value": "{white}",
           "type": "color",
           "description": "Use on informative content such as text or icon when they are on solid color."
         },
-        "on-transparent": {
+        "onTransparent": {
           "value": "{blue.600}",
           "type": "color",
           "description": "Use on informative content such as text or icon when they are on transparent color."
@@ -841,12 +841,12 @@
         }
       },
       "content": {
-        "on-solid": {
-          "value": "{static.white}",
+        "onSolid": {
+          "value": "{white}",
           "type": "color",
           "description": "Use on positive content such as text or icon when they are on solid color."
         },
-        "on-transparent": {
+        "onTransparent": {
           "value": "{green.600}",
           "type": "color",
           "description": "Use on positive content such as text or icon when they are on transparent color."
@@ -992,12 +992,12 @@
         }
       },
       "content": {
-        "on-solid": {
-          "value": "{static.white}",
+        "onSolid": {
+          "value": "{white}",
           "type": "color",
           "description": "Use on warning content such as text or icon when they are on solid color."
         },
-        "on-transparent": {
+        "onTransparent": {
           "value": "{orange.600}",
           "type": "color",
           "description": "Use on warning content such as text or icon when they are on transparent color."
@@ -1143,12 +1143,12 @@
         }
       },
       "content": {
-        "on-solid": {
-          "value": "{static.white}",
+        "onSolid": {
+          "value": "{white}",
           "type": "color",
           "description": "Use on negative content such as text or icon when they are on solid color."
         },
-        "on-transparent": {
+        "onTransparent": {
           "value": "{red.600}",
           "type": "color",
           "description": "Use on negative content such as text or icon when they are on transparent color."
@@ -1157,7 +1157,7 @@
     },
     "disabled": {
       "container": {
-        "value": "{static.black}",
+        "value": "{black}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -1174,9 +1174,9 @@
         "type": "color"
       }
     },
-    "disabled-inverse": {
+    "disabledInverse": {
       "container": {
-        "value": "{static.white}",
+        "value": "{white}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -1223,30 +1223,30 @@
   },
   "scrim": {
     "white": {
-      "semi-transparent": {
-        "value": "{static.transparent.white.300}",
+      "semiTransparent": {
+        "value": "{transparent.white.300}",
         "type": "color"
       },
       "translucent": {
-        "value": "{static.transparent.white.500}",
+        "value": "{transparent.white.500}",
         "type": "color"
       },
-      "semi-opaque": {
-        "value": "{static.transparent.white.800}",
+      "semiOpaque": {
+        "value": "{transparent.white.800}",
         "type": "color"
       }
     },
     "black": {
-      "semi-transparent:": {
-        "value": "{static.transparent.black.300}",
+      "semiTransparent:": {
+        "value": "{transparent.black.300}",
         "type": "color"
       },
       "translucent": {
-        "value": "{static.transparent.black.500}",
+        "value": "{transparent.black.500}",
         "type": "color"
       },
-      "semi-opaque": {
-        "value": "{static.transparent.black.800}",
+      "semiOpaque": {
+        "value": "{transparent.black.800}",
         "type": "color"
       }
     }

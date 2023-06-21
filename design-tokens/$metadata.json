@@ -1,13 +1,12 @@
 {
   "tokenSetOrder": [
-    "core/color/static",
-    "core/color/light-theme",
-    "core/color/dark-theme",
+    "core/color/light",
+    "core/color/dark",
     "core/layout",
     "core/typography",
-    "core/object-styles",
+    "core/objectStyles",
     "semantic/colors",
-    "semantic/dark-theme-overrides",
+    "semantic/darkOverrides",
     "semantic/layout",
     "semantic/typography",
     "semantic/object-styles",
