@@ -9,7 +9,7 @@
     "semantic/darkOverrides",
     "semantic/layout",
     "semantic/typography",
-    "semantic/object-styles",
+    "semantic/objectStyles",
     "toyota/semantic/colors",
     "breakpoints/xsmall",
     "breakpoints/small"

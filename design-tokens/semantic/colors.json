@@ -244,7 +244,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.enabled}",
+                  "value": "{stateLayer.enabled}",
                   "space": "srgb"
                 }
               }
@@ -258,7 +258,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.hovered}",
+                  "value": "{stateLayer.hovered}",
                   "space": "srgb"
                 }
               }
@@ -272,7 +272,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.pressed}",
+                  "value": "{stateLayer.pressed}",
                   "space": "srgb"
                 }
               }
@@ -286,7 +286,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.focused}",
+                  "value": "{stateLayer.focused}",
                   "space": "srgb"
                 }
               }
@@ -300,7 +300,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.dragged}",
+                  "value": "{stateLayer.dragged}",
                   "space": "srgb"
                 }
               }
@@ -359,7 +359,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.enabled}",
+                  "value": "{stateLayer.enabled}",
                   "space": "srgb"
                 }
               }
@@ -373,7 +373,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.hovered}",
+                  "value": "{stateLayer.hovered}",
                   "space": "srgb"
                 }
               }
@@ -387,7 +387,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.pressed}",
+                  "value": "{stateLayer.pressed}",
                   "space": "srgb"
                 }
               }
@@ -401,7 +401,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.focused}",
+                  "value": "{stateLayer.focused}",
                   "space": "srgb"
                 }
               }
@@ -415,7 +415,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.dragged}",
+                  "value": "{stateLayer.dragged}",
                   "space": "srgb"
                 }
               }
@@ -436,7 +436,7 @@
         }
       }
     },
-    "neutral-inverse": {
+    "neutralInverse": {
       "container": {
         "solid": {
           "enabled": {
@@ -474,7 +474,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.enabled}",
+                  "value": "{stateLayer.enabled}",
                   "space": "srgb"
                 }
               }
@@ -488,7 +488,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.hovered}",
+                  "value": "{stateLayer.hovered}",
                   "space": "srgb"
                 }
               }
@@ -502,7 +502,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.pressed}",
+                  "value": "{stateLayer.pressed}",
                   "space": "srgb"
                 }
               }
@@ -516,7 +516,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.focused}",
+                  "value": "{stateLayer.focused}",
                   "space": "srgb"
                 }
               }
@@ -530,7 +530,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.dragged}",
+                  "value": "{stateLayer.dragged}",
                   "space": "srgb"
                 }
               }
@@ -625,7 +625,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.enabled}",
+                  "value": "{stateLayer.enabled}",
                   "space": "srgb"
                 }
               }
@@ -639,7 +639,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.hovered}",
+                  "value": "{stateLayer.hovered}",
                   "space": "srgb"
                 }
               }
@@ -653,7 +653,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.pressed}",
+                  "value": "{stateLayer.pressed}",
                   "space": "srgb"
                 }
               }
@@ -667,7 +667,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.focused}",
+                  "value": "{stateLayer.focused}",
                   "space": "srgb"
                 }
               }
@@ -681,7 +681,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.dragged}",
+                  "value": "{stateLayer.dragged}",
                   "space": "srgb"
                 }
               }
@@ -776,7 +776,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.enabled}",
+                  "value": "{stateLayer.enabled}",
                   "space": "srgb"
                 }
               }
@@ -790,7 +790,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.hovered}",
+                  "value": "{stateLayer.hovered}",
                   "space": "srgb"
                 }
               }
@@ -804,7 +804,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.pressed}",
+                  "value": "{stateLayer.pressed}",
                   "space": "srgb"
                 }
               }
@@ -818,7 +818,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.focused}",
+                  "value": "{stateLayer.focused}",
                   "space": "srgb"
                 }
               }
@@ -832,7 +832,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.dragged}",
+                  "value": "{stateLayer.dragged}",
                   "space": "srgb"
                 }
               }
@@ -927,7 +927,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.enabled}",
+                  "value": "{stateLayer.enabled}",
                   "space": "srgb"
                 }
               }
@@ -941,7 +941,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.hovered}",
+                  "value": "{stateLayer.hovered}",
                   "space": "srgb"
                 }
               }
@@ -955,7 +955,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.pressed}",
+                  "value": "{stateLayer.pressed}",
                   "space": "srgb"
                 }
               }
@@ -969,7 +969,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.focused}",
+                  "value": "{stateLayer.focused}",
                   "space": "srgb"
                 }
               }
@@ -983,7 +983,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.dragged}",
+                  "value": "{stateLayer.dragged}",
                   "space": "srgb"
                 }
               }
@@ -1078,7 +1078,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.enabled}",
+                  "value": "{stateLayer.enabled}",
                   "space": "srgb"
                 }
               }
@@ -1092,7 +1092,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.hovered}",
+                  "value": "{stateLayer.hovered}",
                   "space": "srgb"
                 }
               }
@@ -1106,7 +1106,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.pressed}",
+                  "value": "{stateLayer.pressed}",
                   "space": "srgb"
                 }
               }
@@ -1120,7 +1120,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.focused}",
+                  "value": "{stateLayer.focused}",
                   "space": "srgb"
                 }
               }
@@ -1134,7 +1134,7 @@
               "studio.tokens": {
                 "modify": {
                   "type": "alpha",
-                  "value": "{state-layer.dragged}",
+                  "value": "{stateLayer.dragged}",
                   "space": "srgb"
                 }
               }
@@ -1163,7 +1163,7 @@
           "studio.tokens": {
             "modify": {
               "type": "alpha",
-              "value": "{state-layer.disabled}",
+              "value": "{stateLayer.disabled}",
               "space": "srgb"
             }
           }
@@ -1182,7 +1182,7 @@
           "studio.tokens": {
             "modify": {
               "type": "alpha",
-              "value": "{state-layer.disabled}",
+              "value": "{stateLayer.disabled}",
               "space": "srgb"
             }
           }
