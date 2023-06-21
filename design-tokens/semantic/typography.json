@@ -3,36 +3,36 @@
     "large": {
       "regular": {
         "value": {
-          "fontSize": "{font-size.100}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.regular}",
-          "lineHeight": "{line-height.100.relaxed}",
-          "letterSpacing": "{letter-spacing.100}",
-          "textDecoration": "{text-decoration.none}"
+          "fontSize": "{fontSize.100}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.100.relaxed}",
+          "letterSpacing": "{letterSpacing.100}",
+          "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
         "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
       },
       "link": {
         "value": {
-          "fontSize": "{font-size.100}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.100.relaxed}",
-          "letterSpacing": "{letter-spacing.100}",
-          "textDecoration": "{text-decoration.underline}"
+          "fontSize": "{fontSize.100}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.100.relaxed}",
+          "letterSpacing": "{letterSpacing.100}",
+          "textDecoration": "{textDecoration.underline}"
         },
         "type": "typography",
         "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
       },
       "bold": {
         "value": {
-          "fontSize": "{font-size.100}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.100.relaxed}",
-          "letterSpacing": "{letter-spacing.100}",
-          "textDecoration": "{text-decoration.none}"
+          "fontSize": "{fontSize.100}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.100.relaxed}",
+          "letterSpacing": "{letterSpacing.100}",
+          "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
         "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
@@ -41,36 +41,36 @@
     "medium": {
       "regular": {
         "value": {
-          "fontSize": "{font-size.75}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.regular}",
-          "lineHeight": "{line-height.75.relaxed}",
-          "letterSpacing": "{letter-spacing.75}",
-          "textDecoration": "{text-decoration.none}"
+          "fontSize": "{fontSize.75}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.75.relaxed}",
+          "letterSpacing": "{letterSpacing.75}",
+          "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
         "description": "Medium body is typically used for main UI content."
       },
       "link": {
         "value": {
-          "fontSize": "{font-size.75}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.75.relaxed}",
-          "letterSpacing": "{letter-spacing.75}",
-          "textDecoration": "{text-decoration.underline}"
+          "fontSize": "{fontSize.75}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.75.relaxed}",
+          "letterSpacing": "{letterSpacing.75}",
+          "textDecoration": "{textDecoration.underline}"
         },
         "type": "typography",
         "description": "Medium body is typically used for main UI content."
       },
       "bold": {
         "value": {
-          "fontSize": "{font-size.75}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.75.relaxed}",
-          "letterSpacing": "{letter-spacing.75}",
-          "textDecoration": "{text-decoration.none}"
+          "fontSize": "{fontSize.75}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.75.relaxed}",
+          "letterSpacing": "{letterSpacing.75}",
+          "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
         "description": "Medium body is typically used for main UI content."
@@ -79,74 +79,74 @@
     "small": {
       "regular": {
         "value": {
-          "fontSize": "{font-size.50}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.regular}",
-          "lineHeight": "{line-height.50.relaxed}",
-          "letterSpacing": "{letter-spacing.50}",
-          "textDecoration": "{text-decoration.none}"
+          "fontSize": "{fontSize.50}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.50.relaxed}",
+          "letterSpacing": "{letterSpacing.50}",
+          "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
         "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
       },
       "link": {
         "value": {
-          "fontSize": "{font-size.50}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.50.relaxed}",
-          "letterSpacing": "{letter-spacing.50}",
-          "textDecoration": "{text-decoration.underline}"
+          "fontSize": "{fontSize.50}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.50.relaxed}",
+          "letterSpacing": "{letterSpacing.50}",
+          "textDecoration": "{textDecoration.underline}"
         },
         "type": "typography",
         "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
       },
       "bold": {
         "value": {
-          "fontSize": "{font-size.50}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.50.relaxed}",
-          "letterSpacing": "{letter-spacing.50}",
-          "textDecoration": "{text-decoration.none}"
+          "fontSize": "{fontSize.50}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.50.relaxed}",
+          "letterSpacing": "{letterSpacing.50}",
+          "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
         "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
       }
     },
-    "xsmall": {
+    "xSmall": {
       "regular": {
         "value": {
-          "fontSize": "{font-size.25}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.regular}",
-          "lineHeight": "{line-height.25.relaxed}",
-          "letterSpacing": "{letter-spacing.25}",
-          "textDecoration": "{text-decoration.none}"
+          "fontSize": "{fontSize.25}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.25.relaxed}",
+          "letterSpacing": "{letterSpacing.25}",
+          "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
         "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
       },
       "link": {
         "value": {
-          "fontSize": "{font-size.25}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.25.relaxed}",
-          "letterSpacing": "{letter-spacing.25}",
-          "textDecoration": "{text-decoration.underline}"
+          "fontSize": "{fontSize.25}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.25.relaxed}",
+          "letterSpacing": "{letterSpacing.25}",
+          "textDecoration": "{textDecoration.underline}"
         },
         "type": "typography",
         "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
       },
       "bold": {
         "value": {
-          "fontSize": "{font-size.25}",
-          "fontFamily": "{font-family.plain}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.25.relaxed}",
-          "letterSpacing": "{letter-spacing.25}",
-          "textDecoration": "{text-decoration.none}"
+          "fontSize": "{fontSize.25}",
+          "fontFamily": "{fontFamily.plain}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.25.relaxed}",
+          "letterSpacing": "{letterSpacing.25}",
+          "textDecoration": "{textDecoration.none}"
         },
         "type": "typography",
         "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
@@ -154,200 +154,200 @@
     }
   },
   "label": {
-    "large": {
+    "xxsmall": {
       "value": {
-        "fontSize": "{font-size.100}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.100.relaxed}",
-        "letterSpacing": "{letter-spacing.100}",
-        "textDecoration": "{text-decoration.none}"
-      },
-      "type": "typography",
-      "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
-    },
-    "medium": {
-      "value": {
-        "fontSize": "{font-size.75}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.75.relaxed}",
-        "letterSpacing": "{letter-spacing.75}",
-        "textDecoration": "{text-decoration.none}"
-      },
-      "type": "typography",
-      "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
-    },
-    "small": {
-      "value": {
-        "fontSize": "{font-size.50}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.50.relaxed}",
-        "letterSpacing": "{letter-spacing.50}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.0}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.0.relaxed}",
+        "letterSpacing": "{letterSpacing.0}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
     },
     "xsmall": {
       "value": {
-        "fontSize": "{font-size.25}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.25.relaxed}",
-        "letterSpacing": "{letter-spacing.25}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.25}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.25.relaxed}",
+        "letterSpacing": "{letterSpacing.25}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
     },
-    "2xsmall": {
+    "small": {
       "value": {
-        "fontSize": "{font-size.0}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.0.relaxed}",
-        "letterSpacing": "{letter-spacing.0}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.50}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.50.relaxed}",
+        "letterSpacing": "{letterSpacing.50}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
+    },
+    "medium": {
+      "value": {
+        "fontSize": "{fontSize.75}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.75.relaxed}",
+        "letterSpacing": "{letterSpacing.75}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
+    },
+    "large": {
+      "value": {
+        "fontSize": "{fontSize.100}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.100.relaxed}",
+        "letterSpacing": "{letterSpacing.100}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
     }
   },
   "title": {
-    "large": {
+    "small": {
       "value": {
-        "fontSize": "{font-size.300}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.300.comfortable}",
-        "letterSpacing": "{letter-spacing.300}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.100}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.100.comfortable}",
+        "letterSpacing": "{letterSpacing.100}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Titles are smaller than headline styles, and should be used for medium-emphasis text that remains relatively short. \n\nFor example, consider using title styles to divide secondary passages of text or secondary regions of content."
     },
     "medium": {
       "value": {
-        "fontSize": "{font-size.200}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.200.comfortable}",
-        "letterSpacing": "{letter-spacing.200}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.200}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.200.comfortable}",
+        "letterSpacing": "{letterSpacing.200}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Titles are smaller than headline styles, and should be used for medium-emphasis text that remains relatively short. \n\nFor example, consider using title styles to divide secondary passages of text or secondary regions of content."
     },
-    "small": {
+    "large": {
       "value": {
-        "fontSize": "{font-size.100}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.100.comfortable}",
-        "letterSpacing": "{letter-spacing.100}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.300}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.300.comfortable}",
+        "letterSpacing": "{letterSpacing.300}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Titles are smaller than headline styles, and should be used for medium-emphasis text that remains relatively short. \n\nFor example, consider using title styles to divide secondary passages of text or secondary regions of content."
     }
   },
   "headline": {
-    "large": {
+    "small": {
       "value": {
-        "fontSize": "{font-size.600}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.600.comfortable}",
-        "letterSpacing": "{letter-spacing.600}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.400}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.400.comfortable}",
+        "letterSpacing": "{letterSpacing.400}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Headlines are best-suited for short, high-emphasis text on smaller screens. \n\nThese styles can be good for marking primary passages of text or important regions of content."
     },
     "medium": {
       "value": {
-        "fontSize": "{font-size.500}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.500.comfortable}",
-        "letterSpacing": "{letter-spacing.500}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.500}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.500.comfortable}",
+        "letterSpacing": "{letterSpacing.500}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Headlines are best-suited for short, high-emphasis text on smaller screens. \n\nThese styles can be good for marking primary passages of text or important regions of content."
     },
-    "small": {
+    "large": {
       "value": {
-        "fontSize": "{font-size.400}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.400.comfortable}",
-        "letterSpacing": "{letter-spacing.400}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.600}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.600.comfortable}",
+        "letterSpacing": "{letterSpacing.600}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "Headlines are best-suited for short, high-emphasis text on smaller screens. \n\nThese styles can be good for marking primary passages of text or important regions of content."
     }
   },
   "display": {
-    "2xlarge": {
+    "small": {
       "value": {
-        "fontSize": "{font-size.1100}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.1100.comfortable}",
-        "letterSpacing": "{letter-spacing.1100}",
-        "textDecoration": "{text-decoration.none}"
-      },
-      "type": "typography",
-      "description": "As the largest text on the screen, display styles are reserved for short, impactful text or numbers."
-    },
-    "xlarge": {
-      "value": {
-        "fontSize": "{font-size.1000}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.1000.comfortable}",
-        "letterSpacing": "{letter-spacing.1000}",
-        "textDecoration": "{text-decoration.none}"
-      },
-      "type": "typography",
-      "description": "As the largest text on the screen, display styles are reserved for short, impactful text or numbers."
-    },
-    "large": {
-      "value": {
-        "fontSize": "{font-size.900}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.900.comfortable}",
-        "letterSpacing": "{letter-spacing.900}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.700}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.700.comfortable}",
+        "letterSpacing": "{letterSpacing.700}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "As the largest text on the screen, display styles are reserved for short, impactful text or numbers."
     },
     "medium": {
       "value": {
-        "fontSize": "{font-size.800}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.800.comfortable}",
-        "letterSpacing": "{letter-spacing.800}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.800}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.800.comfortable}",
+        "letterSpacing": "{letterSpacing.800}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "As the largest text on the screen, display styles are reserved for short, impactful text or numbers."
     },
-    "small": {
+    "large": {
       "value": {
-        "fontSize": "{font-size.700}",
-        "fontFamily": "{font-family.plain}",
-        "fontWeight": "{font-weight.semi-bold}",
-        "lineHeight": "{line-height.700.comfortable}",
-        "letterSpacing": "{letter-spacing.700}",
-        "textDecoration": "{text-decoration.none}"
+        "fontSize": "{fontSize.900}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.900.comfortable}",
+        "letterSpacing": "{letterSpacing.900}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "As the largest text on the screen, display styles are reserved for short, impactful text or numbers."
+    },
+    "xlarge": {
+      "value": {
+        "fontSize": "{fontSize.1000}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.1000.comfortable}",
+        "letterSpacing": "{letterSpacing.1000}",
+        "textDecoration": "{textDecoration.none}"
+      },
+      "type": "typography",
+      "description": "As the largest text on the screen, display styles are reserved for short, impactful text or numbers."
+    },
+    "xxlarge": {
+      "value": {
+        "fontSize": "{fontSize.1100}",
+        "fontFamily": "{fontFamily.plain}",
+        "fontWeight": "{fontWeight.semiBold}",
+        "lineHeight": "{lineHeight.1100.comfortable}",
+        "letterSpacing": "{letterSpacing.1100}",
+        "textDecoration": "{textDecoration.none}"
       },
       "type": "typography",
       "description": "As the largest text on the screen, display styles are reserved for short, impactful text or numbers."

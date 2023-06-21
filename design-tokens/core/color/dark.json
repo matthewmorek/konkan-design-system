@@ -298,5 +298,111 @@
       "type": "color",
       "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #000000"
     }
+  },
+  "transparent": {
+    "white": {
+      "100": {
+        "value": "rgba(255,255,255, 0)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "200": {
+        "value": "rgba(255,255,255, 0.1)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "300": {
+        "value": "rgba(255,255,255, 0.25)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "400": {
+        "value": "rgba(255,255,255, 0.4)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "500": {
+        "value": "rgba(255,255,255, 0.55)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "600": {
+        "value": "rgba(255,255,255, 0.7)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "700": {
+        "value": "rgba(255,255,255, 0.8)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "800": {
+        "value": "rgba(255,255,255, 0.9)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "900": {
+        "value": "rgba(255,255,255, 1)",
+        "type": "color",
+        "description": "Static across themes"
+      }
+    },
+    "black": {
+      "100": {
+        "value": "rgba(0,0,0, 0)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "200": {
+        "value": "rgba(0,0,0, 0.1)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "300": {
+        "value": "rgba(0,0,0, 0.25)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "400": {
+        "value": "rgba(0,0,0, 0.4)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "500": {
+        "value": "rgba(0,0,0, 0.55)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "600": {
+        "value": "rgba(0,0,0, 0.7)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "700": {
+        "value": "rgba(0,0,0, 0.8)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "800": {
+        "value": "rgba(0,0,0, 0.9)",
+        "type": "color",
+        "description": "Static across themes"
+      },
+      "900": {
+        "value": "rgba(0,0,0, 1)",
+        "type": "color",
+        "description": "Static across themes"
+      }
+    }
+  },
+  "black": {
+    "value": "#000000",
+    "type": "color",
+    "description": "Static across themes"
+  },
+  "white": {
+    "value": "#ffffff",
+    "type": "color",
+    "description": "Static across themes"
   }
 }

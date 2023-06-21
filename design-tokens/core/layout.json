@@ -1,14 +1,14 @@
 {
-  "layout-constants": {
-    "baseline-grid-unit": {
-      "value": "4*{layout-constants.platform-scale}",
+  "layoutConstants": {
+    "baselineGridUnit": {
+      "value": "4*{layoutConstants.platformScale}",
       "type": "sizing"
     },
-    "rounding-unit": {
-      "value": "{layout-constants.baseline-grid-unit}/2",
+    "roundingUnit": {
+      "value": "{layoutConstants.baselineGridUnit}/2",
       "type": "sizing"
     },
-    "platform-scale": {
+    "platformScale": {
       "value": "1",
       "type": "sizing"
     }

@@ -1,30 +1,30 @@
 {
   "opacity": {
-    "level-1": {
+    "level1": {
       "value": "4*0.01",
       "type": "opacity"
     },
-    "level-2": {
+    "level2": {
       "value": "4*0.02",
       "type": "opacity"
     },
-    "level-3": {
+    "level3": {
       "value": "4*0.03",
       "type": "opacity"
     },
-    "level-4": {
+    "level4": {
       "value": "4*0.04",
       "type": "opacity"
     },
-    "level-5": {
+    "level5": {
       "value": "4*0.08",
       "type": "opacity"
     },
-    "level-6": {
+    "level6": {
       "value": "4*0.16",
       "type": "opacity"
     },
-    "level-7": {
+    "level7": {
       "value": "4*0.24",
       "type": "opacity"
     }
