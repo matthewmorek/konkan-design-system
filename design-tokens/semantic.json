@@ -61,6 +61,10 @@
             "value": "{primitive.color.blue.60}",
             "type": "color"
           },
+          "climateMid": {
+            "value": "{primitive.color.purple.50}",
+            "type": "color"
+          },
           "climateHot": {
             "value": "{primitive.color.red.60}",
             "type": "color"
