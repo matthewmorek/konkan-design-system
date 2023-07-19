@@ -96,20 +96,28 @@
       },
       "foreground": {
         "neutral": {
-          "strong": {
+          "strongest": {
             "value": "{primitive.color.neutral.0}",
             "type": "color"
           },
-          "subtle": {
+          "stronger": {
             "value": "{primitive.color.neutral.30}",
             "type": "color"
           },
-          "subtler": {
+          "strong": {
             "value": "{primitive.color.neutral.40}",
             "type": "color"
           },
-          "subtlest": {
+          "subtle": {
             "value": "{primitive.color.neutral.50}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{primitive.color.neutral.60}",
+            "type": "color"
+          },
+          "subtlest": {
+            "value": "{primitive.color.neutral.70}",
             "type": "color"
           }
         },
