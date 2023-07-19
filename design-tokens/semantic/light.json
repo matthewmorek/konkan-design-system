@@ -1,0 +1,28 @@
+{
+  "semantic": {
+    "color": {
+      "background": {
+        "neutral": {
+          "base": {
+            "value": "{primitive.color.neutral.solid.90}",
+            "type": "color"
+          },
+          "low": {
+            "value": "{primitive.color.neutral.solid.95}",
+            "type": "color"
+          },
+          "high": {
+            "value": "{primitive.color.neutral.solid.100}",
+            "type": "color"
+          }
+        },
+        "accent": {
+          "primary": {
+            "value": "{primitive.color.primary.solid.50}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

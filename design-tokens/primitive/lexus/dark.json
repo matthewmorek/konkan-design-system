@@ -1,0 +1,144 @@
+{
+  "primitive": {
+    "color": {
+      "neutral": {
+        "solid": {
+          "0": {
+            "value": "rgb(255, 255, 255)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background rgb(0, 0, 0)"
+          },
+          "10": {
+            "value": "rgb(232, 232, 235)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background rgb(0, 0, 0)"
+          },
+          "20": {
+            "value": "rgb(202, 205, 209)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 13.2:1 against background rgb(0, 0, 0)"
+          },
+          "30": {
+            "value": "rgb(169, 173, 177)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.29:1 against background rgb(0, 0, 0)"
+          },
+          "40": {
+            "value": "rgb(139, 143, 150)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.48:1 against background rgb(0, 0, 0)"
+          },
+          "50": {
+            "value": "rgb(116, 121, 129)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 4.81:1 against background rgb(0, 0, 0)"
+          },
+          "60": {
+            "value": "rgb(99, 104, 112)",
+            "type": "color",
+            "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.74:1 against background rgb(0, 0, 0)"
+          },
+          "70": {
+            "value": "rgb(68, 72, 81)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background rgb(0, 0, 0)"
+          },
+          "80": {
+            "value": "rgb(51, 53, 59)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.71:1 against background rgb(0, 0, 0)"
+          },
+          "90": {
+            "value": "rgb(31, 34, 37)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.3:1 against background rgb(0, 0, 0)"
+          },
+          "95": {
+            "value": "rgb(18, 19, 21)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.13:1 against background rgb(0, 0, 0)"
+          },
+          "99": {
+            "value": "rgb(5, 7, 8)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.03:1 against background rgb(0, 0, 0)"
+          },
+          "100": {
+            "value": "rgb(1, 2, 2)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1:1 against background rgb(0, 0, 0)"
+          }
+        }
+      },
+      "primary": {
+        "solid": {
+          "0": {
+            "value": "rgb(255, 255, 255)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background rgb(0, 0, 0)"
+          },
+          "10": {
+            "value": "rgb(241, 231, 219)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background rgb(0, 0, 0)"
+          },
+          "20": {
+            "value": "rgb(221, 202, 181)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 13.2:1 against background rgb(0, 0, 0)"
+          },
+          "30": {
+            "value": "rgb(190, 169, 147)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.29:1 against background rgb(0, 0, 0)"
+          },
+          "40": {
+            "value": "rgb(162, 139, 116)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.48:1 against background rgb(0, 0, 0)"
+          },
+          "50": {
+            "value": "rgb(140, 117, 92)",
+            "type": "color",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 4.81:1 against background rgb(0, 0, 0)"
+          },
+          "60": {
+            "value": "rgb(121, 100, 79)",
+            "type": "color",
+            "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.74:1 against background rgb(0, 0, 0)"
+          },
+          "70": {
+            "value": "rgb(85, 69, 54)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background rgb(0, 0, 0)"
+          },
+          "80": {
+            "value": "rgb(63, 51, 39)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.71:1 against background rgb(0, 0, 0)"
+          },
+          "90": {
+            "value": "rgb(39, 32, 24)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.3:1 against background rgb(0, 0, 0)"
+          },
+          "95": {
+            "value": "rgb(24, 19, 15)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.13:1 against background rgb(0, 0, 0)"
+          },
+          "99": {
+            "value": "rgb(6, 5, 4)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.03:1 against background rgb(0, 0, 0)"
+          },
+          "100": {
+            "value": "rgb(3, 2, 2)",
+            "type": "color",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1:1 against background rgb(0, 0, 0)"
+          }
+        }
+      }
+    }
+  }
+}
