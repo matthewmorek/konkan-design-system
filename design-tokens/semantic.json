@@ -72,6 +72,11 @@
           "fuelElectric": {
             "value": "{primitive.color.teal.70}",
             "type": "color"
+          },
+          "disabled": {
+            "value": "{primitive.color.neutral.80}",
+            "type": "color",
+            "$extensions": {}
           }
         },
         "fixed": {
@@ -132,8 +137,9 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{primitive.color.gray.40}",
-            "type": "color"
+            "value": "{primitive.color.neutral.30}",
+            "type": "color",
+            "$extensions": {}
           }
         }
       },
@@ -256,19 +262,6 @@
                     "value": "{alpha.16}",
                     "space": "srgb"
                   }
-                }
-              }
-            }
-          },
-          "disabled": {
-            "value": "{primitive.color.gray.0}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{alpha.12}",
-                  "space": "lch"
                 }
               }
             }
