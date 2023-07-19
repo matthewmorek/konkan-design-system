@@ -30,7 +30,7 @@
             "type": "color"
           },
           "secondarySubtle": {
-            "value": "{primitive.color.neutral.80}",
+            "value": "{primitive.color.neutral.90}",
             "type": "color"
           },
           "danger": {
@@ -76,12 +76,12 @@
           "fuelElectric": {
             "value": "{primitive.color.teal.70}",
             "type": "color"
-          },
-          "disabled": {
-            "value": "{primitive.color.neutral.80}",
-            "type": "color",
-            "$extensions": {}
           }
+        },
+        "disabled": {
+          "value": "{primitive.color.neutral.80}",
+          "type": "color",
+          "$extensions": {}
         },
         "fixed": {
           "white": {
@@ -141,18 +141,18 @@
         },
         "onAccent": {
           "strong": {
-            "value": "{primitive.color.neutral.0}",
+            "value": "{primitive.color.white}",
             "type": "color"
           },
           "strongInvertible": {
             "value": "{primitive.color.neutral.100}",
             "type": "color"
-          },
-          "disabled": {
-            "value": "{primitive.color.neutral.30}",
-            "type": "color",
-            "$extensions": {}
           }
+        },
+        "disabled": {
+          "value": "{primitive.color.neutral.30}",
+          "type": "color",
+          "$extensions": {}
         }
       },
       "overlay": {
