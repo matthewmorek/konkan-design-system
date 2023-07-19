@@ -1,0 +1,60 @@
+{
+  "alpha": {
+    "0": {
+      "value": "0",
+      "type": "other"
+    },
+    "4": {
+      "value": "0.04",
+      "type": "other"
+    },
+    "8": {
+      "value": "0.08",
+      "type": "other"
+    },
+    "12": {
+      "value": "0.12",
+      "type": "other"
+    },
+    "16": {
+      "value": "0.16",
+      "type": "other"
+    },
+    "24": {
+      "value": "0.24",
+      "type": "other"
+    },
+    "32": {
+      "value": "0.32",
+      "type": "other"
+    },
+    "40": {
+      "value": "0.40",
+      "type": "other"
+    },
+    "48": {
+      "value": "0.48",
+      "type": "other"
+    },
+    "56": {
+      "value": "0.56",
+      "type": "other"
+    },
+    "64": {
+      "value": "0.64",
+      "type": "other"
+    },
+    "72": {
+      "value": "0.72",
+      "type": "other"
+    },
+    "80": {
+      "value": "0.80",
+      "type": "other"
+    },
+    "96": {
+      "value": "0.96",
+      "type": "other"
+    }
+  }
+}

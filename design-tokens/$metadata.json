@@ -2,11 +2,12 @@
   "tokenSetOrder": [
     "primitive/system/light",
     "primitive/system/dark",
+    "primitive/system/objectStyles",
     "primitive/toyota/light",
     "primitive/toyota/dark",
     "primitive/lexus/light",
     "primitive/lexus/dark",
-    "semantic/light",
+    "semantic",
     "semantic/darkOverrides"
   ]
 }
