@@ -20,6 +20,88 @@
           "primary": {
             "value": "{primitive.color.primary.solid.50}",
             "type": "color"
+          },
+          "primarySubtle": {
+            "value": "{primitive.color.primary.solid.95}",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "{primitive.color.neutral.solid.0}",
+            "type": "color"
+          },
+          "secondarySubtle": {
+            "value": "{primitive.color.neutral.solid.80}",
+            "type": "color"
+          },
+          "danger": {
+            "value": "{primitive.color.red.solid.50}",
+            "type": "color"
+          },
+          "dangerSubtle": {
+            "value": "{primitive.color.red.solid.95}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{primitive.color.orange.solid.50}",
+            "type": "color"
+          },
+          "warningSubtle": {
+            "value": "{primitive.color.orange.solid.95}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{primitive.color.green.solid.50}",
+            "type": "color"
+          },
+          "successSubtle": {
+            "value": "{primitive.color.green.solid.95}",
+            "type": "color"
+          },
+          "climateCool": {
+            "value": "{primitive.color.blue.solid.60}",
+            "type": "color"
+          },
+          "climateHot": {
+            "value": "{primitive.color.red.solid.60}",
+            "type": "color"
+          },
+          "fuelGas": {
+            "value": "{primitive.color.blue.solid.50}",
+            "type": "color"
+          },
+          "fuelElectric": {
+            "value": "{primitive.color.teal.solid.70}",
+            "type": "color"
+          }
+        },
+        "fixed": {
+          "white": {
+            "value": "{primitive.color.neutral.solid.100}",
+            "type": "color"
+          },
+          "black": {
+            "value": "{primitive.color.neutral.solid.0}",
+            "type": "color"
+          }
+        }
+      },
+      "foreground": {
+        "neutral": {
+          "strong": {
+            "value": "{primitive.color.neutral.solid.0}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{primitive.color.neutral.solid.30}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{primitive.color.neutral.solid.40}",
+            "type": "color"
+          },
+          "subtlest": {
+            "value": "{primitive.color.neutral.solid.50}",
+            "type": "color"
           }
         }
       }

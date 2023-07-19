@@ -7,6 +7,6 @@
     "primitive/lexus/light",
     "primitive/lexus/dark",
     "semantic/light",
-    "semantic/dark"
+    "semantic/darkOverrides"
   ]
 }
