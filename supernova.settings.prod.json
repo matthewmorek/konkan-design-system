@@ -2,22 +2,22 @@
   "mode": "multi-file",
   "mapping": [
     {
-      "tokensTheme": "base-light-theme",
+      "tokensTheme": "toyotaLight",
       "supernovaBrand": "2aa6ab8f-20c0-44a2-9e26-9a9a43b1125a",
       "supernovaTheme": null
     },
     {
-      "tokensTheme": "base-dark-theme",
+      "tokensTheme": "toyotaDark",
       "supernovaBrand": "2aa6ab8f-20c0-44a2-9e26-9a9a43b1125a",
       "supernovaTheme": "1b3b7cca-4ad1-4a5e-90c6-78464d56a621"
     },
     {
-      "tokensTheme": "toyota-light-theme",
+      "tokensTheme": "lexusLight",
       "supernovaBrand": "13c18860-f94a-11ed-a871-5ded4aa5396c",
       "supernovaTheme": null
     },
     {
-      "tokensTheme": "toyota-dark-theme",
+      "tokensTheme": "lexusDark",
       "supernovaBrand": "13c18860-f94a-11ed-a871-5ded4aa5396c",
       "supernovaTheme": "d7087d40-fa32-11ed-97dd-c3de5ddf461c"
     }
