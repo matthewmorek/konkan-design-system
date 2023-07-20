@@ -1,20 +1,31 @@
 {
-  "general": {
-    "background": {
-      "base": {
-        "value": "{gray.75}",
-        "type": "color",
-        "description": "The background colors will be use in large regions of layout and not for component backgrounds. \n\n• Used as the base layer background."
-      },
-      "layer1": {
-        "value": "{gray.100}",
-        "type": "color",
-        "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the second layer, on top of Base Background"
-      },
-      "layer2": {
-        "value": "{gray.200}",
-        "type": "color",
-        "description": "Use on large regions of layout and not for component backgrounds. \n\nUse as the third layer, on top of Layer 1 Background"
+  "semantic": {
+    "color": {
+      "background": {
+        "neutral": {
+          "base": {
+            "value": "{primitive.color.neutral.99}",
+            "type": "color"
+          },
+          "low": {
+            "value": "{primitive.color.neutral.95}",
+            "type": "color"
+          },
+          "high": {
+            "value": "{primitive.color.neutral.90}",
+            "type": "color"
+          }
+        },
+        "accent": {
+          "fuelElectric": {
+            "value": "{primitive.color.teal.30}",
+            "type": "color"
+          },
+          "fuelGas": {
+            "value": "{primitive.color.blue.60}",
+            "type": "color"
+          }
+        }
       }
     }
   }
