@@ -6,8 +6,9 @@
     "selectedTokenSets": {
       "primitive/toyota/light": "enabled",
       "primitive/system/light": "enabled",
-      "semantic": "enabled",
-      "primitive/system/objectStyles": "enabled"
+      "primitive/system/objectStyles": "enabled",
+      "semantic/semantic": "enabled",
+      "semantic/darkOverrides": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:931:3100",
     "$figmaModeId": "941:0",
@@ -209,9 +210,9 @@
     "selectedTokenSets": {
       "primitive/system/dark": "enabled",
       "primitive/toyota/dark": "enabled",
-      "semantic": "enabled",
-      "semantic/darkOverrides": "enabled",
-      "primitive/system/objectStyles": "enabled"
+      "primitive/system/objectStyles": "enabled",
+      "semantic/semantic": "enabled",
+      "semantic/darkOverrides": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:931:3100",
     "$figmaModeId": "941:1",
@@ -413,8 +414,9 @@
     "selectedTokenSets": {
       "primitive/system/light": "enabled",
       "primitive/lexus/light": "enabled",
-      "semantic": "enabled",
-      "primitive/system/objectStyles": "enabled"
+      "primitive/system/objectStyles": "enabled",
+      "semantic/semantic": "enabled",
+      "semantic/darkOverrides": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:931:3100",
     "$figmaModeId": "941:2",
@@ -616,9 +618,9 @@
     "selectedTokenSets": {
       "primitive/system/dark": "enabled",
       "primitive/lexus/dark": "enabled",
-      "semantic": "enabled",
-      "semantic/darkOverrides": "enabled",
-      "primitive/system/objectStyles": "enabled"
+      "primitive/system/objectStyles": "enabled",
+      "semantic/semantic": "enabled",
+      "semantic/darkOverrides": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:931:3100",
     "$figmaModeId": "941:3",

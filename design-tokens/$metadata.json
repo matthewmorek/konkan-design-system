@@ -7,7 +7,7 @@
     "primitive/toyota/dark",
     "primitive/lexus/light",
     "primitive/lexus/dark",
-    "semantic",
+    "semantic/semantic",
     "semantic/darkOverrides"
   ]
 }
