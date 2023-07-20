@@ -15,6 +15,16 @@
             "value": "{primitive.color.neutral.90}",
             "type": "color"
           }
+        },
+        "accent": {
+          "fuelElectric": {
+            "value": "{primitive.color.teal.30}",
+            "type": "color"
+          },
+          "fuelGas": {
+            "value": "{primitive.color.blue.60}",
+            "type": "color"
+          }
         }
       }
     }
