@@ -1,0 +1,665 @@
+{
+  "semantic": {
+    "body": {
+      "large": {
+        "bold": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.100}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.bold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.100})*10",
+            "textDecoration": "none"
+          },
+          "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
+        },
+        "link": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.100}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.bold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.100})*10",
+            "textDecoration": "underline"
+          },
+          "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
+        },
+        "regular": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.100}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.light}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.100})*10",
+            "textDecoration": "none"
+          },
+          "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
+        }
+      },
+      "small": {
+        "bold": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.50}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.bold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.50}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.50})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.50})*10",
+            "textDecoration": "none"
+          },
+          "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
+        },
+        "link": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.50}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.bold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.50}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.50})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.50})*10",
+            "textDecoration": "underline"
+          },
+          "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
+        },
+        "regular": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.50}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.light}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.50}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.50})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.50})*10",
+            "textDecoration": "none"
+          },
+          "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
+        }
+      },
+      "medium": {
+        "bold": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.75}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.bold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.75}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.75})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.75})*10",
+            "textDecoration": "none"
+          },
+          "description": "Medium body is typically used for main UI content."
+        },
+        "link": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.75}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.bold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.75}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.75})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.75})*10",
+            "textDecoration": "underline"
+          },
+          "description": "Medium body is typically used for main UI content."
+        },
+        "regular": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.75}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.light}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.75}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.75})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.75})*10",
+            "textDecoration": "none"
+          },
+          "description": "Medium body is typically used for main UI content."
+        }
+      },
+      "xSmall": {
+        "bold": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.25}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.bold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.25})*10",
+            "textDecoration": "none"
+          },
+          "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
+        },
+        "link": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.25}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.bold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.25})*10",
+            "textDecoration": "underline"
+          },
+          "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
+        },
+        "regular": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.25}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.light}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.25})*10",
+            "textDecoration": "none"
+          },
+          "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
+        }
+      }
+    },
+    "label": {
+      "large": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.100}",
+          "fontFamily": "{primitive.fontFamily.plain}",
+          "fontWeight": "{primitive.fontWeight.medium}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.100})*10",
+          "textDecoration": "none"
+        },
+        "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
+      },
+      "small": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.50}",
+          "fontFamily": "{primitive.fontFamily.plain}",
+          "fontWeight": "{primitive.fontWeight.medium}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.50}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.50})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.50})*10",
+          "textDecoration": "none"
+        },
+        "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
+      },
+      "medium": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.75}",
+          "fontFamily": "{primitive.fontFamily.plain}",
+          "fontWeight": "{primitive.fontWeight.medium}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.75}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.75})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.75})*10",
+          "textDecoration": "none"
+        },
+        "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
+      },
+      "xSmall": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.25}",
+          "fontFamily": "{primitive.fontFamily.plain}",
+          "fontWeight": "{primitive.fontWeight.medium}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.25})*10",
+          "textDecoration": "none"
+        },
+        "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
+      },
+      "xxSmall": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.10}",
+          "fontFamily": "{primitive.fontFamily.plain}",
+          "fontWeight": "{primitive.fontWeight.medium}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.10}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.10})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.10})*10",
+          "textDecoration": "none"
+        },
+        "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
+      }
+    },
+    "display": {
+      "large": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.475}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.475}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.475})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.475})*10",
+          "textDecoration": "none"
+        }
+      },
+      "small": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.400}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.400}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.400})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.400})*10",
+          "textDecoration": "none"
+        }
+      },
+      "medium": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.450}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.450}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.450})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.450})*10",
+          "textDecoration": "none"
+        }
+      },
+      "xLarge": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.500}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.500}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.500})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.500})*10",
+          "textDecoration": "none"
+        }
+      },
+      "xxLarge": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.550}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.550}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.550})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.550})*10",
+          "textDecoration": "none"
+        }
+      }
+    },
+    "heading": {
+      "large": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.275}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.275}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.275})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.275})*10",
+          "textDecoration": "none"
+        }
+      },
+      "small": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.200}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.200}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.200})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.200})*10",
+          "textDecoration": "none"
+        }
+      },
+      "medium": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.250}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.250}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.250})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.250})*10",
+          "textDecoration": "none"
+        }
+      },
+      "xLarge": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.300}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.300}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.300})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.300})*10",
+          "textDecoration": "none"
+        }
+      },
+      "xSmall": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.100}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.100})*10",
+          "textDecoration": "none"
+        }
+      },
+      "xxLarge": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{primitive.fontSize.350}",
+          "fontFamily": "{primitive.fontFamily.brand}",
+          "fontWeight": "{primitive.fontWeight.normal}",
+          "lineHeight": "ceil(roundTo({primitive.fontSize.350}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+          "letterSpacing": "((( {primitive.letterSpacing.constant.fontProportion} * {primitive.fontSize.350})+ {primitive.letterSpacing.constant.value} )/{primitive.fontSize.350})*10",
+          "textDecoration": "none"
+        }
+      }
+    },
+    "borderRadius": {
+      "large": {
+        "type": "borderRadius",
+        "value": "{primitive.gridUnit}*1"
+      },
+      "small": {
+        "type": "borderRadius",
+        "value": "{primitive.gridUnit}*0"
+      },
+      "circle": {
+        "type": "borderRadius",
+        "value": "{primitive.gridUnit}*100"
+      },
+      "medium": {
+        "type": "borderRadius",
+        "value": "{primitive.gridUnit}*0.5"
+      },
+      "xLarge": {
+        "type": "borderRadius",
+        "value": "{primitive.gridUnit}*2"
+      },
+      "xSmall": {
+        "type": "borderRadius",
+        "value": "{primitive.gridUnit}*0"
+      },
+      "xxLarge": {
+        "type": "borderRadius",
+        "value": "{primitive.gridUnit}*2"
+      },
+      "xxSmall": {
+        "type": "borderRadius",
+        "value": "{primitive.gridUnit}*0"
+      }
+    }
+  },
+  "primitive": {
+    "brand": {
+      "dark": {
+        "neutral": {
+          "0": {
+            "type": "color",
+            "value": "#ffffff",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background #000000"
+          },
+          "10": {
+            "type": "color",
+            "value": "#e8e8eb",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #000000"
+          },
+          "20": {
+            "type": "color",
+            "value": "#cacdd1",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 13.2:1 against background #000000"
+          },
+          "30": {
+            "type": "color",
+            "value": "#a9adb1",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.29:1 against background #000000"
+          },
+          "40": {
+            "type": "color",
+            "value": "#8b8f96",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.48:1 against background #000000"
+          },
+          "50": {
+            "type": "color",
+            "value": "#747981",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 4.81:1 against background #000000"
+          },
+          "60": {
+            "type": "color",
+            "value": "#636870",
+            "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.74:1 against background #000000"
+          },
+          "70": {
+            "type": "color",
+            "value": "#444851",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background #000000"
+          },
+          "80": {
+            "type": "color",
+            "value": "#33353b",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.71:1 against background #000000"
+          },
+          "90": {
+            "type": "color",
+            "value": "#1f2225",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.3:1 against background #000000"
+          },
+          "95": {
+            "type": "color",
+            "value": "#121315",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.13:1 against background #000000"
+          },
+          "99": {
+            "type": "color",
+            "value": "#050708",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.03:1 against background #000000"
+          },
+          "100": {
+            "type": "color",
+            "value": "#010202",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1:1 against background #000000"
+          }
+        },
+        "primary": {
+          "0": {
+            "type": "color",
+            "value": "#ffffff",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background #000000"
+          },
+          "10": {
+            "type": "color",
+            "value": "#f1e7db",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #000000"
+          },
+          "20": {
+            "type": "color",
+            "value": "#ddcab5",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 13.2:1 against background #000000"
+          },
+          "30": {
+            "type": "color",
+            "value": "#bea993",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.29:1 against background #000000"
+          },
+          "40": {
+            "type": "color",
+            "value": "#a28b74",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.48:1 against background #000000"
+          },
+          "50": {
+            "type": "color",
+            "value": "#8c755c",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 4.81:1 against background #000000"
+          },
+          "60": {
+            "type": "color",
+            "value": "#79644f",
+            "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.74:1 against background #000000"
+          },
+          "70": {
+            "type": "color",
+            "value": "#554536",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background #000000"
+          },
+          "80": {
+            "type": "color",
+            "value": "#3f3327",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.71:1 against background #000000"
+          },
+          "90": {
+            "type": "color",
+            "value": "#272018",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.3:1 against background #000000"
+          },
+          "95": {
+            "type": "color",
+            "value": "#18130f",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.13:1 against background #000000"
+          },
+          "99": {
+            "type": "color",
+            "value": "#060504",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.03:1 against background #000000"
+          },
+          "100": {
+            "type": "color",
+            "value": "#030202",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1:1 against background #000000"
+          }
+        }
+      },
+      "light": {
+        "neutral": {
+          "0": {
+            "type": "color",
+            "value": "#000000",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background #ffffff"
+          },
+          "10": {
+            "type": "color",
+            "value": "#191b1e",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #ffffff"
+          },
+          "20": {
+            "type": "color",
+            "value": "#2e3035",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 13.2:1 against background #ffffff"
+          },
+          "30": {
+            "type": "color",
+            "value": "#434750",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.29:1 against background #ffffff"
+          },
+          "40": {
+            "type": "color",
+            "value": "#595e67",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.48:1 against background #ffffff"
+          },
+          "50": {
+            "type": "color",
+            "value": "#6d727a",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 4.81:1 against background #ffffff"
+          },
+          "60": {
+            "type": "color",
+            "value": "#7f848c",
+            "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.74:1 against background #ffffff"
+          },
+          "70": {
+            "type": "color",
+            "value": "#a7abb0",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background #ffffff"
+          },
+          "80": {
+            "type": "color",
+            "value": "#c2c6ca",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.71:1 against background #ffffff"
+          },
+          "90": {
+            "type": "color",
+            "value": "#e0e2e5",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.3:1 against background #ffffff"
+          },
+          "95": {
+            "type": "color",
+            "value": "#f0f0f2",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.13:1 against background #ffffff"
+          },
+          "99": {
+            "type": "color",
+            "value": "#fcfcfc",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.03:1 against background #ffffff"
+          },
+          "100": {
+            "type": "color",
+            "value": "#fefefe",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1:1 against background #ffffff"
+          }
+        },
+        "primary": {
+          "0": {
+            "type": "color",
+            "value": "#000000",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background #ffffff"
+          },
+          "10": {
+            "type": "color",
+            "value": "#201a14",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 17.22:1 against background #ffffff"
+          },
+          "20": {
+            "type": "color",
+            "value": "#392e24",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 13.2:1 against background #ffffff"
+          },
+          "30": {
+            "type": "color",
+            "value": "#544435",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 9.29:1 against background #ffffff"
+          },
+          "40": {
+            "type": "color",
+            "value": "#6e5a47",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 6.48:1 against background #ffffff"
+          },
+          "50": {
+            "type": "color",
+            "value": "#856e57",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 4.81:1 against background #ffffff"
+          },
+          "60": {
+            "type": "color",
+            "value": "#988067",
+            "description": "Color can be used for UI elements or large text. WCAG 2.x (relative luminance) contrast is 3.74:1 against background #ffffff"
+          },
+          "70": {
+            "type": "color",
+            "value": "#bda792",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 2.3:1 against background #ffffff"
+          },
+          "80": {
+            "type": "color",
+            "value": "#d7c2ac",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.71:1 against background #ffffff"
+          },
+          "90": {
+            "type": "color",
+            "value": "#ebdfce",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.3:1 against background #ffffff"
+          },
+          "95": {
+            "type": "color",
+            "value": "#f5efe6",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.13:1 against background #ffffff"
+          },
+          "99": {
+            "type": "color",
+            "value": "#fdfbfa",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1.03:1 against background #ffffff"
+          },
+          "100": {
+            "type": "color",
+            "value": "#fefefe",
+            "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1:1 against background #ffffff"
+          }
+        }
+      }
+    },
+    "fontFamily": {
+      "brand": {
+        "type": "fontFamilies",
+        "value": "Inter"
+      },
+      "plain": {
+        "type": "fontFamilies",
+        "value": "Inter"
+      }
+    }
+  }
+}

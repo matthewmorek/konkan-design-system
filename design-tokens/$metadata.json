@@ -1,13 +1,10 @@
 {
   "tokenSetOrder": [
-    "primitive/system/light",
-    "primitive/system/dark",
-    "primitive/system/objectStyles",
-    "primitive/toyota/light",
-    "primitive/toyota/dark",
-    "primitive/lexus/light",
-    "primitive/lexus/dark",
-    "semantic/semantic",
-    "semantic/darkOverrides"
+    "global",
+    "theme/dark",
+    "theme/light",
+    "brand/lexus",
+    "brand/toyota",
+    "utility/leonardo"
   ]
 }
