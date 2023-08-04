@@ -80,6 +80,11 @@
         "type": "spacing",
         "value": "{primitive.gridUnit}*20",
         "description": "Use for the largest pieces of UI and for layout elements."
+      },
+      "1100": {
+        "type": "spacing",
+        "value": "{primitive.gridUnit}*24",
+        "description": "Use for the largest pieces of UI and for layout elements."
       }
     },
     "iconSize": {

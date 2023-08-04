@@ -253,31 +253,29 @@
               "value": "{primitive.brand.light.neutral.100}"
             }
           },
-          "invertible": {
-            "strong": {
-              "type": "color",
-              "value": "{primitive.brand.dark.neutral.80}"
-            },
-            "subtle": {
-              "type": "color",
-              "value": "{primitive.brand.dark.neutral.70}"
-            },
-            "subtler": {
-              "type": "color",
-              "value": "{primitive.brand.dark.neutral.60}"
-            },
-            "stronger": {
-              "type": "color",
-              "value": "{primitive.brand.dark.neutral.90}"
-            },
-            "subtlest": {
-              "type": "color",
-              "value": "{primitive.brand.dark.neutral.50}"
-            },
-            "strongest": {
-              "type": "color",
-              "value": "{primitive.brand.dark.neutral.100}"
-            }
+          "strong": {
+            "type": "color",
+            "value": "{primitive.brand.dark.neutral.80}"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{primitive.brand.dark.neutral.70}"
+          },
+          "subtler": {
+            "type": "color",
+            "value": "{primitive.brand.dark.neutral.60}"
+          },
+          "stronger": {
+            "type": "color",
+            "value": "{primitive.brand.dark.neutral.90}"
+          },
+          "subtlest": {
+            "type": "color",
+            "value": "{primitive.brand.dark.neutral.50}"
+          },
+          "strongest": {
+            "type": "color",
+            "value": "{primitive.brand.dark.neutral.100}"
           }
         }
       }
