@@ -3,37 +3,37 @@
     "feature": {
       "fuelGas": {
         "type": "color",
-        "value": "{primitive.light.blue.50}",
+        "value": "{primitive.global.blue.50.light}",
         "description": "Description goes here"
       },
       "climateHot": {
         "type": "color",
-        "value": "{primitive.light.red.60}",
+        "value": "{primitive.global.red.60.light}",
         "description": "Description goes here"
       },
       "climateMid": {
         "type": "color",
-        "value": "{primitive.light.purple.50}",
+        "value": "{primitive.global.purple.50.light}",
         "description": "Description goes here"
       },
       "climateCool": {
         "type": "color",
-        "value": "{primitive.light.blue.60}",
+        "value": "{primitive.global.blue.60.light}",
         "description": "Description goes here"
       },
       "fuelElectric": {
         "type": "color",
-        "value": "{primitive.light.teal.60}",
+        "value": "{primitive.global.teal.60.light}",
         "description": "Description goes here"
       },
       "functionBlack": {
         "type": "color",
-        "value": "{primitive.fixed.black}",
+        "value": "{primitive.global.fixed.black}",
         "description": "Description goes here"
       },
       "functionBlackSubtle": {
         "type": "color",
-        "value": "{primitive.brand.light.neutral.20}",
+        "value": "{primitive.brand.neutral.20.light}",
         "description": "Description goes here"
       }
     },
@@ -41,17 +41,17 @@
       "scrim": {
         "semiOpaque": {
           "type": "color",
-          "value": "rgba({primitive.fixed.black} {primitive.opacity.96})",
+          "value": "rgba({primitive.global.fixed.black} {primitive.opacity.96})",
           "description": "Description goes here"
         },
         "translucent": {
           "type": "color",
-          "value": "rgba({primitive.fixed.black}  {primitive.opacity.56})",
+          "value": "rgba({primitive.global.fixed.black}  {primitive.opacity.56})",
           "description": "Description goes here"
         },
         "semiTransparent": {
           "type": "color",
-          "value": "rgba({primitive.fixed.black}  {primitive.opacity.24})",
+          "value": "rgba({primitive.global.fixed.black}  {primitive.opacity.24})",
           "description": "Description goes here"
         }
       },
@@ -60,66 +60,132 @@
           "fixed": {
             "dragged": {
               "type": "color",
-              "value": "rgba({primitive.fixed.black} {primitive.opacity.16})",
+              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "enabled": {
               "type": "color",
-              "value": "rgba({primitive.fixed.black} {primitive.opacity.0})",
+              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.0})",
               "description": "Description goes here"
             },
             "focused": {
               "type": "color",
-              "value": "rgba({primitive.fixed.black} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba({primitive.fixed.black} {primitive.opacity.8})",
+              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.8})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.fixed.black} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "resting": {
               "type": "color",
-              "value": "rgba({primitive.fixed.black} {primitive.opacity.8})",
+              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.8})",
+              "description": "Description goes here"
+            }
+          },
+          "invertible": {
+            "dragged": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.16})",
+              "description": "Description goes here"
+            },
+            "enabled": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.0})",
+              "description": "Description goes here"
+            },
+            "focused": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "hovered": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.8})",
+              "description": "Description goes here"
+            },
+            "pressed": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "resting": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.8})",
               "description": "Description goes here"
             }
           }
         },
         "lighten": {
-          "dragged": {
-            "type": "color",
-            "value": "rgba({primitive.light.gray.100} {primitive.opacity.16})",
-            "description": "Description goes here"
+          "invertible": {
+            "dragged": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.16})",
+              "description": "Description goes here"
+            },
+            "enabled": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.0})",
+              "description": "Description goes here"
+            },
+            "focused": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "hovered": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.8})",
+              "description": "Description goes here"
+            },
+            "pressed": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "resting": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.8})",
+              "description": "Description goes here"
+            }
           },
-          "enabled": {
-            "type": "color",
-            "value": "rgba({primitive.light.gray.100} {primitive.opacity.0})",
-            "description": "Description goes here"
-          },
-          "focused": {
-            "type": "color",
-            "value": "rgba({primitive.light.gray.100} {primitive.opacity.12})",
-            "description": "Description goes here"
-          },
-          "hovered": {
-            "type": "color",
-            "value": "rgba({primitive.light.gray.100} {primitive.opacity.8})",
-            "description": "Description goes here"
-          },
-          "pressed": {
-            "type": "color",
-            "value": "rgba({primitive.light.gray.100} {primitive.opacity.12})",
-            "description": "Description goes here"
-          },
-          "resting": {
-            "type": "color",
-            "value": "rgba({primitive.light.gray.100} {primitive.opacity.8})",
-            "description": "Description goes here"
+          "fixed": {
+            "dragged": {
+              "type": "color",
+              "value": "rgba( {primitive.global.fixed.white} {primitive.opacity.16})",
+              "description": "Description goes here"
+            },
+            "enabled": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.white} {primitive.opacity.0})",
+              "description": "Description goes here"
+            },
+            "focused": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.white}{primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "hovered": {
+              "type": "color",
+              "value": "rgba( {primitive.global.fixed.white} {primitive.opacity.8})",
+              "description": "Description goes here"
+            },
+            "pressed": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.white} {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "resting": {
+              "type": "color",
+              "value": "rgba( {primitive.global.fixed.white} {primitive.opacity.8})",
+              "description": "Description goes here"
+            }
           }
         }
       }
@@ -128,84 +194,84 @@
       "accent": {
         "info": {
           "type": "color",
-          "value": "{primitive.light.blue.50}",
+          "value": "{primitive.global.blue.50.light}",
           "description": "Description goes here"
         },
         "alert": {
           "type": "color",
-          "value": "{primitive.light.red.50}",
+          "value": "{primitive.global.red.50.light}",
           "description": "Description goes here"
         },
         "primary": {
           "type": "color",
-          "value": "{primitive.brand.light.primary.50}",
+          "value": "{primitive.brand.primary.50.light}",
           "description": "Description goes here"
         },
         "success": {
           "type": "color",
-          "value": "{primitive.light.green.50}",
+          "value": "{primitive.global.green.50.light}",
           "description": "Description goes here"
         },
         "warning": {
           "type": "color",
-          "value": "{primitive.light.orange.50}",
+          "value": "{primitive.global.orange.50.light}",
           "description": "Description goes here"
         },
         "disabled": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.80}",
+          "value": "{primitive.brand.neutral.80.light}",
           "description": "Description goes here"
         },
         "secondary": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.0}",
+          "value": "{primitive.brand.neutral.0.light}",
           "description": "Description goes here"
         },
         "infoSubtle": {
           "type": "color",
-          "value": "{primitive.light.blue.95}",
+          "value": "{primitive.global.blue.95.light}",
           "description": "Description goes here"
         },
         "alertSubtle": {
           "type": "color",
-          "value": "{primitive.light.red.95}",
+          "value": "{primitive.global.red.95.light}",
           "description": "Description goes here"
         },
         "primarySubtle": {
           "type": "color",
-          "value": "{primitive.brand.light.primary.95}",
+          "value": "{primitive.brand.primary.95.light}",
           "description": "Description goes here"
         },
         "successSubtle": {
           "type": "color",
-          "value": "{primitive.light.green.95}",
+          "value": "{primitive.global.green.95.light}",
           "description": "Description goes here"
         },
         "warningSubtle": {
           "type": "color",
-          "value": "{primitive.light.orange.95}",
+          "value": "{primitive.global.orange.95.light}",
           "description": "Description goes here"
         },
         "secondarySubtle": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.90}",
+          "value": "{primitive.brand.neutral.90.light}",
           "description": "Description goes here"
         }
       },
       "neutral": {
         "low": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.95}",
+          "value": "{primitive.brand.neutral.95.light}",
           "description": "Description goes here"
         },
         "base": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.90}",
+          "value": "{primitive.brand.neutral.90.light}",
           "description": "Description goes here"
         },
         "high": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.100}",
+          "value": "{primitive.brand.neutral.100.light}",
           "description": "Description goes here"
         }
       }
@@ -214,64 +280,64 @@
       "accent": {
         "info": {
           "type": "color",
-          "value": "{primitive.light.blue.40}",
+          "value": "{primitive.global.blue.40.light}",
           "description": "Description goes here"
         },
         "alert": {
           "type": "color",
-          "value": "{primitive.light.red.40}",
+          "value": "{primitive.global.red.40.light}",
           "description": "Description goes here"
         },
         "primary": {
           "type": "color",
-          "value": "{primitive.brand.light.primary.40}",
+          "value": "{primitive.brand.primary.40.light}",
           "description": "Description goes here"
         },
         "success": {
           "type": "color",
-          "value": "{primitive.light.green.40}",
+          "value": "{primitive.global.green.40.light}",
           "description": "Description goes here"
         },
         "warning": {
           "type": "color",
-          "value": "{primitive.light.orange.40}",
+          "value": "{primitive.global.orange.40.light}",
           "description": "Description goes here"
         },
         "disabled": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.30}",
+          "value": "{primitive.brand.neutral.30.light}",
           "description": "Description goes here"
         }
       },
       "neutral": {
         "strongest": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.0}",
+          "value": "{primitive.brand.neutral.0.light}",
           "description": "Description goes here"
         },
         "stronger": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.30}",
+          "value": "{primitive.brand.neutral.30.light}",
           "description": "Description goes here"
         },
         "strong": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.40}",
+          "value": "{primitive.brand.neutral.40.light}",
           "description": "Description goes here"
         },
         "subtle": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.50}",
+          "value": "{primitive.brand.neutral.50.light}",
           "description": "Description goes here"
         },
         "subtler": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.60}",
+          "value": "{primitive.brand.neutral.60.light}",
           "description": "Description goes here"
         },
         "subtlest": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.70}",
+          "value": "{primitive.brand.neutral.70.light}",
           "description": "Description goes here"
         }
       },
@@ -279,63 +345,63 @@
         "fixed": {
           "strongest": {
             "type": "color",
-            "value": "{primitive.brand.light.neutral.100}",
+            "value": "{primitive.brand.neutral.100.light}",
             "description": "Description goes here"
           },
           "stronger": {
             "type": "color",
-            "value": "{primitive.brand.light.neutral.90}",
+            "value": "{primitive.brand.neutral.90.light}",
             "description": "Description goes here"
           },
           "strong": {
             "type": "color",
-            "value": "{primitive.brand.light.neutral.80}",
+            "value": "{primitive.brand.neutral.80.light}",
             "description": "Description goes here"
           },
           "subtle": {
             "type": "color",
-            "value": "{primitive.brand.light.neutral.70}",
+            "value": "{primitive.brand.neutral.70.light}",
             "description": "Description goes here"
           },
           "subtler": {
             "type": "color",
-            "value": "{primitive.brand.light.neutral.60}",
+            "value": "{primitive.brand.neutral.60.light}",
             "description": "Description goes here"
           },
           "subtlest": {
             "type": "color",
-            "value": "{primitive.brand.light.neutral.50}",
+            "value": "{primitive.brand.neutral.50.light}",
             "description": "Description goes here"
           }
         },
         "strongest": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.100}",
+          "value": "{primitive.brand.neutral.100.light}",
           "description": "Description goes here"
         },
         "stronger": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.90}",
+          "value": "{primitive.brand.neutral.90.light}",
           "description": "Description goes here"
         },
         "strong": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.80}",
+          "value": "{primitive.brand.neutral.80.light}",
           "description": "Description goes here"
         },
         "subtle": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.70}",
+          "value": "{primitive.brand.neutral.70.light}",
           "description": "Description goes here"
         },
         "subtler": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.60}",
+          "value": "{primitive.brand.neutral.60.light}",
           "description": "Description goes here"
         },
         "subtlest": {
           "type": "color",
-          "value": "{primitive.brand.light.neutral.50}",
+          "value": "{primitive.brand.neutral.50.light}",
           "description": "Description goes here"
         }
       }
