@@ -217,11 +217,6 @@
           "value": "{primitive.global.orange.50.light}",
           "description": "Description goes here"
         },
-        "disabled": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.80.light}",
-          "description": "Description goes here"
-        },
         "secondary": {
           "type": "color",
           "value": "{primitive.brand.neutral.0.light}",
@@ -296,11 +291,6 @@
         "warning": {
           "type": "color",
           "value": "{primitive.global.orange.40.light}",
-          "description": "Description goes here"
-        },
-        "disabled": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.30.light}",
           "description": "Description goes here"
         }
       },
