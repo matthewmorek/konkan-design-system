@@ -264,11 +264,6 @@
           "value": "{primitive.brand.neutral.95.light}",
           "description": "Description goes here"
         },
-        "base": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.90.light}",
-          "description": "Description goes here"
-        },
         "high": {
           "type": "color",
           "value": "{primitive.brand.neutral.100.light}",
