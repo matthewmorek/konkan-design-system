@@ -285,58 +285,70 @@
         "subtlest": {
           "type": "color",
           "value": "{primitive.brand.neutral.70.dark}"
-        },
-        "inverse": {
-          "fixed": {
-            "strongest": {
-              "type": "color",
-              "value": "{primitive.brand.neutral.0.dark}"
-            },
-            "stronger": {
-              "type": "color",
-              "value": "{primitive.brand.neutral.10.dark}"
-            },
-            "strong": {
-              "type": "color",
-              "value": "{primitive.brand.neutral.20.dark}"
-            },
-            "subtle": {
-              "type": "color",
-              "value": "{primitive.brand.neutral.30.dark}"
-            },
-            "subtler": {
-              "type": "color",
-              "value": "{primitive.brand.neutral.40.dark}"
-            },
-            "subtlest": {
-              "type": "color",
-              "value": "{primitive.brand.neutral.50.dark}"
-            }
-          },
-          "strong": {
+        }
+      },
+      "inverse": {
+        "fixed": {
+          "strongest": {
             "type": "color",
-            "value": "{primitive.brand.neutral.80.dark}"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.dark}"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.dark}"
+            "value": "{primitive.brand.neutral.100.light}",
+            "description": "Description goes here"
           },
           "stronger": {
             "type": "color",
-            "value": "{primitive.brand.neutral.90.dark}"
+            "value": "{primitive.brand.neutral.90.light}",
+            "description": "Description goes here"
+          },
+          "strong": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.80.light}",
+            "description": "Description goes here"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.70.light}",
+            "description": "Description goes here"
+          },
+          "subtler": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.60.light}",
+            "description": "Description goes here"
           },
           "subtlest": {
             "type": "color",
-            "value": "{primitive.brand.neutral.50.dark}"
-          },
-          "strongest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.100.dark}"
+            "value": "{primitive.brand.neutral.50.light}",
+            "description": "Description goes here"
           }
+        },
+        "strongest": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.100.light}",
+          "description": "Description goes here"
+        },
+        "stronger": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.90.light}",
+          "description": "Description goes here"
+        },
+        "strong": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.80.light}",
+          "description": "Description goes here"
+        },
+        "subtle": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.70.light}",
+          "description": "Description goes here"
+        },
+        "subtler": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.60.light}",
+          "description": "Description goes here"
+        },
+        "subtlest": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.50.light}",
+          "description": "Description goes here"
         }
       }
     }
