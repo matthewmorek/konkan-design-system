@@ -291,63 +291,63 @@
         "fixed": {
           "strongest": {
             "type": "color",
-            "value": "{primitive.brand.neutral.100.light}",
+            "value": "{primitive.brand.neutral.0.dark}",
             "description": "Description goes here"
           },
           "stronger": {
             "type": "color",
-            "value": "{primitive.brand.neutral.90.light}",
+            "value": "{primitive.brand.neutral.30.dark}",
             "description": "Description goes here"
           },
           "strong": {
             "type": "color",
-            "value": "{primitive.brand.neutral.80.light}",
+            "value": "{primitive.brand.neutral.40.dark}",
             "description": "Description goes here"
           },
           "subtle": {
             "type": "color",
-            "value": "{primitive.brand.neutral.70.light}",
+            "value": "{primitive.brand.neutral.50.dark}",
             "description": "Description goes here"
           },
           "subtler": {
             "type": "color",
-            "value": "{primitive.brand.neutral.60.light}",
+            "value": "{primitive.brand.neutral.60.dark}",
             "description": "Description goes here"
           },
           "subtlest": {
             "type": "color",
-            "value": "{primitive.brand.neutral.50.light}",
+            "value": "{primitive.brand.neutral.70.dark}",
             "description": "Description goes here"
           }
         },
         "strongest": {
           "type": "color",
-          "value": "{primitive.brand.neutral.100.light}",
+          "value": "{primitive.brand.neutral.100.dark}",
           "description": "Description goes here"
         },
         "stronger": {
           "type": "color",
-          "value": "{primitive.brand.neutral.90.light}",
+          "value": "{primitive.brand.neutral.90.dark}",
           "description": "Description goes here"
         },
         "strong": {
           "type": "color",
-          "value": "{primitive.brand.neutral.80.light}",
+          "value": "{primitive.brand.neutral.80.dark}",
           "description": "Description goes here"
         },
         "subtle": {
           "type": "color",
-          "value": "{primitive.brand.neutral.70.light}",
+          "value": "{primitive.brand.neutral.70.dark}",
           "description": "Description goes here"
         },
         "subtler": {
           "type": "color",
-          "value": "{primitive.brand.neutral.60.light}",
+          "value": "{primitive.brand.neutral.60.dark}",
           "description": "Description goes here"
         },
         "subtlest": {
           "type": "color",
-          "value": "{primitive.brand.neutral.50.light}",
+          "value": "{primitive.brand.neutral.50.dark}",
           "description": "Description goes here"
         }
       }
