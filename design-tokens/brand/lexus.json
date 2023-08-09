@@ -705,5 +705,155 @@
         "value": "Inter"
       }
     }
+  },
+  "illustration": {
+    "red": {
+      "value": "{primitive.global.red.60.light}",
+      "type": "color"
+    },
+    "blue": {
+      "value": "{primitive.global.blue.50.light}",
+      "type": "color"
+    },
+    "yellow": {
+      "value": "{primitive.global.yellow.80.light}",
+      "type": "color"
+    },
+    "green": {
+      "value": "{primitive.global.green.60.light}",
+      "type": "color"
+    },
+    "neutral": {
+      "black": {
+        "25": {
+          "value": "rgba({primitive.global.fixed.black}, 0.25)",
+          "type": "color"
+        },
+        "50": {
+          "value": "rgba({primitive.global.fixed.black}, 0.5)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.global.fixed.black}",
+          "type": "color"
+        }
+      },
+      "darkest": {
+        "20": {
+          "value": "rgba({primitive.brand.neutral.10.light}, 0.2)",
+          "type": "color"
+        },
+        "40": {
+          "value": "rgba({primitive.brand.neutral.10.light}, 0.4)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.brand.neutral.10.light}",
+          "type": "color"
+        }
+      },
+      "darker": {
+        "20": {
+          "value": "rgba({primitive.brand.neutral.20.light}, 0.2)",
+          "type": "color"
+        },
+        "40": {
+          "value": "rgba({primitive.brand.neutral.20.light}, 0.4)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.brand.neutral.20.light}",
+          "type": "color"
+        }
+      },
+      "dark": {
+        "20": {
+          "value": "rgba({primitive.brand.neutral.30.light},0.2)",
+          "type": "color"
+        },
+        "40": {
+          "value": "rgba({primitive.brand.neutral.30.light},0.4)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.brand.neutral.30.light}",
+          "type": "color"
+        }
+      },
+      "mid": {
+        "10": {
+          "value": "rgba({primitive.brand.neutral.50.light}, 0.1)",
+          "type": "color"
+        },
+        "20": {
+          "value": "rgba({primitive.brand.neutral.50.light}, 0.2)",
+          "type": "color"
+        },
+        "80": {
+          "value": "rgba({primitive.brand.neutral.50.light}, 0.8)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.brand.neutral.50.light}",
+          "type": "color"
+        }
+      },
+      "light": {
+        "20": {
+          "value": "rgba({primitive.brand.neutral.70.light}, 0.2)",
+          "type": "color"
+        },
+        "40": {
+          "value": "rgba({primitive.brand.neutral.70.light}, 0.4)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.brand.neutral.70.light}",
+          "type": "color"
+        }
+      },
+      "lighter": {
+        "20": {
+          "value": "rgba({primitive.brand.neutral.80.light}, 0.2)",
+          "type": "color"
+        },
+        "40": {
+          "value": "rgba({primitive.brand.neutral.80.light}, 0.4)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.brand.neutral.80.light}",
+          "type": "color"
+        }
+      },
+      "lightest": {
+        "20": {
+          "value": "rgba({primitive.brand.neutral.90.light}, 0.2)",
+          "type": "color"
+        },
+        "40": {
+          "value": "rgba({primitive.brand.neutral.90.light}, 0.4)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.brand.neutral.90.light}",
+          "type": "color"
+        }
+      },
+      "white": {
+        "25": {
+          "value": "rgba({primitive.global.fixed.white}, 0.25)",
+          "type": "color"
+        },
+        "50": {
+          "value": "rgba({primitive.global.fixed.white}, 0.5)",
+          "type": "color"
+        },
+        "100": {
+          "value": "{primitive.global.fixed.white}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
