@@ -1017,6 +1017,7 @@
       "semantic.iconSize.xxSmall": "735ec901d8f1b406436cf8bd2170a46164939d6d",
       "primitive.constant.platformScale": "9a1ad8bba305ea6a721c413f3bc15b7cced5f3c5",
       "primitive.gridUnit": "671dc0e155b10f5e3760a4c0af9b33104b1faf7b"
-    }
+    },
+    "group": "Ignore"
   }
 ]
