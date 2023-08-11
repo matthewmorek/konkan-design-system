@@ -46,8 +46,11 @@ async function run() {
         ],
         files: [
           {
-            // temporarily filter out anything other than colours
-            filter: (token) => token.type === "color",
+            filter: (token) =>
+              // temporarily filter out anything other than colours
+              token.type === "color" &&
+              // we only want semantic tokens
+              token.attributes.category === "semantic",
             destination: `tokens-${name.toLowerCase()}.json`,
             format: "json/nested",
           },
