@@ -41,17 +41,17 @@
       "scrim": {
         "semiOpaque": {
           "type": "color",
-          "value": "rgba({primitive.global.fixed.black} {primitive.opacity.96})",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.96})",
           "description": "Description goes here"
         },
         "translucent": {
           "type": "color",
-          "value": "rgba({primitive.global.fixed.black}  {primitive.opacity.56})",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.56})",
           "description": "Description goes here"
         },
         "semiTransparent": {
           "type": "color",
-          "value": "rgba({primitive.global.fixed.black}  {primitive.opacity.24})",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.24})",
           "description": "Description goes here"
         }
       },
@@ -60,64 +60,64 @@
           "fixed": {
             "dragged": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.16})",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "enabled": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.0})",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.0})",
               "description": "Description goes here"
             },
             "focused": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.8})",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "resting": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.black} {primitive.opacity.8})",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
               "description": "Description goes here"
             }
           },
           "invertible": {
             "dragged": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.16})",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "enabled": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.0})",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.0})",
               "description": "Description goes here"
             },
             "focused": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.8})",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "resting": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.0.light} {primitive.opacity.8})",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
               "description": "Description goes here"
             }
           }
@@ -126,64 +126,64 @@
           "invertible": {
             "dragged": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.16})",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "enabled": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.0})",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.0})",
               "description": "Description goes here"
             },
             "focused": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.8})",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "resting": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.100.light} {primitive.opacity.8})",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
               "description": "Description goes here"
             }
           },
           "fixed": {
             "dragged": {
               "type": "color",
-              "value": "rgba( {primitive.global.fixed.white} {primitive.opacity.16})",
+              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "enabled": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.white} {primitive.opacity.0})",
+              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.0})",
               "description": "Description goes here"
             },
             "focused": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.white}{primitive.opacity.12})",
+              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {primitive.global.fixed.white} {primitive.opacity.8})",
+              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.white} {primitive.opacity.12})",
+              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "resting": {
               "type": "color",
-              "value": "rgba( {primitive.global.fixed.white} {primitive.opacity.8})",
+              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
               "description": "Description goes here"
             }
           }
