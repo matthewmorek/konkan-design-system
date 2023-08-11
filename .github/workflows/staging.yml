@@ -39,4 +39,7 @@ jobs:
         with:
           commit_message: Update Token JSON files
           commit_options: "--no-verify"
+          commit_user_name: "Matthew Morek"
+          commit_user_email: "hi@matthewmorek.com"
+          commit_author: "Matthew Morek <hi@matthewmorek.com>"
           file_pattern: "dist/*.json"
