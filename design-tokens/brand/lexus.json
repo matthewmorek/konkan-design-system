@@ -789,6 +789,11 @@
           "value": "rgba({primitive.brand.neutral.50.light}, 0.2)",
           "type": "color"
         },
+        "40": {
+          "value": "rgba({primitive.brand.neutral.50.light}, 0.4)",
+          "type": "color",
+          "description": "Description goes here"
+        },
         "80": {
           "value": "rgba({primitive.brand.neutral.50.light}, 0.8)",
           "type": "color"
