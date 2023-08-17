@@ -8,6 +8,11 @@ export function alphaToHex(value) {
   return hex.length === 1 ? `0${hex}` : hex;
 }
 
+/**
+ * Transforms a Figma color value to an 8-digit hexadecimal representation.
+ * @param {string} value - The Figma color value to be transformed.
+ * @returns {string} - The transformed color value or original color value if the input is `undefined`.
+ */
 export function transformFigmaColorToHex8(value) {
   if (value === undefined) {
     return value;
@@ -23,7 +28,9 @@ export function transformFigmaColorToHex8(value) {
       console.warn(`Coloru value "${value}" is nto a valid Figma Color value.`);
       return value;
     }
-  } else {
+  }
+  return value;
+}
     return value;
   }
 }
