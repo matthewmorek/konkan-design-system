@@ -9,6 +9,8 @@ jobs:
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
       # Setup node to use with CLI. 14+ is required
       - uses: actions/setup-node@v3
         with:
@@ -26,70 +28,18 @@ jobs:
           --tokenDirPath="${{ github.workspace }}/design-tokens" \
           --configFilePath="${{ github.workspace }}/supernova.settings.staging.json"
 
-      - name: Set current date as env variable
-        run: echo "CURRENT_DATE=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV && echo "CURRENT_TIMESTAMP=$(date +%s)" >> $GITHUB_ENV
-        if: always()
+      - name: Install dependencies
+        run: npm install
 
-      # Slack integration
-      - name: Slack notification
-        uses: 8398a7/action-slack@v3.15.1
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          STATUS_ICON: ${{ (job.status == 'success' && ':tada:') || (job.status == 'failure' && ':warning:' ) }}
-          STATUS_TEXT: ${{ (job.status == 'success' && 'Complete') || (job.status == 'failure' && 'Failed' ) }}
-          STATUS_COLOR: ${{ (job.status == 'success' && '#5CB589') || (job.status == 'failure' && '#FF6B6B' ) }}
-          CURRENT_DATE: ${{ env.CURRENT_DATE }}
-          CURRENT_TIMESTAMP: ${{ env.CURRENT_TIMESTAMP }}
+      - name: Build tokens
+        run: npm run build:tokens
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          status: custom
-          fields: all
-          custom_payload: |
-            {
-              "blocks": [
-                {
-                   "type": "section",
-                   "text": {
-                      "type": "mrkdwn",
-                      "text": `${{ env.STATUS_ICON }} Token Sync ${{ env.STATUS_TEXT }}`
-                   }
-                },
-              ],
-              "attachments": [
-                {
-                  "color": "${{ env.STATUS_COLOR }}",
-                  "blocks": [
-                    {
-                      "type": "section",
-                      "fields": [
-                        {
-                          "type": "mrkdwn",
-                          "text": `*Workflow:*\n${process.env.AS_WORKFLOW}`
-                        },
-                        {
-                          "type": "mrkdwn",
-                          "text": "*Date:*\n<!date^${{ env.CURRENT_TIMESTAMP }}^{date_short_pretty} at {time}|${{ env.CURRENT_DATE }}>"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "divider"
-                    },
-                    {
-                      "type": "context",
-                      "elements": [
-                        {
-                          "type": "image",
-                          "image_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-                          "alt_text": "github icon"
-                        },
-                        {
-                          "type": "mrkdwn",
-                          "text": `${process.env.AS_PULL_REQUEST !== 'n/a' ? process.env.AS_PULL_REQUEST : process.env.AS_REPO}`
-                        }
-                      ]
-                    }
-                  ]
-                },
-              ]
-            }
-        if: always()
+          commit_message: Update Token JSON files
+          commit_options: "--no-verify"
+          commit_user_name: "Matthew Morek"
+          commit_user_email: "hi@matthewmorek.com"
+          commit_author: "Matthew Morek <hi@matthewmorek.com>"
+          file_pattern: "dist/*.json"

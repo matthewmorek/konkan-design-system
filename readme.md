@@ -21,7 +21,7 @@ $ supernova sync-tokens \
   --apiKey="$SUPERNOVA_API_KEY" \
   --designSystemId="$SUPERNOWA_DS_ID" \
   --tokenDirPath "./design-tokens" \
-  --configFilePath "./supernova.settings.json"
+  --configFilePath "./supernova.settings.staging.json"
 ```
 
 If you did everything correctly, you should see a message like this in your terminal, and the tokens should be update in Supernova.
