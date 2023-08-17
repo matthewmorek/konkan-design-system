@@ -5,7 +5,10 @@ import {
 import { promises } from "fs";
 import path from "path";
 import StyleDictionary from "style-dictionary";
-import { transformFigmaColorToHex8 } from "../src/functions.js";
+import {
+  transformFigmaColorToHex8,
+  transformHexToHex8,
+} from "../src/functions.js";
 
 const transforms = [
   "attribute/color",
@@ -14,15 +17,24 @@ const transforms = [
   "ts/resolveMath",
   "ts/color/modifiers",
   "tceu/color/rgba/hex8",
+  "tceu/color/hex/hex8",
 ];
 
-// register our custom transformer
+// register custom transformers
 StyleDictionary.registerTransform({
   name: "tceu/color/rgba/hex8",
   type: "value",
   transitive: true,
   matcher: (token) => token.type === "color",
   transformer: (token) => transformFigmaColorToHex8(token.value),
+});
+
+StyleDictionary.registerTransform({
+  name: "tceu/color/hex/hex8",
+  type: "value",
+  transitive: true,
+  matcher: (token) => token.type === "color",
+  transformer: (token) => transformHexToHex8(token.value),
 });
 
 registerTransforms(StyleDictionary, {
