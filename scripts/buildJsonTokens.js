@@ -5,6 +5,25 @@ import {
 import { promises } from "fs";
 import path from "path";
 import StyleDictionary from "style-dictionary";
+import { transformFigmaColorToHex8 } from "../src/functions.js";
+
+const transforms = [
+  "attribute/color",
+  "attribute/cti",
+  "ts/opacity",
+  "ts/resolveMath",
+  "ts/color/modifiers",
+  "tceu/color/rgba/hex8",
+];
+
+// register our custom transformer
+StyleDictionary.registerTransform({
+  name: "tceu/color/rgba/hex8",
+  type: "value",
+  transitive: true,
+  matcher: (token) => token.type === "color",
+  transformer: (token) => transformFigmaColorToHex8(token.value),
+});
 
 registerTransforms(StyleDictionary, {
   expand: {
@@ -34,16 +53,7 @@ async function run() {
       mobile: {
         buildPath: "./dist/",
         prefix: "mobile",
-        transforms: [
-          "ts/typography/fontWeight",
-          "ts/resolveMath",
-          "ts/opacity",
-          "ts/color/css/hexrgba",
-          "ts/color/modifiers",
-          "attribute/color",
-          "attribute/cti",
-          "name/cti/camel",
-        ],
+        transforms: transforms,
         files: [
           {
             filter: (token) =>
