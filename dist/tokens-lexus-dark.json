@@ -11,45 +11,45 @@
     },
     "overlay": {
       "scrim": {
-        "semiOpaque": "rgba(0, 0, 0, 0.96)",
-        "translucent": "rgba(0, 0, 0, 0.56)",
-        "semiTransparent": "rgba(0, 0, 0, 0.24)"
+        "semiOpaque": "#f5000000",
+        "translucent": "#8f000000",
+        "semiTransparent": "#3d000000"
       },
       "state": {
         "darken": {
           "fixed": {
-            "dragged": "rgba(0, 0, 0, 0.16)",
-            "enabled": "rgba(0, 0, 0, 0)",
-            "focused": "rgba(0, 0, 0, 0.12)",
-            "hovered": "rgba(0, 0, 0, 0.08)",
-            "pressed": "rgba(0, 0, 0, 0.12)",
-            "resting": "rgba(0, 0, 0, 0.08)"
+            "dragged": "#29000000",
+            "enabled": "#00000000",
+            "focused": "#1f000000",
+            "hovered": "#14000000",
+            "pressed": "#1f000000",
+            "resting": "#14000000"
           },
           "invertible": {
-            "dragged": "rgba(255, 255, 255, 0.16)",
-            "enabled": "rgba(255, 255, 255, 0)",
-            "focused": "rgba(255, 255, 255, 0.12)",
-            "hovered": "rgba(255, 255, 255, 0.08)",
-            "pressed": "rgba(255, 255, 255, 0.12)",
-            "resting": "rgba(255, 255, 255, 0.08)"
+            "dragged": "#29ffffff",
+            "enabled": "#00ffffff",
+            "focused": "#1fffffff",
+            "hovered": "#14ffffff",
+            "pressed": "#1fffffff",
+            "resting": "#14ffffff"
           }
         },
         "lighten": {
           "invertible": {
-            "dragged": "rgba(2, 2, 2, 0.16)",
-            "enabled": "rgba(2, 2, 2, 0)",
-            "focused": "rgba(2, 2, 2, 0.12)",
-            "hovered": "rgba(2, 2, 2, 0.08)",
-            "pressed": "rgba(2, 2, 2, 0.12)",
-            "resting": "rgba(2, 2, 2, 0.08)"
+            "dragged": "#29020202",
+            "enabled": "#00020202",
+            "focused": "#1f020202",
+            "hovered": "#14020202",
+            "pressed": "#1f020202",
+            "resting": "#14020202"
           },
           "fixed": {
-            "dragged": "rgba(255, 255, 255, 0.16)",
-            "enabled": "rgba(255, 255, 255, 0)",
-            "focused": "rgba(255, 255, 255, 0.12)",
-            "hovered": "rgba(255, 255, 255, 0.08)",
-            "pressed": "rgba(255, 255, 255, 0.12)",
-            "resting": "rgba(255, 255, 255, 0.08)"
+            "dragged": "#29ffffff",
+            "enabled": "#00ffffff",
+            "focused": "#1fffffff",
+            "hovered": "#14ffffff",
+            "pressed": "#1fffffff",
+            "resting": "#14ffffff"
           }
         }
       }
