@@ -31,6 +31,26 @@ export function transformFigmaColorToHex8(value) {
   }
   return value;
 }
+
+/**
+ * Transforms a 6-digit hexadecimal color value to an 8-digit hexadecimal representation.
+ * @param {string} value - The 6-digit hexadecimal color value to be transformed.
+ * @returns {string} - The transformed color value or original value if the input is `undefined`.
+ */
+export function transformHexToHex8(value) {
+  if (value === undefined) {
     return value;
   }
+  // match exactly HEX value i.e: #FAA1C4
+  const match = /#(?<hex>[0-9A-Fa-f]{6})/g.exec(value);
+  if (match && match.groups) {
+    const { hex } = match.groups;
+    try {
+      return `#FF${hex}`;
+    } catch (e) {
+      console.warn(`Coloru value "${value}" is nto a valid Figma Color value.`);
+      return value;
+    }
+  }
+  return value;
 }
