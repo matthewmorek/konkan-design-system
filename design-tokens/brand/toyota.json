@@ -380,15 +380,15 @@
     "brand": {
       "neutral": {
         "0": {
-          "dark": {
-            "type": "color",
-            "value": "#fffeff",
-            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background #000000"
-          },
           "light": {
             "type": "color",
             "value": "#000000",
             "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background #ffffff"
+          },
+          "dark": {
+            "type": "color",
+            "value": "#fffeff",
+            "description": "Color can be used for small text. WCAG 2.x (relative luminance) contrast is 21:1 against background #000000"
           }
         },
         "10": {
