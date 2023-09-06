@@ -1,98 +1,63 @@
 {
   "semantic": {
-    "feature": {
-      "fuelGas": "#FFFF4b70",
-      "climateHot": "#FFFFca21",
-      "climateMid": "#FFFF7b69",
-      "climateCool": "#FFFF315a",
-      "fuelElectric": "#FFFF0fa0",
-      "functionBlack": "#FFFF0000",
-      "functionBlackSubtle": "#FFFF2c36"
-    },
-    "overlay": {
-      "scrim": {
-        "semiOpaque": "#FFf5FF00",
-        "translucent": "#FF8fFF00",
-        "semiTransparent": "#FF3dFF00"
-      },
-      "state": {
-        "darken": {
-          "fixed": {
-            "dragged": "#FF29FF00",
-            "enabled": "#FF00FF00",
-            "focused": "#FF1fFF00",
-            "hovered": "#FF14FF00",
-            "pressed": "#FF1fFF00",
-            "resting": "#FF14FF00"
-          },
-          "invertible": {
-            "dragged": "#FF29FFff",
-            "enabled": "#FF00FFff",
-            "focused": "#FF1fFFff",
-            "hovered": "#FF14FFff",
-            "pressed": "#FF1fFFff",
-            "resting": "#FF14FFff"
-          }
-        },
-        "lighten": {
-          "invertible": {
-            "dragged": "#FF29FF02",
-            "enabled": "#FF00FF02",
-            "focused": "#FF1fFF02",
-            "hovered": "#FF14FF02",
-            "pressed": "#FF1fFF02",
-            "resting": "#FF14FF02"
-          },
-          "fixed": {
-            "dragged": "#FF29FFff",
-            "enabled": "#FF00FFff",
-            "focused": "#FF1fFFff",
-            "hovered": "#FF14FFff",
-            "pressed": "#FF1fFFff",
-            "resting": "#FF14FFff"
-          }
-        }
-      }
-    },
     "background": {
       "accent": {
-        "info": "#FFFF4b70",
-        "alert": "#FFFFe82c",
-        "primary": "#FFFF4b70",
-        "success": "#FFFF178b",
-        "warning": "#FFFFb863",
-        "disabled": "#FFFF2c36",
-        "secondary": "#FFFFfffe",
-        "infoSubtle": "#FFFF0a12",
-        "alertSubtle": "#FFFF2c06",
-        "primarySubtle": "#FFFF0a12",
-        "successSubtle": "#FFFF0418",
-        "warningSubtle": "#FFFF2011",
-        "secondarySubtle": "#FFFF1922"
+        "invertible": {
+          "info": "#FFFF4b70",
+          "alert": "#FFFFe82c",
+          "primary": "#FFFF4b70",
+          "success": "#FFFF178b",
+          "warning": "#FFFFb863",
+          "disabled": "#FFFF2c36",
+          "secondary": "#FFFFfffe",
+          "infoSubtle": "#FFFF0a12",
+          "alertSubtle": "#FFFF2c06",
+          "primarySubtle": "#FFFF0a12",
+          "successSubtle": "#FFFF0418",
+          "warningSubtle": "#FFFF2011",
+          "secondarySubtle": "#FFFF1922"
+        }
       },
       "neutral": {
-        "low": "#FFFF0a14",
-        "high": "#FFFF1922"
+        "invertible": {
+          "low": "#FFFF0a14",
+          "high": "#FFFF1922"
+        }
+      },
+      "feature": {
+        "fixed": {
+          "fuelGas": "#FFFF4067",
+          "climateHot": "#FFFFf936",
+          "climateMid": "#FFFF7462",
+          "climateCool": "#FFFF5e7d",
+          "fuelElectric": "#FFFF0894",
+          "functionBlack": "#FFFF0000",
+          "functionBlackSubtle": "#FFFF2630"
+        }
       }
     },
     "foreground": {
       "accent": {
-        "info": "#FFFF7089",
-        "alert": "#FFFFff50",
-        "primary": "#FFFF7089",
-        "success": "#FFFF20a4",
-        "warning": "#FFFFd776",
-        "disabled": "#FFFFa4ad"
+        "invertible": {
+          "info": "#FFFF7089",
+          "alert": "#FFFFff50",
+          "primary": "#FFFF7089",
+          "success": "#FFFF20a4",
+          "warning": "#FFFFd776",
+          "disabled": "#FFFFa4ad"
+        }
       },
       "neutral": {
-        "strongest": "#FFFFfffe",
-        "stronger": "#FFFFa4ad",
-        "strong": "#FFFF8490",
-        "subtle": "#FFFF6e7a",
-        "subtler": "#FFFF5c68",
-        "subtlest": "#FFFF3e49"
+        "invertible": {
+          "strongest": "#FFFFfffe",
+          "stronger": "#FFFFa4ad",
+          "strong": "#FFFF8490",
+          "subtle": "#FFFF6e7a",
+          "subtler": "#FFFF5c68",
+          "subtlest": "#FFFF3e49"
+        }
       },
-      "inverse": {
+      "neutralInverse": {
         "fixed": {
           "strongest": "#FFFFfffe",
           "stronger": "#FFFFa4ad",
@@ -101,12 +66,61 @@
           "subtler": "#FFFF5c68",
           "subtlest": "#FFFF3e49"
         },
-        "strongest": "#FFFF0101",
-        "stronger": "#FFFF1922",
-        "strong": "#FFFF2c36",
-        "subtle": "#FFFF3e49",
-        "subtler": "#FFFF5c68",
-        "subtlest": "#FFFF6e7a"
+        "invertible": {
+          "strongest": "#FFFF0101",
+          "stronger": "#FFFF1922",
+          "strong": "#FFFF2c36",
+          "subtle": "#FFFF3e49",
+          "subtler": "#FFFF5c68",
+          "subtlest": "#FFFF6e7a"
+        }
+      }
+    },
+    "overlay": {
+      "scrim": {
+        "fixed": {
+          "semiOpaque": "#FFf5FF00",
+          "translucent": "#FF8fFF00",
+          "semiTransparent": "#FF3dFF00"
+        }
+      },
+      "state": {
+        "fixed": {
+          "darken": {
+            "dragged": "#FF29FF00",
+            "enabled": "#FF00FF00",
+            "focused": "#FF1fFF00",
+            "hovered": "#FF14FF00",
+            "pressed": "#FF1fFF00",
+            "resting": "#FF14FF00"
+          },
+          "lighten": {
+            "dragged": "#FF29FFff",
+            "enabled": "#FF00FFff",
+            "focused": "#FF1fFFff",
+            "hovered": "#FF14FFff",
+            "pressed": "#FF1fFFff",
+            "resting": "#FF14FFff"
+          }
+        },
+        "invertible": {
+          "darken": {
+            "dragged": "#FF29FFff",
+            "enabled": "#FF00FFff",
+            "focused": "#FF1fFFff",
+            "hovered": "#FF14FFff",
+            "pressed": "#FF1fFFff",
+            "resting": "#FF14FFff"
+          },
+          "lighten": {
+            "dragged": "#FF29FF02",
+            "enabled": "#FF00FF02",
+            "focused": "#FF1fFF02",
+            "hovered": "#FF14FF02",
+            "pressed": "#FF1fFF02",
+            "resting": "#FF14FF02"
+          }
+        }
       }
     }
   }

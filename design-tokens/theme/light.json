@@ -1,332 +1,189 @@
 {
   "semantic": {
-    "feature": {
-      "fuelGas": {
-        "type": "color",
-        "value": "{primitive.global.blue.50.light}",
-        "description": "Description goes here"
-      },
-      "climateHot": {
-        "type": "color",
-        "value": "{primitive.global.red.60.light}",
-        "description": "Description goes here"
-      },
-      "climateMid": {
-        "type": "color",
-        "value": "{primitive.global.purple.50.light}",
-        "description": "Description goes here"
-      },
-      "climateCool": {
-        "type": "color",
-        "value": "{primitive.global.blue.60.light}",
-        "description": "Description goes here"
-      },
-      "fuelElectric": {
-        "type": "color",
-        "value": "{primitive.global.teal.60.light}",
-        "description": "Description goes here"
-      },
-      "functionBlack": {
-        "type": "color",
-        "value": "{primitive.global.fixed.black}",
-        "description": "Description goes here"
-      },
-      "functionBlackSubtle": {
-        "type": "color",
-        "value": "{primitive.brand.neutral.20.light}",
-        "description": "Description goes here"
-      }
-    },
-    "overlay": {
-      "scrim": {
-        "semiOpaque": {
-          "type": "color",
-          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.96})",
-          "description": "Description goes here"
-        },
-        "translucent": {
-          "type": "color",
-          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.56})",
-          "description": "Description goes here"
-        },
-        "semiTransparent": {
-          "type": "color",
-          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.24})",
-          "description": "Description goes here"
-        }
-      },
-      "state": {
-        "darken": {
-          "fixed": {
-            "dragged": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "enabled": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.0})",
-              "description": "Description goes here"
-            },
-            "focused": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "hovered": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "resting": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            }
-          },
-          "invertible": {
-            "dragged": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "enabled": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.0})",
-              "description": "Description goes here"
-            },
-            "focused": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "hovered": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "resting": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            }
-          }
-        },
-        "lighten": {
-          "invertible": {
-            "dragged": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "enabled": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.0})",
-              "description": "Description goes here"
-            },
-            "focused": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "hovered": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "resting": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            }
-          },
-          "fixed": {
-            "dragged": {
-              "type": "color",
-              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "enabled": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.0})",
-              "description": "Description goes here"
-            },
-            "focused": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "hovered": {
-              "type": "color",
-              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "resting": {
-              "type": "color",
-              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            }
-          }
-        }
-      }
-    },
     "background": {
+      "feature": {
+        "fixed": {
+          "fuelGas": {
+            "type": "color",
+            "value": "{primitive.global.blue.50.light}",
+            "description": "Description goes here"
+          },
+          "climateHot": {
+            "type": "color",
+            "value": "{primitive.global.red.60.light}",
+            "description": "Description goes here"
+          },
+          "climateMid": {
+            "type": "color",
+            "value": "{primitive.global.purple.50.light}",
+            "description": "Description goes here"
+          },
+          "climateCool": {
+            "type": "color",
+            "value": "{primitive.global.blue.60.light}",
+            "description": "Description goes here"
+          },
+          "fuelElectric": {
+            "type": "color",
+            "value": "{primitive.global.teal.60.light}",
+            "description": "Description goes here"
+          },
+          "functionBlack": {
+            "type": "color",
+            "value": "{primitive.global.fixed.black}",
+            "description": "Description goes here"
+          },
+          "functionBlackSubtle": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.20.light}",
+            "description": "Description goes here"
+          }
+        }
+      },
       "accent": {
-        "info": {
-          "type": "color",
-          "value": "{primitive.global.blue.50.light}",
-          "description": "Description goes here"
-        },
-        "alert": {
-          "type": "color",
-          "value": "{primitive.global.red.50.light}",
-          "description": "Description goes here"
-        },
-        "primary": {
-          "type": "color",
-          "value": "{primitive.brand.primary.50.light}",
-          "description": "Description goes here"
-        },
-        "success": {
-          "type": "color",
-          "value": "{primitive.global.green.50.light}",
-          "description": "Description goes here"
-        },
-        "warning": {
-          "type": "color",
-          "value": "{primitive.global.orange.50.light}",
-          "description": "Description goes here"
-        },
-        "secondary": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.0.light}",
-          "description": "Description goes here"
-        },
-        "infoSubtle": {
-          "type": "color",
-          "value": "{primitive.global.blue.95.light}",
-          "description": "Description goes here"
-        },
-        "alertSubtle": {
-          "type": "color",
-          "value": "{primitive.global.red.95.light}",
-          "description": "Description goes here"
-        },
-        "primarySubtle": {
-          "type": "color",
-          "value": "{primitive.brand.primary.95.light}",
-          "description": "Description goes here"
-        },
-        "successSubtle": {
-          "type": "color",
-          "value": "{primitive.global.green.95.light}",
-          "description": "Description goes here"
-        },
-        "warningSubtle": {
-          "type": "color",
-          "value": "{primitive.global.orange.95.light}",
-          "description": "Description goes here"
-        },
-        "secondarySubtle": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.90.light}",
-          "description": "Description goes here"
+        "invertible": {
+          "info": {
+            "type": "color",
+            "value": "{primitive.global.blue.50.light}",
+            "description": "Description goes here"
+          },
+          "alert": {
+            "type": "color",
+            "value": "{primitive.global.red.50.light}",
+            "description": "Description goes here"
+          },
+          "primary": {
+            "type": "color",
+            "value": "{primitive.brand.primary.50.light}",
+            "description": "Description goes here"
+          },
+          "success": {
+            "type": "color",
+            "value": "{primitive.global.green.50.light}",
+            "description": "Description goes here"
+          },
+          "warning": {
+            "type": "color",
+            "value": "{primitive.global.orange.50.light}",
+            "description": "Description goes here"
+          },
+          "secondary": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.0.light}",
+            "description": "Description goes here"
+          },
+          "infoSubtle": {
+            "type": "color",
+            "value": "{primitive.global.blue.95.light}",
+            "description": "Description goes here"
+          },
+          "alertSubtle": {
+            "type": "color",
+            "value": "{primitive.global.red.95.light}",
+            "description": "Description goes here"
+          },
+          "primarySubtle": {
+            "type": "color",
+            "value": "{primitive.brand.primary.95.light}",
+            "description": "Description goes here"
+          },
+          "successSubtle": {
+            "type": "color",
+            "value": "{primitive.global.green.95.light}",
+            "description": "Description goes here"
+          },
+          "warningSubtle": {
+            "type": "color",
+            "value": "{primitive.global.orange.95.light}",
+            "description": "Description goes here"
+          },
+          "secondarySubtle": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.90.light}",
+            "description": "Description goes here"
+          }
         }
       },
       "neutral": {
-        "low": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.95.light}",
-          "description": "Description goes here"
-        },
-        "high": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.100.light}",
-          "description": "Description goes here"
+        "invertible": {
+          "low": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.95.light}",
+            "description": "Description goes here"
+          },
+          "high": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.100.light}",
+            "description": "Description goes here"
+          }
         }
       }
     },
     "foreground": {
       "accent": {
-        "info": {
-          "type": "color",
-          "value": "{primitive.global.blue.40.light}",
-          "description": "Description goes here"
-        },
-        "alert": {
-          "type": "color",
-          "value": "{primitive.global.red.40.light}",
-          "description": "Description goes here"
-        },
-        "primary": {
-          "type": "color",
-          "value": "{primitive.brand.primary.40.light}",
-          "description": "Description goes here"
-        },
-        "success": {
-          "type": "color",
-          "value": "{primitive.global.green.40.light}",
-          "description": "Description goes here"
-        },
-        "warning": {
-          "type": "color",
-          "value": "{primitive.global.orange.40.light}",
-          "description": "Description goes here"
+        "invertible": {
+          "info": {
+            "type": "color",
+            "value": "{primitive.global.blue.40.light}",
+            "description": "Description goes here"
+          },
+          "alert": {
+            "type": "color",
+            "value": "{primitive.global.red.40.light}",
+            "description": "Description goes here"
+          },
+          "primary": {
+            "type": "color",
+            "value": "{primitive.brand.primary.40.light}",
+            "description": "Description goes here"
+          },
+          "success": {
+            "type": "color",
+            "value": "{primitive.global.green.40.light}",
+            "description": "Description goes here"
+          },
+          "warning": {
+            "type": "color",
+            "value": "{primitive.global.orange.40.light}",
+            "description": "Description goes here"
+          }
         }
       },
       "neutral": {
-        "strongest": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.0.light}",
-          "description": "Description goes here"
-        },
-        "stronger": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.30.light}",
-          "description": "Description goes here"
-        },
-        "strong": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.40.light}",
-          "description": "Description goes here"
-        },
-        "subtle": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.50.light}",
-          "description": "Description goes here"
-        },
-        "subtler": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.60.light}",
-          "description": "Description goes here"
-        },
-        "subtlest": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.70.light}",
-          "description": "Description goes here"
+        "invertible": {
+          "strongest": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.0.light}",
+            "description": "Description goes here"
+          },
+          "stronger": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.30.light}",
+            "description": "Description goes here"
+          },
+          "strong": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.40.light}",
+            "description": "Description goes here"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.50.light}",
+            "description": "Description goes here"
+          },
+          "subtler": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.60.light}",
+            "description": "Description goes here"
+          },
+          "subtlest": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.70.light}",
+            "description": "Description goes here"
+          }
         }
       },
-      "inverse": {
+      "neutralInverse": {
         "fixed": {
           "strongest": {
             "type": "color",
@@ -359,35 +216,192 @@
             "description": "Description goes here"
           }
         },
-        "strongest": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.100.light}",
-          "description": "Description goes here"
+        "invertible": {
+          "strongest": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.100.light}",
+            "description": "Description goes here"
+          },
+          "stronger": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.90.light}",
+            "description": "Description goes here"
+          },
+          "strong": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.80.light}",
+            "description": "Description goes here"
+          },
+          "subtle": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.70.light}",
+            "description": "Description goes here"
+          },
+          "subtler": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.60.light}",
+            "description": "Description goes here"
+          },
+          "subtlest": {
+            "type": "color",
+            "value": "{primitive.brand.neutral.50.light}",
+            "description": "Description goes here"
+          }
+        }
+      }
+    },
+    "overlay": {
+      "scrim": {
+        "fixed": {
+          "semiOpaque": {
+            "type": "color",
+            "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.96})",
+            "description": "Description goes here"
+          },
+          "translucent": {
+            "type": "color",
+            "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.56})",
+            "description": "Description goes here"
+          },
+          "semiTransparent": {
+            "type": "color",
+            "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.24})",
+            "description": "Description goes here"
+          }
+        }
+      },
+      "state": {
+        "fixed": {
+          "darken": {
+            "dragged": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.16})",
+              "description": "Description goes here"
+            },
+            "enabled": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.0})",
+              "description": "Description goes here"
+            },
+            "focused": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "hovered": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
+              "description": "Description goes here"
+            },
+            "pressed": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "resting": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
+              "description": "Description goes here"
+            }
+          },
+          "lighten": {
+            "dragged": {
+              "type": "color",
+              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.16})",
+              "description": "Description goes here"
+            },
+            "enabled": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.0})",
+              "description": "Description goes here"
+            },
+            "focused": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "hovered": {
+              "type": "color",
+              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
+              "description": "Description goes here"
+            },
+            "pressed": {
+              "type": "color",
+              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "resting": {
+              "type": "color",
+              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
+              "description": "Description goes here"
+            }
+          }
         },
-        "stronger": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.90.light}",
-          "description": "Description goes here"
-        },
-        "strong": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.80.light}",
-          "description": "Description goes here"
-        },
-        "subtle": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.70.light}",
-          "description": "Description goes here"
-        },
-        "subtler": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.60.light}",
-          "description": "Description goes here"
-        },
-        "subtlest": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.50.light}",
-          "description": "Description goes here"
+        "invertible": {
+          "darken": {
+            "dragged": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.16})",
+              "description": "Description goes here"
+            },
+            "enabled": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.0})",
+              "description": "Description goes here"
+            },
+            "focused": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "hovered": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
+              "description": "Description goes here"
+            },
+            "pressed": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "resting": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
+              "description": "Description goes here"
+            }
+          },
+          "lighten": {
+            "dragged": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
+              "description": "Description goes here"
+            },
+            "enabled": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.0})",
+              "description": "Description goes here"
+            },
+            "focused": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "hovered": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
+              "description": "Description goes here"
+            },
+            "pressed": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
+              "description": "Description goes here"
+            },
+            "resting": {
+              "type": "color",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
+              "description": "Description goes here"
+            }
+          }
         }
       }
     }
