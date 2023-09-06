@@ -16,16 +16,16 @@
         "invertible": {
           "info": "#FFFF4067",
           "alert": "#FFFFdc27",
-          "primary": "#FFFF4067",
+          "brandPrimary": "#FFFF4067",
           "success": "#FFFF1583",
           "warning": "#FFFFad5d",
-          "secondary": "#FFFF0000",
+          "brandSecondary": "#FFFF0000",
           "infoSubtle": "#FFFFeff1",
           "alertSubtle": "#FFFFffed",
-          "primarySubtle": "#FFFFeff1",
+          "brandPrimarySubtle": "#FFFFeff1",
           "successSubtle": "#FFFFdaf9",
           "warningSubtle": "#FFFFffee",
-          "secondarySubtle": "#FFFFdfe1"
+          "brandSecondarySubtle": "#FFFFdfe1"
         }
       },
       "neutral": {
@@ -40,37 +40,27 @@
         "invertible": {
           "info": "#FFFF224e",
           "alert": "#FFFFb91c",
-          "primary": "#FFFF224e",
           "success": "#FFFF106d",
           "warning": "#FFFF8f4d"
         }
       },
       "neutral": {
         "invertible": {
-          "strongest": "#FFFF0000",
-          "stronger": "#FFFF3d47",
-          "strong": "#FFFF535f",
-          "subtle": "#FFFF6773",
-          "subtler": "#FFFF7985",
-          "subtlest": "#FFFFa2ac"
+          "primary": "#FFFF0000",
+          "secondary": "#FFFF3d47",
+          "tertiary": "#FFFF535f"
         }
       },
       "neutralInverse": {
         "fixed": {
-          "strongest": "#FFFFfffd",
-          "stronger": "#FFFFdfe1",
-          "strong": "#FFFFc0c6",
-          "subtle": "#FFFFa2ac",
-          "subtler": "#FFFF7985",
-          "subtlest": "#FFFF6773"
+          "primary": "#FFFFfffd",
+          "secondary": "#FFFFdfe1",
+          "tertiary": "#FFFFc0c6"
         },
         "invertible": {
-          "strongest": "#FFFFfffd",
-          "stronger": "#FFFFdfe1",
-          "strong": "#FFFFc0c6",
-          "subtle": "#FFFFa2ac",
-          "subtler": "#FFFF7985",
-          "subtlest": "#FFFF6773"
+          "primary": "#FFFFfffd",
+          "secondary": "#FFFFdfe1",
+          "tertiary": "#FFFFc0c6"
         }
       }
     },
@@ -119,6 +109,14 @@
             "resting": "#FF14FFfe"
           }
         }
+      }
+    },
+    "border": {
+      "invertible": {
+        "container": "#FFFF7985",
+        "seperator": "#FF1fFF13",
+        "containerError": "#FFFFb91c",
+        "containerSelected": "#FFFF224e"
       }
     }
   }
