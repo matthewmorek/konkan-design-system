@@ -5,17 +5,17 @@
         "invertible": {
           "info": "#FFFF4b70",
           "alert": "#FFFFe82c",
-          "primary": "#FFFF4b70",
+          "brandPrimary": "#FFFF4b70",
           "success": "#FFFF178b",
           "warning": "#FFFFb863",
           "disabled": "#FFFF2c36",
-          "secondary": "#FFFFfffe",
+          "brandSecondary": "#FFFFfffe",
           "infoSubtle": "#FFFF0a12",
           "alertSubtle": "#FFFF2c06",
-          "primarySubtle": "#FFFF0a12",
+          "brandPrimarySubtle": "#FFFF0a12",
           "successSubtle": "#FFFF0418",
           "warningSubtle": "#FFFF2011",
-          "secondarySubtle": "#FFFF1922"
+          "brandSecondarySubtle": "#FFFF1922"
         }
       },
       "neutral": {
@@ -41,7 +41,6 @@
         "invertible": {
           "info": "#FFFF7089",
           "alert": "#FFFFff50",
-          "primary": "#FFFF7089",
           "success": "#FFFF20a4",
           "warning": "#FFFFd776",
           "disabled": "#FFFFa4ad"
@@ -49,30 +48,21 @@
       },
       "neutral": {
         "invertible": {
-          "strongest": "#FFFFfffe",
-          "stronger": "#FFFFa4ad",
-          "strong": "#FFFF8490",
-          "subtle": "#FFFF6e7a",
-          "subtler": "#FFFF5c68",
-          "subtlest": "#FFFF3e49"
+          "primary": "#FFFFfffe",
+          "secondary": "#FFFFa4ad",
+          "tertiary": "#FFFF8490"
         }
       },
       "neutralInverse": {
         "fixed": {
-          "strongest": "#FFFFfffe",
-          "stronger": "#FFFFa4ad",
-          "strong": "#FFFF8490",
-          "subtle": "#FFFF6e7a",
-          "subtler": "#FFFF5c68",
-          "subtlest": "#FFFF3e49"
+          "primary": "#FFFFfffe",
+          "secondary": "#FFFFa4ad",
+          "tertiary": "#FFFF8490"
         },
         "invertible": {
-          "strongest": "#FFFF0101",
-          "stronger": "#FFFF1922",
-          "strong": "#FFFF2c36",
-          "subtle": "#FFFF3e49",
-          "subtler": "#FFFF5c68",
-          "subtlest": "#FFFF6e7a"
+          "primary": "#FFFF0101",
+          "secondary": "#FFFF1922",
+          "tertiary": "#FFFF2c36"
         }
       }
     },
@@ -121,6 +111,14 @@
             "resting": "#FF14FF02"
           }
         }
+      }
+    },
+    "border": {
+      "invertible": {
+        "container": "#FFFF8490",
+        "seperator": "#FF1fFFe7",
+        "containerError": "#FFFFff50",
+        "containerSelected": "#FFFF7089"
       }
     }
   }

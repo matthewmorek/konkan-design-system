@@ -52,7 +52,7 @@
             "value": "{primitive.global.red.50.light}",
             "description": "Description goes here"
           },
-          "primary": {
+          "brandPrimary": {
             "type": "color",
             "value": "{primitive.brand.primary.50.light}",
             "description": "Description goes here"
@@ -67,7 +67,7 @@
             "value": "{primitive.global.orange.50.light}",
             "description": "Description goes here"
           },
-          "secondary": {
+          "brandSecondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.0.light}",
             "description": "Description goes here"
@@ -82,7 +82,7 @@
             "value": "{primitive.global.red.95.light}",
             "description": "Description goes here"
           },
-          "primarySubtle": {
+          "brandPrimarySubtle": {
             "type": "color",
             "value": "{primitive.brand.primary.95.light}",
             "description": "Description goes here"
@@ -97,7 +97,7 @@
             "value": "{primitive.global.orange.95.light}",
             "description": "Description goes here"
           },
-          "secondarySubtle": {
+          "brandSecondarySubtle": {
             "type": "color",
             "value": "{primitive.brand.neutral.90.light}",
             "description": "Description goes here"
@@ -132,11 +132,6 @@
             "value": "{primitive.global.red.40.light}",
             "description": "Description goes here"
           },
-          "primary": {
-            "type": "color",
-            "value": "{primitive.brand.primary.40.light}",
-            "description": "Description goes here"
-          },
           "success": {
             "type": "color",
             "value": "{primitive.global.green.40.light}",
@@ -151,100 +146,55 @@
       },
       "neutral": {
         "invertible": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.0.light}",
-            "description": "Description goes here"
+            "description": "Use for headings and labels"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.30.light}",
-            "description": "Description goes here"
+            "description": "Use for body and labels"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.40.light}",
-            "description": "Description goes here"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.light}",
-            "description": "Description goes here"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.light}",
-            "description": "Description goes here"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.light}",
-            "description": "Description goes here"
+            "description": "Use for supplementary content"
           }
         }
       },
       "neutralInverse": {
         "fixed": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.100.light}",
             "description": "Description goes here"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.90.light}",
             "description": "Description goes here"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.80.light}",
-            "description": "Description goes here"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.light}",
-            "description": "Description goes here"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.light}",
-            "description": "Description goes here"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.light}",
             "description": "Description goes here"
           }
         },
         "invertible": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.100.light}",
             "description": "Description goes here"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.90.light}",
             "description": "Description goes here"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.80.light}",
-            "description": "Description goes here"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.light}",
-            "description": "Description goes here"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.light}",
-            "description": "Description goes here"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.light}",
             "description": "Description goes here"
           }
         }
@@ -402,6 +352,26 @@
               "description": "Description goes here"
             }
           }
+        }
+      }
+    },
+    "border": {
+      "invertible": {
+        "container": {
+          "value": "{primitive.brand.neutral.60.light}",
+          "type": "color"
+        },
+        "seperator": {
+          "value": "rgba( {primitive.brand.neutral.10.light} , {primitive.opacity.12})",
+          "type": "color"
+        },
+        "containerError": {
+          "value": "{primitive.global.red.40.light}",
+          "type": "color"
+        },
+        "containerSelected": {
+          "value": "{primitive.global.blue.40.light}",
+          "type": "color"
         }
       }
     }
