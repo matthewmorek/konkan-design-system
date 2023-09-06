@@ -151,100 +151,55 @@
       },
       "neutral": {
         "invertible": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.0.light}",
-            "description": "Description goes here"
+            "description": "Use for headings and labels"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.30.light}",
-            "description": "Description goes here"
+            "description": "Use for body and labels"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.40.light}",
-            "description": "Description goes here"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.light}",
-            "description": "Description goes here"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.light}",
-            "description": "Description goes here"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.light}",
-            "description": "Description goes here"
+            "description": "Use for supplementary content"
           }
         }
       },
       "neutralInverse": {
         "fixed": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.100.light}",
             "description": "Description goes here"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.90.light}",
             "description": "Description goes here"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.80.light}",
-            "description": "Description goes here"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.light}",
-            "description": "Description goes here"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.light}",
-            "description": "Description goes here"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.light}",
             "description": "Description goes here"
           }
         },
         "invertible": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.100.light}",
             "description": "Description goes here"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.90.light}",
             "description": "Description goes here"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.80.light}",
-            "description": "Description goes here"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.light}",
-            "description": "Description goes here"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.light}",
-            "description": "Description goes here"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.light}",
             "description": "Description goes here"
           }
         }
@@ -402,6 +357,18 @@
               "description": "Description goes here"
             }
           }
+        }
+      }
+    },
+    "border": {
+      "invertible": {
+        "container": {
+          "value": "{primitive.brand.neutral.60.light}",
+          "type": "color"
+        },
+        "seperator": {
+          "value": "{primitive.brand.neutral.90.light}",
+          "type": "color"
         }
       }
     }

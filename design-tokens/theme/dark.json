@@ -140,94 +140,52 @@
       },
       "neutral": {
         "invertible": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.0.dark}"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.30.dark}"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.40.dark}"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.dark}"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.dark}"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.dark}"
           }
         }
       },
       "neutralInverse": {
         "fixed": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.0.dark}",
             "description": "Description goes here"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.30.dark}",
             "description": "Description goes here"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.40.dark}",
-            "description": "Description goes here"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.dark}",
-            "description": "Description goes here"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.dark}",
-            "description": "Description goes here"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.dark}",
             "description": "Description goes here"
           }
         },
         "invertible": {
-          "strongest": {
+          "primary": {
             "type": "color",
             "value": "{primitive.brand.neutral.100.dark}",
             "description": "Description goes here"
           },
-          "stronger": {
+          "secondary": {
             "type": "color",
             "value": "{primitive.brand.neutral.90.dark}",
             "description": "Description goes here"
           },
-          "strong": {
+          "tertiary": {
             "type": "color",
             "value": "{primitive.brand.neutral.80.dark}",
-            "description": "Description goes here"
-          },
-          "subtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.70.dark}",
-            "description": "Description goes here"
-          },
-          "subtler": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.60.dark}",
-            "description": "Description goes here"
-          },
-          "subtlest": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.50.dark}",
             "description": "Description goes here"
           }
         }
@@ -370,6 +328,18 @@
               "value": "rgba({primitive.global.gray.100.dark}, {primitive.opacity.8})"
             }
           }
+        }
+      }
+    },
+    "border": {
+      "invertible": {
+        "container": {
+          "value": "{primitive.brand.neutral.40.dark}",
+          "type": "color"
+        },
+        "seperator": {
+          "value": "{primitive.brand.neutral.80.dark}",
+          "type": "color"
         }
       }
     }
