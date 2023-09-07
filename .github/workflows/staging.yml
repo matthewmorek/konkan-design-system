@@ -1,14 +1,14 @@
-name: "Design Tokens Sync (Staging)"
-on:
-  pull_request:
-  workflow_dispatch:
+name: "Staging CI"
+run-name: Staging build for ${{ github.ref_name }} by @${{ github.actor }}
+on: [pull_request, workflow_dispatch]
 
 jobs:
   sync_tokens:
+    name: Tokens Studio > Supernova
     runs-on: ubuntu-latest
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
       # Setup node to use with CLI. 14+ is required
@@ -27,7 +27,19 @@ jobs:
           --designSystemId="27354" \
           --tokenDirPath="${{ github.workspace }}/design-tokens" \
           --configFilePath="${{ github.workspace }}/supernova.settings.staging.json"
-
+  
+  build_tokens:
+    name: Build JSON Tokens
+    runs-on: ubuntu-latest
+    steps:
+      # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      # Setup node to use with CLI. 14+ is required
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
       - name: Install dependencies
         run: npm install
 
