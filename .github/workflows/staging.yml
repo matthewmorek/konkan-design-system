@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
       # Setup node to use with CLI. 14+ is required
@@ -32,6 +32,14 @@ jobs:
     name: Build JSON Tokens
     runs-on: ubuntu-latest
     steps:
+      # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      # Setup node to use with CLI. 14+ is required
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
       - name: Install dependencies
         run: npm install
 
