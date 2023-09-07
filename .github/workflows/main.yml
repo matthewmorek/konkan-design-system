@@ -1,4 +1,4 @@
-name: "Design Tokens Sync (Production)"
+name: "Production CI"
 on:
   push:
     branches:
@@ -7,10 +7,11 @@ on:
 
 jobs:
   sync_tokens:
+    name: "Tokens Studio > Supernova"
     runs-on: ubuntu-latest
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       # Setup node to use with CLI. 14+ is required
       - uses: actions/setup-node@v3
         with:
