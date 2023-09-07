@@ -1,5 +1,13 @@
 {
   "semantic": {
+    "border": {
+      "invertible": {
+        "container": "#FFFF7985",
+        "seperator": "#FF1fFF13",
+        "containerError": "#FFFFb91c",
+        "containerSelected": "#FFFF224e"
+      }
+    },
     "background": {
       "feature": {
         "fixed": {
@@ -109,14 +117,6 @@
             "resting": "#FF14FFfe"
           }
         }
-      }
-    },
-    "border": {
-      "invertible": {
-        "container": "#FFFF7985",
-        "seperator": "#FF1fFF13",
-        "containerError": "#FFFFb91c",
-        "containerSelected": "#FFFF224e"
       }
     }
   }
