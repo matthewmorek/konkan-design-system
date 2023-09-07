@@ -343,38 +343,40 @@
         }
       }
     },
-    "borderRadius": {
-      "large": {
-        "type": "borderRadius",
-        "value": "{primitive.gridUnit}*1"
-      },
-      "small": {
-        "type": "borderRadius",
-        "value": "{primitive.gridUnit}*0"
-      },
-      "circle": {
-        "type": "borderRadius",
-        "value": "{primitive.gridUnit}*100"
-      },
-      "medium": {
-        "type": "borderRadius",
-        "value": "{primitive.gridUnit}*0.5"
-      },
-      "xLarge": {
-        "type": "borderRadius",
-        "value": "{primitive.gridUnit}*2"
-      },
-      "xSmall": {
-        "type": "borderRadius",
-        "value": "{primitive.gridUnit}*0"
-      },
-      "xxLarge": {
-        "type": "borderRadius",
-        "value": "{primitive.gridUnit}*2"
-      },
-      "xxSmall": {
-        "type": "borderRadius",
-        "value": "{primitive.gridUnit}*0"
+    "border": {
+      "radius": {
+        "large": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*1"
+        },
+        "small": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*0"
+        },
+        "circle": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*100"
+        },
+        "medium": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*0.5"
+        },
+        "xLarge": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*2"
+        },
+        "xSmall": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*0"
+        },
+        "xxLarge": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*2"
+        },
+        "xxSmall": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*0"
+        }
       }
     }
   },
