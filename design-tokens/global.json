@@ -1,87 +1,87 @@
 {
   "semantic": {
     "space": {
-      "0": {
+      "none": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*0",
         "description": "Equates to `0`. Use for resetting default spacing styles."
       },
-      "25": {
+      "mini": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*0.5",
         "description": "Use for small and compact pieces of UI."
       },
-      "50": {
+      "xxxSmall": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*1",
         "description": "Use for small and compact pieces of UI."
       },
-      "75": {
+      "xxSmall": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*1.5",
         "description": "Use for small and compact pieces of UI."
       },
-      "100": {
+      "xSmall": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*2",
         "description": "Use for small and compact pieces of UI."
       },
-      "150": {
+      "small": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*3",
         "description": "Use for larger and less dense pieces of UI."
       },
-      "200": {
+      "medium": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*4",
         "description": "Use for larger and less dense pieces of UI."
       },
-      "250": {
+      "large": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*5",
         "description": "Use for larger and less dense pieces of UI."
       },
-      "300": {
+      "xLarge": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*6",
         "description": "Use for larger and less dense pieces of UI."
       },
-      "400": {
+      "xxLarge": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*8",
         "description": "Use for the largest pieces of UI and for layout elements."
       },
-      "500": {
+      "xxxLarge": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*10",
         "description": "Use for the largest pieces of UI and for layout elements."
       },
-      "600": {
+      "huge": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*12",
         "description": "Use for the largest pieces of UI and for layout elements."
       },
-      "700": {
+      "xHuge": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*14",
         "description": "Use for the largest pieces of UI and for layout elements."
       },
-      "800": {
+      "xxHuge": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*16",
         "description": "Use for the largest pieces of UI and for layout elements."
       },
-      "900": {
+      "xxxHuge": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*18",
         "description": "Use for the largest pieces of UI and for layout elements."
       },
-      "1000": {
+      "giant": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*20",
         "description": "Use for the largest pieces of UI and for layout elements."
       },
-      "1100": {
+      "xGiant": {
         "type": "spacing",
         "value": "{primitive.gridUnit}*24",
         "description": "Use for the largest pieces of UI and for layout elements."
