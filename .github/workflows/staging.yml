@@ -1,5 +1,4 @@
 name: "Staging CI"
-run-name: Staging build for ${{ github.ref_name }} by @${{ github.actor }}
 on: [pull_request, workflow_dispatch]
 
 jobs:
