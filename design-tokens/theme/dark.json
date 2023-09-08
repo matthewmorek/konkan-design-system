@@ -334,7 +334,7 @@
           "type": "color"
         },
         "seperator": {
-          "value": "rgba({primitive.brand.neutral.10.dark}, {primitive.opacity.12} )",
+          "value": "rgba( {primitive.global.gray.0.dark} , {primitive.opacity.12})",
           "type": "color"
         },
         "containerError": {
