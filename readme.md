@@ -47,7 +47,7 @@ Tokens synchronized
 
 ### Building JSON tokens
 
-We currently run a GitHub Action which autmatically builds and commits built JSON tokens to the PR branch before each merge. This is an automated check to ensure there consistency of output between what's in Tokens Studio (Figma) and what's available for engineering teams. If you want to build tokens locally, follow these steps:
+We currently run a GitHub Action which automatically builds and commits built JSON tokens to each PR branch before each merge. This is an automated check to ensure consistency of output between what's in Tokens Studio (Figma) and what's available for engineering teams. If you want to build tokens locally, follow these steps:
 
 1. Install required dependencies with your package manager (npm, pnpm, yarn, etc)
 2. Run build command `npm run build:tokens`
