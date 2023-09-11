@@ -61,14 +61,14 @@
       },
       "neutralInverse": {
         "fixed": {
-          "primary": "#FFFFfffd",
-          "secondary": "#FFFFdfe1",
-          "tertiary": "#FFFFc0c6"
+          "primary": "#FFFFfffe",
+          "secondary": "#FFFFa4ad",
+          "tertiary": "#FFFF8490"
         },
         "invertible": {
-          "primary": "#FFFFfffd",
-          "secondary": "#FFFFdfe1",
-          "tertiary": "#FFFFc0c6"
+          "primary": "#FFFFfffe",
+          "secondary": "#FFFFa4ad",
+          "tertiary": "#FFFF8490"
         }
       }
     },
