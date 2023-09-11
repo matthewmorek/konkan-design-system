@@ -167,34 +167,34 @@
         "fixed": {
           "primary": {
             "type": "color",
-            "value": "{primitive.brand.neutral.100.light}",
+            "value": "{primitive.brand.neutral.0.dark}",
             "description": "Description goes here"
           },
           "secondary": {
             "type": "color",
-            "value": "{primitive.brand.neutral.90.light}",
+            "value": "{primitive.brand.neutral.30.dark}",
             "description": "Description goes here"
           },
           "tertiary": {
             "type": "color",
-            "value": "{primitive.brand.neutral.80.light}",
+            "value": "{primitive.brand.neutral.40.dark}",
             "description": "Description goes here"
           }
         },
         "invertible": {
           "primary": {
             "type": "color",
-            "value": "{primitive.brand.neutral.100.light}",
+            "value": "{primitive.brand.neutral.0.dark}",
             "description": "Description goes here"
           },
           "secondary": {
             "type": "color",
-            "value": "{primitive.brand.neutral.90.light}",
+            "value": "{primitive.brand.neutral.30.dark}",
             "description": "Description goes here"
           },
           "tertiary": {
             "type": "color",
-            "value": "{primitive.brand.neutral.80.light}",
+            "value": "{primitive.brand.neutral.40.dark}",
             "description": "Description goes here"
           }
         }
