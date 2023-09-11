@@ -53,7 +53,7 @@
           },
           "brandSecondarySubtle": {
             "type": "color",
-            "value": "{primitive.brand.neutral.90.dark}"
+            "value": "{primitive.brand.neutral.80.dark}"
           }
         }
       },
