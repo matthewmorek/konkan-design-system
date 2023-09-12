@@ -88,16 +88,16 @@
             "dragged": "#FF29FF00",
             "enabled": "#FF00FF00",
             "focused": "#FF1fFF00",
-            "hovered": "#FF14FF00",
-            "pressed": "#FF1fFF00",
+            "hovered": "#FF1fFF00",
+            "pressed": "#FF29FF00",
             "resting": "#FF14FF00"
           },
           "lighten": {
             "dragged": "#FF29FFff",
             "enabled": "#FF00FFff",
             "focused": "#FF1fFFff",
-            "hovered": "#FF14FFff",
-            "pressed": "#FF1fFFff",
+            "hovered": "#FF1fFFff",
+            "pressed": "#FF29FFff",
             "resting": "#FF14FFff"
           }
         },
@@ -106,16 +106,16 @@
             "dragged": "#FF29FFff",
             "enabled": "#FF00FFff",
             "focused": "#FF1fFFff",
-            "hovered": "#FF14FFff",
-            "pressed": "#FF1fFFff",
+            "hovered": "#FF1fFFff",
+            "pressed": "#FF29FFff",
             "resting": "#FF14FFff"
           },
           "lighten": {
             "dragged": "#FF29FF02",
             "enabled": "#FF00FF02",
             "focused": "#FF1fFF02",
-            "hovered": "#FF14FF02",
-            "pressed": "#FF1fFF02",
+            "hovered": "#FF1fFF02",
+            "pressed": "#FF29FF02",
             "resting": "#FF14FF02"
           }
         }
