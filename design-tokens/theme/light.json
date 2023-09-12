@@ -240,12 +240,12 @@
             },
             "hovered": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
+              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "resting": {
@@ -272,12 +272,12 @@
             },
             "hovered": {
               "type": "color",
-              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
+              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
+              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "resting": {
@@ -306,12 +306,12 @@
             },
             "hovered": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
+              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "resting": {
@@ -338,12 +338,12 @@
             },
             "hovered": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
               "description": "Description goes here"
             },
             "pressed": {
               "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
+              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
               "description": "Description goes here"
             },
             "resting": {

@@ -1445,6 +1445,10 @@
         "type": "opacity",
         "value": "16%"
       },
+      "20": {
+        "value": "20%",
+        "type": "opacity"
+      },
       "24": {
         "type": "opacity",
         "value": "24%"
