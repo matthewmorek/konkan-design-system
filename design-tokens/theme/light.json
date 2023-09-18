@@ -2,377 +2,328 @@
   "semantic": {
     "background": {
       "feature": {
-        "fixed": {
-          "fuelGas": {
-            "type": "color",
-            "value": "{primitive.global.blue.50.light}",
-            "description": "Description goes here"
-          },
-          "climateHot": {
-            "type": "color",
-            "value": "{primitive.global.red.60.light}",
-            "description": "Description goes here"
-          },
-          "climateMid": {
-            "type": "color",
-            "value": "{primitive.global.purple.50.light}",
-            "description": "Description goes here"
-          },
-          "climateCool": {
-            "type": "color",
-            "value": "{primitive.global.blue.60.light}",
-            "description": "Description goes here"
-          },
-          "fuelElectric": {
-            "type": "color",
-            "value": "{primitive.global.teal.60.light}",
-            "description": "Description goes here"
-          },
-          "functionBlack": {
-            "type": "color",
-            "value": "{primitive.global.fixed.black}",
-            "description": "Description goes here"
-          },
-          "functionBlackSubtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.20.light}",
-            "description": "Description goes here"
-          }
+        "fuelGas": {
+          "type": "color",
+          "value": "{primitive.global.blue.50.light}",
+          "description": "Description goes here"
+        },
+        "climateHot": {
+          "type": "color",
+          "value": "{primitive.global.red.60.light}",
+          "description": "Description goes here"
+        },
+        "climateMid": {
+          "type": "color",
+          "value": "{primitive.global.purple.50.light}",
+          "description": "Description goes here"
+        },
+        "climateCool": {
+          "type": "color",
+          "value": "{primitive.global.blue.60.light}",
+          "description": "Description goes here"
+        },
+        "fuelElectric": {
+          "type": "color",
+          "value": "{primitive.global.teal.60.light}",
+          "description": "Description goes here"
+        },
+        "functionBlack": {
+          "type": "color",
+          "value": "{primitive.global.fixed.black}",
+          "description": "Description goes here"
+        },
+        "functionBlackSubtle": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.20.light}",
+          "description": "Description goes here"
         }
       },
       "accent": {
-        "invertible": {
-          "info": {
-            "type": "color",
-            "value": "{primitive.global.blue.50.light}",
-            "description": "Description goes here"
-          },
-          "alert": {
-            "type": "color",
-            "value": "{primitive.global.red.50.light}",
-            "description": "Description goes here"
-          },
-          "brandPrimary": {
-            "type": "color",
-            "value": "{primitive.brand.primary.50.light}",
-            "description": "Description goes here"
-          },
-          "success": {
-            "type": "color",
-            "value": "{primitive.global.green.50.light}",
-            "description": "Description goes here"
-          },
-          "warning": {
-            "type": "color",
-            "value": "{primitive.global.orange.50.light}",
-            "description": "Description goes here"
-          },
-          "brandSecondary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.0.light}",
-            "description": "Description goes here"
-          },
-          "infoSubtle": {
-            "type": "color",
-            "value": "{primitive.global.blue.95.light}",
-            "description": "Description goes here"
-          },
-          "alertSubtle": {
-            "type": "color",
-            "value": "{primitive.global.red.95.light}",
-            "description": "Description goes here"
-          },
-          "brandPrimarySubtle": {
-            "type": "color",
-            "value": "{primitive.brand.primary.95.light}",
-            "description": "Description goes here"
-          },
-          "successSubtle": {
-            "type": "color",
-            "value": "{primitive.global.green.95.light}",
-            "description": "Description goes here"
-          },
-          "warningSubtle": {
-            "type": "color",
-            "value": "{primitive.global.orange.95.light}",
-            "description": "Description goes here"
-          },
-          "brandSecondarySubtle": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.90.light}",
-            "description": "Description goes here"
-          }
+        "info": {
+          "type": "color",
+          "value": "{primitive.global.blue.50.light}",
+          "description": "Description goes here"
+        },
+        "alert": {
+          "type": "color",
+          "value": "{primitive.global.red.50.light}",
+          "description": "Description goes here"
+        },
+        "brandPrimary": {
+          "type": "color",
+          "value": "{primitive.brand.primary.50.light}",
+          "description": "Description goes here"
+        },
+        "success": {
+          "type": "color",
+          "value": "{primitive.global.green.50.light}",
+          "description": "Description goes here"
+        },
+        "warning": {
+          "type": "color",
+          "value": "{primitive.global.orange.50.light}",
+          "description": "Description goes here"
+        },
+        "brandSecondary": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.0.light}",
+          "description": "Description goes here"
+        },
+        "infoSubtle": {
+          "type": "color",
+          "value": "{primitive.global.blue.95.light}",
+          "description": "Description goes here"
+        },
+        "alertSubtle": {
+          "type": "color",
+          "value": "{primitive.global.red.95.light}",
+          "description": "Description goes here"
+        },
+        "brandPrimarySubtle": {
+          "type": "color",
+          "value": "{primitive.brand.primary.95.light}",
+          "description": "Description goes here"
+        },
+        "successSubtle": {
+          "type": "color",
+          "value": "{primitive.global.green.95.light}",
+          "description": "Description goes here"
+        },
+        "warningSubtle": {
+          "type": "color",
+          "value": "{primitive.global.orange.95.light}",
+          "description": "Description goes here"
+        },
+        "brandSecondarySubtle": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.90.light}",
+          "description": "Description goes here"
         }
       },
       "neutral": {
-        "invertible": {
-          "low": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.95.light}",
-            "description": "Description goes here"
-          },
-          "high": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.100.light}",
-            "description": "Description goes here"
-          }
+        "low": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.95.light}",
+          "description": "Description goes here"
+        },
+        "high": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.100.light}",
+          "description": "Description goes here"
         }
       }
     },
     "foreground": {
       "accent": {
-        "invertible": {
-          "info": {
-            "type": "color",
-            "value": "{primitive.global.blue.40.light}",
-            "description": "Description goes here"
-          },
-          "alert": {
-            "type": "color",
-            "value": "{primitive.global.red.40.light}",
-            "description": "Description goes here"
-          },
-          "success": {
-            "type": "color",
-            "value": "{primitive.global.green.40.light}",
-            "description": "Description goes here"
-          },
-          "warning": {
-            "type": "color",
-            "value": "{primitive.global.orange.40.light}",
-            "description": "Description goes here"
-          }
+        "info": {
+          "type": "color",
+          "value": "{primitive.global.blue.40.light}",
+          "description": "Description goes here"
+        },
+        "alert": {
+          "type": "color",
+          "value": "{primitive.global.red.40.light}",
+          "description": "Description goes here"
+        },
+        "success": {
+          "type": "color",
+          "value": "{primitive.global.green.40.light}",
+          "description": "Description goes here"
+        },
+        "warning": {
+          "type": "color",
+          "value": "{primitive.global.orange.40.light}",
+          "description": "Description goes here"
         }
       },
       "neutral": {
-        "invertible": {
-          "primary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.0.light}",
-            "description": "Use for headings and labels"
-          },
-          "secondary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.30.light}",
-            "description": "Use for body and labels"
-          },
-          "tertiary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.40.light}",
-            "description": "Use for supplementary content"
-          }
+        "primary": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.0.light}",
+          "description": "Use for headings and labels"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.30.light}",
+          "description": "Use for body and labels"
+        },
+        "tertiary": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.40.light}",
+          "description": "Use for supplementary content"
         }
       },
-      "neutralInverse": {
-        "fixed": {
-          "primary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.0.dark}",
-            "description": "Description goes here"
-          },
-          "secondary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.30.dark}",
-            "description": "Description goes here"
-          },
-          "tertiary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.40.dark}",
-            "description": "Description goes here"
-          }
+      "inverseFixed": {
+        "primary": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.0.dark}",
+          "description": "Description goes here"
         },
-        "invertible": {
-          "primary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.0.dark}",
-            "description": "Description goes here"
-          },
-          "secondary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.30.dark}",
-            "description": "Description goes here"
-          },
-          "tertiary": {
-            "type": "color",
-            "value": "{primitive.brand.neutral.40.dark}",
-            "description": "Description goes here"
-          }
+        "secondary": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.30.dark}",
+          "description": "Description goes here"
+        },
+        "tertiary": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.40.dark}",
+          "description": "Description goes here"
         }
       }
     },
     "overlay": {
       "scrim": {
-        "fixed": {
-          "semiOpaque": {
-            "type": "color",
-            "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.96})",
-            "description": "Description goes here"
-          },
-          "translucent": {
-            "type": "color",
-            "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.56})",
-            "description": "Description goes here"
-          },
-          "semiTransparent": {
-            "type": "color",
-            "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.24})",
-            "description": "Description goes here"
-          }
+        "type": "color",
+        "value": "rgba( {primitive.global.fixed.black}, {primitive.opacity.56})",
+        "description": "Description goes here"
+      }
+    },
+    "state": {
+      "darkenFixed": {
+        "dragged": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.16})",
+          "description": "Description goes here"
+        },
+        "enabled": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.0})",
+          "description": "Description goes here"
+        },
+        "focused": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
+          "description": "Description goes here"
+        },
+        "hovered": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
+          "description": "Description goes here"
+        },
+        "pressed": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.16})",
+          "description": "Description goes here"
+        },
+        "resting": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
+          "description": "Description goes here"
         }
       },
-      "state": {
-        "fixed": {
-          "darken": {
-            "dragged": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "enabled": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.0})",
-              "description": "Description goes here"
-            },
-            "focused": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "hovered": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "resting": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.black}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            }
-          },
-          "lighten": {
-            "dragged": {
-              "type": "color",
-              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "enabled": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.0})",
-              "description": "Description goes here"
-            },
-            "focused": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "hovered": {
-              "type": "color",
-              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "resting": {
-              "type": "color",
-              "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            }
-          }
+      "lightenFixed": {
+        "dragged": {
+          "type": "color",
+          "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.16})",
+          "description": "Description goes here"
         },
-        "invertible": {
-          "darken": {
-            "dragged": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "enabled": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.0})",
-              "description": "Description goes here"
-            },
-            "focused": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "hovered": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "resting": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            }
-          },
-          "lighten": {
-            "dragged": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "enabled": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.0})",
-              "description": "Description goes here"
-            },
-            "focused": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "hovered": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
-              "description": "Description goes here"
-            },
-            "pressed": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
-              "description": "Description goes here"
-            },
-            "resting": {
-              "type": "color",
-              "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
-              "description": "Description goes here"
-            }
-          }
+        "enabled": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.0})",
+          "description": "Description goes here"
+        },
+        "focused": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.12})",
+          "description": "Description goes here"
+        },
+        "hovered": {
+          "type": "color",
+          "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.12})",
+          "description": "Description goes here"
+        },
+        "pressed": {
+          "type": "color",
+          "value": "rgba({primitive.global.fixed.white}, {primitive.opacity.16})",
+          "description": "Description goes here"
+        },
+        "resting": {
+          "type": "color",
+          "value": "rgba( {primitive.global.fixed.white}, {primitive.opacity.8})",
+          "description": "Description goes here"
+        }
+      },
+      "darkenInvertible": {
+        "dragged": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.16})",
+          "description": "Description goes here"
+        },
+        "enabled": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.0})",
+          "description": "Description goes here"
+        },
+        "focused": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
+          "description": "Description goes here"
+        },
+        "hovered": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
+          "description": "Description goes here"
+        },
+        "pressed": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.16})",
+          "description": "Description goes here"
+        },
+        "resting": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.8})",
+          "description": "Description goes here"
+        }
+      },
+      "lightenInvertible": {
+        "dragged": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
+          "description": "Description goes here"
+        },
+        "enabled": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.0})",
+          "description": "Description goes here"
+        },
+        "focused": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
+          "description": "Description goes here"
+        },
+        "hovered": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.12})",
+          "description": "Description goes here"
+        },
+        "pressed": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
+          "description": "Description goes here"
+        },
+        "resting": {
+          "type": "color",
+          "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.8})",
+          "description": "Description goes here"
         }
       }
     },
     "border": {
-      "invertible": {
-        "container": {
-          "value": "{primitive.brand.neutral.60.light}",
-          "type": "color"
-        },
-        "seperator": {
-          "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
-          "type": "color"
-        },
-        "containerError": {
-          "value": "{primitive.global.red.40.light}",
-          "type": "color"
-        },
-        "containerSelected": {
-          "value": "{primitive.global.blue.40.light}",
-          "type": "color"
-        }
+      "container": {
+        "value": "{primitive.brand.neutral.60.light}",
+        "type": "color"
+      },
+      "seperator": {
+        "value": "rgba({primitive.global.gray.0.light}, {primitive.opacity.12})",
+        "type": "color"
+      },
+      "containerError": {
+        "value": "{primitive.global.red.40.light}",
+        "type": "color"
+      },
+      "containerSelected": {
+        "value": "{primitive.global.blue.40.light}",
+        "type": "color"
       }
     }
   }
