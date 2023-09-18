@@ -43,14 +43,19 @@
         "warning": "#FFFF8f4d"
       },
       "neutral": {
-        "primary": "#FFFF0000",
-        "secondary": "#FFFF3d47",
-        "tertiary": "#FFFF535f"
+        "strong": "#FFFF0000",
+        "subtle": "#FFFF3d47",
+        "subtler": "#FFFF535f"
       },
-      "inverseFixed": {
-        "primary": "#FFFFfffe",
-        "secondary": "#FFFFa4ad",
-        "tertiary": "#FFFF8490"
+      "white": {
+        "strong": "#FFFFfffe",
+        "subtle": "#FFFFa4ad",
+        "subtler": "#FFFF8490"
+      },
+      "inverse": {
+        "strong": "#FFFFfffe",
+        "subtle": "#FFFFa4ad",
+        "subtler": "#FFFF8490"
       }
     },
     "overlay": {
