@@ -1,122 +1,93 @@
 {
   "semantic": {
     "border": {
-      "invertible": {
-        "container": "#FFFF7985",
-        "seperator": "#FF1fFF00",
-        "containerError": "#FFFFb91c",
-        "containerSelected": "#FFFF224e"
-      }
+      "container": "#FFFF7985",
+      "seperator": "#FF1fFF00",
+      "containerError": "#FFFFb91c",
+      "containerSelected": "#FFFF224e"
     },
     "background": {
       "feature": {
-        "fixed": {
-          "fuelGas": "#FFFF4067",
-          "climateHot": "#FFFFf936",
-          "climateMid": "#FFFF7462",
-          "climateCool": "#FFFF5e7d",
-          "fuelElectric": "#FFFF0894",
-          "functionBlack": "#FFFF0000",
-          "functionBlackSubtle": "#FFFF2630"
-        }
+        "fuelGas": "#FFFF4067",
+        "climateHot": "#FFFFf936",
+        "climateMid": "#FFFF7462",
+        "climateCool": "#FFFF5e7d",
+        "fuelElectric": "#FFFF0894",
+        "functionBlack": "#FFFF0000",
+        "functionBlackSubtle": "#FFFF2630"
       },
       "accent": {
-        "invertible": {
-          "info": "#FFFF4067",
-          "alert": "#FFFFdc27",
-          "brandPrimary": "#FFFF4067",
-          "success": "#FFFF1583",
-          "warning": "#FFFFad5d",
-          "brandSecondary": "#FFFF0000",
-          "infoSubtle": "#FFFFeff1",
-          "alertSubtle": "#FFFFffed",
-          "brandPrimarySubtle": "#FFFFeff1",
-          "successSubtle": "#FFFFdaf9",
-          "warningSubtle": "#FFFFffee",
-          "brandSecondarySubtle": "#FFFFdfe1"
-        }
+        "info": "#FFFF4067",
+        "alert": "#FFFFdc27",
+        "brandPrimary": "#FFFF4067",
+        "success": "#FFFF1583",
+        "warning": "#FFFFad5d",
+        "brandSecondary": "#FFFF0000",
+        "infoSubtle": "#FFFFeff1",
+        "alertSubtle": "#FFFFffed",
+        "brandPrimarySubtle": "#FFFFeff1",
+        "successSubtle": "#FFFFdaf9",
+        "warningSubtle": "#FFFFffee",
+        "brandSecondarySubtle": "#FFFFdfe1"
       },
       "neutral": {
-        "invertible": {
-          "low": "#FFFFf1f1",
-          "high": "#FFFFfffd"
-        }
+        "low": "#FFFFf1f1",
+        "high": "#FFFFfffd"
       }
     },
     "foreground": {
       "accent": {
-        "invertible": {
-          "info": "#FFFF224e",
-          "alert": "#FFFFb91c",
-          "success": "#FFFF106d",
-          "warning": "#FFFF8f4d"
-        }
+        "info": "#FFFF224e",
+        "alert": "#FFFFb91c",
+        "success": "#FFFF106d",
+        "warning": "#FFFF8f4d"
       },
       "neutral": {
-        "invertible": {
-          "primary": "#FFFF0000",
-          "secondary": "#FFFF3d47",
-          "tertiary": "#FFFF535f"
-        }
+        "primary": "#FFFF0000",
+        "secondary": "#FFFF3d47",
+        "tertiary": "#FFFF535f"
       },
-      "neutralInverse": {
-        "fixed": {
-          "primary": "#FFFFfffe",
-          "secondary": "#FFFFa4ad",
-          "tertiary": "#FFFF8490"
-        },
-        "invertible": {
-          "primary": "#FFFFfffe",
-          "secondary": "#FFFFa4ad",
-          "tertiary": "#FFFF8490"
-        }
+      "inverseFixed": {
+        "primary": "#FFFFfffe",
+        "secondary": "#FFFFa4ad",
+        "tertiary": "#FFFF8490"
       }
     },
     "overlay": {
-      "scrim": {
-        "fixed": {
-          "semiOpaque": "#FFf5FF00",
-          "translucent": "#FF8fFF00",
-          "semiTransparent": "#FF3dFF00"
-        }
+      "scrim": "#FF8fFF00"
+    },
+    "state": {
+      "darkenFixed": {
+        "dragged": "#FF29FF00",
+        "enabled": "#FF00FF00",
+        "focused": "#FF1fFF00",
+        "hovered": "#FF1fFF00",
+        "pressed": "#FF29FF00",
+        "resting": "#FF14FF00"
       },
-      "state": {
-        "fixed": {
-          "darken": {
-            "dragged": "#FF29FF00",
-            "enabled": "#FF00FF00",
-            "focused": "#FF1fFF00",
-            "hovered": "#FF1fFF00",
-            "pressed": "#FF29FF00",
-            "resting": "#FF14FF00"
-          },
-          "lighten": {
-            "dragged": "#FF29FFff",
-            "enabled": "#FF00FFff",
-            "focused": "#FF1fFFff",
-            "hovered": "#FF1fFFff",
-            "pressed": "#FF29FFff",
-            "resting": "#FF14FFff"
-          }
-        },
-        "invertible": {
-          "darken": {
-            "dragged": "#FF29FF00",
-            "enabled": "#FF00FF00",
-            "focused": "#FF1fFF00",
-            "hovered": "#FF1fFF00",
-            "pressed": "#FF29FF00",
-            "resting": "#FF14FF00"
-          },
-          "lighten": {
-            "dragged": "#FF29FFfe",
-            "enabled": "#FF00FFfe",
-            "focused": "#FF1fFFfe",
-            "hovered": "#FF1fFFfe",
-            "pressed": "#FF29FFfe",
-            "resting": "#FF14FFfe"
-          }
-        }
+      "lightenFixed": {
+        "dragged": "#FF29FFff",
+        "enabled": "#FF00FFff",
+        "focused": "#FF1fFFff",
+        "hovered": "#FF1fFFff",
+        "pressed": "#FF29FFff",
+        "resting": "#FF14FFff"
+      },
+      "darkenInvertible": {
+        "dragged": "#FF29FF00",
+        "enabled": "#FF00FF00",
+        "focused": "#FF1fFF00",
+        "hovered": "#FF1fFF00",
+        "pressed": "#FF29FF00",
+        "resting": "#FF14FF00"
+      },
+      "lightenInvertible": {
+        "dragged": "#FF29FFfe",
+        "enabled": "#FF00FFfe",
+        "focused": "#FF1fFFfe",
+        "hovered": "#FF1fFFfe",
+        "pressed": "#FF29FFfe",
+        "resting": "#FF14FFfe"
       }
     }
   }
