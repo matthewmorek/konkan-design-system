@@ -119,33 +119,50 @@
         }
       },
       "neutral": {
-        "primary": {
+        "strong": {
           "type": "color",
           "value": "{primitive.brand.neutral.0.dark}"
         },
-        "secondary": {
+        "subtle": {
           "type": "color",
           "value": "{primitive.brand.neutral.30.dark}"
         },
-        "tertiary": {
+        "subtler": {
           "type": "color",
           "value": "{primitive.brand.neutral.40.dark}"
         }
       },
-      "inverseFixed": {
-        "primary": {
+      "white": {
+        "strong": {
           "type": "color",
           "value": "{primitive.brand.neutral.0.dark}",
           "description": "Description goes here"
         },
-        "secondary": {
+        "subtle": {
           "type": "color",
           "value": "{primitive.brand.neutral.30.dark}",
           "description": "Description goes here"
         },
-        "tertiary": {
+        "subtler": {
           "type": "color",
           "value": "{primitive.brand.neutral.40.dark}",
+          "description": "Description goes here"
+        }
+      },
+      "inverse": {
+        "strong": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.0.light}",
+          "description": "Description goes here"
+        },
+        "subtle": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.30.light}",
+          "description": "Description goes here"
+        },
+        "subtler": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.40.light}",
           "description": "Description goes here"
         }
       }
