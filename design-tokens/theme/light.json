@@ -137,34 +137,51 @@
         }
       },
       "neutral": {
-        "primary": {
+        "strong": {
           "type": "color",
           "value": "{primitive.brand.neutral.0.light}",
           "description": "Use for headings and labels"
         },
-        "secondary": {
+        "subtle": {
           "type": "color",
           "value": "{primitive.brand.neutral.30.light}",
           "description": "Use for body and labels"
         },
-        "tertiary": {
+        "subtler": {
           "type": "color",
           "value": "{primitive.brand.neutral.40.light}",
           "description": "Use for supplementary content"
         }
       },
-      "inverseFixed": {
-        "primary": {
+      "white": {
+        "strong": {
           "type": "color",
           "value": "{primitive.brand.neutral.0.dark}",
           "description": "Description goes here"
         },
-        "secondary": {
+        "subtle": {
           "type": "color",
           "value": "{primitive.brand.neutral.30.dark}",
           "description": "Description goes here"
         },
-        "tertiary": {
+        "subtler": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.40.dark}",
+          "description": "Description goes here"
+        }
+      },
+      "inverse": {
+        "strong": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.0.dark}",
+          "description": "Description goes here"
+        },
+        "subtle": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.30.dark}",
+          "description": "Description goes here"
+        },
+        "subtler": {
           "type": "color",
           "value": "{primitive.brand.neutral.40.dark}",
           "description": "Description goes here"
