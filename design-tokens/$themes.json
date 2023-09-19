@@ -265,8 +265,7 @@
     "$figmaModeId": "701:0",
     "selectedTokenSets": {
       "global": "source",
-      "theme/light": "enabled",
-      "illustration/illustration": "disabled"
+      "theme/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:701:16260",
     "$figmaStyleReferences": {
@@ -391,8 +390,7 @@
     "$figmaModeId": "701:1",
     "selectedTokenSets": {
       "global": "source",
-      "theme/dark": "enabled",
-      "illustration/illustration": "disabled"
+      "theme/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:701:16260",
     "$figmaStyleReferences": {},
@@ -468,8 +466,7 @@
     "name": "System",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "global": "enabled",
-      "illustration/illustration": "disabled"
+      "global": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:458:60101",
     "$figmaModeId": "458:2",
