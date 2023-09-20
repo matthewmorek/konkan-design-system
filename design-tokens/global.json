@@ -87,36 +87,6 @@
           "value": "{primitive.gridUnit}*24",
           "description": "Use for the largest pieces of UI and for layout elements."
         }
-      },
-      "iconSize": {
-        "large": {
-          "type": "sizing",
-          "value": "{primitive.fontSize.100}"
-        },
-        "small": {
-          "type": "sizing",
-          "value": "{primitive.fontSize.50}"
-        },
-        "medium": {
-          "type": "sizing",
-          "value": "{primitive.fontSize.75}"
-        },
-        "xLarge": {
-          "type": "sizing",
-          "value": "{primitive.fontSize.250}"
-        },
-        "xSmall": {
-          "type": "sizing",
-          "value": "{primitive.fontSize.25}"
-        },
-        "xxLarge": {
-          "type": "sizing",
-          "value": "{primitive.fontSize.300}"
-        },
-        "xxSmall": {
-          "type": "sizing",
-          "value": "{primitive.fontSize.10}"
-        }
       }
     },
     "object": {
