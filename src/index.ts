@@ -76,7 +76,7 @@ async function run() {
       ),
       platforms: {
         mobile: {
-          buildPath: "./dist/",
+          buildPath: "./build/",
           prefix: "mobile",
           transforms: transforms,
           files: [
@@ -101,7 +101,10 @@ async function run() {
     sd.buildAllPlatforms();
   });
 
-  mergeJSONFiles(path.join(process.cwd(), "./dist"));
+  mergeJSONFiles(
+    path.join(process.cwd(), "./build"),
+    path.join(process.cwd(), "./dist"),
+  );
 
   configs.forEach((cfg) => {
     const sd = StyleDictionary.extend(cfg);

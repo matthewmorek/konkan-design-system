@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync, writeFileSync } from "fs";
+import { readdirSync, readFileSync, writeFileSync, unlinkSync } from "fs";
 import path from "path";
 
 export function rgbToHex(value: number): string {
@@ -70,15 +70,27 @@ function removeExtension(fileName: string): string {
   return fileName.replace(".json", "");
 }
 
-export function mergeJSONFiles(directory: string): void {
+function cleanDirectory(directory: string): void {
   const fileNames = readdirSync(directory);
+  fileNames.forEach((fileName) => {
+    const filePath = path.join(directory, fileName);
+    if (fileName.endsWith(".json")) {
+      unlinkSync(filePath);
+    }
+  });
+}
+
+export function mergeJSONFiles(inputDir: string, outputDir: string): void {
+  cleanDirectory(outputDir);
+  const fileNames = readdirSync(inputDir);
   const mergedJSON: MergedJSON = {};
 
   fileNames.forEach((fileName) => {
-    const [brandWithExtension, themeWithExtension] = fileName.split("-");
-    const brand = removeExtension(brandWithExtension);
-    const theme = removeExtension(themeWithExtension);
-    const filePath = path.join(directory, fileName);
+    const [brandWithExtension, themeWithExtension] =
+      removeExtension(fileName).split("-");
+    const brand = brandWithExtension;
+    const theme = themeWithExtension;
+    const filePath = path.join(inputDir, fileName);
     const fileContent = readFileSync(filePath, "utf-8");
     const parsedJSON = JSON.parse(fileContent) as ParsedJSON;
 
@@ -91,7 +103,7 @@ export function mergeJSONFiles(directory: string): void {
 
   for (const brand in mergedJSON) {
     const fileName = `${brand}.json`;
-    const filePath = path.join(directory, fileName);
+    const filePath = path.join(outputDir, fileName);
     const fileContent = JSON.stringify(mergedJSON[brand], null, 2);
     writeFileSync(filePath, fileContent);
   }
