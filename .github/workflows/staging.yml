@@ -34,6 +34,7 @@ jobs:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
       - uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GH_TOKEN }}
           ref: ${{ github.head_ref }}
       # Setup node to use with CLI. 14+ is required
       - uses: actions/setup-node@v3
