@@ -26,7 +26,7 @@ jobs:
           --designSystemId="27354" \
           --tokenDirPath="${{ github.workspace }}/design-tokens" \
           --configFilePath="${{ github.workspace }}/supernova.settings.staging.json"
-  
+
   build_tokens:
     name: Build JSON Tokens
     runs-on: ubuntu-latest
@@ -48,6 +48,7 @@ jobs:
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          add_options: "--all"
           commit_message: Update Token JSON files
           commit_options: "--no-verify"
           commit_user_name: "Matthew Morek"
