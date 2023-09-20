@@ -9,13 +9,13 @@ function mapThemesToSetsObject(themes: ThemeObject[]) {
     themes.map((theme) => [
       theme.name,
       filterTokenSets(theme.selectedTokenSets),
-    ])
+    ]),
   );
 }
 
-export function permutateThemes(
+export default function permutateThemes(
   themes: ThemeObject[],
-  { separator = "-" } = {} as Options
+  { separator = "-" } = {} as Options,
 ) {
   if (themes.some((theme) => theme.group)) {
     // Sort themes by groups
@@ -25,7 +25,7 @@ export function permutateThemes(
         groups[theme.group] = [...(groups[theme.group] ?? []), theme];
       } else {
         throw new Error(
-          `Theme ${theme.name} does not have a group property, which is required for multi-dimensional theming.`
+          `Theme ${theme.name} does not have a group property, which is required for multi-dimensional theming.`,
         );
       }
     });
@@ -44,16 +44,22 @@ export function permutateThemes(
         // 1) concat the names of the theme groups to create the permutation theme name
         // 2) merge the selectedTokenSets together from the different theme group parts
         const reduced = perm.reduce(
-          (acc, curr) => [
-            `${acc[0]}${acc[0] ? separator : ""}${curr.name}`,
-            [...acc[1], ...filterTokenSets(curr.selectedTokenSets)],
-          ],
-          ["", [] as string[]]
+          (acc, curr) => {
+            const tokenSetName =
+              curr.group === "Brand" || curr.group === "Theme"
+                ? `${acc[0]}${acc[0] ? separator : ""}${curr.name}`
+                : `${acc[0]}`;
+            return [
+              tokenSetName,
+              [...acc[1], ...filterTokenSets(curr.selectedTokenSets)],
+            ];
+          },
+          ["", [] as string[]],
         );
 
         // Dedupe the tokensets, return as entries [name, sets]
         return [reduced[0], [...new Set(reduced[1])]];
-      })
+      }),
     );
   } else {
     return mapThemesToSetsObject(themes);

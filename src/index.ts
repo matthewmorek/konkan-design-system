@@ -1,7 +1,4 @@
-import {
-  permutateThemes,
-  registerTransforms,
-} from "@tokens-studio/sd-transforms";
+import { registerTransforms } from "@tokens-studio/sd-transforms";
 import { ThemeObject, TokenSetStatus } from "@tokens-studio/types";
 import { promises as fsp } from "fs";
 import path from "path";
@@ -12,10 +9,7 @@ import StyleDictionary, {
   Transform,
 } from "style-dictionary";
 import { transformFigmaColorToHex8, transformHexToHex8 } from "./functions";
-
-interface Theme {
-  [key: string]: string[];
-}
+import permutateThemes from "./permutateThemes";
 
 const transforms: string[] = [
   "attribute/color",
@@ -64,20 +58,18 @@ async function run() {
   const $themes: ThemeObject[] = JSON.parse(
     await fsp.readFile(
       path.join(process.cwd(), "./design-tokens/$themes.json"),
-      "utf8"
-    )
+      "utf8",
+    ),
   );
 
-  const themes: any[] = permutateThemes($themes, { separator: "-" });
-
-  console.log(themes);
+  const themes: any[] = permutateThemes($themes);
 
   const configs: Config[] = Object.entries(themes).map(([name, tokenSets]) => {
     console.log(name, tokenSets);
     return {
       source: tokenSets.map(
         (tokenSet: Record<string, TokenSetStatus>) =>
-          `./design-tokens/${tokenSet}.json`
+          `./design-tokens/${tokenSet}.json`,
       ),
       platforms: {
         mobile: {
