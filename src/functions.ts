@@ -1,3 +1,6 @@
+import { readdirSync, readFileSync, writeFileSync } from "fs";
+import path from "path";
+
 export function rgbToHex(value: number): string {
   const hex: string = value.toString(16);
   return hex.length === 1 ? `0${hex}` : hex;
@@ -14,7 +17,7 @@ export function alphaToHex(value: number): string {
  * @returns - The transformed color value or original color value if the input is `undefined`.
  */
 export function transformFigmaColorToHex8(
-  value: string | undefined
+  value: string | undefined,
 ): string | undefined {
   if (value === undefined) {
     return value;
@@ -40,7 +43,7 @@ export function transformFigmaColorToHex8(
  * @returns - The transformed color value or original value if the input is `undefined`.
  */
 export function transformHexToHex8(
-  value: string | undefined
+  value: string | undefined,
 ): string | undefined {
   if (value === undefined) {
     return value;
@@ -56,4 +59,40 @@ export function transformHexToHex8(
     }
   }
   return value;
+}
+
+type Theme = "light" | "dark";
+type Brand = string;
+type ParsedJSON = Record<string, unknown>;
+type MergedJSON = Record<Brand, ParsedJSON>;
+
+function removeExtension(fileName: string): string {
+  return fileName.replace(".json", "");
+}
+
+export function mergeJSONFiles(directory: string): void {
+  const fileNames = readdirSync(directory);
+  const mergedJSON: MergedJSON = {};
+
+  fileNames.forEach((fileName) => {
+    const [brandWithExtension, themeWithExtension] = fileName.split("-");
+    const brand = removeExtension(brandWithExtension);
+    const theme = removeExtension(themeWithExtension);
+    const filePath = path.join(directory, fileName);
+    const fileContent = readFileSync(filePath, "utf-8");
+    const parsedJSON = JSON.parse(fileContent) as ParsedJSON;
+
+    if (brand in mergedJSON) {
+      mergedJSON[brand][theme as Theme] = parsedJSON;
+    } else {
+      mergedJSON[brand] = { [theme as Theme]: parsedJSON };
+    }
+  });
+
+  for (const brand in mergedJSON) {
+    const fileName = `${brand}.json`;
+    const filePath = path.join(directory, fileName);
+    const fileContent = JSON.stringify(mergedJSON[brand], null, 2);
+    writeFileSync(filePath, fileContent);
+  }
 }

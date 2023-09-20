@@ -8,7 +8,11 @@ import StyleDictionary, {
   Named,
   Transform,
 } from "style-dictionary";
-import { transformFigmaColorToHex8, transformHexToHex8 } from "./functions";
+import {
+  mergeJSONFiles,
+  transformFigmaColorToHex8,
+  transformHexToHex8,
+} from "./functions";
 import permutateThemes from "./permutateThemes";
 
 const transforms: string[] = [
@@ -95,6 +99,13 @@ async function run() {
     const sd = StyleDictionary.extend(cfg);
     sd.cleanAllPlatforms();
     sd.buildAllPlatforms();
+  });
+
+  mergeJSONFiles(path.join(process.cwd(), "./dist"));
+
+  configs.forEach((cfg) => {
+    const sd = StyleDictionary.extend(cfg);
+    sd.cleanAllPlatforms();
   });
 }
 
