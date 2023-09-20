@@ -65,7 +65,6 @@ async function run() {
   const themes: any[] = permutateThemes($themes);
 
   const configs: Config[] = Object.entries(themes).map(([name, tokenSets]) => {
-    console.log(name, tokenSets);
     return {
       source: tokenSets.map(
         (tokenSet: Record<string, TokenSetStatus>) =>
@@ -83,7 +82,7 @@ async function run() {
                 token.type === "color" &&
                 // we only want semantic tokens
                 token.attributes?.category === "semantic",
-              destination: `tokens-${name.toLowerCase()}.json`,
+              destination: `${name.toLowerCase()}.json`,
               format: "json/nested",
             },
           ],
