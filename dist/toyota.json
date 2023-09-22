@@ -3,34 +3,34 @@
     "semantic": {
       "border": {
         "container": "#FFFF8490",
-        "seperator": "#FF1fFFff",
-        "containerError": "#FFFFff50",
+        "seperator": "#FFFFFFFF",
+        "containerError": "#FFFFFF50",
         "containerActivated": "#FFFF7089"
       },
       "background": {
         "accent": {
-          "info": "#FFFF4b70",
-          "alert": "#FFFFe82c",
-          "brandPrimary": "#FFFF4b70",
-          "success": "#FFFF178b",
-          "warning": "#FFFFb863",
-          "brandSecondary": "#FFFFfffe",
-          "infoSubtle": "#FFFF0a12",
-          "alertSubtle": "#FFFF2c06",
-          "brandPrimarySubtle": "#FFFF0a12",
+          "info": "#FFFF4B70",
+          "alert": "#FFFFE82C",
+          "brandPrimary": "#FFFF4B70",
+          "success": "#FFFF178B",
+          "warning": "#FFFFB863",
+          "brandSecondary": "#FFFFFFFE",
+          "infoSubtle": "#FFFF0A12",
+          "alertSubtle": "#FFFF2C06",
+          "brandPrimarySubtle": "#FFFF0A12",
           "successSubtle": "#FFFF0418",
           "warningSubtle": "#FFFF2011",
-          "brandSecondarySubtle": "#FFFF2c36"
+          "brandSecondarySubtle": "#FFFF2C36"
         },
         "neutral": {
-          "low": "#FFFF0a14",
+          "low": "#FFFF0A14",
           "high": "#FFFF1922"
         },
         "feature": {
           "fuelGas": "#FFFF4067",
-          "climateHot": "#FFFFf936",
+          "climateHot": "#FFFFF936",
           "climateMid": "#FFFF7462",
-          "climateCool": "#FFFF5e7d",
+          "climateCool": "#FFFF5E7D",
           "fuelElectric": "#FFFF0894",
           "functionBlack": "#FFFF0000",
           "functionBlackSubtle": "#FFFF2630"
@@ -39,53 +39,53 @@
       "foreground": {
         "accent": {
           "info": "#FFFF7089",
-          "alert": "#FFFFff50",
-          "success": "#FFFF20a4",
-          "warning": "#FFFFd776"
+          "alert": "#FFFFFF50",
+          "success": "#FFFF20A4",
+          "warning": "#FFFFD776"
         },
         "neutral": {
-          "strong": "#FFFFfffe",
-          "subtle": "#FFFFa4ad",
+          "strong": "#FFFFFFFE",
+          "subtle": "#FFFFA4AD",
           "subtler": "#FFFF8490"
         },
         "white": {
-          "strong": "#FFFFfffe",
-          "subtle": "#FFFFa4ad",
+          "strong": "#FFFFFFFE",
+          "subtle": "#FFFFA4AD",
           "subtler": "#FFFF8490"
         },
         "inverse": {
           "strong": "#FFFF0000",
-          "subtle": "#FFFF3d47",
-          "subtler": "#FFFF535f"
+          "subtle": "#FFFF3D47",
+          "subtler": "#FFFF535F"
         }
       },
       "overlay": {
-        "scrim": "#FF8fFF00"
+        "scrim": "#FFFF0000"
       },
       "state": {
         "darkenFixed": {
-          "hovered": "#FF1fFF00",
-          "pressed": "#FF29FF00",
-          "focused": "#FF1fFF00",
-          "dragged": "#FF29FF00"
+          "hovered": "#FFFF0000",
+          "pressed": "#FFFF0000",
+          "focused": "#FFFF0000",
+          "dragged": "#FFFF0000"
         },
         "lightenFixed": {
-          "hovered": "#FF1fFFff",
-          "pressed": "#FF29FFff",
-          "focused": "#FF1fFFff",
-          "dragged": "#FF29FFff"
+          "hovered": "#FFFFFFFF",
+          "pressed": "#FFFFFFFF",
+          "focused": "#FFFFFFFF",
+          "dragged": "#FFFFFFFF"
         },
         "darkenInvertible": {
-          "hovered": "#FF1fFFff",
-          "pressed": "#FF29FFff",
-          "focused": "#FF1fFFff",
-          "dragged": "#FF29FFff"
+          "hovered": "#FFFFFFFF",
+          "pressed": "#FFFFFFFF",
+          "focused": "#FFFFFFFF",
+          "dragged": "#FFFFFFFF"
         },
         "lightenInvertible": {
-          "hovered": "#FF1fFF02",
-          "pressed": "#FF29FF02",
-          "focused": "#FF1fFF02",
-          "dragged": "#FF29FF02"
+          "hovered": "#FFFF0202",
+          "pressed": "#FFFF0202",
+          "focused": "#FFFF0202",
+          "dragged": "#FFFF0202"
         }
       }
     }
@@ -94,89 +94,89 @@
     "semantic": {
       "border": {
         "container": "#FFFF7985",
-        "seperator": "#FF1fFF00",
-        "containerError": "#FFFFb91c",
-        "containerActivated": "#FFFF224e"
+        "seperator": "#FFFF0000",
+        "containerError": "#FFFFB91C",
+        "containerActivated": "#FFFF224E"
       },
       "background": {
         "feature": {
           "fuelGas": "#FFFF4067",
-          "climateHot": "#FFFFf936",
+          "climateHot": "#FFFFF936",
           "climateMid": "#FFFF7462",
-          "climateCool": "#FFFF5e7d",
+          "climateCool": "#FFFF5E7D",
           "fuelElectric": "#FFFF0894",
           "functionBlack": "#FFFF0000",
           "functionBlackSubtle": "#FFFF2630"
         },
         "accent": {
           "info": "#FFFF4067",
-          "alert": "#FFFFdc27",
+          "alert": "#FFFFDC27",
           "brandPrimary": "#FFFF4067",
           "success": "#FFFF1583",
-          "warning": "#FFFFad5d",
+          "warning": "#FFFFAD5D",
           "brandSecondary": "#FFFF0000",
-          "infoSubtle": "#FFFFeff1",
-          "alertSubtle": "#FFFFffed",
-          "brandPrimarySubtle": "#FFFFeff1",
-          "successSubtle": "#FFFFdaf9",
-          "warningSubtle": "#FFFFffee",
-          "brandSecondarySubtle": "#FFFFdfe1"
+          "infoSubtle": "#FFFFEFF1",
+          "alertSubtle": "#FFFFFFED",
+          "brandPrimarySubtle": "#FFFFEFF1",
+          "successSubtle": "#FFFFDAF9",
+          "warningSubtle": "#FFFFFFEE",
+          "brandSecondarySubtle": "#FFFFDFE1"
         },
         "neutral": {
-          "low": "#FFFFf1f1",
-          "high": "#FFFFfffd"
+          "low": "#FFFFF1F1",
+          "high": "#FFFFFFFD"
         }
       },
       "foreground": {
         "accent": {
-          "info": "#FFFF224e",
-          "alert": "#FFFFb91c",
-          "success": "#FFFF106d",
-          "warning": "#FFFF8f4d"
+          "info": "#FFFF224E",
+          "alert": "#FFFFB91C",
+          "success": "#FFFF106D",
+          "warning": "#FFFF8F4D"
         },
         "neutral": {
           "strong": "#FFFF0000",
-          "subtle": "#FFFF3d47",
-          "subtler": "#FFFF535f"
+          "subtle": "#FFFF3D47",
+          "subtler": "#FFFF535F"
         },
         "white": {
-          "strong": "#FFFFfffe",
-          "subtle": "#FFFFa4ad",
+          "strong": "#FFFFFFFE",
+          "subtle": "#FFFFA4AD",
           "subtler": "#FFFF8490"
         },
         "inverse": {
-          "strong": "#FFFFfffe",
-          "subtle": "#FFFFa4ad",
+          "strong": "#FFFFFFFE",
+          "subtle": "#FFFFA4AD",
           "subtler": "#FFFF8490"
         }
       },
       "overlay": {
-        "scrim": "#FF8fFF00"
+        "scrim": "#FFFF0000"
       },
       "state": {
         "darkenFixed": {
-          "hovered": "#FF1fFF00",
-          "pressed": "#FF29FF00",
-          "focused": "#FF1fFF00",
-          "dragged": "#FF29FF00"
+          "hovered": "#FFFF0000",
+          "pressed": "#FFFF0000",
+          "focused": "#FFFF0000",
+          "dragged": "#FFFF0000"
         },
         "lightenFixed": {
-          "hovered": "#FF1fFFff",
-          "pressed": "#FF29FFff",
-          "focused": "#FF1fFFff",
-          "dragged": "#FF29FFff"
+          "hovered": "#FFFFFFFF",
+          "pressed": "#FFFFFFFF",
+          "focused": "#FFFFFFFF",
+          "dragged": "#FFFFFFFF"
         },
         "darkenInvertible": {
-          "hovered": "#FF1fFF00",
-          "pressed": "#FF29FF00",
-          "focused": "#FF1fFF00",
-          "dragged": "#FF29FF00"
+          "hovered": "#FFFF0000",
+          "pressed": "#FFFF0000",
+          "focused": "#FFFF0000",
+          "dragged": "#FFFF0000"
         },
         "lightenInvertible": {
-          "hovered": "#FF1fFFfe",
-          "pressed": "#FF29FFfe",
-          "focused": "#FF1fFFfe",
-          "dragged": "#FF29FFfe"
+          "hovered": "#FFFFFEFE",
+          "pressed": "#FFFFFEFE",
+          "focused": "#FFFFFEFE",
+          "dragged": "#FFFFFEFE"
         }
       }
     }

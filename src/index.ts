@@ -31,7 +31,8 @@ const hex8Transformer: Named<Transform> = {
   type: "value",
   transitive: true,
   matcher: (token: DesignToken) => token.type === "color",
-  transformer: (token: DesignToken) => transformFigmaColorToHex8(token.value),
+  transformer: (token: DesignToken) =>
+    transformFigmaColorToHex8(token.value.toUpperCase()),
 };
 
 const hexToHex8Transformer: Named<Transform> = {
@@ -39,7 +40,8 @@ const hexToHex8Transformer: Named<Transform> = {
   type: "value",
   transitive: true,
   matcher: (token: DesignToken) => token.type === "color",
-  transformer: (token: DesignToken) => transformHexToHex8(token.value),
+  transformer: (token: DesignToken) =>
+    transformHexToHex8(token.value.toUpperCase()),
 };
 
 StyleDictionary.registerTransform(hex8Transformer);
