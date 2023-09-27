@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
     "global",
-    "theme/dark",
-    "theme/light",
+    "appearance/light",
+    "appearance/dark",
     "brand/lexus",
     "brand/toyota",
     "utility/leonardo",
