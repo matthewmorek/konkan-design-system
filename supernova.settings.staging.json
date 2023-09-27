@@ -2,22 +2,22 @@
   "mode": "multi-file",
   "mapping": [
     {
-      "tokenSets": ["global", "brand/toyota", "theme/light"],
+      "tokenSets": ["global", "brand/toyota", "appearance/light"],
       "supernovaBrand": "Toyota",
       "supernovaTheme": null
     },
     {
-      "tokenSets": ["global", "brand/toyota", "theme/dark"],
+      "tokenSets": ["global", "brand/toyota", "appearance/dark"],
       "supernovaBrand": "Toyota",
       "supernovaTheme": "Dark"
     },
     {
-      "tokenSets": ["global", "brand/lexus", "theme/light"],
+      "tokenSets": ["global", "brand/lexus", "appearance/light"],
       "supernovaBrand": "Lexus",
       "supernovaTheme": null
     },
     {
-      "tokenSets": ["global", "brand/lexus", "theme/dark"],
+      "tokenSets": ["global", "brand/lexus", "appearance/dark"],
       "supernovaBrand": "Lexus",
       "supernovaTheme": "Dark"
     }
