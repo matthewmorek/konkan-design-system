@@ -61,7 +61,7 @@ export function transformHexToHex8(
   return value;
 }
 
-type Theme = "light" | "dark";
+type Appearance = "light" | "dark";
 type Brand = string;
 type ParsedJSON = Record<string, unknown>;
 type MergedJSON = Record<Brand, ParsedJSON>;
@@ -86,18 +86,18 @@ export function mergeJSONFiles(inputDir: string, outputDir: string): void {
   const mergedJSON: MergedJSON = {};
 
   fileNames.forEach((fileName) => {
-    const [brandWithExtension, themeWithExtension] =
+    const [brandWithExtension, appearanceWithExtension] =
       removeExtension(fileName).split("-");
     const brand = brandWithExtension;
-    const theme = themeWithExtension;
+    const appearance = appearanceWithExtension;
     const filePath = path.join(inputDir, fileName);
     const fileContent = readFileSync(filePath, "utf-8");
     const parsedJSON = JSON.parse(fileContent) as ParsedJSON;
 
     if (brand in mergedJSON) {
-      mergedJSON[brand][theme as Theme] = parsedJSON;
+      mergedJSON[brand][appearance as Appearance] = parsedJSON;
     } else {
-      mergedJSON[brand] = { [theme as Theme]: parsedJSON };
+      mergedJSON[brand] = { [appearance as Appearance]: parsedJSON };
     }
   });
 
