@@ -111,12 +111,12 @@
         },
         "middle": {
           "type": "color",
-          "value": "{primitive.brand.neutral.90.dark}",
+          "value": "{primitive.brand.neutral.70.dark}",
           "description": "Description goes here"
         },
         "bottom": {
           "type": "color",
-          "value": "{primitive.brand.neutral.95.dark}",
+          "value": "{primitive.brand.neutral.80.dark}",
           "description": "Description goes here"
         }
       },
@@ -128,7 +128,7 @@
         },
         "electric": {
           "type": "color",
-          "value": "{primitive.global.teal.60.dark}",
+          "value": "{primitive.global.teal.50.dark}",
           "description": "Description goes here"
         }
       },
