@@ -1,5 +1,5 @@
 {
-  "undefined": {
+  "dark": {
     "semantic": {
       "layout": {
         "space": {
@@ -127,6 +127,141 @@
         },
         "info": {
           "strong": "#FFFF7089"
+        }
+      },
+      "overlay": {
+        "scrim": "#FFFF0000"
+      }
+    }
+  },
+  "light": {
+    "semantic": {
+      "layout": {
+        "space": {
+          "none": 0,
+          "mini": 2,
+          "xxxSmall": 4,
+          "xxSmall": 6,
+          "xSmall": 8,
+          "small": 12,
+          "medium": 16,
+          "large": 20,
+          "xLarge": 24,
+          "xxLarge": 32,
+          "xxxLarge": 40,
+          "huge": 48,
+          "xHuge": 56,
+          "xxHuge": 64,
+          "xxxHuge": 72,
+          "giant": 80,
+          "xGiant": 96
+        }
+      },
+      "state": {
+        "darkenFixed": {
+          "hovered": "#FFFF0000",
+          "pressed": "#FFFF0000",
+          "focused": "#FFFF0000",
+          "dragged": "#FFFF0000"
+        },
+        "lightenFixed": {
+          "hovered": "#FFFFFFFF",
+          "pressed": "#FFFFFFFF",
+          "focused": "#FFFFFFFF",
+          "dragged": "#FFFFFFFF"
+        },
+        "darkenInvertible": {
+          "hovered": "#FFFF0000",
+          "pressed": "#FFFF0000",
+          "focused": "#FFFF0000",
+          "dragged": "#FFFF0000"
+        },
+        "lightenInvertible": {
+          "hovered": "#FFFFFEFE",
+          "pressed": "#FFFFFEFE",
+          "focused": "#FFFFFEFE",
+          "dragged": "#FFFFFEFE"
+        }
+      },
+      "border": {
+        "container": "#FFFF7985",
+        "seperator": "#FFFF0000",
+        "danger": "#FFFFB91C",
+        "activated": "#FFFF224E"
+      },
+      "background": {
+        "neutral": {
+          "top": "#FFFFFFFD",
+          "middle": "#FFFFF1F1",
+          "bottom": "#FFFFDFE1"
+        },
+        "danger": {
+          "top": "#FFFFDC27",
+          "middle": "#FFFFFFD8",
+          "bottom": "#FFFFFFED"
+        },
+        "warning": {
+          "top": "#FFFFAD5D",
+          "middle": "#FFFFFFDD",
+          "bottom": "#FFFFFFEE"
+        },
+        "success": {
+          "top": "#FFFF1583",
+          "middle": "#FFFFA9F2",
+          "bottom": "#FFFFDAF9"
+        },
+        "info": {
+          "top": "#FFFF4067",
+          "middle": "#FFFFDBE0",
+          "bottom": "#FFFFEFF1"
+        },
+        "brandPrimary": {
+          "top": "#FFFF4067",
+          "middle": "#FFFFDBE0",
+          "bottom": "#FFFFEFF1"
+        },
+        "brandSecondary": {
+          "top": "#FFFF0000",
+          "middle": "#FFFFDFE1",
+          "bottom": "#FFFFF1F1"
+        },
+        "fuel": {
+          "gas": "#FFFF4067",
+          "electric": "#FFFF0894"
+        },
+        "climate": {
+          "hot": "#FFFFF936",
+          "mild": "#FFFF7462",
+          "cold": "#FFFF5E7D"
+        }
+      },
+      "foreground": {
+        "neutral": {
+          "strong": "#FFFF0000",
+          "subtle": "#FFFF3D47",
+          "subtler": "#FFFF535F"
+        },
+        "inverse": {
+          "strong": "#FFFFFFFE",
+          "subtle": "#FFFFA4AD",
+          "subtler": "#FFFF8490"
+        },
+        "fixedWhite": {
+          "strong": "#FFFFFFFE",
+          "subtle": "#FFFFA4AD",
+          "subtler": "#FFFF8490"
+        },
+        "danger": {
+          "strong": "#FFFFB91C"
+        },
+        "warning": {
+          "strong": "#FFFF8F4D"
+        },
+        "success": {
+          "strong": "#FFFF106D"
+        },
+        "info": {
+          "strong": "#FFFF224E"
         }
       },
       "overlay": {
