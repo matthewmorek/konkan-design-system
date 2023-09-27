@@ -184,7 +184,9 @@
       "primitive.brand.primary.99.dark": "181d51fa6d8295067fde826247ef431c54d3124a",
       "primitive.brand.primary.99.light": "930b6344cd6a073c119adc3ef50c7a3a62598a8f",
       "primitive.brand.primary.100.dark": "b27f37852a9c25c43f3b464cc7e06fed806181f6",
-      "primitive.brand.primary.100.light": "10fb1dd7e7e2f05fa52603b2d8c0385fa35e8d24"
+      "primitive.brand.primary.100.light": "10fb1dd7e7e2f05fa52603b2d8c0385fa35e8d24",
+      "isToyota": "8ef1b21e9cf2cea2ba5751940dc47ac469009bad",
+      "isLexus": "534606bf384271ba98e1223c1485508827df610e"
     },
     "group": "Brand"
   },
@@ -321,7 +323,9 @@
       "primitive.brand.primary.99.dark": "181d51fa6d8295067fde826247ef431c54d3124a",
       "primitive.brand.primary.99.light": "930b6344cd6a073c119adc3ef50c7a3a62598a8f",
       "primitive.brand.primary.100.dark": "b27f37852a9c25c43f3b464cc7e06fed806181f6",
-      "primitive.brand.primary.100.light": "10fb1dd7e7e2f05fa52603b2d8c0385fa35e8d24"
+      "primitive.brand.primary.100.light": "10fb1dd7e7e2f05fa52603b2d8c0385fa35e8d24",
+      "isToyota": "8ef1b21e9cf2cea2ba5751940dc47ac469009bad",
+      "isLexus": "534606bf384271ba98e1223c1485508827df610e"
     },
     "group": "Brand"
   },
@@ -443,7 +447,9 @@
       "semantic.state.lightenInvertible.hovered": "03b6af87741bbde9e44334c67ba1e097037559b7",
       "semantic.state.lightenInvertible.pressed": "779d871862a6cd928efecb2b7830b1c186c05df2",
       "semantic.state.lightenInvertible.focused": "920b808356dad233d2861c6da58a527978b454e9",
-      "semantic.state.lightenInvertible.dragged": "ef928e80816876d1d8adb45fb4bb4069c90a39b1"
+      "semantic.state.lightenInvertible.dragged": "ef928e80816876d1d8adb45fb4bb4069c90a39b1",
+      "isLight": "57b1f4db225b6c6ceff5abb0aa9e18a698ee47d9",
+      "isDark": "3e86c61ee96352d21efd9f5ec560ea8c448c62ea"
     },
     "group": "Appearance"
   },
@@ -517,7 +523,9 @@
       "semantic.state.lightenInvertible.hovered": "03b6af87741bbde9e44334c67ba1e097037559b7",
       "semantic.state.lightenInvertible.pressed": "779d871862a6cd928efecb2b7830b1c186c05df2",
       "semantic.state.lightenInvertible.focused": "920b808356dad233d2861c6da58a527978b454e9",
-      "semantic.state.lightenInvertible.dragged": "ef928e80816876d1d8adb45fb4bb4069c90a39b1"
+      "semantic.state.lightenInvertible.dragged": "ef928e80816876d1d8adb45fb4bb4069c90a39b1",
+      "isLight": "57b1f4db225b6c6ceff5abb0aa9e18a698ee47d9",
+      "isDark": "3e86c61ee96352d21efd9f5ec560ea8c448c62ea"
     },
     "group": "Appearance"
   },

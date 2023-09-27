@@ -346,5 +346,15 @@
         }
       }
     }
+  },
+  "isLight": {
+    "value": "false",
+    "type": "boolean",
+    "description": "For Figma Variables"
+  },
+  "isDark": {
+    "value": "true",
+    "type": "boolean",
+    "description": "For Figma Variables"
   }
 }
