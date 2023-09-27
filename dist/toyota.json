@@ -87,12 +87,12 @@
         },
         "brandSecondary": {
           "top": "#FFFFFFFE",
-          "middle": "#FFFF1922",
-          "bottom": "#FFFF0A14"
+          "middle": "#FFFF3E49",
+          "bottom": "#FFFF2C36"
         },
         "fuel": {
           "gas": "#FFFF4B70",
-          "electric": "#FFFF0075"
+          "electric": "#FFFF0388"
         },
         "climate": {
           "hot": "#FFFFCA21",
@@ -222,12 +222,12 @@
         },
         "brandSecondary": {
           "top": "#FFFF0000",
-          "middle": "#FFFFDFE1",
-          "bottom": "#FFFFF1F1"
+          "middle": "#FFFFA2AC",
+          "bottom": "#FFFFC0C6"
         },
         "fuel": {
           "gas": "#FFFF4067",
-          "electric": "#FFFF0894"
+          "electric": "#FFFF0180"
         },
         "climate": {
           "hot": "#FFFFF936",
