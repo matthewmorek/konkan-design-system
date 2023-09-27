@@ -89,7 +89,7 @@
         }
       }
     },
-    "object": {
+    "state": {
       "disabled": {
         "value": "{primitive.opacity.32}",
         "type": "opacity",

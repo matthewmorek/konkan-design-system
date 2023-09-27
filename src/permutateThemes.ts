@@ -46,7 +46,7 @@ export default function permutateThemes(
         const reduced = perm.reduce(
           (acc, curr) => {
             const tokenSetName =
-              curr.group === "Brand" || curr.group === "Theme"
+              curr.group === "Brand" || curr.group === "Appearance"
                 ? `${acc[0]}${acc[0] ? separator : ""}${curr.name}`
                 : `${acc[0]}`;
             return [

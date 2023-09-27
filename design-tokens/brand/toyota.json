@@ -709,5 +709,15 @@
         "value": "Inter"
       }
     }
+  },
+  "isToyota": {
+    "value": "true",
+    "type": "boolean",
+    "description": "For Figma Variables"
+  },
+  "isLexus": {
+    "value": "false",
+    "type": "boolean",
+    "description": "For Figma Variables"
   }
 }
