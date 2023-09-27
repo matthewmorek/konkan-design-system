@@ -5,8 +5,11 @@ import path from "path";
 import StyleDictionary, {
   Config,
   DesignToken,
+  Dictionary,
+  Format,
   Named,
   Transform,
+  formatHelpers,
 } from "style-dictionary";
 import {
   mergeJSONFiles,
@@ -14,6 +17,8 @@ import {
   transformHexToHex8,
 } from "./functions";
 import permutateThemes from "./permutateThemes";
+
+const { minifyDictionary } = formatHelpers;
 
 const transforms: string[] = [
   "attribute/color",
@@ -44,8 +49,19 @@ const hexToHex8Transformer: Named<Transform> = {
     transformHexToHex8(token.value.toUpperCase()),
 };
 
+const nestedJSON: Named<Format> = {
+  name: "json/custom",
+  formatter: function ({ dictionary }: { dictionary: Dictionary }) {
+    console.log(dictionary.tokens);
+    // console.log(dictionary.properties);
+
+    return JSON.stringify(minifyDictionary(dictionary.tokens), null, 2) + "\n";
+  },
+};
+
 StyleDictionary.registerTransform(hex8Transformer);
 StyleDictionary.registerTransform(hexToHex8Transformer);
+StyleDictionary.registerFormat(nestedJSON);
 
 registerTransforms(StyleDictionary, {
   expand: {
@@ -79,17 +95,16 @@ async function run() {
       platforms: {
         mobile: {
           buildPath: "./build/",
-          prefix: "mobile",
           transforms: transforms,
           files: [
             {
               filter: (token: DesignToken) =>
                 // temporarily filter out anything other than colours
-                token.type === "color" &&
+                (token.type === "color" || token.type === "spacing") &&
                 // we only want semantic tokens
                 token.attributes?.category === "semantic",
               destination: `${name.toLowerCase()}.json`,
-              format: "json/nested",
+              format: "json/custom",
             },
           ],
         },
