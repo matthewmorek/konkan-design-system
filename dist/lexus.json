@@ -49,26 +49,26 @@
         }
       },
       "border": {
-        "container": "#FFFF5C68",
+        "container": "#FFFF6368",
         "seperator": "#FFFFFFFF",
         "danger": "#FFFFFF50",
         "activated": "#FFFF7089"
       },
       "background": {
         "neutral": {
-          "top": "#FFFF1922",
-          "middle": "#FFFF0A14",
-          "bottom": "#FFFF0101"
+          "top": "#FFFF1F22",
+          "middle": "#FFFF1213",
+          "bottom": "#FFFF0102"
         },
         "neutralInverse": {
-          "top": "#FFFFFFFE",
-          "middle": "#FFFF3E49",
-          "bottom": "#FFFF2C36"
+          "top": "#FFFFFFFF",
+          "middle": "#FFFF4448",
+          "bottom": "#FFFF3335"
         },
         "brandAccent": {
-          "top": "#FFFF4B70",
-          "middle": "#FFFF101E",
-          "bottom": "#FFFF0A12"
+          "top": "#FFFF8C75",
+          "middle": "#FFFF2720",
+          "bottom": "#FFFF1813"
         },
         "danger": {
           "top": "#FFFFE82C",
@@ -112,19 +112,19 @@
       },
       "foreground": {
         "neutral": {
-          "strong": "#FFFFFFFE",
-          "subtle": "#FFFFA4AD",
-          "subtler": "#FFFF8490"
+          "strong": "#FFFFFFFF",
+          "subtle": "#FFFFA9AD",
+          "subtler": "#FFFF8B8F"
         },
         "neutralInverse": {
           "strong": "#FFFF0000",
-          "subtle": "#FFFF3D47",
-          "subtler": "#FFFF535F"
+          "subtle": "#FFFF4347",
+          "subtler": "#FFFF595E"
         },
         "fixedWhite": {
-          "strong": "#FFFFFFFE",
-          "subtle": "#FFFFA4AD",
-          "subtler": "#FFFF8490"
+          "strong": "#FFFFFFFF",
+          "subtle": "#FFFFA9AD",
+          "subtler": "#FFFF8B8F"
         },
         "danger": {
           "strong": "#FFFFFF50"
@@ -194,26 +194,26 @@
         }
       },
       "border": {
-        "container": "#FFFF7985",
+        "container": "#FFFF7F84",
         "seperator": "#FFFF0000",
         "danger": "#FFFFB91C",
         "activated": "#FFFF224E"
       },
       "background": {
         "neutral": {
-          "top": "#FFFFFFFD",
-          "middle": "#FFFFF1F1",
-          "bottom": "#FFFFDFE1"
+          "top": "#FFFFFEFE",
+          "middle": "#FFFFF0F0",
+          "bottom": "#FFFFE0E2"
         },
         "neutralInverse": {
           "top": "#FFFF0000",
-          "middle": "#FFFFA2AC",
-          "bottom": "#FFFFC0C6"
+          "middle": "#FFFFA7AB",
+          "bottom": "#FFFFC2C6"
         },
         "brandAccent": {
-          "top": "#FFFF4067",
-          "middle": "#FFFFDBE0",
-          "bottom": "#FFFFEFF1"
+          "top": "#FFFF856E",
+          "middle": "#FFFFEBDF",
+          "bottom": "#FFFFF5EF"
         },
         "danger": {
           "top": "#FFFFDC27",
@@ -258,18 +258,18 @@
       "foreground": {
         "neutral": {
           "strong": "#FFFF0000",
-          "subtle": "#FFFF3D47",
-          "subtler": "#FFFF535F"
+          "subtle": "#FFFF4347",
+          "subtler": "#FFFF595E"
         },
         "neutralInverse": {
-          "strong": "#FFFFFFFE",
-          "subtle": "#FFFFA4AD",
-          "subtler": "#FFFF8490"
+          "strong": "#FFFFFFFF",
+          "subtle": "#FFFFA9AD",
+          "subtler": "#FFFF8B8F"
         },
         "fixedWhite": {
-          "strong": "#FFFFFFFE",
-          "subtle": "#FFFFA4AD",
-          "subtler": "#FFFF8490"
+          "strong": "#FFFFFFFF",
+          "subtle": "#FFFFA9AD",
+          "subtler": "#FFFF8B8F"
         },
         "danger": {
           "strong": "#FFFFB91C"
