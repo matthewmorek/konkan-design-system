@@ -18,6 +18,23 @@
           "description": "Description goes here"
         }
       },
+      "neutralInverse": {
+        "top": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.0.dark}",
+          "description": "Description goes here"
+        },
+        "middle": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.70.dark}",
+          "description": "Description goes here"
+        },
+        "bottom": {
+          "type": "color",
+          "value": "{primitive.brand.neutral.80.dark}",
+          "description": "Description goes here"
+        }
+      },
       "danger": {
         "top": {
           "type": "color",
@@ -86,7 +103,7 @@
           "description": "Description goes here"
         }
       },
-      "brandPrimary": {
+      "brandAccent": {
         "top": {
           "type": "color",
           "value": "{primitive.brand.primary.50.dark}",
@@ -100,23 +117,6 @@
         "bottom": {
           "type": "color",
           "value": "{primitive.brand.primary.95.dark}",
-          "description": "Description goes here"
-        }
-      },
-      "brandSecondary": {
-        "top": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.0.dark}",
-          "description": "Description goes here"
-        },
-        "middle": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.70.dark}",
-          "description": "Description goes here"
-        },
-        "bottom": {
-          "type": "color",
-          "value": "{primitive.brand.neutral.80.dark}",
           "description": "Description goes here"
         }
       },
@@ -168,7 +168,7 @@
           "description": "Use for supplementary content"
         }
       },
-      "inverse": {
+      "neutralInverse": {
         "strong": {
           "type": "color",
           "value": "{primitive.brand.neutral.0.light}",

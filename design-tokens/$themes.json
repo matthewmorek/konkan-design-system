@@ -5,8 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "semantic/global": "enabled",
-      "primitive/global": "enabled",
-      "component/button": "disabled"
+      "primitive/global": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2:982",
     "$figmaModeId": "2:15",
@@ -255,8 +254,7 @@
       "semantic/global": "source",
       "semantic/brand/toyota": "enabled",
       "primitive/global": "source",
-      "primitive/brand/toyota": "enabled",
-      "component/button": "disabled"
+      "primitive/brand/toyota": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2:1216",
     "$figmaStyleReferences": {
@@ -415,8 +413,7 @@
       "semantic/global": "source",
       "semantic/brand/lexus": "enabled",
       "primitive/global": "source",
-      "primitive/brand/lexus": "enabled",
-      "component/button": "disabled"
+      "primitive/brand/lexus": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2:1216",
     "$figmaStyleReferences": {
@@ -522,8 +519,7 @@
     "selectedTokenSets": {
       "semantic/global": "source",
       "semantic/appearance/light": "enabled",
-      "primitive/global": "source",
-      "component/button": "disabled"
+      "primitive/global": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:2:1279",
     "$figmaStyleReferences": {
@@ -648,8 +644,7 @@
     "selectedTokenSets": {
       "semantic/global": "source",
       "semantic/appearance/dark": "enabled",
-      "primitive/global": "source",
-      "component/button": "disabled"
+      "primitive/global": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:2:1279",
     "$figmaStyleReferences": {},
@@ -727,8 +722,7 @@
       "primitive/global": "source",
       "primitive/brand/toyota": "source",
       "illustration/illustration": "enabled",
-      "primitive/brand/lexus": "source",
-      "component/button": "disabled"
+      "primitive/brand/lexus": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:2:1342",
     "$figmaModeId": "2:20",
