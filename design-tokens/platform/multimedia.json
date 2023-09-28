@@ -1,0 +1,10 @@
+{
+  "primitive": {
+    "constant": {
+      "platformScale": {
+        "value": "2",
+        "type": "sizing"
+      }
+    }
+  }
+}
