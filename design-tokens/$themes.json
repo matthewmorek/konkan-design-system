@@ -5,8 +5,9 @@
     "$figmaModeId": "919:170",
     "selectedTokenSets": {
       "semantic/brand/toyota": "enabled",
-      "primitive/lexus": "disabled",
-      "primitive/toyota": "enabled"
+      "primitive/platform/mobile": "disabled",
+      "primitive/brand/toyota": "enabled",
+      "primitive/brand/lexus": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:14942",
     "$figmaStyleReferences": {
@@ -385,8 +386,7 @@
       "primitive.yellow.100.light": "add141116b06c6e6270c067bac0cbdd5321244ca",
       "primitive.fixed.black": "4097c138f4c08cf98978ff2bb2f2c3f7d416560f",
       "primitive.fixed.white": "c78c0c309ee2830e4e31ad8182bf1d687f456264",
-      "primitive.layout.gridUnit": "0aeed8705ac2583ae48ff1360671cbfbe4f9b67c",
-      "primitive.platformScale": "b81a9106581c858c9373f9229d51a3fe2143016d"
+      "primitive.layout.gridUnit": "0aeed8705ac2583ae48ff1360671cbfbe4f9b67c"
     },
     "group": "Brand"
   },
@@ -396,8 +396,9 @@
     "$figmaModeId": "919:171",
     "selectedTokenSets": {
       "semantic/brand/lexus": "enabled",
-      "primitive/lexus": "enabled",
-      "primitive/toyota": "disabled"
+      "primitive/platform/mobile": "disabled",
+      "primitive/brand/toyota": "disabled",
+      "primitive/brand/lexus": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:14942",
     "$figmaStyleReferences": {
@@ -752,8 +753,7 @@
       "primitive.yellow.100.light": "add141116b06c6e6270c067bac0cbdd5321244ca",
       "primitive.fixed.black": "4097c138f4c08cf98978ff2bb2f2c3f7d416560f",
       "primitive.fixed.white": "c78c0c309ee2830e4e31ad8182bf1d687f456264",
-      "primitive.layout.gridUnit": "0aeed8705ac2583ae48ff1360671cbfbe4f9b67c",
-      "primitive.platformScale": "b81a9106581c858c9373f9229d51a3fe2143016d"
+      "primitive.layout.gridUnit": "0aeed8705ac2583ae48ff1360671cbfbe4f9b67c"
     },
     "group": "Brand"
   },
@@ -763,8 +763,9 @@
     "$figmaModeId": "919:172",
     "selectedTokenSets": {
       "semantic/appearance/light": "enabled",
-      "primitive/lexus": "disabled",
-      "primitive/toyota": "disabled"
+      "primitive/platform/mobile": "disabled",
+      "primitive/brand/toyota": "disabled",
+      "primitive/brand/lexus": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:15238",
     "$figmaStyleReferences": {
@@ -888,8 +889,9 @@
     "$figmaModeId": "919:173",
     "selectedTokenSets": {
       "semantic/appearance/dark": "enabled",
-      "primitive/lexus": "disabled",
-      "primitive/toyota": "disabled"
+      "primitive/platform/mobile": "disabled",
+      "primitive/brand/toyota": "disabled",
+      "primitive/brand/lexus": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:15238",
     "$figmaStyleReferences": {},
@@ -958,5 +960,16 @@
       "isDark": "cb9168efb0b3d1aab8a70fb3c6edc86f9a8a29a4"
     },
     "group": "Appearance"
+  },
+  {
+    "id": "55c8f84c2eb3b20b17c9040e8ec8b12f9a7e2f3e",
+    "name": "Mobile",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitive/platform/mobile": "enabled",
+      "primitive/brand/toyota": "disabled",
+      "primitive/brand/lexus": "disabled"
+    },
+    "group": "Platform"
   }
 ]

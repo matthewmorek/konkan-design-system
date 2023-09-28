@@ -496,5 +496,9 @@
     "value": "false",
     "type": "boolean",
     "description": "For Figma Variables"
+  },
+  "test": {
+    "value": "{primitive.layout.gridUnit}*1",
+    "type": "sizing"
   }
 }
