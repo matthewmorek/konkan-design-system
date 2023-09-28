@@ -104,6 +104,9 @@
       },
       "info": {
         "strong": "#FFFF7089"
+      },
+      "brandAccent": {
+        "strong": "#FFFF7089"
       }
     },
     "borderColor": {
