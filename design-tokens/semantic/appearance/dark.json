@@ -35,6 +35,23 @@
           "description": "Description goes here"
         }
       },
+      "brandAccent": {
+        "top": {
+          "type": "color",
+          "value": "{primitive.brand.primary.50.dark}",
+          "description": "Description goes here"
+        },
+        "middle": {
+          "value": "{primitive.brand.primary.90.dark}",
+          "type": "color",
+          "description": "Description goes here"
+        },
+        "bottom": {
+          "type": "color",
+          "value": "{primitive.brand.primary.95.dark}",
+          "description": "Description goes here"
+        }
+      },
       "danger": {
         "top": {
           "type": "color",
@@ -103,50 +120,43 @@
           "description": "Description goes here"
         }
       },
-      "brandAccent": {
-        "top": {
-          "type": "color",
-          "value": "{primitive.brand.primary.50.dark}",
-          "description": "Description goes here"
-        },
-        "middle": {
-          "value": "{primitive.brand.primary.90.dark}",
-          "type": "color",
-          "description": "Description goes here"
-        },
-        "bottom": {
-          "type": "color",
-          "value": "{primitive.brand.primary.95.dark}",
-          "description": "Description goes here"
-        }
-      },
       "fuel": {
         "gas": {
-          "type": "color",
-          "value": "{primitive.global.blue.50.dark}",
-          "description": "Description goes here"
+          "top": {
+            "type": "color",
+            "value": "{primitive.global.blue.50.dark}",
+            "description": "Description goes here"
+          }
         },
         "electric": {
-          "type": "color",
-          "value": "{primitive.global.teal.50.dark}",
-          "description": "Description goes here"
+          "top": {
+            "type": "color",
+            "value": "{primitive.global.teal.50.dark}",
+            "description": "Description goes here"
+          }
         }
       },
       "climate": {
         "hot": {
-          "type": "color",
-          "value": "{primitive.global.red.60.dark}",
-          "description": "Description goes here"
+          "top": {
+            "type": "color",
+            "value": "{primitive.global.red.60.dark}",
+            "description": "Description goes here"
+          }
         },
         "mild": {
-          "type": "color",
-          "value": "{primitive.global.purple.50.dark}",
-          "description": "Description goes here"
+          "top": {
+            "type": "color",
+            "value": "{primitive.global.purple.50.dark}",
+            "description": "Description goes here"
+          }
         },
         "cold": {
-          "type": "color",
-          "value": "{primitive.global.blue.60.dark}",
-          "description": "Description goes here"
+          "top": {
+            "type": "color",
+            "value": "{primitive.global.blue.60.dark}",
+            "description": "Description goes here"
+          }
         }
       }
     },
