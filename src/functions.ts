@@ -1,3 +1,6 @@
+import { readdirSync, unlinkSync } from "fs";
+import path from "path";
+
 export function rgbToHex(value: number): string {
   const hex: string = value.toString(16);
   return hex.length === 1 ? `0${hex}` : hex;
@@ -56,4 +59,19 @@ export function transformHexToHex8(
     }
   }
   return value.toUpperCase();
+}
+
+/**
+ * Removes all JSON files in a given directory.
+ * @param {string} directory - The path to the directory to clean.
+ * @returns {void}
+ */
+export function cleanDirectory(directory: string): void {
+  const fileNames = readdirSync(directory);
+  fileNames.forEach((fileName) => {
+    const filePath = path.join(directory, fileName);
+    if (fileName.endsWith(".json")) {
+      unlinkSync(filePath);
+    }
+  });
 }
