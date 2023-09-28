@@ -1192,7 +1192,8 @@
       "semantic.stateLayer.lightenInvertible.focused": "1d79fba8ce104798b2a44753bedeb80e6ee013a4",
       "semantic.stateLayer.lightenInvertible.dragged": "aeed136388c962c8524a3a027764946c2967b358",
       "isLight": "592058cc4a7405ca2679cbb05d4e0e56d886029b",
-      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710"
+      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710",
+      "semantic.foregroundColor.brandAccent.strong": "0e05431b1e5e8db2065c5314aceb826b02ee7792"
     },
     "group": "Appearance"
   },
@@ -1267,7 +1268,8 @@
       "semantic.stateLayer.lightenInvertible.focused": "1d79fba8ce104798b2a44753bedeb80e6ee013a4",
       "semantic.stateLayer.lightenInvertible.dragged": "aeed136388c962c8524a3a027764946c2967b358",
       "isLight": "592058cc4a7405ca2679cbb05d4e0e56d886029b",
-      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710"
+      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710",
+      "semantic.foregroundColor.brandAccent.strong": "0e05431b1e5e8db2065c5314aceb826b02ee7792"
     },
     "group": "Appearance"
   }

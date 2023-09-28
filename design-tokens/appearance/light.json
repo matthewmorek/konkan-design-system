@@ -239,6 +239,13 @@
           "value": "{primitive.color.blue.40.light}",
           "description": "Description goes here"
         }
+      },
+      "brandAccent": {
+        "strong": {
+          "type": "color",
+          "value": "{primitive.color.brandPrimary.40.light}",
+          "description": "Description goes here"
+        }
       }
     },
     "borderColor": {
