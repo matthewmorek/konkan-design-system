@@ -5,9 +5,7 @@
     "$figmaModeId": "919:13",
     "selectedTokenSets": {
       "semantic/brand/toyota": "enabled",
-      "primitive/brand/toyota": "enabled",
-      "platform/mobile": "disabled",
-      "platform/multimedia": "disabled"
+      "primitive/brand/toyota": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:4984",
     "$figmaStyleReferences": {
@@ -185,9 +183,7 @@
     "$figmaModeId": "919:14",
     "selectedTokenSets": {
       "semantic/brand/lexus": "enabled",
-      "primitive/brand/lexus": "enabled",
-      "platform/mobile": "disabled",
-      "platform/multimedia": "disabled"
+      "primitive/brand/lexus": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:4984",
     "$figmaStyleReferences": {
@@ -313,9 +309,7 @@
     "$figmaModeId": "919:15",
     "selectedTokenSets": {
       "semantic/appearance/light": "enabled",
-      "primitive/global": "enabled",
-      "platform/mobile": "disabled",
-      "platform/multimedia": "disabled"
+      "primitive/global": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:5068",
     "$figmaStyleReferences": {
@@ -651,9 +645,7 @@
     "$figmaModeId": "919:16",
     "selectedTokenSets": {
       "semantic/appearance/dark": "enabled",
-      "primitive/global": "enabled",
-      "platform/mobile": "disabled",
-      "platform/multimedia": "disabled"
+      "primitive/global": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:5068",
     "$figmaStyleReferences": {},
@@ -941,18 +933,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitive/global": "source",
-      "platform/mobile": "enabled",
-      "platform/multimedia": "disabled"
-    },
-    "group": "Platform"
-  },
-  {
-    "id": "b265cf4eb12578e033031a9ae9c6df6dbe6b7e12",
-    "name": "Multimedia",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "primitive/global": "source",
-      "platform/multimedia": "enabled"
+      "platform/mobile": "enabled"
     },
     "group": "Platform"
   }
