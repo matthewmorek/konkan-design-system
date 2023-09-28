@@ -1,12 +1,10 @@
 {
   "tokenSetOrder": [
-    "primitive/platform/mobile",
-    "primitive/brand/lexus",
-    "primitive/brand/toyota",
-    "semantic/appearance/light",
-    "semantic/appearance/dark",
-    "semantic/brand/lexus",
-    "semantic/brand/toyota",
+    "grid",
+    "light",
+    "dark",
+    "lexus",
+    "toyota",
     "utility/leonardo"
   ]
 }
