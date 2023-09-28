@@ -34,7 +34,7 @@ export function transformFigmaColorToHex8(
       return value;
     }
   }
-  return value;
+  return value.toUpperCase();
 }
 
 /**
@@ -58,53 +58,5 @@ export function transformHexToHex8(
       return value;
     }
   }
-  return value;
-}
-
-type Theme = "light" | "dark";
-type Brand = string;
-type ParsedJSON = Record<string, unknown>;
-type MergedJSON = Record<Brand, ParsedJSON>;
-
-function removeExtension(fileName: string): string {
-  return fileName.replace(".json", "");
-}
-
-function cleanDirectory(directory: string): void {
-  const fileNames = readdirSync(directory);
-  fileNames.forEach((fileName) => {
-    const filePath = path.join(directory, fileName);
-    if (fileName.endsWith(".json")) {
-      unlinkSync(filePath);
-    }
-  });
-}
-
-export function mergeJSONFiles(inputDir: string, outputDir: string): void {
-  cleanDirectory(outputDir);
-  const fileNames = readdirSync(inputDir);
-  const mergedJSON: MergedJSON = {};
-
-  fileNames.forEach((fileName) => {
-    const [brandWithExtension, themeWithExtension] =
-      removeExtension(fileName).split("-");
-    const brand = brandWithExtension;
-    const theme = themeWithExtension;
-    const filePath = path.join(inputDir, fileName);
-    const fileContent = readFileSync(filePath, "utf-8");
-    const parsedJSON = JSON.parse(fileContent) as ParsedJSON;
-
-    if (brand in mergedJSON) {
-      mergedJSON[brand][theme as Theme] = parsedJSON;
-    } else {
-      mergedJSON[brand] = { [theme as Theme]: parsedJSON };
-    }
-  });
-
-  for (const brand in mergedJSON) {
-    const fileName = `${brand}.json`;
-    const filePath = path.join(outputDir, fileName);
-    const fileContent = JSON.stringify(mergedJSON[brand], null, 2);
-    writeFileSync(filePath, fileContent);
-  }
+  return value.toUpperCase();
 }

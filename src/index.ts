@@ -1,24 +1,14 @@
 import { registerTransforms } from "@tokens-studio/sd-transforms";
-import { ThemeObject, TokenSetStatus } from "@tokens-studio/types";
+import { ThemeObject } from "@tokens-studio/types";
 import { promises as fsp } from "fs";
 import path from "path";
 import StyleDictionary, {
   Config,
   DesignToken,
-  Dictionary,
-  Format,
   Named,
   Transform,
-  formatHelpers,
 } from "style-dictionary";
-import {
-  mergeJSONFiles,
-  transformFigmaColorToHex8,
-  transformHexToHex8,
-} from "./functions";
-import permutateThemes from "./permutateThemes";
-
-const { minifyDictionary } = formatHelpers;
+import { transformFigmaColorToHex8, transformHexToHex8 } from "./functions";
 
 const transforms: string[] = [
   "attribute/color",
@@ -36,8 +26,7 @@ const hex8Transformer: Named<Transform> = {
   type: "value",
   transitive: true,
   matcher: (token: DesignToken) => token.type === "color",
-  transformer: (token: DesignToken) =>
-    transformFigmaColorToHex8(token.value.toUpperCase()),
+  transformer: (token: DesignToken) => transformFigmaColorToHex8(token.value),
 };
 
 const hexToHex8Transformer: Named<Transform> = {
@@ -45,23 +34,11 @@ const hexToHex8Transformer: Named<Transform> = {
   type: "value",
   transitive: true,
   matcher: (token: DesignToken) => token.type === "color",
-  transformer: (token: DesignToken) =>
-    transformHexToHex8(token.value.toUpperCase()),
-};
-
-const nestedJSON: Named<Format> = {
-  name: "json/custom",
-  formatter: function ({ dictionary }: { dictionary: Dictionary }) {
-    console.log(dictionary.tokens);
-    // console.log(dictionary.properties);
-
-    return JSON.stringify(minifyDictionary(dictionary.tokens), null, 2) + "\n";
-  },
+  transformer: (token: DesignToken) => transformHexToHex8(token.value),
 };
 
 StyleDictionary.registerTransform(hex8Transformer);
 StyleDictionary.registerTransform(hexToHex8Transformer);
-StyleDictionary.registerFormat(nestedJSON);
 
 registerTransforms(StyleDictionary, {
   expand: {
@@ -84,17 +61,14 @@ async function run() {
     ),
   );
 
-  const themes: any[] = permutateThemes($themes);
-
-  const configs: Config[] = Object.entries(themes).map(([name, tokenSets]) => {
+  const configs: Config[] = $themes.map((theme) => {
     return {
-      source: tokenSets.map(
-        (tokenSet: Record<string, TokenSetStatus>) =>
-          `./design-tokens/${tokenSet}.json`,
-      ),
+      source: Object.entries(theme.selectedTokenSets)
+        .filter(([, val]) => val !== "disabled")
+        .map(([tokenset]) => `./design-tokens/${tokenset}.json`),
       platforms: {
         mobile: {
-          buildPath: "./build/",
+          buildPath: "./dist/",
           transforms: transforms,
           files: [
             {
@@ -103,8 +77,8 @@ async function run() {
                 (token.type === "color" || token.type === "spacing") &&
                 // we only want semantic tokens
                 token.attributes?.category === "semantic",
-              destination: `${name.toLowerCase()}.json`,
-              format: "json/custom",
+              destination: `${theme.name.toLowerCase()}.json`,
+              format: "json/nested",
             },
           ],
         },
@@ -116,16 +90,6 @@ async function run() {
     const sd = StyleDictionary.extend(cfg);
     sd.cleanAllPlatforms();
     sd.buildAllPlatforms();
-  });
-
-  mergeJSONFiles(
-    path.join(process.cwd(), "./build"),
-    path.join(process.cwd(), "./dist"),
-  );
-
-  configs.forEach((cfg) => {
-    const sd = StyleDictionary.extend(cfg);
-    sd.cleanAllPlatforms();
   });
 }
 
