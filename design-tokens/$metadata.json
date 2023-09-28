@@ -3,7 +3,6 @@
     "primitive/global",
     "primitive/brand/lexus",
     "primitive/brand/toyota",
-    "semantic/global",
     "semantic/appearance/light",
     "semantic/appearance/dark",
     "semantic/brand/lexus",

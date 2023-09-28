@@ -354,6 +354,11 @@
           "value": "rgba({primitive.global.gray.100.light}, {primitive.opacity.16})",
           "description": "Description goes here"
         }
+      },
+      "disabled": {
+        "value": "{primitive.opacity.32}",
+        "type": "opacity",
+        "description": "Disabled buttons have poor contrast and can confuse some users, so avoid them if possible.\n\nOnly use disabled buttons if research shows it makes the user interface easier to understand.\n\nA disabled state, also known as an inoperable state, communicates when a component or element isn’t interactive. \n\nInoperable states are deemphasized by reducing the enabled state to 32% opacity.\n\nDisabled and inoperable states do not need to meet contrast requirements."
       }
     }
   },
