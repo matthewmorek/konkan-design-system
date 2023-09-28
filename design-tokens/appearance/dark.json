@@ -1,6 +1,6 @@
 {
   "semantic": {
-    "background": {
+    "backgroundColor": {
       "neutral": {
         "top": {
           "type": "color",
@@ -160,7 +160,7 @@
         }
       }
     },
-    "foreground": {
+    "foregroundColor": {
       "neutral": {
         "strong": {
           "type": "color",
@@ -241,7 +241,7 @@
         }
       }
     },
-    "border": {
+    "borderColor": {
       "container": {
         "value": "{primitive.color.brandNeutral.60.dark}",
         "type": "color"
@@ -259,14 +259,14 @@
         "type": "color"
       }
     },
-    "overlay": {
+    "overlayColor": {
       "scrim": {
         "type": "color",
         "value": "rgba( {primitive.color.fixed.black}, {primitive.opacity.56})",
         "description": "Description goes here"
       }
     },
-    "state": {
+    "stateLayer": {
       "darkenFixed": {
         "hovered": {
           "type": "color",

@@ -4,10 +4,7 @@
     "name": "Toyota",
     "$figmaModeId": "921:4",
     "selectedTokenSets": {
-      "brand/lexus": "disabled",
-      "brand/toyota": "enabled",
-      "appearance/light": "disabled",
-      "appearance/dark": "disabled"
+      "brand/toyota": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:921:563",
     "$figmaStyleReferences": {
@@ -394,10 +391,7 @@
     "name": "Lexus",
     "$figmaModeId": "921:5",
     "selectedTokenSets": {
-      "brand/lexus": "enabled",
-      "brand/toyota": "disabled",
-      "appearance/light": "disabled",
-      "appearance/dark": "disabled"
+      "brand/lexus": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:921:563",
     "$figmaStyleReferences": {
@@ -760,10 +754,7 @@
     "name": "Light",
     "$figmaModeId": "921:6",
     "selectedTokenSets": {
-      "brand/lexus": "disabled",
-      "brand/toyota": "disabled",
-      "appearance/light": "enabled",
-      "appearance/dark": "disabled"
+      "appearance/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:921:857",
     "$figmaStyleReferences": {
@@ -886,9 +877,6 @@
     "name": "Dark",
     "$figmaModeId": "921:7",
     "selectedTokenSets": {
-      "brand/lexus": "disabled",
-      "brand/toyota": "disabled",
-      "appearance/light": "disabled",
       "appearance/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:921:857",
