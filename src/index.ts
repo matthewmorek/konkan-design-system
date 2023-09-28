@@ -16,7 +16,6 @@ import {
   transformFigmaColorToHex8,
   transformHexToHex8,
 } from "./functions";
-// import permutateThemes from "./permutateThemes";
 
 const transforms: string[] = [
   "attribute/color",
