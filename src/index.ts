@@ -11,7 +11,11 @@ import StyleDictionary, {
   Named,
   Transform,
 } from "style-dictionary";
-import { transformFigmaColorToHex8, transformHexToHex8 } from "./functions";
+import {
+  cleanDirectory,
+  transformFigmaColorToHex8,
+  transformHexToHex8,
+} from "./functions";
 // import permutateThemes from "./permutateThemes";
 
 const transforms: string[] = [
@@ -92,6 +96,8 @@ async function run() {
       },
     } as Config;
   });
+
+  cleanDirectory(path.join(process.cwd(), "./dist"));
 
   configs.forEach((cfg) => {
     const sd = StyleDictionary.extend(cfg);
