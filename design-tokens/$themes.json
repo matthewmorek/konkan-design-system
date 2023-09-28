@@ -4,8 +4,7 @@
     "name": "Toyota",
     "$figmaModeId": "921:4",
     "selectedTokenSets": {
-      "toyota": "enabled",
-      "grid": "source"
+      "toyota": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:921:563",
     "$figmaStyleReferences": {
@@ -392,8 +391,7 @@
     "name": "Lexus",
     "$figmaModeId": "921:5",
     "selectedTokenSets": {
-      "lexus": "enabled",
-      "grid": "source"
+      "lexus": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:921:563",
     "$figmaStyleReferences": {
