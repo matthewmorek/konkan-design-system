@@ -1,6 +1,3 @@
-import { readdirSync, readFileSync, writeFileSync, unlinkSync } from "fs";
-import path from "path";
-
 export function rgbToHex(value: number): string {
   const hex: string = value.toString(16);
   return hex.length === 1 ? `0${hex}` : hex;

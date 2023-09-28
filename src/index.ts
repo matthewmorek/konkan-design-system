@@ -1,5 +1,5 @@
 import { registerTransforms } from "@tokens-studio/sd-transforms";
-import { ThemeObject } from "@tokens-studio/types";
+import { ThemeObject, TokenSetStatus } from "@tokens-studio/types";
 import { promises as fsp } from "fs";
 import path from "path";
 import StyleDictionary, {
@@ -9,6 +9,7 @@ import StyleDictionary, {
   Transform,
 } from "style-dictionary";
 import { transformFigmaColorToHex8, transformHexToHex8 } from "./functions";
+import permutateThemes from "./permutateThemes";
 
 const transforms: string[] = [
   "attribute/color",
@@ -61,11 +62,14 @@ async function run() {
     ),
   );
 
-  const configs: Config[] = $themes.map((theme) => {
+  const themes: any[] = permutateThemes($themes);
+
+  const configs: Config[] = Object.entries(themes).map(([name, tokenSets]) => {
     return {
-      source: Object.entries(theme.selectedTokenSets)
-        .filter(([, val]) => val !== "disabled")
-        .map(([tokenset]) => `./design-tokens/${tokenset}.json`),
+      source: tokenSets.map(
+        (tokenSet: Record<string, TokenSetStatus>) =>
+          `./design-tokens/${tokenSet}.json`,
+      ),
       platforms: {
         mobile: {
           buildPath: "./dist/",
@@ -74,10 +78,12 @@ async function run() {
             {
               filter: (token: DesignToken) =>
                 // temporarily filter out anything other than colours
-                (token.type === "color" || token.type === "spacing") &&
+                (token.type === "color" ||
+                  token.type === "spacing" ||
+                  token.type === "typography") &&
                 // we only want semantic tokens
                 token.attributes?.category === "semantic",
-              destination: `${theme.name.toLowerCase()}.json`,
+              destination: `${name.toLowerCase()}.json`,
               format: "json/nested",
             },
           ],
