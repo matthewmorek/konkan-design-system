@@ -327,6 +327,42 @@
         "type": "fontFamilies",
         "value": "Inter"
       }
+    },
+    "border": {
+      "radius": {
+        "large": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*6"
+        },
+        "small": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*3"
+        },
+        "circle": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*100"
+        },
+        "medium": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*4"
+        },
+        "xLarge": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*8"
+        },
+        "xSmall": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*2"
+        },
+        "xxLarge": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*12"
+        },
+        "xxSmall": {
+          "type": "borderRadius",
+          "value": "{primitive.gridUnit}*1"
+        }
+      }
     }
   }
 }
