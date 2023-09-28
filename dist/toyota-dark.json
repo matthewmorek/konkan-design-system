@@ -1,11 +1,5 @@
 {
   "semantic": {
-    "border": {
-      "container": "#FFFF5C68",
-      "seperator": "#FF1fFFFF",
-      "danger": "#FFFFFF50",
-      "activated": "#FFFF7089"
-    },
     "layout": {
       "space": {
         "none": 0,
@@ -27,7 +21,7 @@
         "xGiant": 96
       }
     },
-    "background": {
+    "backgroundColor": {
       "neutral": {
         "top": "#FFFF1922",
         "middle": "#FFFF0A14",
@@ -83,7 +77,7 @@
         }
       }
     },
-    "foreground": {
+    "foregroundColor": {
       "neutral": {
         "strong": "#FFFFFFFE",
         "subtle": "#FFFFA4AD",
@@ -112,10 +106,16 @@
         "strong": "#FFFF7089"
       }
     },
-    "overlay": {
+    "borderColor": {
+      "container": "#FFFF5C68",
+      "seperator": "#FF1fFFFF",
+      "danger": "#FFFFFF50",
+      "activated": "#FFFF7089"
+    },
+    "overlayColor": {
       "scrim": "#FF8fFF00"
     },
-    "state": {
+    "stateLayer": {
       "darkenFixed": {
         "hovered": "#FF1fFF00",
         "pressed": "#FF29FF00",
