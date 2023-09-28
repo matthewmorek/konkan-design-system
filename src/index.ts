@@ -1,4 +1,7 @@
-import { registerTransforms } from "@tokens-studio/sd-transforms";
+import {
+  permutateThemes,
+  registerTransforms,
+} from "@tokens-studio/sd-transforms";
 import { ThemeObject, TokenSetStatus } from "@tokens-studio/types";
 import { promises as fsp } from "fs";
 import path from "path";
@@ -9,7 +12,7 @@ import StyleDictionary, {
   Transform,
 } from "style-dictionary";
 import { transformFigmaColorToHex8, transformHexToHex8 } from "./functions";
-import permutateThemes from "./permutateThemes";
+// import permutateThemes from "./permutateThemes";
 
 const transforms: string[] = [
   "attribute/color",
@@ -78,9 +81,7 @@ async function run() {
             {
               filter: (token: DesignToken) =>
                 // temporarily filter out anything other than colours
-                (token.type === "color" ||
-                  token.type === "spacing" ||
-                  token.type === "typography") &&
+                (token.type === "color" || token.type === "spacing") &&
                 // we only want semantic tokens
                 token.attributes?.category === "semantic",
               destination: `${name.toLowerCase()}.json`,
