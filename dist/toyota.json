@@ -65,6 +65,11 @@
           "middle": "#FFFF4448",
           "bottom": "#FFFF3335"
         },
+        "brandAccent": {
+          "top": "#FFFF8C75",
+          "middle": "#FFFF2720",
+          "bottom": "#FFFF1813"
+        },
         "danger": {
           "top": "#FFFFE82C",
           "middle": "#FFFF450A",
@@ -85,19 +90,24 @@
           "middle": "#FFFF101E",
           "bottom": "#FFFF0A12"
         },
-        "brandAccent": {
-          "top": "#FFFF8C75",
-          "middle": "#FFFF2720",
-          "bottom": "#FFFF1813"
-        },
         "fuel": {
-          "gas": "#FFFF4B70",
-          "electric": "#FFFF0388"
+          "gas": {
+            "top": "#FFFF4B70"
+          },
+          "electric": {
+            "top": "#FFFF0388"
+          }
         },
         "climate": {
-          "hot": "#FFFFCA21",
-          "mild": "#FFFF7B69",
-          "cold": "#FFFF315A"
+          "hot": {
+            "top": "#FFFFCA21"
+          },
+          "mild": {
+            "top": "#FFFF7B69"
+          },
+          "cold": {
+            "top": "#FFFF315A"
+          }
         }
       },
       "foreground": {
@@ -200,6 +210,11 @@
           "middle": "#FFFFA7AB",
           "bottom": "#FFFFC2C6"
         },
+        "brandAccent": {
+          "top": "#FFFF856E",
+          "middle": "#FFFFEBDF",
+          "bottom": "#FFFFF5EF"
+        },
         "danger": {
           "top": "#FFFFDC27",
           "middle": "#FFFFFFD8",
@@ -220,19 +235,24 @@
           "middle": "#FFFFDBE0",
           "bottom": "#FFFFEFF1"
         },
-        "brandAccent": {
-          "top": "#FFFF856E",
-          "middle": "#FFFFEBDF",
-          "bottom": "#FFFFF5EF"
-        },
         "fuel": {
-          "gas": "#FFFF4067",
-          "electric": "#FFFF0180"
+          "gas": {
+            "top": "#FFFF4067"
+          },
+          "electric": {
+            "top": "#FFFF0180"
+          }
         },
         "climate": {
-          "hot": "#FFFFF936",
-          "mild": "#FFFF7462",
-          "cold": "#FFFF5E7D"
+          "hot": {
+            "top": "#FFFFF936"
+          },
+          "mild": {
+            "top": "#FFFF7462"
+          },
+          "cold": {
+            "top": "#FFFF5E7D"
+          }
         }
       },
       "foreground": {
@@ -241,7 +261,7 @@
           "subtle": "#FFFF4347",
           "subtler": "#FFFF595E"
         },
-        "inverse": {
+        "neutralInverse": {
           "strong": "#FFFFFFFF",
           "subtle": "#FFFFA9AD",
           "subtler": "#FFFF8B8F"
