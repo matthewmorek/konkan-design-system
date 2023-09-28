@@ -7,8 +7,6 @@
     "semantic/appearance/dark",
     "semantic/brand/lexus",
     "semantic/brand/toyota",
-    "utility/leonardo",
-    "platform/mobile",
-    "platform/multimedia"
+    "utility/leonardo"
   ]
 }

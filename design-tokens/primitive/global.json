@@ -1519,6 +1519,12 @@
           "value": "0.01"
         }
       }
+    },
+    "constant": {
+      "platformScale": {
+        "value": "1",
+        "type": "sizing"
+      }
     }
   }
 }
