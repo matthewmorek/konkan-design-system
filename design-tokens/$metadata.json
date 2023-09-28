@@ -8,6 +8,7 @@
     "semantic/appearance/dark",
     "semantic/brand/lexus",
     "semantic/brand/toyota",
+    "component/button",
     "utility/leonardo",
     "illustration/illustration"
   ]
