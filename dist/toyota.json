@@ -60,6 +60,11 @@
           "middle": "#FFFF1213",
           "bottom": "#FFFF0102"
         },
+        "neutralInverse": {
+          "top": "#FFFFFFFF",
+          "middle": "#FFFF4448",
+          "bottom": "#FFFF3335"
+        },
         "danger": {
           "top": "#FFFFE82C",
           "middle": "#FFFF450A",
@@ -80,15 +85,10 @@
           "middle": "#FFFF101E",
           "bottom": "#FFFF0A12"
         },
-        "brandPrimary": {
+        "brandAccent": {
           "top": "#FFFF8C75",
           "middle": "#FFFF2720",
           "bottom": "#FFFF1813"
-        },
-        "brandSecondary": {
-          "top": "#FFFFFFFF",
-          "middle": "#FFFF4448",
-          "bottom": "#FFFF3335"
         },
         "fuel": {
           "gas": "#FFFF4B70",
@@ -106,7 +106,7 @@
           "subtle": "#FFFFA9AD",
           "subtler": "#FFFF8B8F"
         },
-        "inverse": {
+        "neutralInverse": {
           "strong": "#FFFF0000",
           "subtle": "#FFFF4347",
           "subtler": "#FFFF595E"
@@ -195,6 +195,11 @@
           "middle": "#FFFFF0F0",
           "bottom": "#FFFFE0E2"
         },
+        "neutralInverse": {
+          "top": "#FFFF0000",
+          "middle": "#FFFFA7AB",
+          "bottom": "#FFFFC2C6"
+        },
         "danger": {
           "top": "#FFFFDC27",
           "middle": "#FFFFFFD8",
@@ -215,15 +220,10 @@
           "middle": "#FFFFDBE0",
           "bottom": "#FFFFEFF1"
         },
-        "brandPrimary": {
+        "brandAccent": {
           "top": "#FFFF856E",
           "middle": "#FFFFEBDF",
           "bottom": "#FFFFF5EF"
-        },
-        "brandSecondary": {
-          "top": "#FFFF0000",
-          "middle": "#FFFFA7AB",
-          "bottom": "#FFFFC2C6"
         },
         "fuel": {
           "gas": "#FFFF4067",
