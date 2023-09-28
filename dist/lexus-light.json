@@ -1,26 +1,47 @@
 {
   "semantic": {
     "border": {
-      "container": "#FFFF7985",
+      "container": "#FFFF7F84",
       "seperator": "#FF1fFF00",
       "danger": "#FFFFB91C",
       "activated": "#FFFF224E"
     },
+    "layout": {
+      "space": {
+        "none": 0,
+        "mini": 2,
+        "xxxSmall": 4,
+        "xxSmall": 6,
+        "xSmall": 8,
+        "small": 12,
+        "medium": 16,
+        "large": 20,
+        "xLarge": 24,
+        "xxLarge": 32,
+        "xxxLarge": 40,
+        "huge": 48,
+        "xHuge": 56,
+        "xxHuge": 64,
+        "xxxHuge": 72,
+        "giant": 80,
+        "xGiant": 96
+      }
+    },
     "background": {
       "neutral": {
-        "top": "#FFFFFFFD",
-        "middle": "#FFFFF1F1",
-        "bottom": "#FFFFDFE1"
+        "top": "#FFFFFEFE",
+        "middle": "#FFFFF0F0",
+        "bottom": "#FFFFE0E2"
       },
       "neutralInverse": {
         "top": "#FFFF0000",
-        "middle": "#FFFFA2AC",
-        "bottom": "#FFFFC0C6"
+        "middle": "#FFFFA7AB",
+        "bottom": "#FFFFC2C6"
       },
       "brandAccent": {
-        "top": "#FFFF4067",
-        "middle": "#FFFFDBE0",
-        "bottom": "#FFFFEFF1"
+        "top": "#FFFF856E",
+        "middle": "#FFFFEBDF",
+        "bottom": "#FFFFF5EF"
       },
       "danger": {
         "top": "#FFFFDC27",
@@ -65,18 +86,18 @@
     "foreground": {
       "neutral": {
         "strong": "#FFFF0000",
-        "subtle": "#FFFF3D47",
-        "subtler": "#FFFF535F"
+        "subtle": "#FFFF4347",
+        "subtler": "#FFFF595E"
       },
       "neutralInverse": {
-        "strong": "#FFFFFFFE",
-        "subtle": "#FFFFA4AD",
-        "subtler": "#FFFF8490"
+        "strong": "#FFFFFFFF",
+        "subtle": "#FFFFA9AD",
+        "subtler": "#FFFF8B8F"
       },
       "fixedWhite": {
-        "strong": "#FFFFFFFE",
-        "subtle": "#FFFFA4AD",
-        "subtler": "#FFFF8490"
+        "strong": "#FFFFFFFF",
+        "subtle": "#FFFFA9AD",
+        "subtler": "#FFFF8B8F"
       },
       "danger": {
         "strong": "#FFFFB91C"
@@ -118,27 +139,6 @@
         "pressed": "#FF29FFFE",
         "focused": "#FF1fFFFE",
         "dragged": "#FF29FFFE"
-      }
-    },
-    "layout": {
-      "space": {
-        "none": 0,
-        "mini": 2,
-        "xxxSmall": 4,
-        "xxSmall": 6,
-        "xSmall": 8,
-        "small": 12,
-        "medium": 16,
-        "large": 20,
-        "xLarge": 24,
-        "xxLarge": 32,
-        "xxxLarge": 40,
-        "huge": 48,
-        "xHuge": 56,
-        "xxHuge": 64,
-        "xxxHuge": 72,
-        "giant": 80,
-        "xGiant": 96
       }
     }
   }
