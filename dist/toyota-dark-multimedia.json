@@ -1,26 +1,26 @@
 {
   "semantic": {
     "border": {
-      "container": "#FFFF6368",
+      "container": "#FFFF5C68",
       "seperator": "#FF1fFFFF",
       "danger": "#FFFFFF50",
       "activated": "#FFFF7089"
     },
     "background": {
       "neutral": {
-        "top": "#FFFF1F22",
-        "middle": "#FFFF1213",
-        "bottom": "#FFFF0102"
+        "top": "#FFFF1922",
+        "middle": "#FFFF0A14",
+        "bottom": "#FFFF0101"
       },
       "neutralInverse": {
-        "top": "#FFFFFFFF",
-        "middle": "#FFFF4448",
-        "bottom": "#FFFF3335"
+        "top": "#FFFFFFFE",
+        "middle": "#FFFF3E49",
+        "bottom": "#FFFF2C36"
       },
       "brandAccent": {
-        "top": "#FFFF8C75",
-        "middle": "#FFFF2720",
-        "bottom": "#FFFF1813"
+        "top": "#FFFF4B70",
+        "middle": "#FFFF101E",
+        "bottom": "#FFFF0A12"
       },
       "danger": {
         "top": "#FFFFE82C",
@@ -64,19 +64,19 @@
     },
     "foreground": {
       "neutral": {
-        "strong": "#FFFFFFFF",
-        "subtle": "#FFFFA9AD",
-        "subtler": "#FFFF8B8F"
+        "strong": "#FFFFFFFE",
+        "subtle": "#FFFFA4AD",
+        "subtler": "#FFFF8490"
       },
       "neutralInverse": {
         "strong": "#FFFF0000",
-        "subtle": "#FFFF4347",
-        "subtler": "#FFFF595E"
+        "subtle": "#FFFF3D47",
+        "subtler": "#FFFF535F"
       },
       "fixedWhite": {
-        "strong": "#FFFFFFFF",
-        "subtle": "#FFFFA9AD",
-        "subtler": "#FFFF8B8F"
+        "strong": "#FFFFFFFE",
+        "subtle": "#FFFFA4AD",
+        "subtler": "#FFFF8490"
       },
       "danger": {
         "strong": "#FFFFFF50"
@@ -123,22 +123,22 @@
     "layout": {
       "space": {
         "none": 0,
-        "mini": 2,
-        "xxxSmall": 4,
-        "xxSmall": 6,
-        "xSmall": 8,
-        "small": 12,
-        "medium": 16,
-        "large": 20,
-        "xLarge": 24,
-        "xxLarge": 32,
-        "xxxLarge": 40,
-        "huge": 48,
-        "xHuge": 56,
-        "xxHuge": 64,
-        "xxxHuge": 72,
-        "giant": 80,
-        "xGiant": 96
+        "mini": 4,
+        "xxxSmall": 8,
+        "xxSmall": 12,
+        "xSmall": 16,
+        "small": 24,
+        "medium": 32,
+        "large": 40,
+        "xLarge": 48,
+        "xxLarge": 64,
+        "xxxLarge": 80,
+        "huge": 96,
+        "xHuge": 112,
+        "xxHuge": 128,
+        "xxxHuge": 144,
+        "giant": 160,
+        "xGiant": 192
       }
     }
   }

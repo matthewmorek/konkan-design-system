@@ -123,22 +123,22 @@
     "layout": {
       "space": {
         "none": 0,
-        "mini": 2,
-        "xxxSmall": 4,
-        "xxSmall": 6,
-        "xSmall": 8,
-        "small": 12,
-        "medium": 16,
-        "large": 20,
-        "xLarge": 24,
-        "xxLarge": 32,
-        "xxxLarge": 40,
-        "huge": 48,
-        "xHuge": 56,
-        "xxHuge": 64,
-        "xxxHuge": 72,
-        "giant": 80,
-        "xGiant": 96
+        "mini": 4,
+        "xxxSmall": 8,
+        "xxSmall": 12,
+        "xSmall": 16,
+        "small": 24,
+        "medium": 32,
+        "large": 40,
+        "xLarge": 48,
+        "xxLarge": 64,
+        "xxxLarge": 80,
+        "huge": 96,
+        "xHuge": 112,
+        "xxHuge": 128,
+        "xxxHuge": 144,
+        "giant": 160,
+        "xGiant": 192
       }
     }
   }

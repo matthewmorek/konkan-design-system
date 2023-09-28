@@ -6,27 +6,6 @@
       "danger": "#FFFFFF50",
       "activated": "#FFFF7089"
     },
-    "layout": {
-      "space": {
-        "none": 0,
-        "mini": 2,
-        "xxxSmall": 4,
-        "xxSmall": 6,
-        "xSmall": 8,
-        "small": 12,
-        "medium": 16,
-        "large": 20,
-        "xLarge": 24,
-        "xxLarge": 32,
-        "xxxLarge": 40,
-        "huge": 48,
-        "xHuge": 56,
-        "xxHuge": 64,
-        "xxxHuge": 72,
-        "giant": 80,
-        "xGiant": 96
-      }
-    },
     "background": {
       "neutral": {
         "top": "#FFFF1922",
@@ -139,6 +118,27 @@
         "pressed": "#FF29FF02",
         "focused": "#FF1fFF02",
         "dragged": "#FF29FF02"
+      }
+    },
+    "layout": {
+      "space": {
+        "none": 0,
+        "mini": 2,
+        "xxxSmall": 4,
+        "xxSmall": 6,
+        "xSmall": 8,
+        "small": 12,
+        "medium": 16,
+        "large": 20,
+        "xLarge": 24,
+        "xxLarge": 32,
+        "xxxLarge": 40,
+        "huge": 48,
+        "xHuge": 56,
+        "xxHuge": 64,
+        "xxxHuge": 72,
+        "giant": 80,
+        "xGiant": 96
       }
     }
   }
