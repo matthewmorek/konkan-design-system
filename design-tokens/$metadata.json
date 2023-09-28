@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
-    "lexus",
-    "toyota",
-    "light",
-    "dark"
+    "brand/toyota",
+    "brand/lexus",
+    "appearance/light",
+    "appearance/dark"
   ]
 }

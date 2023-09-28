@@ -3,6 +3,18 @@
     "text": {
       "body": {
         "large": {
+          "regular": {
+            "type": "typography",
+            "value": {
+              "fontSize": "{primitive.fontSize.100}",
+              "fontFamily": "{primitive.fontFamily.plain}",
+              "fontWeight": "{primitive.fontWeight.normal}",
+              "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+              "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.100})*10",
+              "textDecoration": "none"
+            },
+            "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
+          },
           "bold": {
             "type": "typography",
             "value": {
@@ -24,23 +36,23 @@
               "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
               "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.100})*10",
               "textDecoration": "underline"
-            },
-            "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
-          },
-          "regular": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.fontSize.100}",
-              "fontFamily": "{primitive.fontFamily.plain}",
-              "fontWeight": "{primitive.fontWeight.normal}",
-              "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.100})*10",
-              "textDecoration": "none"
             },
             "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
           }
         },
         "small": {
+          "regular": {
+            "type": "typography",
+            "value": {
+              "fontSize": "{primitive.fontSize.50}",
+              "fontFamily": "{primitive.fontFamily.plain}",
+              "fontWeight": "{primitive.fontWeight.normal}",
+              "lineHeight": "ceil(roundTo({primitive.fontSize.50}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+              "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.50})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.50})*10",
+              "textDecoration": "none"
+            },
+            "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
+          },
           "bold": {
             "type": "typography",
             "value": {
@@ -62,23 +74,23 @@
               "lineHeight": "ceil(roundTo({primitive.fontSize.50}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
               "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.50})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.50})*10",
               "textDecoration": "underline"
-            },
-            "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
-          },
-          "regular": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.fontSize.50}",
-              "fontFamily": "{primitive.fontFamily.plain}",
-              "fontWeight": "{primitive.fontWeight.normal}",
-              "lineHeight": "ceil(roundTo({primitive.fontSize.50}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.50})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.50})*10",
-              "textDecoration": "none"
             },
             "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
           }
         },
         "medium": {
+          "regular": {
+            "type": "typography",
+            "value": {
+              "fontSize": "{primitive.fontSize.75}",
+              "fontFamily": "{primitive.fontFamily.plain}",
+              "fontWeight": "{primitive.fontWeight.normal}",
+              "lineHeight": "ceil(roundTo({primitive.fontSize.75}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+              "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.75})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.75})*10",
+              "textDecoration": "none"
+            },
+            "description": "Medium body is typically used for main UI content."
+          },
           "bold": {
             "type": "typography",
             "value": {
@@ -100,23 +112,23 @@
               "lineHeight": "ceil(roundTo({primitive.fontSize.75}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
               "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.75})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.75})*10",
               "textDecoration": "underline"
-            },
-            "description": "Medium body is typically used for main UI content."
-          },
-          "regular": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.fontSize.75}",
-              "fontFamily": "{primitive.fontFamily.plain}",
-              "fontWeight": "{primitive.fontWeight.normal}",
-              "lineHeight": "ceil(roundTo({primitive.fontSize.75}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.75})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.75})*10",
-              "textDecoration": "none"
             },
             "description": "Medium body is typically used for main UI content."
           }
         },
         "xSmall": {
+          "regular": {
+            "type": "typography",
+            "value": {
+              "fontSize": "{primitive.fontSize.25}",
+              "fontFamily": "{primitive.fontFamily.plain}",
+              "fontWeight": "{primitive.fontWeight.normal}",
+              "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+              "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.25})*10",
+              "textDecoration": "none"
+            },
+            "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
+          },
           "bold": {
             "type": "typography",
             "value": {
@@ -138,32 +150,32 @@
               "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
               "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.25})*10",
               "textDecoration": "underline"
-            },
-            "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
-          },
-          "regular": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.fontSize.25}",
-              "fontFamily": "{primitive.fontFamily.plain}",
-              "fontWeight": "{primitive.fontWeight.normal}",
-              "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.25})*10",
-              "textDecoration": "none"
             },
             "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
           }
         }
       },
       "label": {
-        "large": {
+        "xxSmall": {
           "type": "typography",
           "value": {
-            "fontSize": "{primitive.fontSize.100}",
+            "fontSize": "{primitive.fontSize.10}",
             "fontFamily": "{primitive.fontFamily.plain}",
             "fontWeight": "{primitive.fontWeight.semiBold}",
-            "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.100})*10",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.10}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.10})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.10})*10",
+            "textDecoration": "none"
+          },
+          "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
+        },
+        "xSmall": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.25}",
+            "fontFamily": "{primitive.fontFamily.plain}",
+            "fontWeight": "{primitive.fontWeight.semiBold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.25})*10",
             "textDecoration": "none"
           },
           "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
@@ -192,43 +204,20 @@
           },
           "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
         },
-        "xSmall": {
+        "large": {
           "type": "typography",
           "value": {
-            "fontSize": "{primitive.fontSize.25}",
+            "fontSize": "{primitive.fontSize.100}",
             "fontFamily": "{primitive.fontFamily.plain}",
             "fontWeight": "{primitive.fontWeight.semiBold}",
-            "lineHeight": "ceil(roundTo({primitive.fontSize.25}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.25})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.25})*10",
-            "textDecoration": "none"
-          },
-          "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
-        },
-        "xxSmall": {
-          "type": "typography",
-          "value": {
-            "fontSize": "{primitive.fontSize.10}",
-            "fontFamily": "{primitive.fontFamily.plain}",
-            "fontWeight": "{primitive.fontWeight.semiBold}",
-            "lineHeight": "ceil(roundTo({primitive.fontSize.10}* {primitive.lineHeight.135} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.10})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.10})*10",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.150} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.100})*10",
             "textDecoration": "none"
           },
           "description": "Label styles are smaller, utilitarian styles, used for text inside components. \n\nButtons, for example, use the Label Medium style."
         }
       },
       "display": {
-        "large": {
-          "type": "typography",
-          "value": {
-            "fontSize": "{primitive.fontSize.475}",
-            "fontFamily": "{primitive.fontFamily.brand}",
-            "fontWeight": "{primitive.fontWeight.semiBold}",
-            "lineHeight": "ceil(roundTo({primitive.fontSize.475}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.475})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.475})*10",
-            "textDecoration": "none"
-          }
-        },
         "small": {
           "type": "typography",
           "value": {
@@ -248,6 +237,17 @@
             "fontWeight": "{primitive.fontWeight.semiBold}",
             "lineHeight": "ceil(roundTo({primitive.fontSize.450}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
             "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.450})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.450})*10",
+            "textDecoration": "none"
+          }
+        },
+        "large": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.475}",
+            "fontFamily": "{primitive.fontFamily.brand}",
+            "fontWeight": "{primitive.fontWeight.semiBold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.475}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.475})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.475})*10",
             "textDecoration": "none"
           }
         },
@@ -275,14 +275,14 @@
         }
       },
       "heading": {
-        "large": {
+        "xSmall": {
           "type": "typography",
           "value": {
-            "fontSize": "{primitive.fontSize.275}",
+            "fontSize": "{primitive.fontSize.100}",
             "fontFamily": "{primitive.fontFamily.brand}",
             "fontWeight": "{primitive.fontWeight.semiBold}",
-            "lineHeight": "ceil(roundTo({primitive.fontSize.275}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.275})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.275})*10",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.100})*10",
             "textDecoration": "none"
           }
         },
@@ -308,6 +308,17 @@
             "textDecoration": "none"
           }
         },
+        "large": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.fontSize.275}",
+            "fontFamily": "{primitive.fontFamily.brand}",
+            "fontWeight": "{primitive.fontWeight.semiBold}",
+            "lineHeight": "ceil(roundTo({primitive.fontSize.275}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.275})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.275})*10",
+            "textDecoration": "none"
+          }
+        },
         "xLarge": {
           "type": "typography",
           "value": {
@@ -316,17 +327,6 @@
             "fontWeight": "{primitive.fontWeight.semiBold}",
             "lineHeight": "ceil(roundTo({primitive.fontSize.300}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
             "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.300})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.300})*10",
-            "textDecoration": "none"
-          }
-        },
-        "xSmall": {
-          "type": "typography",
-          "value": {
-            "fontSize": "{primitive.fontSize.100}",
-            "fontFamily": "{primitive.fontFamily.brand}",
-            "fontWeight": "{primitive.fontWeight.semiBold}",
-            "lineHeight": "ceil(roundTo({primitive.fontSize.100}* {primitive.lineHeight.115} ,0)/{primitive.fontSize.constant.roundingUnit})*{primitive.fontSize.constant.roundingUnit}",
-            "letterSpacing": "((( {primitive.letterSpacing.fontProportion} * {primitive.fontSize.100})+ {primitive.letterSpacing.constant} )/{primitive.fontSize.100})*10",
             "textDecoration": "none"
           }
         },
@@ -345,37 +345,37 @@
     },
     "border": {
       "radius": {
-        "large": {
+        "xxSmall": {
           "type": "borderRadius",
-          "value": "{primitive.grid.gridUnit}*6"
-        },
-        "small": {
-          "type": "borderRadius",
-          "value": "{primitive.grid.gridUnit}*3"
-        },
-        "circle": {
-          "type": "borderRadius",
-          "value": "{primitive.grid.gridUnit}*100"
-        },
-        "medium": {
-          "type": "borderRadius",
-          "value": "{primitive.grid.gridUnit}*4"
-        },
-        "xLarge": {
-          "type": "borderRadius",
-          "value": "{primitive.grid.gridUnit}*8"
+          "value": "{primitive.grid.gridUnit}*1"
         },
         "xSmall": {
           "type": "borderRadius",
           "value": "{primitive.grid.gridUnit}*2"
         },
+        "small": {
+          "type": "borderRadius",
+          "value": "{primitive.grid.gridUnit}*3"
+        },
+        "medium": {
+          "type": "borderRadius",
+          "value": "{primitive.grid.gridUnit}*4"
+        },
+        "large": {
+          "type": "borderRadius",
+          "value": "{primitive.grid.gridUnit}*6"
+        },
+        "xLarge": {
+          "type": "borderRadius",
+          "value": "{primitive.grid.gridUnit}*8"
+        },
         "xxLarge": {
           "type": "borderRadius",
           "value": "{primitive.grid.gridUnit}*12"
         },
-        "xxSmall": {
+        "circle": {
           "type": "borderRadius",
-          "value": "{primitive.grid.gridUnit}*1"
+          "value": "{primitive.grid.gridUnit}*100"
         }
       },
       "width": {
@@ -2167,25 +2167,25 @@
       }
     },
     "fontWeight": {
-      "bold": {
-        "type": "fontWeights",
-        "value": "700"
-      },
       "light": {
         "type": "fontWeights",
         "value": "300"
-      },
-      "medium": {
-        "type": "fontWeights",
-        "value": "500"
       },
       "normal": {
         "type": "fontWeights",
         "value": "400"
       },
+      "medium": {
+        "type": "fontWeights",
+        "value": "500"
+      },
       "semiBold": {
         "type": "fontWeights",
         "value": "600"
+      },
+      "bold": {
+        "type": "fontWeights",
+        "value": "700"
       }
     },
     "lineHeight": {
