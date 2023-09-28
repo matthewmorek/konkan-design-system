@@ -6,9 +6,7 @@
     "selectedTokenSets": {
       "semantic/brand/toyota": "enabled",
       "primitive/brand/toyota": "enabled",
-      "primitive/global": "source",
-      "platform/mobile": "disabled",
-      "platform/multimedia": "disabled"
+      "primitive/global": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:919:7239",
     "$figmaStyleReferences": {
@@ -174,9 +172,7 @@
     "selectedTokenSets": {
       "semantic/brand/lexus": "enabled",
       "primitive/brand/lexus": "enabled",
-      "primitive/global": "source",
-      "platform/mobile": "disabled",
-      "platform/multimedia": "disabled"
+      "primitive/global": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:919:7239",
     "$figmaStyleReferences": {
@@ -309,9 +305,7 @@
     "$figmaModeId": "919:43",
     "selectedTokenSets": {
       "semantic/appearance/light": "enabled",
-      "primitive/global": "enabled",
-      "platform/mobile": "disabled",
-      "platform/multimedia": "disabled"
+      "primitive/global": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:7319",
     "$figmaStyleReferences": {
@@ -426,7 +420,6 @@
       "semantic.state.lightenInvertible.dragged": "ea6dd5064ff2fbfe8b7d51c15ecc54f1e2e87b27",
       "isLight": "204cc32133935ed7028171202e9670af2ad7a608",
       "isDark": "8bd01077aca5fe694e443be417fc5428a738b6e8",
-      "primitive.constant.platformScale": "0fc21dce5911a03b2c4ec25c2152cec2d78d053c",
       "primitive.gridUnit": "74716d3dc922642eea333d3af9c08dd94a338cee",
       "primitive.global.red.0.dark": "0fa033a3e1924ca06c313eed4b3d847cf044c7e4",
       "primitive.global.red.0.light": "98efe81eff0e5b2fe93a12ef6a2837be5e784e7d",
@@ -647,9 +640,7 @@
     "$figmaModeId": "919:44",
     "selectedTokenSets": {
       "semantic/appearance/dark": "enabled",
-      "primitive/global": "enabled",
-      "platform/mobile": "disabled",
-      "platform/multimedia": "disabled"
+      "primitive/global": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:919:7319",
     "$figmaStyleReferences": {},
@@ -716,7 +707,6 @@
       "semantic.state.lightenInvertible.dragged": "ea6dd5064ff2fbfe8b7d51c15ecc54f1e2e87b27",
       "isLight": "204cc32133935ed7028171202e9670af2ad7a608",
       "isDark": "8bd01077aca5fe694e443be417fc5428a738b6e8",
-      "primitive.constant.platformScale": "0fc21dce5911a03b2c4ec25c2152cec2d78d053c",
       "primitive.gridUnit": "74716d3dc922642eea333d3af9c08dd94a338cee",
       "primitive.global.red.0.dark": "0fa033a3e1924ca06c313eed4b3d847cf044c7e4",
       "primitive.global.red.0.light": "98efe81eff0e5b2fe93a12ef6a2837be5e784e7d",
@@ -936,10 +926,8 @@
     "name": "Mobile",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitive/global": "source",
       "platform/mobile": "enabled"
     },
-    "group": "Platform",
     "$figmaCollectionId": "VariableCollectionId:919:7594",
     "$figmaModeId": "919:45",
     "$figmaVariableReferences": {
@@ -965,17 +953,16 @@
       "semantic.layout.space.xxxHuge": "8eafbeb41775adc939cbf2ba455340b68bceb79a",
       "semantic.layout.space.giant": "521d18c05a3e9e6dda739de962e03d7716aafbf7",
       "semantic.layout.space.xGiant": "2ff5c0ecf784757e7deb14a98f87913c929fa378"
-    }
+    },
+    "group": "Platform"
   },
   {
     "id": "570e13cd220228ff67d341a2038f148a0be48928",
     "name": "Multimedia",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitive/global": "source",
       "platform/multimedia": "enabled"
     },
-    "group": "Platform",
     "$figmaCollectionId": "VariableCollectionId:919:7594",
     "$figmaModeId": "919:46",
     "$figmaVariableReferences": {
@@ -1001,6 +988,7 @@
       "semantic.layout.space.xxxHuge": "8eafbeb41775adc939cbf2ba455340b68bceb79a",
       "semantic.layout.space.giant": "521d18c05a3e9e6dda739de962e03d7716aafbf7",
       "semantic.layout.space.xGiant": "2ff5c0ecf784757e7deb14a98f87913c929fa378"
-    }
+    },
+    "group": "Platform"
   }
 ]

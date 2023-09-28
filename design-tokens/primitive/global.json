@@ -1,11 +1,5 @@
 {
   "primitive": {
-    "constant": {
-      "platformScale": {
-        "type": "sizing",
-        "value": "1"
-      }
-    },
     "gridUnit": {
       "type": "sizing",
       "value": "{primitive.constant.platformScale} * 4"
