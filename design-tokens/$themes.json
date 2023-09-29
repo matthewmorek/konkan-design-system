@@ -1106,7 +1106,6 @@
       "semantic.foregroundColor.fixedWhite.subtler": "S:7efd71243d1b67177b5f84032dd8c1e6a68d1ebc,",
       "semantic.foregroundColor.danger.strong": "S:8c50702c5a7b066253b695347012da9d8f2d5c31,",
       "semantic.foregroundColor.warning.strong": "S:e0b033e648fef7556f15e0177a05d65c4aaf2152,",
-      "semantic.foregroundColor.success.strong": "S:f60934346ce38e2703ce453065ee50a248c824f1,",
       "semantic.foregroundColor.info.strong": "S:5cab156e4cfc7991373b49f1d3d98a9fafc44af1,",
       "semantic.borderColor.container": "S:d8b7cb313443c080c76e2abc96b3bb4c64b959d0,",
       "semantic.borderColor.seperator": "S:9492a0f10cb2c630ecc5b4316903e6318d6bae2e,",
@@ -1128,7 +1127,8 @@
       "semantic.stateLayer.lightenInvertible.hovered": "S:7fb768b657e7f7e6e8849454df9052a837dadc90,",
       "semantic.stateLayer.lightenInvertible.pressed": "S:556a2d9b7c00dbf2bfea61e7009af3bfd7f34139,",
       "semantic.stateLayer.lightenInvertible.focused": "S:8c5f4f91742d7fccdb47841522c471b03d62106f,",
-      "semantic.stateLayer.lightenInvertible.dragged": "S:e6f71555d2a8a361638a32417fa1f55b75974bad,"
+      "semantic.stateLayer.lightenInvertible.dragged": "S:e6f71555d2a8a361638a32417fa1f55b75974bad,",
+      "semantic.foregroundColor.positive.strong": "S:f60934346ce38e2703ce453065ee50a248c824f1,"
     },
     "$figmaVariableReferences": {
       "semantic.backgroundColor.neutral.top": "ac15201158fddad4d994bb60b572cfffdc7d8dd2",
@@ -1146,9 +1146,9 @@
       "semantic.backgroundColor.warning.top": "831bfa854454ae93c981ae95f884f6dd9cbd7df9",
       "semantic.backgroundColor.warning.middle": "f9b8022a553af092f4b7fe3acd17557f496c6d68",
       "semantic.backgroundColor.warning.bottom": "0ada4120b401d7ceccb3afedcca279f7fd414e0d",
-      "semantic.backgroundColor.success.top": "54356efbce3a5c6a608e0720a7aadd1b102017bb",
-      "semantic.backgroundColor.success.middle": "54631240a6a1849f8d423560a8195e85d33aaea0",
-      "semantic.backgroundColor.success.bottom": "b8bc7c4f5507ead3b6655ef7330d0b0dc7851758",
+      "semantic.backgroundColor.positive.top": "dce23587f9b2aa26a9632fa72f9d6873c3d141eb",
+      "semantic.backgroundColor.positive.middle": "f59d2e0a1af44842b74ccd3948024f9f12652c60",
+      "semantic.backgroundColor.positive.bottom": "9aaa1ff841cc01c85eb2c0410f295637ce4525bd",
       "semantic.backgroundColor.info.top": "6758100842f040c882b09380a08e0a44c6e9f824",
       "semantic.backgroundColor.info.middle": "d32b478a54840ac90bdca79f2198929981def615",
       "semantic.backgroundColor.info.bottom": "ed37ad9b5fe2764818411fad65df5c281051d263",
@@ -1168,8 +1168,9 @@
       "semantic.foregroundColor.fixedWhite.subtler": "49ef8f29161373f62132a3d1aa0b43f50498ca5d",
       "semantic.foregroundColor.danger.strong": "c67a6a854fec1c7c060f16c7165dccdb2592a932",
       "semantic.foregroundColor.warning.strong": "2a1f12b3bbb7267a446295e6589e81e5f7f1fbe4",
-      "semantic.foregroundColor.success.strong": "63f3c0d06f432d816249e12cccef6b64d9beca6d",
+      "semantic.foregroundColor.positive.strong": "7b18082cd471c2d887bb850462d281abbd2004f4",
       "semantic.foregroundColor.info.strong": "e1883a398ce2d56d6700d5d552beb701621a211e",
+      "semantic.foregroundColor.brandAccent.strong": "0e05431b1e5e8db2065c5314aceb826b02ee7792",
       "semantic.borderColor.container": "2b633a2208a7551695047ad0abcfa69aa690e25c",
       "semantic.borderColor.seperator": "917868b081153de9201eeffb85d5bde0c680082e",
       "semantic.borderColor.danger": "dd65d73556e60f2319944eacb6b0d5dab07b7bb8",
@@ -1192,8 +1193,7 @@
       "semantic.stateLayer.lightenInvertible.focused": "1d79fba8ce104798b2a44753bedeb80e6ee013a4",
       "semantic.stateLayer.lightenInvertible.dragged": "aeed136388c962c8524a3a027764946c2967b358",
       "isLight": "592058cc4a7405ca2679cbb05d4e0e56d886029b",
-      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710",
-      "semantic.foregroundColor.brandAccent.strong": "0e05431b1e5e8db2065c5314aceb826b02ee7792"
+      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710"
     },
     "group": "Appearance"
   },
@@ -1222,9 +1222,9 @@
       "semantic.backgroundColor.warning.top": "831bfa854454ae93c981ae95f884f6dd9cbd7df9",
       "semantic.backgroundColor.warning.bottom": "0ada4120b401d7ceccb3afedcca279f7fd414e0d",
       "semantic.backgroundColor.warning.middle": "f9b8022a553af092f4b7fe3acd17557f496c6d68",
-      "semantic.backgroundColor.success.top": "54356efbce3a5c6a608e0720a7aadd1b102017bb",
-      "semantic.backgroundColor.success.middle": "54631240a6a1849f8d423560a8195e85d33aaea0",
-      "semantic.backgroundColor.success.bottom": "b8bc7c4f5507ead3b6655ef7330d0b0dc7851758",
+      "semantic.backgroundColor.positive.top": "dce23587f9b2aa26a9632fa72f9d6873c3d141eb",
+      "semantic.backgroundColor.positive.middle": "f59d2e0a1af44842b74ccd3948024f9f12652c60",
+      "semantic.backgroundColor.positive.bottom": "9aaa1ff841cc01c85eb2c0410f295637ce4525bd",
       "semantic.backgroundColor.info.top": "6758100842f040c882b09380a08e0a44c6e9f824",
       "semantic.backgroundColor.info.middle": "d32b478a54840ac90bdca79f2198929981def615",
       "semantic.backgroundColor.info.bottom": "ed37ad9b5fe2764818411fad65df5c281051d263",
@@ -1244,8 +1244,9 @@
       "semantic.foregroundColor.fixedWhite.subtler": "49ef8f29161373f62132a3d1aa0b43f50498ca5d",
       "semantic.foregroundColor.danger.strong": "c67a6a854fec1c7c060f16c7165dccdb2592a932",
       "semantic.foregroundColor.warning.strong": "2a1f12b3bbb7267a446295e6589e81e5f7f1fbe4",
-      "semantic.foregroundColor.success.strong": "63f3c0d06f432d816249e12cccef6b64d9beca6d",
+      "semantic.foregroundColor.positive.strong": "63f3c0d06f432d816249e12cccef6b64d9beca6d",
       "semantic.foregroundColor.info.strong": "e1883a398ce2d56d6700d5d552beb701621a211e",
+      "semantic.foregroundColor.brandAccent.strong": "0e05431b1e5e8db2065c5314aceb826b02ee7792",
       "semantic.borderColor.container": "2b633a2208a7551695047ad0abcfa69aa690e25c",
       "semantic.borderColor.seperator": "917868b081153de9201eeffb85d5bde0c680082e",
       "semantic.borderColor.danger": "dd65d73556e60f2319944eacb6b0d5dab07b7bb8",
@@ -1268,8 +1269,7 @@
       "semantic.stateLayer.lightenInvertible.focused": "1d79fba8ce104798b2a44753bedeb80e6ee013a4",
       "semantic.stateLayer.lightenInvertible.dragged": "aeed136388c962c8524a3a027764946c2967b358",
       "isLight": "592058cc4a7405ca2679cbb05d4e0e56d886029b",
-      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710",
-      "semantic.foregroundColor.brandAccent.strong": "0e05431b1e5e8db2065c5314aceb826b02ee7792"
+      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710"
     },
     "group": "Appearance"
   }
