@@ -86,7 +86,7 @@
           "description": "Description goes here"
         }
       },
-      "success": {
+      "positive": {
         "top": {
           "type": "color",
           "value": "{primitive.color.green.50.dark}",
@@ -226,7 +226,7 @@
           "description": "Description goes here"
         }
       },
-      "success": {
+      "positive": {
         "strong": {
           "type": "color",
           "value": "{primitive.color.green.40.dark}",
