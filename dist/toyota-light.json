@@ -47,7 +47,7 @@
         "middle": "#FFFFFFDD",
         "bottom": "#FFFFFFEE"
       },
-      "success": {
+      "positive": {
         "top": "#FFFF1583",
         "middle": "#FFFFA9F2",
         "bottom": "#FFFFDAF9"
@@ -99,7 +99,7 @@
       "warning": {
         "strong": "#FFFF8F4D"
       },
-      "success": {
+      "positive": {
         "strong": "#FFFF106D"
       },
       "info": {
