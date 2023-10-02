@@ -1,6 +1,6 @@
 {
   "semantic": {
-    "backgroundColor": {
+    "background": {
       "neutral": {
         "type": "color",
         "value": "{primitive.color.brandNeutral.100.light}",
@@ -62,7 +62,7 @@
         "description": "Description goes here"
       }
     },
-    "foregroundColor": {
+    "foreground": {
       "onNeutralStrong": {
         "type": "color",
         "value": "{primitive.color.brandNeutral.0.light}",
@@ -154,7 +154,7 @@
         "description": "Description goes here"
       }
     },
-    "borderColor": {
+    "border": {
       "brandAccent": {
         "type": "color",
         "value": "{primitive.color.brandPrimary.40.light}",
@@ -185,7 +185,7 @@
         "type": "color"
       }
     },
-    "overlayColor": {
+    "overlay": {
       "scrim": {
         "type": "color",
         "value": "rgba( {primitive.color.fixed.black}, {primitive.opacity.56})",
