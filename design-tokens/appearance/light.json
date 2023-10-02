@@ -1,371 +1,327 @@
 {
   "semantic": {
-    "backgroundColor": {
-      "neutral": {
-        "top": {
+    "color": {
+      "background": {
+        "neutral": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "middle": {
+        "neutralGrouped": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.95.light}",
           "description": "Description goes here"
         },
-        "bottom": {
-          "value": "{primitive.color.brandNeutral.90.light}",
-          "type": "color",
-          "description": "Description goes here"
-        }
-      },
-      "neutralInverse": {
-        "top": {
+        "neutralInverse": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.0.light}",
           "description": "Description goes here"
         },
-        "middle": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.70.light}",
-          "description": "Description goes here"
-        },
-        "bottom": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.80.light}",
-          "description": "Description goes here"
-        }
-      },
-      "brandAccent": {
-        "top": {
+        "brandAccent": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.50.light}",
           "description": "Description goes here"
         },
-        "middle": {
-          "value": "{primitive.color.brandPrimary.90.light}",
-          "type": "color",
-          "description": "Description goes here"
-        },
-        "bottom": {
-          "type": "color",
-          "value": "{primitive.color.brandPrimary.95.light}",
-          "description": "Description goes here"
-        }
-      },
-      "danger": {
-        "top": {
+        "danger": {
           "type": "color",
           "value": "{primitive.color.red.50.light}",
           "description": "Description goes here"
         },
-        "middle": {
-          "type": "color",
-          "value": "{primitive.color.red.90.light}",
-          "description": "Description goes here"
-        },
-        "bottom": {
+        "dangerGrouped": {
           "type": "color",
           "value": "{primitive.color.red.95.light}",
           "description": "Description goes here"
-        }
-      },
-      "warning": {
-        "top": {
+        },
+        "warning": {
           "type": "color",
           "value": "{primitive.color.orange.50.light}",
           "description": "Description goes here"
         },
-        "middle": {
-          "type": "color",
-          "value": "{primitive.color.orange.90.light}",
-          "description": "Description goes here"
-        },
-        "bottom": {
+        "warningGrouped": {
           "type": "color",
           "value": "{primitive.color.orange.95.light}",
           "description": "Description goes here"
-        }
-      },
-      "positive": {
-        "top": {
+        },
+        "positive": {
           "type": "color",
           "value": "{primitive.color.green.50.light}",
           "description": "Description goes here"
         },
-        "middle": {
-          "type": "color",
-          "value": "{primitive.color.green.90.light}",
-          "description": "Description goes here"
-        },
-        "bottom": {
+        "positiveGrouped": {
           "type": "color",
           "value": "{primitive.color.green.95.light}",
           "description": "Description goes here"
-        }
-      },
-      "info": {
-        "top": {
+        },
+        "information": {
           "type": "color",
           "value": "{primitive.color.blue.50.light}",
           "description": "Description goes here"
         },
-        "middle": {
-          "type": "color",
-          "value": "{primitive.color.blue.90.light}",
-          "description": "Description goes here"
-        },
-        "bottom": {
+        "informationGrouped": {
           "type": "color",
           "value": "{primitive.color.blue.95.light}",
           "description": "Description goes here"
         }
       },
-      "fuel": {
-        "gas": {
-          "top": {
-            "type": "color",
-            "value": "{primitive.color.blue.50.light}",
-            "description": "Description goes here"
-          }
-        },
-        "electric": {
-          "top": {
-            "type": "color",
-            "value": "{primitive.color.teal.50.light}",
-            "description": "Description goes here"
-          }
-        }
-      },
-      "climate": {
-        "hot": {
-          "top": {
-            "type": "color",
-            "value": "{primitive.color.red.60.light}",
-            "description": "Description goes here"
-          }
-        },
-        "mild": {
-          "top": {
-            "type": "color",
-            "value": "{primitive.color.purple.50.light}",
-            "description": "Description goes here"
-          }
-        },
-        "cold": {
-          "top": {
-            "type": "color",
-            "value": "{primitive.color.blue.60.light}",
-            "description": "Description goes here"
-          }
-        }
-      }
-    },
-    "foregroundColor": {
-      "neutral": {
-        "strong": {
+      "foreground": {
+        "onNeutralStrong": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.0.light}",
           "description": "Use for headings and labels"
         },
-        "subtle": {
+        "onNeutralSubtle": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.30.light}",
           "description": "Use for body and labels"
         },
-        "subtler": {
+        "onNeutralSubtler": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.40.light}",
           "description": "Use for supplementary content"
-        }
-      },
-      "neutralInverse": {
-        "strong": {
+        },
+        "onNeutralInverse": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.0.dark}",
+          "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "subtle": {
+        "onBrandAccent": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.30.dark}",
+          "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "subtler": {
+        "onDanger": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.40.dark}",
-          "description": "Description goes here"
-        }
-      },
-      "fixedWhite": {
-        "strong": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.0.dark}",
+          "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "subtle": {
+        "onWarning": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.30.dark}",
+          "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "subtler": {
+        "onPositive": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.40.dark}",
+          "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
-        }
-      },
-      "danger": {
-        "strong": {
+        },
+        "onInformation": {
+          "type": "color",
+          "value": "{primitive.color.brandNeutral.100.light}",
+          "description": "Description goes here"
+        },
+        "onDangerGrouped": {
+          "type": "color",
+          "value": "{primitive.color.red.10.light}",
+          "description": "Description goes here"
+        },
+        "onWarningGrouped": {
+          "type": "color",
+          "value": "{primitive.color.orange.10.light}",
+          "description": "Description goes here"
+        },
+        "onPositiveGrouped": {
+          "type": "color",
+          "value": "{primitive.color.green.10.light}",
+          "description": "Description goes here"
+        },
+        "onInformationGrouped": {
+          "type": "color",
+          "value": "{primitive.color.blue.10.light}",
+          "description": "Description goes here"
+        },
+        "danger": {
           "type": "color",
           "value": "{primitive.color.red.40.light}",
           "description": "Description goes here"
-        }
-      },
-      "warning": {
-        "strong": {
+        },
+        "warning": {
           "type": "color",
           "value": "{primitive.color.orange.40.light}",
           "description": "Description goes here"
-        }
-      },
-      "positive": {
-        "strong": {
+        },
+        "positive": {
           "type": "color",
           "value": "{primitive.color.green.40.light}",
           "description": "Description goes here"
-        }
-      },
-      "info": {
-        "strong": {
+        },
+        "information": {
           "type": "color",
           "value": "{primitive.color.blue.40.light}",
           "description": "Description goes here"
-        }
-      },
-      "brandAccent": {
-        "strong": {
+        },
+        "brandAccent": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.40.light}",
           "description": "Description goes here"
         }
+      },
+      "border": {
+        "brandAccent": {
+          "type": "color",
+          "value": "{primitive.color.brandPrimary.40.light}",
+          "description": "Description goes here"
+        },
+        "container": {
+          "value": "{primitive.color.brandNeutral.60.light}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{primitive.color.red.40.light}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{primitive.color.orange.40.light}",
+          "type": "color"
+        },
+        "positive": {
+          "value": "{primitive.color.green.40.light}",
+          "type": "color"
+        },
+        "information": {
+          "value": "{primitive.color.blue.40.light}",
+          "type": "color"
+        },
+        "seperator": {
+          "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.32})",
+          "type": "color"
+        }
+      },
+      "overlay": {
+        "scrim": {
+          "type": "color",
+          "value": "rgba( {primitive.color.fixed.black}, {primitive.opacity.56})",
+          "description": "Description goes here"
+        }
+      },
+      "stateLayer": {
+        "darkenFixed": {
+          "hovered": {
+            "type": "color",
+            "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "pressed": {
+            "type": "color",
+            "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.16})",
+            "description": "Description goes here"
+          },
+          "focused": {
+            "type": "color",
+            "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "dragged": {
+            "type": "color",
+            "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.16})",
+            "description": "Description goes here"
+          }
+        },
+        "lightenFixed": {
+          "hovered": {
+            "type": "color",
+            "value": "rgba( {primitive.color.fixed.white}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "pressed": {
+            "type": "color",
+            "value": "rgba({primitive.color.fixed.white}, {primitive.opacity.16})",
+            "description": "Description goes here"
+          },
+          "focused": {
+            "type": "color",
+            "value": "rgba({primitive.color.fixed.white}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "dragged": {
+            "type": "color",
+            "value": "rgba( {primitive.color.fixed.white}, {primitive.opacity.16})",
+            "description": "Description goes here"
+          }
+        },
+        "darkenInvertible": {
+          "hovered": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "pressed": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.16})",
+            "description": "Description goes here"
+          },
+          "focused": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "dragged": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.16})",
+            "description": "Description goes here"
+          }
+        },
+        "lightenInvertible": {
+          "hovered": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "pressed": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.16})",
+            "description": "Description goes here"
+          },
+          "focused": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "dragged": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.16})",
+            "description": "Description goes here"
+          }
+        }
       }
     },
-    "borderColor": {
-      "container": {
-        "value": "{primitive.color.brandNeutral.60.light}",
-        "type": "color"
-      },
-      "seperator": {
-        "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.12})",
-        "type": "color"
-      },
-      "danger": {
-        "value": "{primitive.color.red.40.light}",
-        "type": "color"
-      },
-      "activated": {
-        "value": "{primitive.color.blue.40.light}",
-        "type": "color"
+    "opacity": {
+      "stateLayer": {
+        "disabled": {
+          "value": "{primitive.opacity.32}",
+          "type": "opacity",
+          "description": "Disabled buttons have poor contrast and can confuse some users, so avoid them if possible.\n\nOnly use disabled buttons if research shows it makes the user interface easier to understand.\n\nA disabled state, also known as an inoperable state, communicates when a component or element isn’t interactive. \n\nInoperable states are deemphasized by reducing the enabled state to 32% opacity.\n\nDisabled and inoperable states do not need to meet contrast requirements."
+        }
       }
-    },
-    "overlayColor": {
-      "scrim": {
+    }
+  },
+  "component": {
+    "fuelGauge": {
+      "gas": {
         "type": "color",
-        "value": "rgba( {primitive.color.fixed.black}, {primitive.opacity.56})",
+        "value": "{primitive.color.blue.50.light}",
+        "description": "Description goes here"
+      },
+      "electric": {
+        "type": "color",
+        "value": "{primitive.color.teal.50.light}",
         "description": "Description goes here"
       }
     },
-    "stateLayer": {
-      "darkenFixed": {
-        "hovered": {
-          "type": "color",
-          "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.12})",
-          "description": "Description goes here"
-        },
-        "pressed": {
-          "type": "color",
-          "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.16})",
-          "description": "Description goes here"
-        },
-        "focused": {
-          "type": "color",
-          "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.12})",
-          "description": "Description goes here"
-        },
-        "dragged": {
-          "type": "color",
-          "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.16})",
-          "description": "Description goes here"
-        }
+    "climate": {
+      "hot": {
+        "type": "color",
+        "value": "{primitive.color.red.50.light}",
+        "description": "Description goes here"
       },
-      "lightenFixed": {
-        "hovered": {
-          "type": "color",
-          "value": "rgba( {primitive.color.fixed.white}, {primitive.opacity.12})",
-          "description": "Description goes here"
-        },
-        "pressed": {
-          "type": "color",
-          "value": "rgba({primitive.color.fixed.white}, {primitive.opacity.16})",
-          "description": "Description goes here"
-        },
-        "focused": {
-          "type": "color",
-          "value": "rgba({primitive.color.fixed.white}, {primitive.opacity.12})",
-          "description": "Description goes here"
-        },
-        "dragged": {
-          "type": "color",
-          "value": "rgba( {primitive.color.fixed.white}, {primitive.opacity.16})",
-          "description": "Description goes here"
-        }
+      "mild": {
+        "type": "color",
+        "value": "{primitive.color.purple.50.light}",
+        "description": "Description goes here"
       },
-      "darkenInvertible": {
-        "hovered": {
-          "type": "color",
-          "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.12})",
-          "description": "Description goes here"
-        },
-        "pressed": {
-          "type": "color",
-          "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.16})",
-          "description": "Description goes here"
-        },
-        "focused": {
-          "type": "color",
-          "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.12})",
-          "description": "Description goes here"
-        },
-        "dragged": {
-          "type": "color",
-          "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.16})",
-          "description": "Description goes here"
-        }
-      },
-      "lightenInvertible": {
-        "hovered": {
-          "type": "color",
-          "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.12})",
-          "description": "Description goes here"
-        },
-        "pressed": {
-          "type": "color",
-          "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.16})",
-          "description": "Description goes here"
-        },
-        "focused": {
-          "type": "color",
-          "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.12})",
-          "description": "Description goes here"
-        },
-        "dragged": {
-          "type": "color",
-          "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.16})",
-          "description": "Description goes here"
-        }
-      },
-      "disabled": {
-        "value": "{primitive.opacity.32}",
-        "type": "opacity",
-        "description": "Disabled buttons have poor contrast and can confuse some users, so avoid them if possible.\n\nOnly use disabled buttons if research shows it makes the user interface easier to understand.\n\nA disabled state, also known as an inoperable state, communicates when a component or element isn’t interactive. \n\nInoperable states are deemphasized by reducing the enabled state to 32% opacity.\n\nDisabled and inoperable states do not need to meet contrast requirements."
+      "cold": {
+        "type": "color",
+        "value": "{primitive.color.blue.50.light}",
+        "description": "Description goes here"
       }
     }
   },
