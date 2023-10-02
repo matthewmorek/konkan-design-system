@@ -1123,11 +1123,11 @@
       "semantic.stateLayer.lightenInvertible.pressed": "S:556a2d9b7c00dbf2bfea61e7009af3bfd7f34139,",
       "semantic.stateLayer.lightenInvertible.focused": "S:8c5f4f91742d7fccdb47841522c471b03d62106f,",
       "semantic.stateLayer.lightenInvertible.dragged": "S:e6f71555d2a8a361638a32417fa1f55b75974bad,",
-      "component.seperator": "S:9492a0f10cb2c630ecc5b4316903e6318d6bae2e,",
       "semantic.foregroundColor.danger": "S:8c50702c5a7b066253b695347012da9d8f2d5c31,",
       "semantic.foregroundColor.warning": "S:e0b033e648fef7556f15e0177a05d65c4aaf2152,",
       "semantic.foregroundColor.positive": "S:f60934346ce38e2703ce453065ee50a248c824f1,",
-      "semantic.borderColor.container": "S:d8b7cb313443c080c76e2abc96b3bb4c64b959d0,"
+      "semantic.borderColor.container": "S:d8b7cb313443c080c76e2abc96b3bb4c64b959d0,",
+      "semantic.borderColor.seperator": "S:9492a0f10cb2c630ecc5b4316903e6318d6bae2e,"
     },
     "$figmaVariableReferences": {
       "semantic.backgroundColor.neutral.top": "ac15201158fddad4d994bb60b572cfffdc7d8dd2",
@@ -1187,11 +1187,11 @@
       "semantic.stateLayer.lightenInvertible.dragged": "aeed136388c962c8524a3a027764946c2967b358",
       "isLight": "592058cc4a7405ca2679cbb05d4e0e56d886029b",
       "isDark": "2819589e6c00129b071c5b8501a8db25fee71710",
-      "component.seperator": "917868b081153de9201eeffb85d5bde0c680082e",
       "semantic.foregroundColor.danger": "c67a6a854fec1c7c060f16c7165dccdb2592a932",
       "semantic.foregroundColor.warning": "2a1f12b3bbb7267a446295e6589e81e5f7f1fbe4",
       "semantic.foregroundColor.positive": "7b18082cd471c2d887bb850462d281abbd2004f4",
-      "semantic.borderColor.container": "2b633a2208a7551695047ad0abcfa69aa690e25c"
+      "semantic.borderColor.container": "2b633a2208a7551695047ad0abcfa69aa690e25c",
+      "semantic.borderColor.seperator": "917868b081153de9201eeffb85d5bde0c680082e"
     },
     "group": "Appearance"
   },
@@ -1263,11 +1263,11 @@
       "isLight": "592058cc4a7405ca2679cbb05d4e0e56d886029b",
       "isDark": "2819589e6c00129b071c5b8501a8db25fee71710",
       "semantic.borderColor.inverse": "dad1ddde0c9daccee69f8c7a06bf3bafc45a8558",
-      "component.seperator": "917868b081153de9201eeffb85d5bde0c680082e",
       "semantic.foregroundColor.danger": "c67a6a854fec1c7c060f16c7165dccdb2592a932",
       "semantic.foregroundColor.warning": "2a1f12b3bbb7267a446295e6589e81e5f7f1fbe4",
       "semantic.foregroundColor.positive": "63f3c0d06f432d816249e12cccef6b64d9beca6d",
-      "semantic.borderColor.container": "2b633a2208a7551695047ad0abcfa69aa690e25c"
+      "semantic.borderColor.container": "2b633a2208a7551695047ad0abcfa69aa690e25c",
+      "semantic.borderColor.seperator": "917868b081153de9201eeffb85d5bde0c680082e"
     },
     "group": "Appearance"
   }

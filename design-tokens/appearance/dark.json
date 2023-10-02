@@ -106,7 +106,7 @@
         "value": "{primitive.color.brandNeutral.100.dark}",
         "description": "Description goes here"
       },
-      "inverse": {
+      "neutralInverse": {
         "type": "color",
         "value": "{primitive.color.brandNeutral.0.dark}",
         "description": "Description goes here"
@@ -116,12 +116,12 @@
         "value": "{primitive.color.brandPrimary.50.dark}",
         "description": "Description goes here"
       },
-      "danger": {
+      "feedbackDanger": {
         "type": "color",
         "value": "{primitive.color.red.50.dark}",
         "description": "Description goes here"
       },
-      "dangerGrouped": {
+      "feedbackDangerGrouped": {
         "type": "color",
         "value": "{primitive.color.red.95.dark}",
         "description": "Description goes here"
@@ -180,12 +180,12 @@
         "value": "{primitive.color.brandNeutral.0.dark}",
         "description": "Description goes here"
       },
-      "onInverse": {
+      "onNeutralInverse": {
         "type": "color",
         "value": "{primitive.color.brandNeutral.100.dark}",
         "description": "Description goes here"
       },
-      "onDanger": {
+      "onFeedback": {
         "type": "color",
         "value": "{primitive.color.brandNeutral.0.dark}",
         "description": "Description goes here"
@@ -265,6 +265,10 @@
       },
       "information": {
         "value": "{primitive.color.blue.40.dark}",
+        "type": "color"
+      },
+      "seperator": {
+        "value": "rgba({primitive.color.gray.0.dark}, {primitive.opacity.32})",
         "type": "color"
       }
     },
