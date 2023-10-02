@@ -1,5 +1,197 @@
 {
   "semantic": {
+    "backgroundColor": {
+      "neutral": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.95.dark}",
+        "description": "Description goes here"
+      },
+      "neutralGrouped": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.100.dark}",
+        "description": "Description goes here"
+      },
+      "neutralInverse": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.0.dark}",
+        "description": "Description goes here"
+      },
+      "brandAccent": {
+        "type": "color",
+        "value": "{primitive.color.brandPrimary.50.dark}",
+        "description": "Description goes here"
+      },
+      "danger": {
+        "type": "color",
+        "value": "{primitive.color.red.50.dark}",
+        "description": "Description goes here"
+      },
+      "dangerGrouped": {
+        "type": "color",
+        "value": "{primitive.color.red.95.dark}",
+        "description": "Description goes here"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{primitive.color.orange.50.dark}",
+        "description": "Description goes here"
+      },
+      "warningGrouped": {
+        "type": "color",
+        "value": "{primitive.color.orange.95.dark}",
+        "description": "Description goes here"
+      },
+      "positive": {
+        "type": "color",
+        "value": "{primitive.color.green.50.dark}",
+        "description": "Description goes here"
+      },
+      "positiveGrouped": {
+        "type": "color",
+        "value": "{primitive.color.green.95.dark}",
+        "description": "Description goes here"
+      },
+      "information": {
+        "type": "color",
+        "value": "{primitive.color.blue.50.dark}",
+        "description": "Description goes here"
+      },
+      "informationGrouped": {
+        "type": "color",
+        "value": "{primitive.color.blue.95.dark}",
+        "description": "Description goes here"
+      }
+    },
+    "foregroundColor": {
+      "onNeutralStrong": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.0.dark}",
+        "description": "Use for headings and labels"
+      },
+      "onNeutralSubtle": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.30.dark}",
+        "description": "Use for body and labels"
+      },
+      "onNeutralSubtler": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.40.dark}",
+        "description": "Use for supplementary content"
+      },
+      "onNeutralInverse": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.100.dark}",
+        "description": "Description goes here"
+      },
+      "onBrandAccent": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.0.dark}",
+        "description": "Description goes here"
+      },
+      "onFeedback": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.0.dark}",
+        "description": "Description goes here"
+      },
+      "onWarning": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.0.dark}",
+        "description": "Description goes here"
+      },
+      "onPositive": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.0.dark}",
+        "description": "Description goes here"
+      },
+      "onInformation": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.0.dark}",
+        "description": "Description goes here"
+      },
+      "onDangerGrouped": {
+        "type": "color",
+        "value": "{primitive.color.red.10.dark}",
+        "description": "Description goes here"
+      },
+      "onWarningGrouped": {
+        "type": "color",
+        "value": "{primitive.color.orange.10.dark}",
+        "description": "Description goes here"
+      },
+      "onPositiveGrouped": {
+        "type": "color",
+        "value": "{primitive.color.green.10.dark}",
+        "description": "Description goes here"
+      },
+      "onInformationGrouped": {
+        "type": "color",
+        "value": "{primitive.color.blue.10.dark}",
+        "description": "Description goes here"
+      },
+      "danger": {
+        "type": "color",
+        "value": "{primitive.color.red.40.dark}",
+        "description": "Description goes here"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{primitive.color.orange.40.dark}",
+        "description": "Description goes here"
+      },
+      "positive": {
+        "type": "color",
+        "value": "{primitive.color.green.40.dark}",
+        "description": "Description goes here"
+      },
+      "information": {
+        "type": "color",
+        "value": "{primitive.color.blue.40.dark}",
+        "description": "Description goes here"
+      },
+      "brandAccent": {
+        "type": "color",
+        "value": "{primitive.color.brandPrimary.40.dark}",
+        "description": "Description goes here"
+      }
+    },
+    "borderColor": {
+      "brandAccent": {
+        "type": "color",
+        "value": "{primitive.color.brandPrimary.40.dark}",
+        "description": "Description goes here"
+      },
+      "container": {
+        "value": "{primitive.color.brandNeutral.60.dark}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{primitive.color.red.40.dark}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{primitive.color.orange.40.dark}",
+        "type": "color"
+      },
+      "positive": {
+        "value": "{primitive.color.green.40.dark}",
+        "type": "color"
+      },
+      "information": {
+        "value": "{primitive.color.blue.40.dark}",
+        "type": "color"
+      },
+      "seperator": {
+        "value": "rgba({primitive.color.gray.0.dark}, {primitive.opacity.32})",
+        "type": "color"
+      }
+    },
+    "overlayColor": {
+      "scrim": {
+        "type": "color",
+        "value": "rgba( {primitive.color.fixed.black}, {primitive.opacity.56})",
+        "description": "Description goes here"
+      }
+    },
     "stateLayer": {
       "disabled": {
         "value": "{primitive.opacity.32}",
@@ -94,190 +286,6 @@
           "description": "Description goes here"
         }
       }
-    },
-    "backgroundColor": {
-      "neutral": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.95.dark}",
-        "description": "Description goes here"
-      },
-      "neutralGrouped": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.100.dark}",
-        "description": "Description goes here"
-      },
-      "neutralInverse": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.0.dark}",
-        "description": "Description goes here"
-      },
-      "brandAccent": {
-        "type": "color",
-        "value": "{primitive.color.brandPrimary.50.dark}",
-        "description": "Description goes here"
-      },
-      "feedbackDanger": {
-        "type": "color",
-        "value": "{primitive.color.red.50.dark}",
-        "description": "Description goes here"
-      },
-      "feedbackDangerGrouped": {
-        "type": "color",
-        "value": "{primitive.color.red.95.dark}",
-        "description": "Description goes here"
-      },
-      "warning": {
-        "type": "color",
-        "value": "{primitive.color.orange.50.dark}",
-        "description": "Description goes here"
-      },
-      "warningGrouped": {
-        "type": "color",
-        "value": "{primitive.color.orange.95.dark}",
-        "description": "Description goes here"
-      },
-      "positive": {
-        "type": "color",
-        "value": "{primitive.color.green.50.dark}",
-        "description": "Description goes here"
-      },
-      "positiveGrouped": {
-        "type": "color",
-        "value": "{primitive.color.green.95.dark}",
-        "description": "Description goes here"
-      },
-      "information": {
-        "type": "color",
-        "value": "{primitive.color.blue.50.dark}",
-        "description": "Description goes here"
-      },
-      "informationGrouped": {
-        "type": "color",
-        "value": "{primitive.color.blue.95.dark}",
-        "description": "Description goes here"
-      }
-    },
-    "foregroundColor": {
-      "onNeutral": {
-        "strong": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.0.dark}",
-          "description": "Use for headings and labels"
-        },
-        "subtle": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.30.dark}",
-          "description": "Use for body and labels"
-        },
-        "subtler": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.40.dark}",
-          "description": "Use for supplementary content"
-        }
-      },
-      "onBrandAccent": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.0.dark}",
-        "description": "Description goes here"
-      },
-      "onNeutralInverse": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.100.dark}",
-        "description": "Description goes here"
-      },
-      "onFeedback": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.0.dark}",
-        "description": "Description goes here"
-      },
-      "onWarning": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.0.dark}",
-        "description": "Description goes here"
-      },
-      "onPositive": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.0.dark}",
-        "description": "Description goes here"
-      },
-      "onInformation": {
-        "type": "color",
-        "value": "{primitive.color.brandNeutral.0.dark}",
-        "description": "Description goes here"
-      },
-      "onDangerGrouped": {
-        "type": "color",
-        "value": "{primitive.color.red.10.dark}",
-        "description": "Description goes here"
-      },
-      "onWarningGrouped": {
-        "type": "color",
-        "value": "{primitive.color.orange.10.dark}",
-        "description": "Description goes here"
-      },
-      "onPositiveGrouped": {
-        "type": "color",
-        "value": "{primitive.color.green.10.dark}",
-        "description": "Description goes here"
-      },
-      "onInformationGrouped": {
-        "type": "color",
-        "value": "{primitive.color.blue.10.dark}",
-        "description": "Description goes here"
-      },
-      "danger": {
-        "type": "color",
-        "value": "{primitive.color.red.40.dark}",
-        "description": "Description goes here"
-      },
-      "warning": {
-        "type": "color",
-        "value": "{primitive.color.orange.40.dark}",
-        "description": "Description goes here"
-      },
-      "positive": {
-        "type": "color",
-        "value": "{primitive.color.green.40.dark}",
-        "description": "Description goes here"
-      },
-      "information": {
-        "type": "color",
-        "value": "{primitive.color.blue.40.dark}",
-        "description": "Description goes here"
-      }
-    },
-    "borderColor": {
-      "container": {
-        "value": "{primitive.color.brandNeutral.60.dark}",
-        "type": "color"
-      },
-      "danger": {
-        "value": "{primitive.color.red.40.dark}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{primitive.color.orange.40.dark}",
-        "type": "color"
-      },
-      "positive": {
-        "value": "{primitive.color.green.40.dark}",
-        "type": "color"
-      },
-      "information": {
-        "value": "{primitive.color.blue.40.dark}",
-        "type": "color"
-      },
-      "seperator": {
-        "value": "rgba({primitive.color.gray.0.dark}, {primitive.opacity.32})",
-        "type": "color"
-      }
-    },
-    "overlayColor": {
-      "scrim": {
-        "type": "color",
-        "value": "rgba( {primitive.color.fixed.black}, {primitive.opacity.56})",
-        "description": "Description goes here"
-      }
     }
   },
   "isLight": {
@@ -289,5 +297,36 @@
     "value": "true",
     "type": "boolean",
     "description": "For Figma Variables"
+  },
+  "component": {
+    "fuelGauge": {
+      "gas": {
+        "type": "color",
+        "value": "{primitive.color.blue.50.dark}",
+        "description": "Description goes here"
+      },
+      "electric": {
+        "type": "color",
+        "value": "{primitive.color.teal.50.dark}",
+        "description": "Description goes here"
+      }
+    },
+    "climate": {
+      "hot": {
+        "type": "color",
+        "value": "{primitive.color.red.50.dark}",
+        "description": "Description goes here"
+      },
+      "mild": {
+        "type": "color",
+        "value": "{primitive.color.purple.50.dark}",
+        "description": "Description goes here"
+      },
+      "cold": {
+        "type": "color",
+        "value": "{primitive.color.blue.50.dark}",
+        "description": "Description goes here"
+      }
+    }
   }
 }

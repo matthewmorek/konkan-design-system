@@ -21,12 +21,12 @@
         "value": "{primitive.color.brandPrimary.50.light}",
         "description": "Description goes here"
       },
-      "feedbackDanger": {
+      "danger": {
         "type": "color",
         "value": "{primitive.color.red.50.light}",
         "description": "Description goes here"
       },
-      "feedbackDangerGrouped": {
+      "dangerGrouped": {
         "type": "color",
         "value": "{primitive.color.red.95.light}",
         "description": "Description goes here"
@@ -63,29 +63,27 @@
       }
     },
     "foregroundColor": {
-      "onNeutral": {
-        "strong": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.0.light}",
-          "description": "Use for headings and labels"
-        },
-        "subtle": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.30.light}",
-          "description": "Use for body and labels"
-        },
-        "subtler": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.40.light}",
-          "description": "Use for supplementary content"
-        }
+      "onNeutralStrong": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.0.light}",
+        "description": "Use for headings and labels"
       },
-      "onBrandAccent": {
+      "onNeutralSubtle": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.30.light}",
+        "description": "Use for body and labels"
+      },
+      "onNeutralSubtler": {
+        "type": "color",
+        "value": "{primitive.color.brandNeutral.40.light}",
+        "description": "Use for supplementary content"
+      },
+      "onNeutralInverse": {
         "type": "color",
         "value": "{primitive.color.brandNeutral.100.light}",
         "description": "Description goes here"
       },
-      "onNeutralInverse": {
+      "onBrandAccent": {
         "type": "color",
         "value": "{primitive.color.brandNeutral.100.light}",
         "description": "Description goes here"
@@ -149,9 +147,19 @@
         "type": "color",
         "value": "{primitive.color.blue.40.light}",
         "description": "Description goes here"
+      },
+      "brandAccent": {
+        "type": "color",
+        "value": "{primitive.color.brandPrimary.40.light}",
+        "description": "Description goes here"
       }
     },
     "borderColor": {
+      "brandAccent": {
+        "type": "color",
+        "value": "{primitive.color.brandPrimary.40.light}",
+        "description": "Description goes here"
+      },
       "container": {
         "value": "{primitive.color.brandNeutral.60.light}",
         "type": "color"
@@ -296,7 +304,7 @@
     "climate": {
       "hot": {
         "type": "color",
-        "value": "{primitive.color.red.60.light}",
+        "value": "{primitive.color.red.50.light}",
         "description": "Description goes here"
       },
       "mild": {
@@ -306,7 +314,7 @@
       },
       "cold": {
         "type": "color",
-        "value": "{primitive.color.blue.60.light}",
+        "value": "{primitive.color.blue.50.light}",
         "description": "Description goes here"
       }
     }
