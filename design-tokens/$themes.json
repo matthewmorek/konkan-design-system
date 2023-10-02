@@ -1147,7 +1147,6 @@
       "semantic.foregroundColor.onNeutralSubtler": "6ac794dfbe751a8919a0b6c8513c4f78909c0a62",
       "semantic.foregroundColor.onBrandAccent": "47800f8dd615c77d24d12d3d86dc68ee6d82bfa8",
       "semantic.foregroundColor.onNeutralInverse": "1e52a1180c826845c61e2927f7632430d75bdc3a",
-      "semantic.foregroundColor.onFeedback": "65443950b10f8386752b811ba1df3a1d92f4f64d",
       "semantic.foregroundColor.onWarning": "191a49639ff1ddeda9bdc327dacecab2fbc7f831",
       "semantic.foregroundColor.onPositive": "680f688b11f8b313d8510a2200a141cf34eba0c5",
       "semantic.foregroundColor.onInformation": "aace928decae5e6bb0949fd3ce79c774e354a502",
@@ -1190,7 +1189,8 @@
       "component.climate.mild": "06691251f1fc58c079f511d85d36a1f98f7219b1",
       "component.climate.cold": "edbd170d98a99805cdf9aea249a739b7e4c768f3",
       "isLight": "7b0e8b62c0cd9dda0230c7d1bd511c2821d1ba99",
-      "isDark": "0e528189652fde1b43061877a78611373696a837"
+      "isDark": "0e528189652fde1b43061877a78611373696a837",
+      "semantic.foregroundColor.onDanger": "65443950b10f8386752b811ba1df3a1d92f4f64d"
     },
     "group": "Appearance"
   },
@@ -1237,7 +1237,6 @@
       "semantic.foregroundColor.onNeutralSubtler": "6ac794dfbe751a8919a0b6c8513c4f78909c0a62",
       "semantic.foregroundColor.onBrandAccent": "47800f8dd615c77d24d12d3d86dc68ee6d82bfa8",
       "semantic.foregroundColor.onNeutralInverse": "1e52a1180c826845c61e2927f7632430d75bdc3a",
-      "semantic.foregroundColor.onFeedback": "65443950b10f8386752b811ba1df3a1d92f4f64d",
       "semantic.foregroundColor.onWarning": "191a49639ff1ddeda9bdc327dacecab2fbc7f831",
       "semantic.foregroundColor.onPositive": "680f688b11f8b313d8510a2200a141cf34eba0c5",
       "semantic.foregroundColor.onInformation": "aace928decae5e6bb0949fd3ce79c774e354a502",
@@ -1259,7 +1258,8 @@
       "semantic.overlayColor.scrim": "411b2943c360407e4049da7d9784305de976a28d",
       "isLight": "7b0e8b62c0cd9dda0230c7d1bd511c2821d1ba99",
       "isDark": "0e528189652fde1b43061877a78611373696a837",
-      "semantic.borderColor.seperator": "9be2e8c0c9de8ac03cf3b81279f6d164796e658b"
+      "semantic.borderColor.seperator": "9be2e8c0c9de8ac03cf3b81279f6d164796e658b",
+      "semantic.foregroundColor.onDanger": "65443950b10f8386752b811ba1df3a1d92f4f64d"
     },
     "group": "Appearance"
   }

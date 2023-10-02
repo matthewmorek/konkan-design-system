@@ -88,7 +88,7 @@
         "value": "{primitive.color.brandNeutral.0.dark}",
         "description": "Description goes here"
       },
-      "onFeedback": {
+      "onDanger": {
         "type": "color",
         "value": "{primitive.color.brandNeutral.0.dark}",
         "description": "Description goes here"
