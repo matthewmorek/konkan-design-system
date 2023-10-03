@@ -1,5 +1,23 @@
 {
   "semantic": {
+    "border": {
+      "radius": {
+        "xxSmall": 4,
+        "xSmall": 8,
+        "small": 12,
+        "medium": 16,
+        "large": 24,
+        "xLarge": 32,
+        "xxLarge": 48,
+        "circle": 400
+      },
+      "width": {
+        "thin": 0.5,
+        "medium": 1,
+        "thick": 2,
+        "heavy": 4
+      }
+    },
     "layout": {
       "space": {
         "none": 0,
