@@ -2,32 +2,22 @@
   "semantic": {
     "color": {
       "background": {
-        "neutralPrimaryTop": {
+        "neutralTop": {
+          "type": "color",
+          "value": "{primitive.color.brandNeutral.90.dark}",
+          "description": "Description goes here"
+        },
+        "neutralMiddle": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.95.dark}",
           "description": "Description goes here"
         },
-        "neutralPrimaryBottom": {
+        "neutralBottom": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.dark}",
-          "description": "Description goes here"
-        },
-        "neutralSecondaryTop": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.100.dark}",
-          "description": "Description goes here"
-        },
-        "neutralSecondaryBottom": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.95.dark}",
           "description": "Description goes here"
         },
         "brandAccentPrimary": {
-          "type": "color",
-          "value": "{primitive.color.brandPrimary.0.dark}",
-          "description": "Description goes here"
-        },
-        "brandAccentSecondary": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.0.dark}",
           "description": "Description goes here"
@@ -90,11 +80,6 @@
           "description": "Use for supplementary content"
         },
         "onBrandAccentPrimary": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.100.dark}",
-          "description": "Description goes here"
-        },
-        "onBrandAccentSecondary": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.dark}",
           "description": "Description goes here"

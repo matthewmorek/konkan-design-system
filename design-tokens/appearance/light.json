@@ -2,32 +2,22 @@
   "semantic": {
     "color": {
       "background": {
-        "neutralPrimaryTop": {
+        "neutralTop": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "neutralPrimaryBottom": {
+        "neutralMiddle": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.95.light}",
           "description": "Description goes here"
         },
-        "neutralSecondaryTop": {
+        "neutralBottom": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.95.light}",
-          "description": "Description goes here"
-        },
-        "neutralSecondaryBottom": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.100.light}",
+          "value": "{primitive.color.brandNeutral.90.light}",
           "description": "Description goes here"
         },
         "brandAccentPrimary": {
-          "type": "color",
-          "value": "{primitive.color.brandPrimary.0.light}",
-          "description": "Description goes here"
-        },
-        "brandAccentSecondary": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
@@ -90,11 +80,6 @@
           "description": "Use for supplementary content"
         },
         "onBrandAccentPrimary": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.100.light}",
-          "description": "Description goes here"
-        },
-        "onBrandAccentSecondary": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
@@ -163,20 +148,10 @@
           "type": "color",
           "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
-        },
-        "brandAccentSecondary": {
-          "type": "color",
-          "value": "{primitive.color.brandPrimary.0.light}",
-          "description": "Description goes here"
         }
       },
       "border": {
         "brandAccentPrimary": {
-          "type": "color",
-          "value": "{primitive.color.brandPrimary.0.light}",
-          "description": "Description goes here"
-        },
-        "brandAccentSecondary": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
