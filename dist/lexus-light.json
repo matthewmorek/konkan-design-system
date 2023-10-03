@@ -74,10 +74,12 @@
         "warning": "#FFFF8F4D",
         "positive": "#FFFF106D",
         "information": "#FFFF224E",
-        "brandAccent": "#FFFF6E5A"
+        "brandPrimary": "#FFFF6E5A",
+        "brandSecondary": "#FFFF0000"
       },
       "border": {
-        "brandAccent": "#FFFF6E5A",
+        "brandPrimary": "#FFFF6E5A",
+        "brandSecondary": "#FFFF0000",
         "container": "#FFFF7F84",
         "danger": "#FFFFB91C",
         "warning": "#FFFF8F4D",
