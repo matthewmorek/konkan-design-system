@@ -84,7 +84,10 @@ async function run() {
             {
               filter: (token: DesignToken) =>
                 // temporarily filter out anything other than colours
-                (token.type === "color" || token.type === "spacing") &&
+                (token.type === "color" ||
+                  token.type === "spacing" ||
+                  token.type === "borderRadius" ||
+                  token.type === "borderWidth") &&
                 // we only want semantic tokens
                 token.attributes?.category === "semantic",
               destination: `${name.toLowerCase()}.json`,
