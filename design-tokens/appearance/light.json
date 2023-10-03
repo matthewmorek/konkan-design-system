@@ -12,12 +12,12 @@
           "value": "{primitive.color.brandNeutral.95.light}",
           "description": "Description goes here"
         },
-        "neutralInverse": {
+        "brandSecondary": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.0.light}",
           "description": "Description goes here"
         },
-        "brandAccent": {
+        "brandPrimary": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.50.light}",
           "description": "Description goes here"
@@ -79,12 +79,12 @@
           "value": "{primitive.color.brandNeutral.40.light}",
           "description": "Use for supplementary content"
         },
-        "onNeutralInverse": {
+        "onBrandSecondary": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "onBrandAccent": {
+        "onBrandPrimary": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"

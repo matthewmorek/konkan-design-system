@@ -12,14 +12,14 @@
           "value": "{primitive.color.brandNeutral.100.dark}",
           "description": "Description goes here"
         },
-        "neutralInverse": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.0.dark}",
-          "description": "Description goes here"
-        },
-        "brandAccent": {
+        "brandPrimary": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.50.dark}",
+          "description": "Description goes here"
+        },
+        "brandSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandNeutral.0.dark}",
           "description": "Description goes here"
         },
         "danger": {
@@ -79,14 +79,14 @@
           "value": "{primitive.color.brandNeutral.40.dark}",
           "description": "Use for supplementary content"
         },
-        "onNeutralInverse": {
-          "type": "color",
-          "value": "{primitive.color.brandNeutral.100.dark}",
-          "description": "Description goes here"
-        },
-        "onBrandAccent": {
+        "onBrandPrimary": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.0.dark}",
+          "description": "Description goes here"
+        },
+        "onBrandSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandNeutral.100.dark}",
           "description": "Description goes here"
         },
         "onDanger": {
