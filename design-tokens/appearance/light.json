@@ -22,14 +22,14 @@
           "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "brandPrimary": {
+        "brandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandPrimary.50.light}",
+          "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
         },
-        "brandSecondary": {
+        "brandAccentSecondary": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.0.light}",
+          "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
         },
         "dangerTop": {
@@ -89,12 +89,12 @@
           "value": "{primitive.color.brandNeutral.40.light}",
           "description": "Use for supplementary content"
         },
-        "onBrandPrimary": {
+        "onBrandAccentPrimary": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
         },
-        "onBrandSecondary": {
+        "onBrandAccentSecondary": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.light}",
           "description": "Description goes here"
@@ -159,26 +159,26 @@
           "value": "{primitive.color.blue.40.light}",
           "description": "Description goes here"
         },
-        "brandPrimary": {
+        "brandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandPrimary.40.light}",
+          "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
         },
-        "brandSecondary": {
+        "brandAccentSecondary": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.0.light}",
+          "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
         }
       },
       "border": {
-        "brandPrimary": {
+        "brandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandPrimary.40.light}",
+          "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
         },
-        "brandSecondary": {
+        "brandAccentSecondary": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.0.light}",
+          "value": "{primitive.color.brandPrimary.0.light}",
           "description": "Description goes here"
         },
         "container": {
