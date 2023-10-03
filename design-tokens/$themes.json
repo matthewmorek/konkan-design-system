@@ -1161,6 +1161,10 @@
       "semantic.color.foreground.warning": "29c61c5a7740b33723ac6c9a7eae8fd65d9e49ec",
       "semantic.color.foreground.positive": "b8749a43456304d82962aff28618549eec911b12",
       "semantic.color.foreground.information": "a5349574ab8292fdf363341273b12ce84da6f3ba",
+      "semantic.color.foreground.brandPrimary": "11edf3e06ce7812d93f6293466c9e6a97d60f5dc",
+      "semantic.color.foreground.brandSecondary": "31f60053f84a7c9a8402b655e4e16b77f3bc6c6e",
+      "semantic.color.border.brandPrimary": "b1437ded1d3f88761eabf9555e5ccd38811e8de3",
+      "semantic.color.border.brandSecondary": "a2c7c2d398b6b5721f7cd51e483c5eae78fc12b2",
       "semantic.color.border.container": "03b886d2a5e9a3197fccea7c3a7835635587f64b",
       "semantic.color.border.danger": "b226da6b41ee670fd2ba9f5ba4c2991e528d472a",
       "semantic.color.border.warning": "838254c0399bb513e5de4fb9a050b046e4ab0415",
@@ -1194,9 +1198,7 @@
       "component.climate.mild": "e4c823c8a1f92f4c39b82907d8d19c948520461a",
       "component.climate.cold": "c5054dc5f47ae7bd0e5b71a0d97ca6edd51387db",
       "isLight": "592058cc4a7405ca2679cbb05d4e0e56d886029b",
-      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710",
-      "semantic.color.foreground.brandPrimary": "11edf3e06ce7812d93f6293466c9e6a97d60f5dc",
-      "semantic.color.border.brandPrimary": "b1437ded1d3f88761eabf9555e5ccd38811e8de3"
+      "isDark": "2819589e6c00129b071c5b8501a8db25fee71710"
     },
     "group": "Appearance"
   },
@@ -1241,6 +1243,10 @@
       "semantic.color.foreground.warning": "29c61c5a7740b33723ac6c9a7eae8fd65d9e49ec",
       "semantic.color.foreground.positive": "b8749a43456304d82962aff28618549eec911b12",
       "semantic.color.foreground.information": "a5349574ab8292fdf363341273b12ce84da6f3ba",
+      "semantic.color.foreground.brandPrimary": "11edf3e06ce7812d93f6293466c9e6a97d60f5dc",
+      "semantic.color.foreground.brandSecondary": "31f60053f84a7c9a8402b655e4e16b77f3bc6c6e",
+      "semantic.color.border.brandPrimary": "b1437ded1d3f88761eabf9555e5ccd38811e8de3",
+      "semantic.color.border.brandSecondary": "a2c7c2d398b6b5721f7cd51e483c5eae78fc12b2",
       "semantic.color.border.container": "03b886d2a5e9a3197fccea7c3a7835635587f64b",
       "semantic.color.border.danger": "b226da6b41ee670fd2ba9f5ba4c2991e528d472a",
       "semantic.color.border.warning": "838254c0399bb513e5de4fb9a050b046e4ab0415",
@@ -1274,9 +1280,7 @@
       "component.fuelGauge.electric": "910044a7ec62ffa12d996c885195ba1d7d2e0a6e",
       "component.climate.hot": "7cd3d43a1975ef241cb327d346c649585f2cbca8",
       "component.climate.mild": "e4c823c8a1f92f4c39b82907d8d19c948520461a",
-      "component.climate.cold": "c5054dc5f47ae7bd0e5b71a0d97ca6edd51387db",
-      "semantic.color.foreground.brandPrimary": "11edf3e06ce7812d93f6293466c9e6a97d60f5dc",
-      "semantic.color.border.brandPrimary": "b1437ded1d3f88761eabf9555e5ccd38811e8de3"
+      "component.climate.cold": "c5054dc5f47ae7bd0e5b71a0d97ca6edd51387db"
     },
     "group": "Appearance"
   }
