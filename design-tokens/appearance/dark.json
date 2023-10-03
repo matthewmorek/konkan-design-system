@@ -19,7 +19,7 @@
         },
         "brandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandPrimary.0.dark}",
+          "value": "{primitive.color.brandAccentPrimary.background.dark}",
           "description": "Description goes here"
         },
         "dangerTop": {
@@ -81,7 +81,7 @@
         },
         "onBrandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.100.dark}",
+          "value": "{primitive.color.brandAccentPrimary.onBackground.dark}",
           "description": "Description goes here"
         },
         "onDanger": {
@@ -146,22 +146,12 @@
         },
         "brandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandPrimary.0.dark}",
-          "description": "Description goes here"
-        },
-        "brandAccentSecondary": {
-          "type": "color",
-          "value": "{primitive.color.brandPrimary.0.dark}",
+          "value": "{primitive.color.brandAccentPrimary.foreground.dark}",
           "description": "Description goes here"
         }
       },
       "border": {
         "brandAccentPrimary": {
-          "type": "color",
-          "value": "{primitive.color.brandPrimary.0.dark}",
-          "description": "Description goes here"
-        },
-        "brandAccentSecondary": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.0.dark}",
           "description": "Description goes here"

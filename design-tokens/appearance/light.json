@@ -19,7 +19,7 @@
         },
         "brandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandPrimary.0.light}",
+          "value": "{primitive.color.brandAccentPrimary.background.light}",
           "description": "Description goes here"
         },
         "dangerTop": {
@@ -81,7 +81,7 @@
         },
         "onBrandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandNeutral.100.light}",
+          "value": "{primitive.color.brandAccentPrimary.onBackground.light}",
           "description": "Description goes here"
         },
         "onDanger": {
@@ -146,7 +146,7 @@
         },
         "brandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.color.brandPrimary.0.light}",
+          "value": "{primitive.color.brandAccentPrimary.foreground.light}",
           "description": "Description goes here"
         }
       },

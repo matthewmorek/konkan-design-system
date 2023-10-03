@@ -2094,13 +2094,45 @@
         "type": "asset"
       },
       "brandAccentPrimary": {
-        "light": {
-          "value": "{primitive.color.brandPrimary.0.light}",
-          "type": "color"
+        "background": {
+          "light": {
+            "value": "{primitive.color.brandPrimary.0.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandPrimary.0.dark}",
+            "type": "color"
+          }
         },
-        "dark": {
-          "value": "{primitive.color.brandPrimary.0.dark}",
-          "type": "color"
+        "foreground": {
+          "light": {
+            "value": "{primitive.color.brandPrimary.0.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandPrimary.0.dark}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "light": {
+            "value": "{primitive.color.brandPrimary.0.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandPrimary.0.dark}",
+            "type": "color"
+          }
+        },
+        "onBackground": {
+          "light": {
+            "value": "{primitive.color.brandPrimary.0.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandPrimary.0.dark}",
+            "type": "color"
+          }
         }
       }
     },
