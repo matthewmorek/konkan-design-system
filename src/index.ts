@@ -13,19 +13,10 @@ import StyleDictionary, {
 } from "style-dictionary";
 import {
   cleanDirectory,
+  evaluateMathExpression,
   transformFigmaColorToHex8,
   transformHexToHex8,
 } from "./functions";
-
-const transforms: string[] = [
-  "attribute/color",
-  "attribute/cti",
-  "ts/opacity",
-  "ts/resolveMath",
-  "ts/color/modifiers",
-  "tceu/color/rgba/hex8",
-  "tceu/color/hex/hex8",
-];
 
 // register custom transformers
 const hex8Transformer: Named<Transform> = {
@@ -44,13 +35,43 @@ const hexToHex8Transformer: Named<Transform> = {
   transformer: (token: DesignToken) => transformHexToHex8(token.value),
 };
 
+const allowedTypographyTypes: string[] = [
+  "lineHeights",
+  "letterSpacing",
+  "textDecoration",
+  "fontSizes",
+  "fontFamilies",
+  "fontWeights",
+  "typography",
+];
+
+const mathTransformer: Named<Transform> = {
+  name: "tceu/resolveMath",
+  type: "value",
+  transitive: true,
+  matcher: (token: DesignToken) => allowedTypographyTypes.includes(token.type),
+  transformer: (token: DesignToken) => {
+    let tokenValue = token.value;
+    if (token.type === "typography") {
+      for (const prop in tokenValue) {
+        if (typeof tokenValue[prop] === "string") {
+          tokenValue[prop] = evaluateMathExpression(tokenValue[prop]);
+        }
+      }
+      return tokenValue;
+    }
+    return evaluateMathExpression(tokenValue);
+  },
+};
+
 StyleDictionary.registerTransform(hex8Transformer);
 StyleDictionary.registerTransform(hexToHex8Transformer);
+StyleDictionary.registerTransform(mathTransformer);
 
 registerTransforms(StyleDictionary, {
   expand: {
-    composition: false,
-    typography: false,
+    composition: true,
+    typography: true,
     border: false,
     shadow: false,
   },
@@ -59,6 +80,27 @@ registerTransforms(StyleDictionary, {
     format: "srgb",
   },
 });
+
+// declare transforms to be used
+const transforms: string[] = [
+  "attribute/color",
+  "attribute/cti",
+  "ts/opacity",
+  "ts/resolveMath",
+  "ts/color/modifiers",
+  "tceu/color/rgba/hex8",
+  "tceu/color/hex/hex8",
+  "tceu/resolveMath",
+];
+
+// allowed types of design tokens to be output
+const allowedTypes: string[] = [
+  "color",
+  "spacing",
+  "borderRadius",
+  "borderWidth",
+  ...allowedTypographyTypes,
+];
 
 async function run() {
   const $themes: ThemeObject[] = JSON.parse(
@@ -84,10 +126,7 @@ async function run() {
             {
               filter: (token: DesignToken) =>
                 // temporarily filter out anything other than colours
-                (token.type === "color" ||
-                  token.type === "spacing" ||
-                  token.type === "borderRadius" ||
-                  token.type === "borderWidth") &&
+                allowedTypes.includes(token.type) &&
                 // we only want semantic tokens
                 token.attributes?.category === "semantic",
               destination: `${name.toLowerCase()}.json`,
