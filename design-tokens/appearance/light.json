@@ -159,16 +159,26 @@
           "value": "{primitive.color.blue.40.light}",
           "description": "Description goes here"
         },
-        "brandAccent": {
+        "brandPrimary": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.40.light}",
+          "description": "Description goes here"
+        },
+        "brandSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandNeutral.0.light}",
           "description": "Description goes here"
         }
       },
       "border": {
-        "brandAccent": {
+        "brandPrimary": {
           "type": "color",
           "value": "{primitive.color.brandPrimary.40.light}",
+          "description": "Description goes here"
+        },
+        "brandSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandNeutral.0.light}",
           "description": "Description goes here"
         },
         "container": {
