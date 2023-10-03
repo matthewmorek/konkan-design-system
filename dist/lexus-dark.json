@@ -41,18 +41,20 @@
     },
     "color": {
       "background": {
-        "neutral": "#FFFF1213",
-        "neutralGrouped": "#FFFF0102",
+        "neutralPrimaryTop": "#FFFF1213",
+        "neutralPrimaryBottom": "#FFFF0102",
+        "neutralSecondaryTop": "#FFFF0102",
+        "neutralSecondaryBottom": "#FFFF1213",
         "brandPrimary": "#FFFF8C75",
         "brandSecondary": "#FFFFFFFF",
-        "danger": "#FFFFE82C",
-        "dangerGrouped": "#FFFF2C06",
-        "warning": "#FFFFB863",
-        "warningGrouped": "#FFFF2011",
-        "positive": "#FFFF178B",
-        "positiveGrouped": "#FFFF0418",
-        "information": "#FFFF4B70",
-        "informationGrouped": "#FFFF0A12"
+        "dangerTop": "#FFFFE82C",
+        "dangerBottom": "#FFFF2C06",
+        "warningTop": "#FFFFB863",
+        "warningBottom": "#FFFF2011",
+        "positiveTop": "#FFFF178B",
+        "positiveBottom": "#FFFF0418",
+        "informationTop": "#FFFF4B70",
+        "informationBottom": "#FFFF0A12"
       },
       "foreground": {
         "onNeutralStrong": "#FFFFFFFF",
