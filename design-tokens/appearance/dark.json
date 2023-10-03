@@ -2,14 +2,24 @@
   "semantic": {
     "color": {
       "background": {
-        "neutral": {
+        "neutralPrimaryTop": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.95.dark}",
           "description": "Description goes here"
         },
-        "neutralGrouped": {
+        "neutralPrimaryBottom": {
           "type": "color",
           "value": "{primitive.color.brandNeutral.100.dark}",
+          "description": "Description goes here"
+        },
+        "neutralSecondaryTop": {
+          "type": "color",
+          "value": "{primitive.color.brandNeutral.100.dark}",
+          "description": "Description goes here"
+        },
+        "neutralSecondaryBottom": {
+          "type": "color",
+          "value": "{primitive.color.brandNeutral.95.dark}",
           "description": "Description goes here"
         },
         "brandPrimary": {
@@ -22,42 +32,42 @@
           "value": "{primitive.color.brandNeutral.0.dark}",
           "description": "Description goes here"
         },
-        "danger": {
+        "dangerTop": {
           "type": "color",
           "value": "{primitive.color.red.50.dark}",
           "description": "Description goes here"
         },
-        "dangerGrouped": {
+        "dangerBottom": {
           "type": "color",
           "value": "{primitive.color.red.95.dark}",
           "description": "Description goes here"
         },
-        "warning": {
+        "warningTop": {
           "type": "color",
           "value": "{primitive.color.orange.50.dark}",
           "description": "Description goes here"
         },
-        "warningGrouped": {
+        "warningBottom": {
           "type": "color",
           "value": "{primitive.color.orange.95.dark}",
           "description": "Description goes here"
         },
-        "positive": {
+        "positiveTop": {
           "type": "color",
           "value": "{primitive.color.green.50.dark}",
           "description": "Description goes here"
         },
-        "positiveGrouped": {
+        "positiveBottom": {
           "type": "color",
           "value": "{primitive.color.green.95.dark}",
           "description": "Description goes here"
         },
-        "information": {
+        "informationTop": {
           "type": "color",
           "value": "{primitive.color.blue.50.dark}",
           "description": "Description goes here"
         },
-        "informationGrouped": {
+        "informationBottom": {
           "type": "color",
           "value": "{primitive.color.blue.95.dark}",
           "description": "Description goes here"
