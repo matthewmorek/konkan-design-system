@@ -200,6 +200,11 @@
             "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.12})",
             "description": "Description goes here"
           },
+          "resting": {
+            "type": "color",
+            "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.8})",
+            "description": "Description goes here"
+          },
           "pressed": {
             "type": "color",
             "value": "rgba({primitive.color.fixed.black}, {primitive.opacity.16})",
@@ -220,6 +225,11 @@
           "hovered": {
             "type": "color",
             "value": "rgba( {primitive.color.fixed.white}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "resting": {
+            "type": "color",
+            "value": "rgba( {primitive.color.fixed.white}, {primitive.opacity.8})",
             "description": "Description goes here"
           },
           "pressed": {
@@ -244,6 +254,11 @@
             "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.12})",
             "description": "Description goes here"
           },
+          "resting": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.8})",
+            "description": "Description goes here"
+          },
           "pressed": {
             "type": "color",
             "value": "rgba({primitive.color.gray.0.light}, {primitive.opacity.16})",
@@ -264,6 +279,11 @@
           "hovered": {
             "type": "color",
             "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.12})",
+            "description": "Description goes here"
+          },
+          "resting": {
+            "type": "color",
+            "value": "rgba({primitive.color.gray.100.light}, {primitive.opacity.8})",
             "description": "Description goes here"
           },
           "pressed": {

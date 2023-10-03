@@ -71,24 +71,28 @@
       "stateLayer": {
         "darkenFixed": {
           "hovered": "#FF1fFF00",
+          "resting": "#FF14FF00",
           "pressed": "#FF29FF00",
           "focused": "#FF1fFF00",
           "dragged": "#FF29FF00"
         },
         "lightenFixed": {
           "hovered": "#FF1fFFFF",
+          "resting": "#FF14FFFF",
           "pressed": "#FF29FFFF",
           "focused": "#FF1fFFFF",
           "dragged": "#FF29FFFF"
         },
         "darkenInvertible": {
           "hovered": "#FF1fFFFF",
+          "resting": "#FF14FFFF",
           "pressed": "#FF29FFFF",
           "focused": "#FF1fFFFF",
           "dragged": "#FF29FFFF"
         },
         "lightenInvertible": {
           "hovered": "#FF1fFF02",
+          "resting": "#FF14FF02",
           "pressed": "#FF29FF02",
           "focused": "#FF1fFF02",
           "dragged": "#FF29FF02"
