@@ -58,7 +58,7 @@
         "onNeutralStrong": "#FFFF0000",
         "onNeutralSubtle": "#FFFF3D47",
         "onNeutralSubtler": "#FFFF535F",
-        "onBrandAccentPrimary": "#FFFFFF00",
+        "onBrandAccentPrimary": "#FFFFFFFE",
         "onDanger": "#FFFFFFFD",
         "onWarning": "#FFFFFFFD",
         "onPositive": "#FFFFFFFD",
