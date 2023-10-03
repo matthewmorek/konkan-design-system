@@ -2126,11 +2126,11 @@
         },
         "onBackground": {
           "light": {
-            "value": "{primitive.color.brandPrimary.0.light}",
+            "value": "{primitive.color.brandPrimary.100.light}",
             "type": "color"
           },
           "dark": {
-            "value": "{primitive.color.brandPrimary.0.dark}",
+            "value": "{primitive.color.brandPrimary.100.dark}",
             "type": "color"
           }
         }
