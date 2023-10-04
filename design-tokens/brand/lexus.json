@@ -2364,11 +2364,11 @@
         },
         "border": {
           "light": {
-            "value": "{primitive.colorRamp.brandAccentPrimary.500.light}",
+            "value": "{primitive.color.brandAccentPrimary.background.light}",
             "type": "color"
           },
           "dark": {
-            "value": "{primitive.colorRamp.brandAccentPrimary.500.dark}",
+            "value": "{primitive.color.brandAccentPrimary.background.light}",
             "type": "color"
           }
         },
