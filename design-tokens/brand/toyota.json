@@ -2078,7 +2078,9 @@
             "description": "Do not use for UI elements or text. WCAG 2.x (relative luminance) contrast is 1:1 against background #ffffff"
           }
         }
-      },
+      }
+    },
+    "color": {
       "fixed": {
         "black": {
           "type": "color",
@@ -2088,47 +2090,45 @@
           "type": "color",
           "value": "#ffffff"
         }
-      }
-    },
-    "color": {
+      },
       "brandAccentPrimary": {
         "background": {
-          "light": {
-            "value": "{primitive.colorRamp.brandAccentPrimary.0.light}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{primitive.colorRamp.brandAccentPrimary.0.dark}",
-            "type": "color"
-          }
-        },
-        "foreground": {
-          "light": {
-            "value": "{primitive.colorRamp.brandAccentPrimary.0.light}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{primitive.colorRamp.brandAccentPrimary.0.dark}",
-            "type": "color"
-          }
-        },
-        "border": {
-          "light": {
-            "value": "{primitive.colorRamp.brandAccentPrimary.0.light}",
-            "type": "color"
-          },
-          "dark": {
-            "value": "{primitive.colorRamp.brandAccentPrimary.0.dark}",
-            "type": "color"
-          }
-        },
-        "onBackground": {
           "light": {
             "value": "{primitive.colorRamp.brandAccentPrimary.100.light}",
             "type": "color"
           },
           "dark": {
             "value": "{primitive.colorRamp.brandAccentPrimary.100.dark}",
+            "type": "color"
+          }
+        },
+        "foreground": {
+          "light": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.100.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.100.dark}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "light": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.100.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.100.dark}",
+            "type": "color"
+          }
+        },
+        "onBackground": {
+          "light": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.1300.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.1300.dark}",
             "type": "color"
           }
         }
