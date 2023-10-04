@@ -22,6 +22,11 @@
           "value": "{primitive.color.brandAccentPrimary.background.light}",
           "description": "Description goes here"
         },
+        "brandAccentSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandAccentSecondary.background.light}",
+          "description": "Description goes here"
+        },
         "dangerTop": {
           "type": "color",
           "value": "{primitive.colorRamp.red.600.light}",
@@ -82,6 +87,11 @@
         "onBrandAccentPrimary": {
           "type": "color",
           "value": "{primitive.color.brandAccentPrimary.onBackground.light}",
+          "description": "Description goes here"
+        },
+        "onBrandAccentSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandAccentSecondary.onBackground.light}",
           "description": "Description goes here"
         },
         "onDanger": {
@@ -148,12 +158,22 @@
           "type": "color",
           "value": "{primitive.color.brandAccentPrimary.foreground.light}",
           "description": "Description goes here"
+        },
+        "brandAccentSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandAccentSecondary.foreground.light}",
+          "description": "Description goes here"
         }
       },
       "border": {
         "brandAccentPrimary": {
           "type": "color",
-          "value": "{primitive.colorRamp.brandAccentPrimary.100.light}",
+          "value": "{primitive.color.brandAccentPrimary.border.light}",
+          "description": "Description goes here"
+        },
+        "brandAccentSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandAccentSecondary.border.light}",
           "description": "Description goes here"
         },
         "container": {
