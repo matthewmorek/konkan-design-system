@@ -2344,6 +2344,48 @@
       "brandAccentPrimary": {
         "background": {
           "light": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.600.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.600.dark}",
+            "type": "color"
+          }
+        },
+        "foreground": {
+          "light": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.500.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.colorRamp.brandAccentPrimary.500.dark}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "light": {
+            "value": "{primitive.color.brandAccentPrimary.background.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandAccentPrimary.background.light}",
+            "type": "color"
+          }
+        },
+        "onBackground": {
+          "light": {
+            "value": "{primitive.colorRamp.brandNeutral.1300.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.colorRamp.brandNeutral.100.dark}",
+            "type": "color"
+          }
+        }
+      },
+      "brandAccentSecondary": {
+        "background": {
+          "light": {
             "value": "{primitive.colorRamp.brandAccentPrimary.100.light}",
             "type": "color"
           },

@@ -286,7 +286,8 @@
         "neutralTop": "#FFFF1F22",
         "neutralMiddle": "#FFFF1213",
         "neutralBottom": "#FFFF0102",
-        "brandAccentPrimary": "#FFFFFFFF",
+        "brandAccentPrimary": "#FFFFFF8C",
+        "brandAccentSecondary": "#FFFFFFFF",
         "dangerTop": "#FFFFE82C",
         "dangerBottom": "#FFFF2C06",
         "warningTop": "#FFFFB863",
@@ -300,7 +301,8 @@
         "onNeutralStrong": "#FFFFFFFF",
         "onNeutralSubtle": "#FFFFA9AD",
         "onNeutralSubtler": "#FFFF8B8F",
-        "onBrandAccentPrimary": "#FFFFFF03",
+        "onBrandAccentPrimary": "#FFFFFFFF",
+        "onBrandAccentSecondary": "#FFFFFF03",
         "onDanger": "#FFFFFFFF",
         "onWarning": "#FFFFFFFF",
         "onPositive": "#FFFFFFFF",
@@ -313,10 +315,12 @@
         "warning": "#FFFFD776",
         "positive": "#FFFF20A4",
         "information": "#FFFF7089",
-        "brandAccentPrimary": "#FFFFFFFF"
+        "brandAccentPrimary": "#FFFFFFA2",
+        "brandAccentSecondary": "#FFFFFFFF"
       },
       "border": {
         "brandAccentPrimary": "#FFFFFFFF",
+        "brandAccentSecondary": "#FFFFFFFF",
         "container": "#FFFF6368",
         "danger": "#FFFFFF50",
         "warning": "#FFFFD776",
