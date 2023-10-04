@@ -1,5 +1,6 @@
 import { readdirSync, unlinkSync } from "fs";
 import path from "path";
+import * as math from "mathjs";
 
 export function rgbToHex(value: number): string {
   const hex: string = value.toString(16);
@@ -74,4 +75,35 @@ export function cleanDirectory(directory: string): void {
       unlinkSync(filePath);
     }
   });
+}
+
+/**
+ * Evaluates a mathematical expression and returns the result.
+ * @param {string|number|boolean|undefined} expression - The expression to evaluate.
+ * @returns {string|number|boolean|undefined} - The evaluated result, or the original expression if it is invalid or an error occurred during evaluation.
+ */
+export function evaluateMathExpression(
+  expression: string | number | boolean | undefined,
+): string | number | boolean | undefined {
+  if (expression === undefined || typeof expression === "boolean") {
+    return expression;
+  }
+
+  const expressionString = expression.toString();
+
+  // Regular expression for accepted math expression characters, including mathematical functions
+  const mathExpressionRegex = /^[-+\/*\s\d.()a-z,\[\]]+$/i;
+
+  // Check if the expression contains any invalid characters
+  if (!mathExpressionRegex.test(expressionString)) {
+    return expression;
+  }
+
+  try {
+    const parsedExpression = math.compile(expressionString);
+    const result = parsedExpression.evaluate();
+    return result;
+  } catch (error) {
+    return expression;
+  }
 }
