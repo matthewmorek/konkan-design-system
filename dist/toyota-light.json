@@ -319,7 +319,7 @@
         "brandAccentSecondary": "#FFFFFF00"
       },
       "border": {
-        "brandAccentPrimary": "#FFFFFF22",
+        "brandAccentPrimary": "#FFFFFFFF",
         "brandAccentSecondary": "#FFFFFF00",
         "container": "#FFFF7985",
         "danger": "#FFFFB91C",
