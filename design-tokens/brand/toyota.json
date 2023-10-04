@@ -2092,6 +2092,48 @@
       "leonardoLink": {
         "value": "https://leonardocolor.io/theme.html?name=lexus&config=%7B%22baseScale%22%3A%22gray%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22brandNeutral%22%2C%22colorKeys%22%3A%5B%22%23f7f7f8%22%2C%22%23efeff1%22%2C%22%23dee0e3%22%2C%22%23c3c7cb%22%2C%22%239fa3a8%22%2C%22%2381868d%22%2C%22%23656a72%22%2C%22%234d525b%22%2C%22%233b3e45%22%2C%22%232b2d31%22%2C%22%231e2124%22%2C%22%23131416%22%2C%22%23060809%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22gray%22%2C%22colorKeys%22%3A%5B%22%23000000%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22red%22%2C%22colorKeys%22%3A%5B%22%23ff3b2f%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22orange%22%2C%22colorKeys%22%3A%5B%22%23ff9500%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22brandPrimary%22%2C%22colorKeys%22%3A%5B%22%23967d64%22%2C%22%23eaddcb%22%2C%22%23deccb7%22%2C%22%23d1bba4%22%2C%22%23c0aa94%22%2C%22%23ae9a84%22%2C%22%23967d64%22%2C%22%238e765d%22%2C%22%2379644f%22%2C%22%2363513f%22%2C%22%234b3d2f%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22yellow%22%2C%22colorKeys%22%3A%5B%22%23ffe76c%22%2C%22%23eec638%22%2C%22%23836807%22%2C%22%23c29a0a%22%2C%22%23fffdeb%22%2C%22%23fefce7%22%2C%22%23fff2af%22%5D%2C%22colorspace%22%3A%22OKLAB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22green%22%2C%22colorKeys%22%3A%5B%22%2335c759%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22teal%22%2C%22colorKeys%22%3A%5B%22%2315a795%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22blue%22%2C%22colorKeys%22%3A%5B%22%23446beb%22%2C%22%23b4bff3%22%2C%22%23a2b0f1%22%2C%22%2390a2f0%22%2C%22%237d93ed%22%2C%22%236883ec%22%2C%22%23446beb%22%2C%22%233860e8%22%2C%22%23204bdc%22%2C%22%231e3faa%22%2C%22%23193076%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%2C%7B%22name%22%3A%22purple%22%2C%22colorKeys%22%3A%5B%22%23f3f0ff%22%2C%22%23dfd8fd%22%2C%22%23b8acf6%22%2C%22%239f8fef%22%2C%22%238f7ee7%22%2C%22%238270db%22%2C%22%236e5dc6%22%2C%22%235e4db2%22%2C%22%23352c63%22%2C%22%232b2451%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221%22%2C%221.03%22%2C%221.13%22%2C%221.3%22%2C%221.71%22%2C%222.3%22%2C%223.74%22%2C%224.81%22%2C%226.48%22%2C%229.29%22%2C%2213.2%22%2C%2217.22%22%2C%2221%22%5D%2C%22smooth%22%3Atrue%7D%5D%2C%22lightness%22%3A100%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D",
         "type": "asset"
+      },
+      "brandAccentPrimary": {
+        "background": {
+          "light": {
+            "value": "{primitive.color.brandPrimary.0.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandPrimary.0.dark}",
+            "type": "color"
+          }
+        },
+        "foreground": {
+          "light": {
+            "value": "{primitive.color.brandPrimary.0.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandPrimary.0.dark}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "light": {
+            "value": "{primitive.color.brandPrimary.0.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandPrimary.0.dark}",
+            "type": "color"
+          }
+        },
+        "onBackground": {
+          "light": {
+            "value": "{primitive.color.brandPrimary.100.light}",
+            "type": "color"
+          },
+          "dark": {
+            "value": "{primitive.color.brandPrimary.100.dark}",
+            "type": "color"
+          }
+        }
       }
     },
     "opacity": {

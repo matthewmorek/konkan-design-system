@@ -283,12 +283,10 @@
     },
     "color": {
       "background": {
-        "neutralPrimaryTop": "#FFFFFEFE",
-        "neutralPrimaryBottom": "#FFFFF0F0",
-        "neutralSecondaryTop": "#FFFFF0F0",
-        "neutralSecondaryBottom": "#FFFFFEFE",
-        "brandPrimary": "#FFFF856E",
-        "brandSecondary": "#FFFF0000",
+        "neutralTop": "#FFFFFEFE",
+        "neutralMiddle": "#FFFFF0F0",
+        "neutralBottom": "#FFFFE0E2",
+        "brandAccentPrimary": "#FFFFFF00",
         "dangerTop": "#FFFFDC27",
         "dangerBottom": "#FFFFFFED",
         "warningTop": "#FFFFAD5D",
@@ -302,8 +300,7 @@
         "onNeutralStrong": "#FFFF0000",
         "onNeutralSubtle": "#FFFF4347",
         "onNeutralSubtler": "#FFFF595E",
-        "onBrandPrimary": "#FFFFFEFE",
-        "onBrandSecondary": "#FFFFFEFE",
+        "onBrandAccentPrimary": "#FFFFFFFE",
         "onDanger": "#FFFFFEFE",
         "onWarning": "#FFFFFEFE",
         "onPositive": "#FFFFFEFE",
@@ -316,10 +313,10 @@
         "warning": "#FFFF8F4D",
         "positive": "#FFFF106D",
         "information": "#FFFF224E",
-        "brandAccent": "#FFFF6E5A"
+        "brandAccentPrimary": "#FFFFFF00"
       },
       "border": {
-        "brandAccent": "#FFFF6E5A",
+        "brandAccentPrimary": "#FFFF0000",
         "container": "#FFFF7F84",
         "danger": "#FFFFB91C",
         "warning": "#FFFF8F4D",
