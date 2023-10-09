@@ -2,6 +2,29 @@ name: "Staging CI"
 on: [pull_request]
 
 jobs:
+  test:
+    name: Run test suite
+    runs-on: ubuntu-latest
+    steps:
+      # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          ref: ${{ github.head_ref }}
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      # Setup node to use with CLI. 14+ is required
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: "pnpm"
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build tokens
+        run: pnpm run test
+
   build_tokens:
     name: Build JSON Tokens
     runs-on: ubuntu-latest
