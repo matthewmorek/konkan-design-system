@@ -84,6 +84,36 @@
           "value": "{primitive.colorRamp.brandNeutral.500.light}",
           "description": "Use for supplementary content"
         },
+        "onNeutralDanger": {
+          "type": "color",
+          "value": "{primitive.colorRamp.red.500.light}",
+          "description": "Description goes here"
+        },
+        "onNeutralWarning": {
+          "type": "color",
+          "value": "{primitive.colorRamp.orange.500.light}",
+          "description": "Description goes here"
+        },
+        "onNeutralPositive": {
+          "type": "color",
+          "value": "{primitive.colorRamp.green.500.light}",
+          "description": "Description goes here"
+        },
+        "onNeutralInformation": {
+          "type": "color",
+          "value": "{primitive.colorRamp.blue.500.light}",
+          "description": "Description goes here"
+        },
+        "onNeutralBrandAccentPrimary": {
+          "type": "color",
+          "value": "{primitive.color.brandAccentPrimary.foreground.light}",
+          "description": "Description goes here"
+        },
+        "onNeutralBrandAccentSecondary": {
+          "type": "color",
+          "value": "{primitive.color.brandAccentSecondary.foreground.light}",
+          "description": "Description goes here"
+        },
         "onBrandAccentPrimary": {
           "type": "color",
           "value": "{primitive.color.brandAccentPrimary.onBackground.light}",
@@ -94,74 +124,44 @@
           "value": "{primitive.color.brandAccentSecondary.onBackground.light}",
           "description": "Description goes here"
         },
-        "onDanger": {
+        "onDangerTop": {
           "type": "color",
           "value": "{primitive.colorRamp.brandNeutral.1300.light}",
           "description": "Description goes here"
         },
-        "onWarning": {
+        "onWarningTop": {
           "type": "color",
           "value": "{primitive.colorRamp.brandNeutral.1300.light}",
           "description": "Description goes here"
         },
-        "onPositive": {
+        "onPositiveTop": {
           "type": "color",
           "value": "{primitive.colorRamp.brandNeutral.1300.light}",
           "description": "Description goes here"
         },
-        "onInformation": {
+        "onInformationTop": {
           "type": "color",
           "value": "{primitive.colorRamp.brandNeutral.1300.light}",
           "description": "Description goes here"
         },
-        "onDangerGrouped": {
+        "onDangerBottom": {
           "type": "color",
           "value": "{primitive.colorRamp.red.200.light}",
           "description": "Description goes here"
         },
-        "onWarningGrouped": {
+        "onWarningBottom": {
           "type": "color",
           "value": "{primitive.colorRamp.orange.200.light}",
           "description": "Description goes here"
         },
-        "onPositiveGrouped": {
+        "onPositiveBottom": {
           "type": "color",
           "value": "{primitive.colorRamp.green.200.light}",
           "description": "Description goes here"
         },
-        "onInformationGrouped": {
+        "onInformationBottom": {
           "type": "color",
           "value": "{primitive.colorRamp.blue.200.light}",
-          "description": "Description goes here"
-        },
-        "danger": {
-          "type": "color",
-          "value": "{primitive.colorRamp.red.500.light}",
-          "description": "Description goes here"
-        },
-        "warning": {
-          "type": "color",
-          "value": "{primitive.colorRamp.orange.500.light}",
-          "description": "Description goes here"
-        },
-        "positive": {
-          "type": "color",
-          "value": "{primitive.colorRamp.green.500.light}",
-          "description": "Description goes here"
-        },
-        "information": {
-          "type": "color",
-          "value": "{primitive.colorRamp.blue.500.light}",
-          "description": "Description goes here"
-        },
-        "brandAccentPrimary": {
-          "type": "color",
-          "value": "{primitive.color.brandAccentPrimary.foreground.light}",
-          "description": "Description goes here"
-        },
-        "brandAccentSecondary": {
-          "type": "color",
-          "value": "{primitive.color.brandAccentSecondary.foreground.light}",
           "description": "Description goes here"
         }
       },
