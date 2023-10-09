@@ -65,16 +65,17 @@ export function transformHexToHex8(
 /**
  * Removes all JSON files in a given directory.
  * @param {string} directory - The path to the directory to clean.
- * @returns {void}
+ * @returns {string[]}
  */
-export function cleanDirectory(directory: string): void {
-  const fileNames = readdirSync(directory);
-  fileNames.forEach((fileName) => {
+export function cleanDirectory(directory: string): string[] {
+  readdirSync(directory).forEach((fileName) => {
     const filePath = path.join(directory, fileName);
     if (fileName.endsWith(".json")) {
       unlinkSync(filePath);
     }
   });
+
+  return readdirSync(directory);
 }
 
 /**
