@@ -76,6 +76,7 @@ describe.skip("cleanDirectory", () => {
 describe("evaluateMathExpression", () => {
   it("should evaluate a valid mathematical expression and return the result", () => {
     expect(evaluateMathExpression("2 + 3 + 0")).toBe(5);
+    expect(evaluateMathExpression("ceil(round(16 * 1.5, 0) / 2) * 2")).toBe(24);
   });
 
   it("should return the input value if it is undefined or a boolean", () => {
