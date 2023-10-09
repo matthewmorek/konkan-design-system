@@ -3,7 +3,7 @@ on: [pull_request]
 
 jobs:
   test:
-    name: Run test suite
+    name: Test codebase
     runs-on: ubuntu-latest
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build tokens
+      - name: Run the test suite
         run: pnpm run test
 
   build_tokens:
@@ -48,7 +48,7 @@ jobs:
       - name: Build tokens
         run: pnpm run build:tokens
 
-      - name: Commit and Push changes
+      - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           add_options: "--all"
