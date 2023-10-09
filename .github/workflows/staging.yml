@@ -11,15 +11,19 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           ref: ${{ github.head_ref }}
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       # Setup node to use with CLI. 14+ is required
       - uses: actions/setup-node@v3
         with:
           node-version: 20
+          cache: "pnpm"
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build tokens
-        run: npm run build:tokens
+        run: pnpm run build:tokens
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
