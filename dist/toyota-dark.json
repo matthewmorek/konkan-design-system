@@ -244,6 +244,7 @@
     },
     "border": {
       "radius": {
+        "none": 0,
         "xxSmall": 4,
         "xSmall": 8,
         "small": 12,

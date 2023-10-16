@@ -345,6 +345,10 @@
     },
     "border": {
       "radius": {
+        "none": {
+          "value": "0",
+          "type": "borderRadius"
+        },
         "xxSmall": {
           "type": "borderRadius",
           "value": "{primitive.grid.gridUnit}*0"
