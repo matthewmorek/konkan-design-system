@@ -489,26 +489,20 @@
           "description": "Use for the largest pieces of UI and for layout elements."
         }
       },
-      "bento": {
-        "gap": {
-          "value": "{semantic.layout.space.medium}",
-          "type": "spacing",
-          "description": "The gap between items in a bento box"
-        },
+      "grid": {
         "sectionPadding": {
           "value": "{semantic.layout.space.xLarge}",
           "type": "spacing",
           "description": "Section padding"
         },
-        "sectionGap": {
-          "value": "{semantic.layout.space.xxLarge}",
+        "gap": {
+          "value": "{semantic.layout.space.xSmall}",
           "type": "spacing",
-          "description": "The space between other sections"
+          "description": "The gap between items in a bento box"
         },
-        "padding": {
+        "containerPadding": {
           "value": "{semantic.layout.space.medium}",
-          "type": "spacing",
-          "description": "Padding inside bento items"
+          "type": "spacing"
         }
       }
     }

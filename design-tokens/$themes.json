@@ -692,10 +692,9 @@
       "primitive.color.brandAccentSecondary.onBackground.dark": "04b950564ae082ca35ad8d7c9e53aadbeb6561a7",
       "primitive.grid.gridUnit": "2c16ff5f2d709c7319ebc475bb566bc6ced4cc60",
       "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a",
-      "semantic.layout.bento.gap": "8c9bfe082f5abfb27e43510bca4459b21b16a412",
-      "semantic.layout.bento.sectionGap": "cd54331c730383ac582f4c7bf129d5c31816b305",
-      "semantic.layout.bento.padding": "a064ea090f666cc8365f4865266202c22e6b5fde",
-      "semantic.layout.bento.sectionPadding": "b1f06633ce7e60d222edc1e532f8802c55ac4e98"
+      "semantic.layout.grid.sectionPadding": "3cc1ea1c275429d4ddc3864b6f1e5acb782b4a6e",
+      "semantic.layout.grid.containerPadding": "041bcb798bfd071c770a9b8e5b8f7993e3cddef5",
+      "semantic.layout.grid.gap": "26077012d03b4ea041c521d82e48f8a284cefa31"
     },
     "group": "Brand"
   },
@@ -1078,10 +1077,8 @@
       "primitive.color.brandAccentSecondary.onBackground.dark": "04b950564ae082ca35ad8d7c9e53aadbeb6561a7",
       "primitive.grid.gridUnit": "2c16ff5f2d709c7319ebc475bb566bc6ced4cc60",
       "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a",
-      "semantic.layout.bento.gap": "8c9bfe082f5abfb27e43510bca4459b21b16a412",
-      "semantic.layout.bento.sectionGap": "cd54331c730383ac582f4c7bf129d5c31816b305",
-      "semantic.layout.bento.padding": "a064ea090f666cc8365f4865266202c22e6b5fde",
-      "semantic.layout.bento.sectionPadding": "b1f06633ce7e60d222edc1e532f8802c55ac4e98"
+      "semantic.layout.grid.sectionPadding": "3cc1ea1c275429d4ddc3864b6f1e5acb782b4a6e",
+      "semantic.layout.grid.gap": "26077012d03b4ea041c521d82e48f8a284cefa31"
     },
     "group": "Brand"
   },
