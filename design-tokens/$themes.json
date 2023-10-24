@@ -691,7 +691,10 @@
       "primitive.color.brandAccentSecondary.onBackground.light": "ac104e60ab1421926232b8d0e439d0fecc8eda0d",
       "primitive.color.brandAccentSecondary.onBackground.dark": "04b950564ae082ca35ad8d7c9e53aadbeb6561a7",
       "primitive.grid.gridUnit": "2c16ff5f2d709c7319ebc475bb566bc6ced4cc60",
-      "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a"
+      "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a",
+      "component.bento.gap": "8a2f30e9a3d96b5e4e281b52dcafea7a9dcacc95",
+      "component.bento.margin": "3245b87170bcf15b713365bee2a76ed928cc1c56",
+      "component.bento.spaceBetween": "3f77d2470ff455607360af362de85e9fa5630393"
     },
     "group": "Brand"
   },
@@ -1073,7 +1076,10 @@
       "primitive.color.brandAccentSecondary.onBackground.light": "ac104e60ab1421926232b8d0e439d0fecc8eda0d",
       "primitive.color.brandAccentSecondary.onBackground.dark": "04b950564ae082ca35ad8d7c9e53aadbeb6561a7",
       "primitive.grid.gridUnit": "2c16ff5f2d709c7319ebc475bb566bc6ced4cc60",
-      "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a"
+      "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a",
+      "component.bento.gap": "8a2f30e9a3d96b5e4e281b52dcafea7a9dcacc95",
+      "component.bento.margin": "3245b87170bcf15b713365bee2a76ed928cc1c56",
+      "component.bento.spaceBetween": "3f77d2470ff455607360af362de85e9fa5630393"
     },
     "group": "Brand"
   },

@@ -2442,5 +2442,24 @@
         "type": "text"
       }
     }
+  },
+  "component": {
+    "bento": {
+      "gap": {
+        "value": "{semantic.layout.space.medium}",
+        "type": "spacing",
+        "description": "The gap between items in a bento box"
+      },
+      "margin": {
+        "value": "{semantic.layout.space.xLarge}",
+        "type": "spacing",
+        "description": "The margin within the bento box"
+      },
+      "spaceBetween": {
+        "value": "{semantic.layout.space.xxLarge}",
+        "type": "spacing",
+        "description": "The space between other bento boxes"
+      }
+    }
   }
 }
