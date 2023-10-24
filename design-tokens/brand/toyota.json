@@ -495,7 +495,7 @@
           "type": "spacing",
           "description": "The gap between items in a bento box"
         },
-        "sectionMargin": {
+        "sectionPadding": {
           "value": "{semantic.layout.space.xLarge}",
           "type": "spacing",
           "description": "Section padding"

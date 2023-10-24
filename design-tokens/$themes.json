@@ -693,9 +693,9 @@
       "primitive.grid.gridUnit": "2c16ff5f2d709c7319ebc475bb566bc6ced4cc60",
       "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a",
       "semantic.layout.bento.gap": "8c9bfe082f5abfb27e43510bca4459b21b16a412",
-      "semantic.layout.bento.sectionMargin": "b1f06633ce7e60d222edc1e532f8802c55ac4e98",
       "semantic.layout.bento.sectionGap": "cd54331c730383ac582f4c7bf129d5c31816b305",
-      "semantic.layout.bento.padding": "a064ea090f666cc8365f4865266202c22e6b5fde"
+      "semantic.layout.bento.padding": "a064ea090f666cc8365f4865266202c22e6b5fde",
+      "semantic.layout.bento.sectionPadding": "b1f06633ce7e60d222edc1e532f8802c55ac4e98"
     },
     "group": "Brand"
   },
@@ -1079,9 +1079,9 @@
       "primitive.grid.gridUnit": "2c16ff5f2d709c7319ebc475bb566bc6ced4cc60",
       "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a",
       "semantic.layout.bento.gap": "8c9bfe082f5abfb27e43510bca4459b21b16a412",
-      "semantic.layout.bento.sectionMargin": "b1f06633ce7e60d222edc1e532f8802c55ac4e98",
       "semantic.layout.bento.sectionGap": "cd54331c730383ac582f4c7bf129d5c31816b305",
-      "semantic.layout.bento.padding": "a064ea090f666cc8365f4865266202c22e6b5fde"
+      "semantic.layout.bento.padding": "a064ea090f666cc8365f4865266202c22e6b5fde",
+      "semantic.layout.bento.sectionPadding": "b1f06633ce7e60d222edc1e532f8802c55ac4e98"
     },
     "group": "Brand"
   },
