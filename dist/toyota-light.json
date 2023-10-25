@@ -280,6 +280,11 @@
         "xxxHuge": 72,
         "giant": 80,
         "xGiant": 96
+      },
+      "grid": {
+        "sectionPadding": 24,
+        "gapBetween": 16,
+        "containerPadding": 16
       }
     },
     "color": {
