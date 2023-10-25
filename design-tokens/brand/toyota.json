@@ -495,7 +495,7 @@
           "type": "spacing",
           "description": "Section padding"
         },
-        "gap": {
+        "gapBetween": {
           "value": "{semantic.layout.space.medium}",
           "type": "spacing",
           "description": "The gap between items in a bento box"
