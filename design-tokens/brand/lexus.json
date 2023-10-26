@@ -2,157 +2,149 @@
   "semantic": {
     "text": {
       "body": {
-        "large": {
-          "regular": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.100}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.light}",
-              "lineHeight": "ceil(round({primitive.font.size.100}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.100})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.100})*10",
-              "textDecoration": "none"
-            },
-            "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
+        "largeRegular": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.100}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.light}",
+            "lineHeight": "ceil(round({primitive.font.size.100}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.100})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.100})*10",
+            "textDecoration": "none"
           },
-          "bold": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.100}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.bold}",
-              "lineHeight": "ceil(round({primitive.font.size.100}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.100})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.100})*10",
-              "textDecoration": "none"
-            },
-            "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
-          },
-          "link": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.100}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.bold}",
-              "lineHeight": "ceil(round({primitive.font.size.100}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.100})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.100})*10",
-              "textDecoration": "underline"
-            },
-            "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
-          }
+          "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
         },
-        "small": {
-          "regular": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.50}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.light}",
-              "lineHeight": "ceil(round({primitive.font.size.50}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.50})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.50})*10",
-              "textDecoration": "none"
-            },
-            "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
+        "largeBold": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.100}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.bold}",
+            "lineHeight": "ceil(round({primitive.font.size.100}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.100})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.100})*10",
+            "textDecoration": "none"
           },
-          "bold": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.50}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.bold}",
-              "lineHeight": "ceil(round({primitive.font.size.50}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.50})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.50})*10",
-              "textDecoration": "none"
-            },
-            "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
-          },
-          "link": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.50}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.bold}",
-              "lineHeight": "ceil(round({primitive.font.size.50}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.50})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.50})*10",
-              "textDecoration": "underline"
-            },
-            "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
-          }
+          "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
         },
-        "medium": {
-          "regular": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.75}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.light}",
-              "lineHeight": "ceil(round({primitive.font.size.75}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.75})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.75})*10",
-              "textDecoration": "none"
-            },
-            "description": "Medium body is typically used for main UI content."
+        "largeLink": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.100}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.bold}",
+            "lineHeight": "ceil(round({primitive.font.size.100}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.100})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.100})*10",
+            "textDecoration": "underline"
           },
-          "bold": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.75}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.bold}",
-              "lineHeight": "ceil(round({primitive.font.size.75}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.75})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.75})*10",
-              "textDecoration": "none"
-            },
-            "description": "Medium body is typically used for main UI content."
-          },
-          "link": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.75}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.bold}",
-              "lineHeight": "ceil(round({primitive.font.size.75}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.75})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.75})*10",
-              "textDecoration": "underline"
-            },
-            "description": "Medium body is typically used for main UI content."
-          }
+          "description": "Large body is typically used for long-form body content, marketing copy, articles, tutorials, and support content."
         },
-        "xSmall": {
-          "regular": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.25}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.light}",
-              "lineHeight": "ceil(round({primitive.font.size.25}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.25})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.25})*10",
-              "textDecoration": "none"
-            },
-            "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
+        "smallRegular": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.50}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.light}",
+            "lineHeight": "ceil(round({primitive.font.size.50}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.50})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.50})*10",
+            "textDecoration": "none"
           },
-          "bold": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.25}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.bold}",
-              "lineHeight": "ceil(round({primitive.font.size.25}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.25})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.25})*10",
-              "textDecoration": "none"
-            },
-            "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
+          "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
+        },
+        "smallBold": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.50}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.bold}",
+            "lineHeight": "ceil(round({primitive.font.size.50}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.50})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.50})*10",
+            "textDecoration": "none"
           },
-          "link": {
-            "type": "typography",
-            "value": {
-              "fontSize": "{primitive.font.size.25}",
-              "fontFamily": "{primitive.font.family.plain}",
-              "fontWeight": "{primitive.font.weight.bold}",
-              "lineHeight": "ceil(round({primitive.font.size.25}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
-              "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.25})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.25})*10",
-              "textDecoration": "underline"
-            },
-            "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
-          }
+          "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
+        },
+        "smallLink": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.50}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.bold}",
+            "lineHeight": "ceil(round({primitive.font.size.50}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.50})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.50})*10",
+            "textDecoration": "underline"
+          },
+          "description": "Small body is typically used for supplementary body content such as captions, footnotes or legal copy."
+        },
+        "mediumRegular": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.75}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.light}",
+            "lineHeight": "ceil(round({primitive.font.size.75}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.75})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.75})*10",
+            "textDecoration": "none"
+          },
+          "description": "Medium body is typically used for main UI content."
+        },
+        "mediumBold": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.75}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.bold}",
+            "lineHeight": "ceil(round({primitive.font.size.75}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.75})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.75})*10",
+            "textDecoration": "none"
+          },
+          "description": "Medium body is typically used for main UI content."
+        },
+        "mediumLink": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.75}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.bold}",
+            "lineHeight": "ceil(round({primitive.font.size.75}* {primitive.font.lineHeight.150} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.75})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.75})*10",
+            "textDecoration": "underline"
+          },
+          "description": "Medium body is typically used for main UI content."
+        },
+        "xSmallRegular": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.25}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.light}",
+            "lineHeight": "ceil(round({primitive.font.size.25}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.25})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.25})*10",
+            "textDecoration": "none"
+          },
+          "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
+        },
+        "xSmallBold": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.25}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.bold}",
+            "lineHeight": "ceil(round({primitive.font.size.25}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.25})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.25})*10",
+            "textDecoration": "none"
+          },
+          "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
+        },
+        "xSmallLink": {
+          "type": "typography",
+          "value": {
+            "fontSize": "{primitive.font.size.25}",
+            "fontFamily": "{primitive.font.family.plain}",
+            "fontWeight": "{primitive.font.weight.bold}",
+            "lineHeight": "ceil(round({primitive.font.size.25}* {primitive.font.lineHeight.135} )/{primitive.font.size.constant.roundingUnit})*{primitive.font.size.constant.roundingUnit}",
+            "letterSpacing": "((( {primitive.font.letterSpacing.fontProportion} * {primitive.font.size.25})+ {primitive.font.letterSpacing.constant} )/{primitive.font.size.25})*10",
+            "textDecoration": "underline"
+          },
+          "description": "Extra small body should be used sparingly, typically used as a smaller alternative for supplementary content such as captions, footnotes or legal copy."
         }
       },
       "label": {

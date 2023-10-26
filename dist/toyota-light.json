@@ -2,109 +2,101 @@
   "semantic": {
     "text": {
       "body": {
-        "large": {
-          "regular": {
-            "fontSize": 18,
-            "fontFamily": "Inter",
-            "fontWeight": 400,
-            "lineHeight": 28,
-            "letterSpacing": 0.19,
-            "textDecoration": "none"
-          },
-          "bold": {
-            "fontSize": 18,
-            "fontFamily": "Inter",
-            "fontWeight": 700,
-            "lineHeight": 28,
-            "letterSpacing": 0.19,
-            "textDecoration": "none"
-          },
-          "link": {
-            "fontSize": 18,
-            "fontFamily": "Inter",
-            "fontWeight": 700,
-            "lineHeight": 28,
-            "letterSpacing": 0.19,
-            "textDecoration": "underline"
-          }
+        "largeRegular": {
+          "fontSize": 18,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "lineHeight": 28,
+          "letterSpacing": 0.19,
+          "textDecoration": "none"
         },
-        "small": {
-          "regular": {
-            "fontSize": 14,
-            "fontFamily": "Inter",
-            "fontWeight": 400,
-            "lineHeight": 20,
-            "letterSpacing": 0.216,
-            "textDecoration": "none"
-          },
-          "bold": {
-            "fontSize": 14,
-            "fontFamily": "Inter",
-            "fontWeight": 700,
-            "lineHeight": 20,
-            "letterSpacing": 0.216,
-            "textDecoration": "none"
-          },
-          "link": {
-            "fontSize": 14,
-            "fontFamily": "Inter",
-            "fontWeight": 700,
-            "lineHeight": 20,
-            "letterSpacing": 0.216,
-            "textDecoration": "underline"
-          }
+        "largeBold": {
+          "fontSize": 18,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": 28,
+          "letterSpacing": 0.19,
+          "textDecoration": "none"
         },
-        "medium": {
-          "regular": {
-            "fontSize": 16,
-            "fontFamily": "Inter",
-            "fontWeight": 400,
-            "lineHeight": 24,
-            "letterSpacing": 0.201,
-            "textDecoration": "none"
-          },
-          "bold": {
-            "fontSize": 16,
-            "fontFamily": "Inter",
-            "fontWeight": 700,
-            "lineHeight": 24,
-            "letterSpacing": 0.201,
-            "textDecoration": "none"
-          },
-          "link": {
-            "fontSize": 16,
-            "fontFamily": "Inter",
-            "fontWeight": 700,
-            "lineHeight": 24,
-            "letterSpacing": 0.201,
-            "textDecoration": "underline"
-          }
+        "largeLink": {
+          "fontSize": 18,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": 28,
+          "letterSpacing": 0.19,
+          "textDecoration": "underline"
         },
-        "xSmall": {
-          "regular": {
-            "fontSize": 12,
-            "fontFamily": "Inter",
-            "fontWeight": 400,
-            "lineHeight": 16,
-            "letterSpacing": 0.235,
-            "textDecoration": "none"
-          },
-          "bold": {
-            "fontSize": 12,
-            "fontFamily": "Inter",
-            "fontWeight": 700,
-            "lineHeight": 16,
-            "letterSpacing": 0.235,
-            "textDecoration": "none"
-          },
-          "link": {
-            "fontSize": 12,
-            "fontFamily": "Inter",
-            "fontWeight": 700,
-            "lineHeight": 16,
-            "letterSpacing": 0.235,
-            "textDecoration": "underline"
-          }
+        "smallRegular": {
+          "fontSize": 14,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "lineHeight": 20,
+          "letterSpacing": 0.216,
+          "textDecoration": "none"
+        },
+        "smallBold": {
+          "fontSize": 14,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": 20,
+          "letterSpacing": 0.216,
+          "textDecoration": "none"
+        },
+        "smallLink": {
+          "fontSize": 14,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": 20,
+          "letterSpacing": 0.216,
+          "textDecoration": "underline"
+        },
+        "mediumRegular": {
+          "fontSize": 16,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "lineHeight": 24,
+          "letterSpacing": 0.201,
+          "textDecoration": "none"
+        },
+        "mediumBold": {
+          "fontSize": 16,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": 24,
+          "letterSpacing": 0.201,
+          "textDecoration": "none"
+        },
+        "mediumLink": {
+          "fontSize": 16,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": 24,
+          "letterSpacing": 0.201,
+          "textDecoration": "underline"
+        },
+        "xSmallRegular": {
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "lineHeight": 16,
+          "letterSpacing": 0.235,
+          "textDecoration": "none"
+        },
+        "xSmallBold": {
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": 16,
+          "letterSpacing": 0.235,
+          "textDecoration": "none"
+        },
+        "xSmallLink": {
+          "fontSize": 12,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "lineHeight": 16,
+          "letterSpacing": 0.235,
+          "textDecoration": "underline"
         }
       },
       "label": {
