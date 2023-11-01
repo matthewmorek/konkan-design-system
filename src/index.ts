@@ -97,6 +97,7 @@ const transforms: string[] = [
 const allowedTypes: string[] = [
   "color",
   "spacing",
+  "opacity",
   "borderRadius",
   "borderWidth",
   ...allowedTypographyTypes,
@@ -106,8 +107,8 @@ async function run() {
   const $themes: ThemeObject[] = JSON.parse(
     await fsp.readFile(
       path.join(process.cwd(), "./design-tokens/$themes.json"),
-      "utf8",
-    ),
+      "utf8"
+    )
   );
 
   const themes: any[] = permutateThemes($themes);
@@ -116,7 +117,7 @@ async function run() {
     return {
       source: tokenSets.map(
         (tokenSet: Record<string, TokenSetStatus>) =>
-          `./design-tokens/${tokenSet}.json`,
+          `./design-tokens/${tokenSet}.json`
       ),
       platforms: {
         mobile: {
