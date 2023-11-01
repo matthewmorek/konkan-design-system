@@ -359,6 +359,11 @@
           "dragged": "#FF29FFFE"
         }
       }
+    },
+    "opacity": {
+      "stateLayer": {
+        "disabled": 0.32
+      }
     }
   }
 }
