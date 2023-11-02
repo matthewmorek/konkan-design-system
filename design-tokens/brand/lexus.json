@@ -496,11 +496,6 @@
           "value": "{semantic.layout.space.medium}",
           "type": "spacing",
           "description": "The gap between items"
-        },
-        "gapBetweenItemsCompact": {
-          "value": "{semantic.layout.space.xSmall}",
-          "type": "spacing",
-          "description": "The gap between items"
         }
       }
     }

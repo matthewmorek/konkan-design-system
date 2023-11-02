@@ -682,8 +682,7 @@
       "primitive.colorGeneration.leonardoLink": "6b0764ac038fffc8c77781478db11d1f48635b4a",
       "semantic.layout.section.paddingHorizontal": "3cc1ea1c275429d4ddc3864b6f1e5acb782b4a6e",
       "semantic.layout.section.paddingVertical": "cd3166fc49b0267d8c988044649aec1bdec41759",
-      "semantic.layout.section.gapBetweenItems": "26077012d03b4ea041c521d82e48f8a284cefa31",
-      "semantic.layout.section.gapBetweenItemsCompact": "1e91763f0d4445a03aac8beff4f17d5cf048a7e0"
+      "semantic.layout.section.gapBetweenItems": "26077012d03b4ea041c521d82e48f8a284cefa31"
     },
     "group": "Brand"
   },
@@ -787,7 +786,6 @@
       "semantic.layout.section.paddingHorizontal": "3cc1ea1c275429d4ddc3864b6f1e5acb782b4a6e",
       "semantic.layout.section.paddingVertical": "cd3166fc49b0267d8c988044649aec1bdec41759",
       "semantic.layout.section.gapBetweenItems": "26077012d03b4ea041c521d82e48f8a284cefa31",
-      "semantic.layout.section.gapBetweenItemsCompact": "1e91763f0d4445a03aac8beff4f17d5cf048a7e0",
       "isToyota": "9497427ad40d8e871dec5f953792226d8d223200",
       "isLexus": "4dbf86445d7892efff2eeb63522ab2ea7d24210c",
       "primitive.colorRamp.brandNeutral.100.light": "1200716f70e4bd0085c9fe4c2bf2ea13cf7bd360",
