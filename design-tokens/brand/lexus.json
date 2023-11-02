@@ -481,20 +481,26 @@
           "description": "Use for the largest pieces of UI and for layout elements."
         }
       },
-      "grid": {
-        "sectionPadding": {
+      "section": {
+        "paddingHorizontal": {
           "value": "{semantic.layout.space.xLarge}",
           "type": "spacing",
-          "description": "Section padding"
+          "description": "Horizontal section padding"
         },
-        "gapBetween": {
+        "paddingVertical": {
+          "value": "{semantic.layout.space.medium}",
+          "type": "spacing",
+          "description": "Horizontal section padding"
+        },
+        "gapBetweenItems": {
+          "value": "{semantic.layout.space.medium}",
+          "type": "spacing",
+          "description": "The gap between items"
+        },
+        "gapBetweenItemsCompact": {
           "value": "{semantic.layout.space.xSmall}",
           "type": "spacing",
-          "description": "The gap between items in a bento box"
-        },
-        "containerPadding": {
-          "value": "{semantic.layout.space.medium}",
-          "type": "spacing"
+          "description": "The gap between items"
         }
       }
     }
