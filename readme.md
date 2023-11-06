@@ -41,12 +41,6 @@ If you want to contribute to the maintenance of this package, below you'll find 
 - Familiarity with [Style Dictionary](https://amzn.github.io/style-dictionary/#/)
 - Familiarity with [Tokens Studio](https://docs.tokens.studio/transforming/style-dictionary)
 
-If you did everything correctly, you should see a message like this in your terminal, and the tokens should be up-to-date in Supernova.
-
-```
-Tokens synchronized
-```
-
 ### Building JSON tokens
 
 We currently run a GitHub Action which automatically builds and commits built JSON tokens to each PR branch before each merge. This is an automated check to ensure consistency of output between what's in Tokens Studio (Figma) and what's available for engineering teams. If you want to build tokens locally, follow these steps:
