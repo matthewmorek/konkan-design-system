@@ -75,7 +75,12 @@ StyleDictionary.registerTransform(hexToHex8Transformer);
 StyleDictionary.registerTransform(mathTransformer);
 
 registerTransforms(StyleDictionary, {
-  expand: false,
+  expand: {
+    typography: true,
+    border: true,
+    composition: true,
+    shadow: true,
+  },
   excludeParentKeys: false,
   "ts/color/modifiers": {
     format: "srgb",
