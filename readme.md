@@ -20,7 +20,7 @@ To use Konkan tokens in CSS, you can import CSS with variables directly into you
 @import url("https://raw.githubusercontent.com/matthewmorek/konkan-design-system/main/dist/toyota-light.css");
 
 body {
-  background-color: var(---semantic-color-background-neutral-bottom);
+  background-color: var(--semantic-color-background-neutral-bottom);
   color: var(--semantic-color-foreground-on-neutral-strong);
   font-family: var(--semantic-text-body-medium-regular-font-family);
   font-size: var(--semantic-text-body-medium-regular-font-size);
