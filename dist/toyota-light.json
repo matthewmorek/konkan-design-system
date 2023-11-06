@@ -31,7 +31,7 @@
           "fontFamily": "Inter",
           "fontWeight": 400,
           "lineHeight": 20,
-          "letterSpacing": 0.216,
+          "letterSpacing": 0.21571428571428575,
           "textDecoration": "none"
         },
         "smallBold": {
@@ -39,7 +39,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": 20,
-          "letterSpacing": 0.216,
+          "letterSpacing": 0.21571428571428575,
           "textDecoration": "none"
         },
         "smallLink": {
@@ -47,7 +47,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": 20,
-          "letterSpacing": 0.216,
+          "letterSpacing": 0.21571428571428575,
           "textDecoration": "underline"
         },
         "mediumRegular": {
@@ -55,7 +55,7 @@
           "fontFamily": "Inter",
           "fontWeight": 400,
           "lineHeight": 24,
-          "letterSpacing": 0.201,
+          "letterSpacing": 0.20125,
           "textDecoration": "none"
         },
         "mediumBold": {
@@ -63,7 +63,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": 24,
-          "letterSpacing": 0.201,
+          "letterSpacing": 0.20125,
           "textDecoration": "none"
         },
         "mediumLink": {
@@ -71,7 +71,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": 24,
-          "letterSpacing": 0.201,
+          "letterSpacing": 0.20125,
           "textDecoration": "underline"
         },
         "xSmallRegular": {
@@ -79,7 +79,7 @@
           "fontFamily": "Inter",
           "fontWeight": 400,
           "lineHeight": 16,
-          "letterSpacing": 0.235,
+          "letterSpacing": 0.23500000000000004,
           "textDecoration": "none"
         },
         "xSmallBold": {
@@ -87,7 +87,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": 16,
-          "letterSpacing": 0.235,
+          "letterSpacing": 0.23500000000000004,
           "textDecoration": "none"
         },
         "xSmallLink": {
@@ -95,7 +95,7 @@
           "fontFamily": "Inter",
           "fontWeight": 700,
           "lineHeight": 16,
-          "letterSpacing": 0.235,
+          "letterSpacing": 0.23500000000000004,
           "textDecoration": "underline"
         }
       },
@@ -113,7 +113,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 16,
-          "letterSpacing": 0.235,
+          "letterSpacing": 0.23500000000000004,
           "textDecoration": "none"
         },
         "small": {
@@ -121,7 +121,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 20,
-          "letterSpacing": 0.216,
+          "letterSpacing": 0.21571428571428575,
           "textDecoration": "none"
         },
         "medium": {
@@ -129,7 +129,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 24,
-          "letterSpacing": 0.201,
+          "letterSpacing": 0.20125,
           "textDecoration": "none"
         },
         "large": {
@@ -147,7 +147,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 46,
-          "letterSpacing": 0.141,
+          "letterSpacing": 0.1405,
           "textDecoration": "none"
         },
         "medium": {
@@ -155,7 +155,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 52,
-          "letterSpacing": 0.137,
+          "letterSpacing": 0.1368181818181818,
           "textDecoration": "none"
         },
         "large": {
@@ -163,7 +163,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 56,
-          "letterSpacing": 0.134,
+          "letterSpacing": 0.13375,
           "textDecoration": "none"
         },
         "xLarge": {
@@ -171,7 +171,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 60,
-          "letterSpacing": 0.131,
+          "letterSpacing": 0.13115384615384615,
           "textDecoration": "none"
         },
         "xxLarge": {
@@ -179,7 +179,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 64,
-          "letterSpacing": 0.129,
+          "letterSpacing": 0.12892857142857145,
           "textDecoration": "none"
         }
       },
@@ -205,7 +205,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 28,
-          "letterSpacing": 0.168,
+          "letterSpacing": 0.1675,
           "textDecoration": "none"
         },
         "large": {
@@ -213,7 +213,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 32,
-          "letterSpacing": 0.158,
+          "letterSpacing": 0.1578571428571429,
           "textDecoration": "none"
         },
         "xLarge": {
@@ -221,7 +221,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 38,
-          "letterSpacing": 0.151,
+          "letterSpacing": 0.150625,
           "textDecoration": "none"
         },
         "xxLarge": {
@@ -229,7 +229,7 @@
           "fontFamily": "Inter",
           "fontWeight": 600,
           "lineHeight": 42,
-          "letterSpacing": 0.145,
+          "letterSpacing": 0.14500000000000002,
           "textDecoration": "none"
         }
       }
