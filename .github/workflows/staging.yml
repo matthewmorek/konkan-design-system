@@ -57,4 +57,4 @@ jobs:
           commit_user_name: "Matthew Morek"
           commit_user_email: "hi@matthewmorek.com"
           commit_author: "Matthew Morek <hi@matthewmorek.com>"
-          file_pattern: "dist/*.json"
+          file_pattern: "dist/*.[json,css]"
