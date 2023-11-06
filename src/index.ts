@@ -64,6 +64,12 @@ const mathTransformer: Named<Transform> = {
   },
 };
 
+const filterTokens = (token: DesignToken) =>
+  // temporarily filter out anything other than colours
+  allowedTypes.includes(token.type) &&
+  // we only want semantic tokens
+  token.attributes?.category === "semantic";
+
 StyleDictionary.registerTransform(hex8Transformer);
 StyleDictionary.registerTransform(hexToHex8Transformer);
 StyleDictionary.registerTransform(mathTransformer);
@@ -139,11 +145,7 @@ async function run() {
           transforms: mobileTransforms,
           files: [
             {
-              filter: (token: DesignToken) =>
-                // temporarily filter out anything other than colours
-                allowedTypes.includes(token.type) &&
-                // we only want semantic tokens
-                token.attributes?.category === "semantic",
+              filter: filterTokens,
               destination: `${name.toLowerCase()}.json`,
               format: "json/nested",
             },
@@ -154,11 +156,7 @@ async function run() {
           transforms: webTransforms,
           files: [
             {
-              filter: (token: DesignToken) =>
-                // temporarily filter out anything other than colours
-                allowedTypes.includes(token.type) &&
-                // we only want semantic tokens
-                token.attributes?.category === "semantic",
+              filter: filterTokens,
               destination: `${name.toLowerCase()}.css`,
               format: "css/variables",
             },
