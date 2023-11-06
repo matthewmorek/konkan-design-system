@@ -163,6 +163,9 @@ async function run() {
               format: "css/variables",
             },
           ],
+          options: {
+            showFileHeader: false,
+          },
         },
       },
     } as Config;
