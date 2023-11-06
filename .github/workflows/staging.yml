@@ -26,7 +26,7 @@ jobs:
         run: pnpm run test
 
   build_tokens:
-    name: Build JSON Tokens
+    name: Build Tokens for Release
     runs-on: ubuntu-latest
     steps:
       # Check out repository under $GITHUB_WORKSPACE, so the CLI utility can read it
@@ -57,4 +57,4 @@ jobs:
           commit_user_name: "Matthew Morek"
           commit_user_email: "hi@matthewmorek.com"
           commit_author: "Matthew Morek <hi@matthewmorek.com>"
-          file_pattern: "dist/*.json"
+          file_pattern: "dist/*.css dist/*.json"

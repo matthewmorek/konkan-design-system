@@ -64,16 +64,22 @@ const mathTransformer: Named<Transform> = {
   },
 };
 
+const filterTokens = (token: DesignToken) =>
+  // temporarily filter out anything other than colours
+  allowedTypes.includes(token.type) &&
+  // we only want semantic tokens
+  token.attributes?.category === "semantic";
+
 StyleDictionary.registerTransform(hex8Transformer);
 StyleDictionary.registerTransform(hexToHex8Transformer);
 StyleDictionary.registerTransform(mathTransformer);
 
 registerTransforms(StyleDictionary, {
   expand: {
-    composition: true,
     typography: true,
-    border: false,
-    shadow: false,
+    border: true,
+    composition: true,
+    shadow: true,
   },
   excludeParentKeys: false,
   "ts/color/modifiers": {
@@ -82,7 +88,7 @@ registerTransforms(StyleDictionary, {
 });
 
 // declare transforms to be used
-const transforms: string[] = [
+const mobileTransforms: string[] = [
   "attribute/color",
   "attribute/cti",
   "ts/opacity",
@@ -91,6 +97,25 @@ const transforms: string[] = [
   "tceu/color/rgba/hex8",
   "tceu/color/hex/hex8",
   "tceu/resolveMath",
+];
+
+const webTransforms: string[] = [
+  "attribute/color",
+  "attribute/cti",
+  "ts/size/px",
+  "ts/opacity",
+  "ts/size/lineheight",
+  "ts/typography/fontWeight",
+  "ts/resolveMath",
+  "tceu/resolveMath",
+  "ts/size/css/letterspacing",
+  "ts/typography/css/fontFamily",
+  "ts/typography/css/shorthand",
+  "ts/border/css/shorthand",
+  "ts/shadow/css/shorthand",
+  "ts/color/css/hexrgba",
+  "ts/color/modifiers",
+  "name/cti/kebab",
 ];
 
 // allowed types of design tokens to be output
@@ -122,18 +147,28 @@ async function run() {
       platforms: {
         mobile: {
           buildPath: "./dist/",
-          transforms: transforms,
+          transforms: mobileTransforms,
           files: [
             {
-              filter: (token: DesignToken) =>
-                // temporarily filter out anything other than colours
-                allowedTypes.includes(token.type) &&
-                // we only want semantic tokens
-                token.attributes?.category === "semantic",
+              filter: filterTokens,
               destination: `${name.toLowerCase()}.json`,
               format: "json/nested",
             },
           ],
+        },
+        web: {
+          buildPath: "./dist/",
+          transforms: webTransforms,
+          files: [
+            {
+              filter: filterTokens,
+              destination: `${name.toLowerCase()}.css`,
+              format: "css/variables",
+            },
+          ],
+          options: {
+            showFileHeader: false,
+          },
         },
       },
     } as Config;
