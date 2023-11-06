@@ -12,6 +12,24 @@ If you are developing an application and want to consume Konkan Design Tokens, t
 - [Typography](https://github.com/matthewmorek/konkan-design-system/discussions/51) [live]
 - [Spacing](https://github.com/matthewmorek/konkan-design-system/discussions/52) [live]
 
+### CSS
+
+To use Konkan tokens in CSS, you can import CSS with variables directly into your application. This is the recommended way of using tokens in CSS. Here's a short example:
+
+```css
+@import url("https://raw.githubusercontent.com/matthewmorek/konkan-design-system/main/dist/toyota-light.css");
+
+body {
+  background-color: var(---semantic-color-background-neutral-bottom);
+  color: var(--semantic-color-foreground-on-neutral-strong);
+  font-family: var(--semantic-text-body-medium-regular-font-family);
+  font-size: var(--semantic-text-body-medium-regular-font-size);
+  font-weight: var(--semantic-text-body-medium-regular-font-weight);
+  line-height: var(--semantic-text-body-medium-regular-line-height);
+  letter-spacing: var(--semantic-text-body-medium-regular-letter-spacing);
+}
+```
+
 ## Maintainance
 
 If you want to contribute to the maintenance of this package, below you'll find some tips on what it does and where to start.
