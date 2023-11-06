@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "esnext",
     "module": "commonjs",
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"],
     "allowJs": true,
     "outDir": "build",
-    "rootDir": "src",
     "strict": true,
     "noImplicitAny": false,
     "esModuleInterop": true,
